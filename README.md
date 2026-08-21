@@ -126,15 +126,34 @@ job-monitor/
 │                                    Actions commits updates after each run.
 │
 └── .github/workflows/
-    ├── scan-bigtech.yml           ← cron "0 */3 * * *" (every 3h UTC =
-    │                                05:30, 08:30, 11:30… IST): runs
-    │                                `python -m monitor.main --tier bigtech`,
-    │                                commits jobs.json if changed
-    └── scan-all.yml               ← cron "30 */3 * * *" (every 3h at :30 UTC
-                                     = 06:00, 09:00, 12:00… IST): full sweep
-                                     including all product companies, GCCs and
-                                     the Instahyre aggregator
+    ├── scan-all.yml               ← THE SCHEDULED ONE. cron "30 */3 * * *"
+    │                                (every 3h at :30 UTC = 06:00, 09:00,
+    │                                12:00… IST): all 60 sources, commits
+    │                                jobs.json if changed. Manual runs take
+    │                                tier / dry-run / no-notify / include-senior
+    │                                as form inputs.
+    └── scan-bigtech.yml           ← manual only, no cron: a ~30s check of just
+                                     the 11 big-tech India sources. It has no
+                                     schedule on purpose — `--tier all` already
+                                     includes everything it scans, so a cron
+                                     here would only duplicate the sweep.
 ```
+
+### Why only one workflow is scheduled
+
+`--tier bigtech` is a strict subset of `--tier all`, so running both on a cron
+did the same work twice. It also had the priorities backwards for an India
+monitor: the companies worth checking often — PhonePe, Paytm, Meesho, CRED,
+Groww, InMobi — live in the `other` tier, which only the full sweep covers.
+One sweep every 3 hours covers all 60 sources; the big-tech workflow stays
+around for a fast manual check.
+
+Both workflows share the `job-scan` concurrency group so they can never write
+`docs/data/jobs.json` at the same time, and both push through a merge-and-retry
+loop: if you happen to be marking jobs Applied while a scan finishes, the
+scan's push is rejected, and `monitor/merge_state.py` merges the two copies
+(your statuses win, the scan's new job ids are added) instead of failing the
+run and re-notifying those jobs on the next pass.
 
 ---
 
@@ -240,8 +259,9 @@ committed or sent anywhere except api.github.com.
 
 1. In the dashboard, click **✓ Applied** on any job → "Saved ✓", and on GitHub
    a commit `dashboard: update statuses`.
-2. Actions → run **Scan big tech India (every 3h)** manually → since the seed
-   already happened, any *genuinely new* posting now produces a Discord message.
+2. Actions → run **Scan big tech India (manual)** → since the seed already
+   happened, any *genuinely new* posting now produces a Discord message. (If
+   nothing new was posted since the last sweep, no message — that's correct.)
 
 ---
 
@@ -261,8 +281,9 @@ committed or sent anywhere except api.github.com.
 | Want to… | Edit |
 |---|---|
 | Add/remove a company | `config/companies.yaml` (see comment at top for how to find a company's Greenhouse/Lever/Ashby/Workday token) |
-| Change scan frequency | the `cron:` lines in `.github/workflows/*.yml` — times are **UTC**; IST is UTC+5:30 |
-| Include Senior/Lead titles | add `--include-senior` to the `run:` command in the workflows |
+| Change scan frequency | the `cron:` line in `.github/workflows/scan-all.yml` — times are **UTC**; IST is UTC+5:30 |
+| Include Senior/Lead titles | tick **include_senior** when running the workflow manually, or add `--include-senior` to the `run:` command for every run |
+| Run a one-off scan by hand | Actions → **Full sweep India** → Run workflow; the form offers tier, dry-run, no-notify and include-senior |
 | Change role/tier/location rules | the regexes in `monitor/filters.py` |
 | Wider aggregator coverage | raise `max_pages` under `aggregators:` in the config (requests = job_types × job_functions × max_pages) |
 | Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run` |

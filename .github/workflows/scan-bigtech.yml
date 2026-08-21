@@ -1,20 +1,41 @@
-name: Scan big tech India (every 3h)
+name: Scan big tech India (manual)
+
+# Manual-only fast check of the 11 big-tech India sources (~30s instead of the
+# full sweep's few minutes). Deliberately has NO cron: `--tier all` in
+# scan-all.yml already includes every source this scans, so a schedule here
+# would just do the same work twice — and for an India-focused monitor the
+# companies worth checking often (PhonePe, Paytm, Meesho, CRED, Groww…) live
+# in the `other` tier anyway, which only the full sweep covers.
 
 on:
-  schedule:
-    - cron: "0 */3 * * *"   # every 3 hours, UTC (= 05:30, 08:30, 11:30... IST)
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print results only — save nothing, notify nobody"
+        type: boolean
+        default: false
+      no_notify:
+        description: "Save results but send no Discord messages (absorb a backlog quietly)"
+        type: boolean
+        default: false
+      include_senior:
+        description: "Also include Senior / Lead titles"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: job-scan
+  group: job-scan          # shared with scan-all so the two never race
   cancel-in-progress: false
 
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: Asia/Kolkata     # log timestamps in IST
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,17 +43,50 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+
       - name: Run scan
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python -m monitor.main --tier bigtech
-      - name: Commit state
+          DRY_RUN: ${{ inputs.dry_run }}
+          NO_NOTIFY: ${{ inputs.no_notify }}
+          INCLUDE_SENIOR: ${{ inputs.include_senior }}
+        run: |
+          args="--tier bigtech"
+          if [ "$DRY_RUN" = "true" ]; then args="$args --dry-run"; fi
+          if [ "$NO_NOTIFY" = "true" ]; then args="$args --no-notify"; fi
+          if [ "$INCLUDE_SENIOR" = "true" ]; then args="$args --include-senior"; fi
+          echo "running: python -m monitor.main $args"
+          python -m monitor.main $args
+
+      - name: Commit and push state
+        if: ${{ inputs.dry_run != true }}
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "job-monitor-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add docs/data/jobs.json
-          if ! git diff --cached --quiet; then
+
+          for attempt in 1 2 3; do
+            git add docs/data/jobs.json
+            if git diff --cached --quiet; then
+              echo "jobs.json unchanged - nothing to commit"
+              exit 0
+            fi
             git commit -m "scan(bigtech): update jobs.json"
-            git pull --rebase origin ${GITHUB_REF_NAME}
-            git push
-          fi
+            if git push origin "HEAD:$BRANCH"; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+
+            # See scan-all.yml for why this merges instead of rebasing.
+            echo "push rejected - remote moved; merging remote state and retrying"
+            git fetch origin "$BRANCH"
+            git show "origin/$BRANCH:docs/data/jobs.json" > /tmp/remote-jobs.json
+            python -m monitor.merge_state /tmp/remote-jobs.json docs/data/jobs.json
+            cp docs/data/jobs.json /tmp/merged-jobs.json
+            git reset --hard "origin/$BRANCH"   # drops our commit; file kept above
+            cp /tmp/merged-jobs.json docs/data/jobs.json
+          done
+
+          echo "::error::could not push jobs.json after 3 attempts"
+          exit 1
