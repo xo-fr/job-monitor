@@ -114,7 +114,14 @@ def ashby(c):
 
 
 def workday(c):
-    """c: {name, host, tenant, site, search?}  e.g. host=nvidia.wd5.myworkdayjobs.com"""
+    """c: {name, host, tenant, site, search?, facets?, max_results?}
+
+    e.g. host=nvidia.wd5.myworkdayjobs.com. Workday boards are global, so pin
+    the search to India one of two ways: `facets: {locationCountry: [<id>]}`
+    with Workday's India country id (c4f78be1a8f14da0ab49ce1162348a5e), which
+    some tenants accept and others reject with HTTP 400, or simply put "India"
+    in `search`. Whatever slips through is caught by the location filter.
+    """
     s = session()
     url = f"https://{c['host']}/wday/cxs/{c['tenant']}/{c['site']}/jobs"
     out, offset, limit = [], 0, 20
@@ -142,11 +149,12 @@ def workday(c):
 
 
 def eightfold(c):
-    """c: {name, host, domain, search?}  e.g. Netflix: explore.jobs.netflix.net"""
+    """c: {name, host, domain, search?, location?}  e.g. host=careers.example.com"""
     s = session()
     q = c.get("search", "software engineer").replace(" ", "%20")
+    loc = c.get("location", "India").replace(" ", "%20")
     url = (f"https://{c['host']}/api/apply/v2/jobs?domain={c['domain']}"
-           f"&num=100&query={q}&location=United%20States&sort_by=timestamp")
+           f"&num=100&query={q}&location={loc}&sort_by=timestamp")
     data = get_json(s, url)
     out = []
     for j in data.get("positions", []):

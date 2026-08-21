@@ -1,78 +1,92 @@
-"""Role, tier, and US-location filtering.
+"""Role, tier, and India-location filtering.
 
 Scope (from project spec):
   - Roles: SWE + adjacent tech (data, ML, DevOps/SRE, security, QA, mobile/web).
-  - Tiers: intern, new grad / entry level, experienced up to ~5 years.
-  - Exclude: staff/principal/architect/management and (by default) "senior" titles.
-  - US locations (incl. US-remote) only.
+  - Tiers: intern, fresher / new grad / entry level, experienced up to ~5 years.
+  - Exclude: staff/principal/architect/management and (by default) senior & lead titles.
+  - India locations only (incl. India-remote / "work from home").
 """
 import re
 
 # ---- role scope ------------------------------------------------------------
+# Includes the title vocabulary Indian employers actually use: SDE, MTS
+# (Member of Technical Staff), "Technology Analyst" (Infosys), "Programmer
+# Analyst" (Cognizant), "Systems Engineer" (TCS/Wipro).
 ROLE_INCLUDE = re.compile(
     r"software|swe\b|sde\b|developer|full.?stack|front.?end|back.?end|mobile engineer"
     r"|ios engineer|android|machine learning|\bml\b|\bai engineer|data engineer"
     r"|data scientist|devops|site reliability|\bsre\b|security engineer"
-    r"|infrastructure engineer|platform engineer|cloud engineer|systems engineer"
-    r"|test engineer|quality (assurance|engineer)|\bqa engineer",
+    r"|infrastructure engineer|platform engineer|cloud engineer|systems? engineer"
+    r"|test engineer|quality (assurance|engineer)|\bqa engineer"
+    r"|member of technical staff|\bmts\b|programmer|technology analyst"
+    r"|application developer|graduate engineer trainee|\bget\b",
     re.I,
 )
 
 ROLE_EXCLUDE = re.compile(
-    r"\bstaff\b|principal|distinguished|architect|manager|director|\bvp\b"
+    # (?<!technical ) keeps "Member of Technical Staff" — a normal Indian
+    # mid-level IC title — out of the Staff-Engineer exclusion.
+    r"(?<!technical )\bstaff\b|principal|distinguished|architect|manager|director|\bvp\b"
     r"|vice president|head of|chief|fellow|executive|recruiter|sales|account"
     r"|\bhr\b|attorney|counsel|technician\b|electrical|mechanical|civil engineer"
-    r"|manufacturing|hvac|facilities",
+    r"|manufacturing|hvac|facilities|\bbpo\b|voice process|tele.?caller"
+    r"|business development|talent acquisition",
     re.I,
 )
 
-SENIOR = re.compile(r"\bsenior\b|\bsr\.?\s", re.I)
+# Titles above the ~5-year band. "Lead"/"Tech Lead" is India's usual label for
+# an 8+ year IC, so it rides along with Senior behind --include-senior.
+SENIOR = re.compile(r"\bsenior\b|\bsr\.?\s|\bsr\.$|\blead\b|\bii+\b\s*\+|\bl[4-9]\b", re.I)
 
 # ---- tier detection --------------------------------------------------------
-INTERN = re.compile(r"\bintern(ship)?\b|co-?op\b", re.I)
+INTERN = re.compile(r"\bintern(ship)?\b|co-?op\b|industrial trainee|summer analyst", re.I)
+
+# "Fresher" and "Graduate Engineer Trainee (GET)" are the Indian equivalents of
+# "new grad"; campus-cycle roles often carry the batch year in the title.
 NEWGRAD = re.compile(
-    r"new ?grad|university grad|campus|early.?career|entry.?level|college grad"
-    r"|\bgraduate\b|(engineer|swe|sde)\s*(i|1)\b|\bl3\b|\be3\b|associate (software|engineer)"
-    r"|\b20\d{2}\b",  # year in title (e.g. "SDE - 2026") = campus-cycle role
+    r"fresher|new ?grad|university grad|campus|early.?career|entry.?level|college grad"
+    r"|\bgraduate\b|graduate engineer trainee|\bget\b|\btrainee\b|apprentice"
+    r"|(engineer|swe|sde|mts|developer|staff)\s*[-–]?\s*(i|1)\b|\bl3\b|\be3\b"
+    r"|associate (software|engineer|developer)|\b20\d{2}\b(?!\s*(years|yrs))",
     re.I,
 )
-# Explicit mid-level markers (II/III/2/3). Plain "Software Engineer" titles also
-# land in "experienced" — verify years-of-experience in the posting yourself.
-EXPERIENCED = re.compile(r"(engineer|swe|sde)\s*(ii|iii|2|3)\b|mid.?level", re.I)
+# Explicit mid-level markers (II/III/2/3). A plain "Software Engineer" title
+# also lands in "experienced" — verify years-of-experience in the posting.
+EXPERIENCED = re.compile(
+    r"(engineer|swe|sde|mts|developer|staff)\s*[-–]?\s*(ii|iii|2|3)\b|mid.?level", re.I)
 
-# ---- US location -----------------------------------------------------------
-US_STATES = (
-    "AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS"
-    "|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC"
+# ---- India location --------------------------------------------------------
+INDIA_CITIES = (
+    r"bengaluru|bangalore|hyderabad|pune|chennai|mumbai|new delhi|\bdelhi\b"
+    r"|gurgaon|gurugram|noida|kolkata|ahmedabad|jaipur|kochi|cochin|coimbatore"
+    r"|thiruvananthapuram|trivandrum|chandigarh|indore|bhubaneswar|mysuru|mysore"
+    r"|nagpur|vadodara|surat|visakhapatnam|vizag|gandhinagar|lucknow|kanpur"
+    r"|nashik|thane|navi mumbai|whitefield|electronic city|hinjewadi|manyata"
+    r"|madhapur|gachibowli|powai|\bncr\b"
 )
-US_HINT = re.compile(
-    rf"united states|\busa?\b|,\s*({US_STATES})\b|\b({US_STATES})\s*,?\s*(us|usa)?$"
-    r"|new york|san francisco|seattle|austin|boston|chicago|los angeles|denver"
-    r"|atlanta|dallas|houston|miami|phoenix|portland|philadelphia|washington"
-    r"|bellevue|redmond|mountain view|sunnyvale|palo alto|menlo park|cupertino"
-    r"|san jose|santa clara|irvine|san diego|cambridge|pittsburgh|raleigh"
-    r"|nashville|salt lake|remote.*(us|america)|us.*remote",
+INDIA_STATES = (
+    r"karnataka|maharashtra|telangana|tamil nadu|haryana|uttar pradesh"
+    r"|west bengal|gujarat|kerala|andhra pradesh|punjab|rajasthan"
+    r"|madhya pradesh|odisha|assam|bihar|jharkhand|chhattisgarh|goa"
+)
+# \bind\b catches the "Bengaluru, Karnataka, IND" / "Pune, IND" country codes
+# without matching "Indianapolis" or the US state code "IN" (Indiana).
+INDIA_HINT = re.compile(
+    rf"\bindia\b|\bind\b|{INDIA_CITIES}|{INDIA_STATES}"
+    r"|work from home|anywhere in india|pan.?india|remote.*india|india.*remote",
     re.I,
 )
-NON_US = re.compile(
-    r"canada|toronto|vancouver|london|dublin|india|bangalore|bengaluru|hyderabad"
-    r"|singapore|tokyo|japan|china|shanghai|beijing|germany|berlin|munich|paris"
-    r"|france|israel|tel aviv|australia|sydney|mexico|brazil|poland|warsaw"
-    r"|netherlands|amsterdam|spain|madrid|zurich|switzerland|korea|seoul|taiwan"
-    r"|ireland|uk\b|united kingdom|remote.*(emea|apac|latam)",
-    re.I,
-)
+
+IN_COUNTRY = {"in", "ind", "india", "republic of india"}
 
 
-def is_us(location: str, country: str = "") -> bool:
+def is_india(location: str, country: str = "") -> bool:
+    """True if the posting is based in India (including India-remote)."""
     if country:
-        return country.strip().lower() in (
-            "us", "usa", "united states", "united states of america", "u.s.", "u.s.a.")
+        return country.strip().lower() in IN_COUNTRY
     if not location:
         return False
-    if NON_US.search(location) and not US_HINT.search(location):
-        return False
-    return bool(US_HINT.search(location))
+    return bool(INDIA_HINT.search(location))
 
 
 def classify(title: str, include_senior: bool = False) -> str | None:
@@ -97,7 +111,7 @@ def in_scope(job: dict, include_senior: bool = False) -> dict | None:
     tier = classify(job.get("title", ""), include_senior)
     if tier is None:
         return None
-    if not is_us(job.get("location", ""), job.get("country", "")):
+    if not is_india(job.get("location", ""), job.get("country", "")):
         return None
     job["tier"] = tier
     return job

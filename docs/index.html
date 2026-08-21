@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job Monitor</title>
+<title>Job Monitor · India</title>
 <style>
   :root { --bg:#0f1117; --card:#181b23; --text:#e6e8ee; --muted:#8a90a2;
           --accent:#5b8cff; --green:#2ecc71; --orange:#e67e22; --blue:#3498db; --red:#e74c3c; }
@@ -49,12 +49,13 @@
 </head>
 <body>
 <header>
-  <h1>Job Monitor</h1>
+  <h1>Job Monitor · India</h1>
   <select id="fTier"><option value="">All tiers</option><option value="intern">Intern</option>
-    <option value="newgrad">New Grad</option><option value="experienced">Experienced</option></select>
+    <option value="newgrad">Fresher / New Grad</option><option value="experienced">Experienced</option></select>
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
     <option value="skip">Skipped</option><option value="">Everything</option></select>
   <select id="fCompany"><option value="">All companies</option></select>
+  <select id="fCity"><option value="">All cities</option></select>
   <select id="fSort">
     <option value="posted">Sort: newest posted</option>
     <option value="seen">Sort: newest seen</option>
@@ -86,6 +87,19 @@
 const PATH = "docs/data/jobs.json";
 let data = null, dirty = {};
 
+// Indian metros worth filtering by. Each entry is [label, regex]; a posting can
+// match several ("Bangalore,Mumbai" is a normal Instahyre location string).
+const CITIES = [
+  ["Bengaluru", /bengaluru|bangalore/i], ["Hyderabad", /hyderabad/i],
+  ["Pune", /pune/i], ["Chennai", /chennai/i], ["Mumbai", /mumbai|thane|navi mumbai/i],
+  ["Delhi NCR", /delhi|gurgaon|gurugram|noida|\bncr\b/i], ["Kolkata", /kolkata/i],
+  ["Ahmedabad", /ahmedabad|gandhinagar/i], ["Kochi", /kochi|cochin/i],
+  ["Coimbatore", /coimbatore/i], ["Jaipur", /jaipur/i], ["Indore", /indore/i],
+  ["Chandigarh", /chandigarh|mohali/i], ["Bhubaneswar", /bhubaneswar/i],
+  ["Remote / WFH", /remote|work from home|anywhere in india|pan.?india/i],
+];
+const TIER_LABEL = { intern: "intern", newgrad: "fresher", experienced: "experienced" };
+
 const $ = id => document.getElementById(id);
 const cfg = () => ({
   owner: localStorage.gh_owner || "", repo: localStorage.gh_repo || "",
@@ -106,17 +120,26 @@ async function load() {
   const companies = [...new Set(Object.values(data.jobs).map(j => j.company))].sort();
   $("fCompany").innerHTML = '<option value="">All companies</option>' +
     companies.map(c => `<option>${c}</option>`).join("");
+  // Only offer cities that actually appear in the data, with their counts.
+  const jobs = Object.values(data.jobs);
+  $("fCity").innerHTML = '<option value="">All cities</option>' +
+    CITIES.map(([label, re]) => [label, jobs.filter(j => re.test(j.location || "")).length])
+      .filter(([, n]) => n > 0)
+      .map(([label, n]) => `<option value="${label}">${label} (${n})</option>`).join("");
   render();
 }
 
 function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
-        comp = $("fCompany").value, q = $("fSearch").value.toLowerCase();
+        comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
+        city = $("fCity").value;
+  const cityRe = (CITIES.find(([label]) => label === city) || [])[1];
   const rows = Object.entries(data.jobs)
     .filter(([id, j]) =>
       (!tier || j.tier === tier) &&
       (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
       (!comp || j.company === comp) &&
+      (!cityRe || cityRe.test(j.location || "")) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)))
     .sort((a, b) => {
       const mode = $("fSort") ? $("fSort").value : "posted";
@@ -140,7 +163,7 @@ function render() {
       ${j.status === "new" ? '<span class="newdot"></span>' : ""}
       <div class="info">
         <a class="title" href="${j.url}" target="_blank" rel="noopener">${esc(j.title)}</a>
-        <span class="pill ${j.tier}">${j.tier}</span>
+        <span class="pill ${j.tier}">${TIER_LABEL[j.tier] || j.tier}</span>
         <div class="meta">${esc(j.company)} · ${esc(j.location)} · ${
           j.posted_at ? "posted " + j.posted_at : "first seen " + j.first_seen}</div>
         ${badges(j)}
@@ -221,7 +244,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort"].forEach(id => $(id).onchange = render);
+["fTier","fStatus","fCompany","fCity","fSort"].forEach(id => $(id).onchange = render);
 $("fSearch").oninput = render;
 load();
 </script>

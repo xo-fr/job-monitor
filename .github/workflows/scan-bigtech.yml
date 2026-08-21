@@ -1,8 +1,8 @@
-name: Scan big tech (every 3h)
+name: Scan big tech India (every 3h)
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours, UTC
+    - cron: "0 */3 * * *"   # every 3 hours, UTC (= 05:30, 08:30, 11:30... IST)
   workflow_dispatch:
 
 permissions:

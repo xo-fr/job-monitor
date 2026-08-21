@@ -1,4 +1,4 @@
-from . import custom, generic, simplify
+from . import custom, generic, instahyre
 
 FETCHERS = {
     "greenhouse": generic.greenhouse,
@@ -9,9 +9,5 @@ FETCHERS = {
     "smartrecruiters": generic.smartrecruiters,
     "amazon": custom.amazon,
     "microsoft": custom.microsoft,
-    "google": custom.google,
-    "apple": custom.apple,
-    "tesla": custom.tesla,
-    "uber": custom.uber,
-    "simplify": simplify.simplify,
+    "instahyre": instahyre.instahyre,
 }

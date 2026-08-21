@@ -1,10 +1,16 @@
-"""Company-specific fetchers for big tech careers APIs.
+"""Company-specific fetchers for big-tech careers APIs, pinned to India.
 
 These use unofficial-but-public JSON endpoints that back each company's own
 careers site. They can change without notice — if one starts failing, check
 the network tab of the careers page and update the endpoint.
+
+Google, Apple, Tesla and Uber used to live here. Their endpoints were removed
+or locked down (careers.google.com/api/v3 and uber.com/api/loadSearchJobsResults
+both 404 now, jobs.apple.com resets the connection for non-browser clients), so
+they are no longer fetched directly; India roles for those companies surface
+through the Instahyre aggregator instead.
 """
-from .http import session, get_json, post_json, iso_date, clean_text
+from .http import session, get_json, iso_date, clean_text
 
 
 def _sched(value: str) -> str:
@@ -14,36 +20,50 @@ def _sched(value: str) -> str:
 
 
 def amazon(c):
+    """India postings from amazon.jobs.
+
+    The country filter is `normalized_country_code[]=IND`; the plain
+    `country[]` parameter is silently ignored by the endpoint.
+    """
     s = session()
-    url = ("https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
-           "&category%5B%5D=software-development&country%5B%5D=USA"
-           f"&base_query={c.get('search', 'software engineer').replace(' ', '+')}")
-    data = get_json(s, url)
+    query = c.get("search", "software engineer").replace(" ", "+")
     out = []
-    for j in data.get("jobs", []):
-        out.append({
-            "company": "Amazon",
-            "title": j.get("title", ""),
-            "location": j.get("normalized_location", "") or j.get("location", ""),
-            "url": "https://www.amazon.jobs" + j.get("job_path", ""),
-            "external_id": str(j.get("id_icims", "") or j.get("id", "")),
-            "source": "amazon.jobs",
-            "posted_at": iso_date(j.get("posted_date")),
-            "employment_type": "Intern" if j.get("is_intern") else _sched(
-                j.get("job_schedule_type", "")),
-            "department": j.get("job_category", "") or j.get("business_category", ""),
-            "snippet": clean_text(j.get("description_short", "") or j.get("description", "")),
-        })
+    for offset in (0, 100):
+        url = ("https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
+               f"&offset={offset}"
+               "&category%5B%5D=software-development"
+               "&normalized_country_code%5B%5D=IND"
+               f"&base_query={query}")
+        data = get_json(s, url)
+        jobs = data.get("jobs", [])
+        if not jobs:
+            break
+        for j in jobs:
+            out.append({
+                "company": "Amazon",
+                "title": j.get("title", ""),
+                "location": j.get("normalized_location", "") or j.get("location", ""),
+                "country": "India",          # pinned by the country filter above
+                "url": "https://www.amazon.jobs" + j.get("job_path", ""),
+                "external_id": str(j.get("id_icims", "") or j.get("id", "")),
+                "source": "amazon.jobs",
+                "posted_at": iso_date(j.get("posted_date")),
+                "employment_type": "Intern" if j.get("is_intern") else _sched(
+                    j.get("job_schedule_type", "")),
+                "department": j.get("job_category", "") or j.get("business_category", ""),
+                "snippet": clean_text(j.get("description_short", "") or j.get("description", "")),
+            })
     return out
 
 
 def microsoft(c):
+    """India postings from the Microsoft careers search API (`lc=India`)."""
     s = session()
     out = []
     for pg in (1, 2):
         url = ("https://gcsservices.careers.microsoft.com/search/api/v1/search"
                f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&lc=United%20States&l=en_us&pg={pg}&pgSz=100&o=Relevance&flt=true")
+               f"&lc=India&l=en_us&pg={pg}&pgSz=100&o=Relevance&flt=true")
         data = get_json(s, url)
         jobs = (((data.get("operationResult") or {}).get("result") or {}).get("jobs")) or []
         if not jobs:
@@ -65,116 +85,4 @@ def microsoft(c):
                 "department": props.get("discipline", "") or props.get("profession", ""),
                 "snippet": clean_text(props.get("description", "")),
             })
-    return out
-
-
-def google(c):
-    s = session()
-    out = []
-    for page in (1, 2):
-        url = ("https://careers.google.com/api/v3/search/"
-               f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&location=United%20States&page={page}")
-        data = get_json(s, url)
-        jobs = data.get("jobs", [])
-        if not jobs:
-            break
-        for j in jobs:
-            jid = str(j.get("id", "")).replace("jobs/", "")
-            out.append({
-                "company": "Google",
-                "title": j.get("title", ""),
-                "location": "; ".join(
-                    loc.get("display", "") for loc in (j.get("locations") or [])),
-                "url": ("https://www.google.com/about/careers/applications/jobs/results/"
-                        + jid),
-                "external_id": jid,
-                "source": "google careers",
-            })
-    return out
-
-
-def apple(c):
-    s = session()
-    # Warm up to get cookies/CSRF, then query the role search API.
-    s.get("https://jobs.apple.com/en-us/search", timeout=30)
-    body = {
-        "query": c.get("search", "software engineer"),
-        "filters": {"postingpostLocation": ["postLocation-USA"]},
-        "page": 1, "locale": "en-us", "sort": "newest",
-    }
-    headers = {"Content-Type": "application/json"}
-    csrf = s.cookies.get("csrf") or s.headers.get("X-Apple-CSRF-Token")
-    if csrf:
-        headers["X-Apple-CSRF-Token"] = csrf
-    data = post_json(s, "https://jobs.apple.com/api/role/search", json=body, headers=headers)
-    out = []
-    for j in (data.get("searchResults") or []):
-        out.append({
-            "company": "Apple",
-            "title": j.get("postingTitle", ""),
-            "location": "; ".join(
-                loc.get("name", "") for loc in (j.get("locations") or [])),
-            "url": ("https://jobs.apple.com/en-us/details/"
-                    f"{j.get('positionId','')}/{j.get('transformedPostingTitle','')}"),
-            "external_id": str(j.get("positionId", "")),
-            "source": "jobs.apple.com",
-        })
-    return out
-
-
-def tesla(c):
-    s = session()
-    data = get_json(s, "https://www.tesla.com/cua-api/apps/careers/state")
-    listings = (data.get("listings") or [])
-    lookup = data.get("lookup") or {}
-    locations = lookup.get("locations") or {}
-    departments = lookup.get("departments") or {}
-    out = []
-    for j in listings:
-        dep = str(j.get("dp", ""))
-        dep_name = str(departments.get(dep, ""))
-        if "engineering" not in dep_name.lower() and "information technology" not in dep_name.lower():
-            continue
-        loc = locations.get(str(j.get("l", "")), "")
-        loc_str = loc if isinstance(loc, str) else (loc or {}).get("name", "")
-        out.append({
-            "company": "Tesla",
-            "title": j.get("t", ""),
-            "location": loc_str,
-            "url": f"https://www.tesla.com/careers/search/job/{j.get('id','')}",
-            "external_id": str(j.get("id", "")),
-            "source": "tesla.com",
-        })
-    return out
-
-
-def uber(c):
-    s = session()
-    s.headers["x-csrf-token"] = "x"  # required magic value for this endpoint
-    body = {
-        "params": {
-            "text": c.get("search", "software engineer"),
-            "location": [{"country": "USA"}],
-        },
-        "limit": 100, "page": 0,
-    }
-    data = post_json(
-        s, "https://www.uber.com/api/loadSearchJobsResults?localeCode=en", json=body)
-    results = ((data.get("data") or {}).get("results")) or []
-    out = []
-    for j in results:
-        loc = j.get("location") or {}
-        all_loc = [loc] + (j.get("allLocations") or [])
-        loc_str = "; ".join(
-            f"{x.get('city','')}, {x.get('region','')}" for x in all_loc[:3] if x)
-        out.append({
-            "company": "Uber",
-            "title": j.get("title", ""),
-            "location": loc_str,
-            "country": loc.get("countryName", "") or loc.get("country", ""),
-            "url": f"https://www.uber.com/global/en/careers/list/{j.get('id','')}/",
-            "external_id": str(j.get("id", "")),
-            "source": "uber.com",
-        })
     return out

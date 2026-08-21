@@ -1,173 +1,251 @@
-# Company registry.
+# Company registry — INDIA job market.
 # bigtech: scanned every 3 hours. other + aggregators: scanned once daily.
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
-#                smartrecruiters | amazon | microsoft | google | apple |
-#                tesla | uber | simplify
+#                smartrecruiters | amazon | microsoft | instahyre
 #
-# NOTE: ATS tokens/tenants are best-effort and may need verification.
+# Every entry below was verified to actually return India-located postings at
+# the time it was added (see the india= counts in the comments). Boards that
+# are global are pinned to India where the API allows it; anything that slips
+# through is dropped later by the location filter in monitor/filters.py.
+#
 # To find a token: open the company's careers page, check the URL or the
 # network tab for boards.greenhouse.io/<token>, jobs.lever.co/<token>,
 # jobs.ashbyhq.com/<token>, or <tenant>.wdX.myworkdayjobs.com/<site>.
 
 bigtech:
-  - name: Amazon
-    fetcher: amazon
-  - name: Microsoft
-    fetcher: microsoft
-  - name: Google
-    fetcher: google
-  - name: Apple
-    fetcher: apple
-  - name: Netflix
-    fetcher: eightfold
-    host: explore.jobs.netflix.net
-    domain: netflix.com
+  - name: Amazon India
+    fetcher: amazon                 # pinned with normalized_country_code[]=IND
+  - name: Microsoft India
+    fetcher: microsoft              # pinned with lc=India
   - name: Nvidia
     fetcher: workday
     host: nvidia.wd5.myworkdayjobs.com
     tenant: nvidia
     site: NVIDIAExternalCareerSite
-  - name: Tesla
-    fetcher: tesla
-  - name: Uber
-    fetcher: uber
-  - name: Stripe
-    fetcher: greenhouse
-    token: stripe
-  - name: Airbnb
-    fetcher: greenhouse
-    token: airbnb
-  - name: OpenAI
-    fetcher: ashby
-    token: openai
-  - name: Anthropic
-    fetcher: greenhouse
-    token: anthropic
-  # Meta and LinkedIn have no stable public API; they are covered by the
-  # Simplify aggregator in the daily sweep.
-
-other:
-  # --- big tech adjacent ---
+    search: software engineer India
   - name: Adobe
     fetcher: workday
     host: adobe.wd5.myworkdayjobs.com
     tenant: adobe
     site: external_experienced
+    facets: { locationCountry: ["c4f78be1a8f14da0ab49ce1162348a5e"] }  # india=18
   - name: Salesforce
     fetcher: workday
     host: salesforce.wd12.myworkdayjobs.com
     tenant: salesforce
     site: External_Career_Site
-  # --- finance & fintech ---
-  - name: Capital One
-    fetcher: workday
-    host: capitalone.wd12.myworkdayjobs.com
-    tenant: capitalone
-    site: Capital_One
-  - name: Visa
-    fetcher: smartrecruiters
-    token: Visa
+    search: software engineer India   # this tenant 400s on the country facet
+  - name: Databricks
+    fetcher: greenhouse
+    token: databricks               # india=82
+  - name: Okta
+    fetcher: greenhouse
+    token: okta                     # india=104
+  - name: MongoDB
+    fetcher: greenhouse
+    token: mongodb                  # india=66
+  - name: Stripe
+    fetcher: greenhouse
+    token: stripe                   # india=42
+  - name: OpenAI
+    fetcher: ashby
+    token: openai                   # india=10
+  - name: Anthropic
+    fetcher: greenhouse
+    token: anthropic                # india=4
+  # Google, Apple, Meta, LinkedIn and Uber have no usable public careers API
+  # for India — their roles arrive through the Instahyre aggregator below.
+
+other:
+  # --- Indian product companies & unicorns ---
+  - name: PhonePe
+    fetcher: greenhouse
+    token: phonepe                  # india=60
+  - name: Paytm
+    fetcher: lever
+    token: paytm                    # india=206
+  - name: Meesho
+    fetcher: lever
+    token: meesho                   # india=48
+  - name: CRED
+    fetcher: lever
+    token: cred                     # india=12
+  - name: Zeta
+    fetcher: lever
+    token: zeta                     # india=22
+  - name: Epifi (Fi Money)
+    fetcher: lever
+    token: epifi                    # india=11
+  - name: Mindtickle
+    fetcher: lever
+    token: mindtickle               # india=20
+  - name: Groww
+    fetcher: greenhouse
+    token: groww                    # india=5
+  - name: InMobi
+    fetcher: greenhouse
+    token: inmobi                   # india=37
+  - name: Glance
+    fetcher: greenhouse
+    token: glance                   # india=32
+  - name: Truecaller
+    fetcher: greenhouse
+    token: truecaller               # india=8
+  - name: HighRadius
+    fetcher: greenhouse
+    token: highradius               # india=70
+  - name: Druva
+    fetcher: greenhouse
+    token: druva                    # india=15
+  - name: Observe.AI
+    fetcher: greenhouse
+    token: observeai                # india=7
+  - name: Tekion
+    fetcher: ashby
+    token: tekion                   # india=69
+  - name: Atlan
+    fetcher: ashby
+    token: atlan                    # india=5
+  # --- global product companies with large India engineering centres ---
+  - name: Zscaler
+    fetcher: greenhouse
+    token: zscaler                  # india=62
+  - name: GitLab
+    fetcher: greenhouse
+    token: gitlab                   # india=36
+  - name: Twilio
+    fetcher: greenhouse
+    token: twilio                   # india=16
+  - name: Airbnb
+    fetcher: greenhouse
+    token: airbnb                   # india=16
+  - name: Netskope
+    fetcher: greenhouse
+    token: netskope                 # india=15
+  - name: Roblox
+    fetcher: greenhouse
+    token: roblox                   # india=15
+  - name: Elastic
+    fetcher: greenhouse
+    token: elastic                  # india=11
   - name: Coinbase
     fetcher: greenhouse
-    token: coinbase
-  - name: Robinhood
+    token: coinbase                 # india=10
+  - name: New Relic
     fetcher: greenhouse
-    token: robinhood
-  - name: Citadel
+    token: newrelic                 # india=8
+  - name: Datadog
     fetcher: greenhouse
-    token: citadelcampus
-  - name: Two Sigma
+    token: datadog                  # india=8
+  - name: Postman
     fetcher: greenhouse
-    token: twosigma
-  - name: Affirm
+    token: postman                  # india=10
+  - name: Cloudflare
     fetcher: greenhouse
-    token: affirm
-  - name: Plaid
-    fetcher: lever
-    token: plaid
-  - name: Ramp
+    token: cloudflare               # india=3
+  - name: Vercel
+    fetcher: greenhouse
+    token: vercel                   # india=3
+  - name: Figma
+    fetcher: greenhouse
+    token: figma                    # india=2
+  - name: Amplitude
+    fetcher: greenhouse
+    token: amplitude                # india=2
+  - name: Mixpanel
+    fetcher: greenhouse
+    token: mixpanel                 # india=1
+  - name: Scale AI
+    fetcher: greenhouse
+    token: scaleai                  # india=1
+  - name: ClickHouse
     fetcher: ashby
-    token: ramp
-  - name: Chime
-    fetcher: greenhouse
-    token: chime
-  # --- Fortune 500 across sectors ---
-  - name: Boeing
+    token: clickhouse               # india=6
+  - name: Notion
+    fetcher: ashby
+    token: notion                   # india=4
+  - name: Confluent
+    fetcher: ashby
+    token: confluent                # india=3
+  - name: Temporal
+    fetcher: ashby
+    token: temporal                 # india=2
+  - name: Neon
+    fetcher: ashby
+    token: neon                     # india=1
+  # --- finance, fintech & enterprise (India GCCs) ---
+  - name: Mastercard
     fetcher: workday
-    host: boeing.wd1.myworkdayjobs.com
-    tenant: boeing
-    site: EXTERNAL_CAREERS
-  - name: Verizon
+    host: mastercard.wd1.myworkdayjobs.com
+    tenant: mastercard
+    site: CorporateCareers
+    search: software engineer India
+  - name: Deutsche Bank
     fetcher: workday
-    host: mycareer.verizon.com
-    tenant: verizon
-    site: verizon-careers
-  - name: Walmart Global Tech
+    host: db.wd3.myworkdayjobs.com
+    tenant: db
+    site: DBWebsite
+    search: software engineer India
+  - name: Morgan Stanley
     fetcher: workday
-    host: walmart.wd5.myworkdayjobs.com
-    tenant: walmart
-    site: WalmartExternal
-  - name: Target
+    host: ms.wd5.myworkdayjobs.com
+    tenant: ms
+    site: External
+    search: software engineer India
+  - name: Citi
+    fetcher: workday
+    host: citi.wd5.myworkdayjobs.com
+    tenant: citi
+    site: "2"
+    search: software engineer India
+  - name: Target India
     fetcher: workday
     host: target.wd5.myworkdayjobs.com
     tenant: target
     site: targetcareers
-  - name: CVS Health
+    search: software engineer India
+  # --- semiconductor & EDA (big Bengaluru / Hyderabad / Noida centres) ---
+  - name: Intel
     fetcher: workday
-    host: cvshealth.wd1.myworkdayjobs.com
-    tenant: cvshealth
-    site: CVS_Health_Careers
-  # Ford uses Oracle Cloud HCM (no fetcher yet) - covered via aggregator.
-  # To add: build an oraclecloud fetcher or check if they expose eightfold.
-  # --- high-growth startups & unicorns ---
-  - name: Databricks
-    fetcher: greenhouse
-    token: databricks
-  - name: Figma
-    fetcher: greenhouse
-    token: figma
-  - name: Scale AI
-    fetcher: greenhouse
-    token: scaleai
-  - name: Notion
-    fetcher: ashby          # verified: no Greenhouse board exists
-    token: notion
-  - name: Discord
-    fetcher: greenhouse
-    token: discord
-  - name: Snowflake
-    fetcher: eightfold
-    host: careers.snowflake.com
-    domain: snowflake.com
-  - name: Palantir
-    fetcher: lever
-    token: palantir
-  - name: Anduril
-    fetcher: greenhouse
-    token: andurilindustries
-  - name: SpaceX
-    fetcher: greenhouse
-    token: spacex
-  - name: Pinterest
-    fetcher: greenhouse
-    token: pinterest
-  - name: Reddit
-    fetcher: greenhouse
-    token: reddit
-  - name: DoorDash
-    fetcher: greenhouse
-    token: doordashusa
-  - name: Instacart
-    fetcher: greenhouse
-    token: instacart
-  - name: Roblox
-    fetcher: greenhouse
-    token: roblox
+    host: intel.wd1.myworkdayjobs.com
+    tenant: intel
+    site: External
+    search: software engineer India
+  - name: Micron
+    fetcher: workday
+    host: micron.wd1.myworkdayjobs.com
+    tenant: micron
+    site: External
+    facets: { locationCountry: ["c4f78be1a8f14da0ab49ce1162348a5e"] }
+  - name: Analog Devices
+    fetcher: workday
+    host: analogdevices.wd1.myworkdayjobs.com
+    tenant: analogdevices
+    site: External
+    facets: { locationCountry: ["c4f78be1a8f14da0ab49ce1162348a5e"] }  # india=18
+  - name: Autodesk
+    fetcher: workday
+    host: autodesk.wd1.myworkdayjobs.com
+    tenant: autodesk
+    site: Ext
+    facets: { locationCountry: ["c4f78be1a8f14da0ab49ce1162348a5e"] }  # india=20
+  - name: Cadence
+    fetcher: workday
+    host: cadence.wd1.myworkdayjobs.com
+    tenant: cadence
+    site: External_Careers
+    search: software engineer India
 
 aggregators:
-  # Catches Meta, LinkedIn, Goldman/JPMorgan campus roles, and hundreds of
-  # other companies. Only rows added in the last N days are considered.
-  - name: Simplify Aggregator
-    fetcher: simplify
-    max_age_days: 4
+  # India-only tech job board with ~13k live postings. This is what covers the
+  # companies with no usable public API: Google India, Uber India, Flipkart,
+  # Swiggy, Zomato, Ola, and the whole TCS/Infosys/Wipro services sector.
+  # job_functions/job_types ids are documented in monitor/fetchers/instahyre.py.
+  # Raise max_pages for wider coverage at the cost of more requests
+  # (requests = len(job_types) x len(job_functions) x max_pages).
+  - name: Instahyre
+    fetcher: instahyre
+    max_pages: 3
+    job_types: [1, 2]               # 1 = full time, 2 = internship
+    job_functions: [10, 1, 9, 3, 76]
