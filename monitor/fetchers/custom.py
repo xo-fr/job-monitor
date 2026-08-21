@@ -4,11 +4,19 @@ These use unofficial-but-public JSON endpoints that back each company's own
 careers site. They can change without notice — if one starts failing, check
 the network tab of the careers page and update the endpoint.
 
-Google, Apple, Tesla and Uber used to live here. Their endpoints were removed
-or locked down (careers.google.com/api/v3 and uber.com/api/loadSearchJobsResults
-both 404 now, jobs.apple.com resets the connection for non-browser clients), so
-they are no longer fetched directly; India roles for those companies surface
-through the Instahyre aggregator instead.
+Google, Apple, Tesla, Uber and Microsoft used to live here. Every one of those
+endpoints is now gone, so they are not fetched directly any more; India roles
+for those companies surface through the Instahyre aggregator instead. Verified
+before removal, so nobody has to re-discover it:
+
+  - careers.google.com/api/v3/search          -> 404
+  - uber.com/api/loadSearchJobsResults        -> 404 "Missing RPC handler"
+  - jobs.apple.com/api/role/search            -> connection reset for non-browsers
+  - gcsservices.careers.microsoft.com         -> serves a cert valid only for
+    *.azureedge.net, so TLS verification fails for every correct client (this
+    reproduces identically on a GitHub Actions runner — it is not a local
+    network problem), and no replacement JSON endpoint is exposed by the
+    jobs.careers.microsoft.com SPA.
 """
 from .http import session, get_json, iso_date, clean_text
 
@@ -52,37 +60,5 @@ def amazon(c):
                     j.get("job_schedule_type", "")),
                 "department": j.get("job_category", "") or j.get("business_category", ""),
                 "snippet": clean_text(j.get("description_short", "") or j.get("description", "")),
-            })
-    return out
-
-
-def microsoft(c):
-    """India postings from the Microsoft careers search API (`lc=India`)."""
-    s = session()
-    out = []
-    for pg in (1, 2):
-        url = ("https://gcsservices.careers.microsoft.com/search/api/v1/search"
-               f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&lc=India&l=en_us&pg={pg}&pgSz=100&o=Relevance&flt=true")
-        data = get_json(s, url)
-        jobs = (((data.get("operationResult") or {}).get("result") or {}).get("jobs")) or []
-        if not jobs:
-            break
-        for j in jobs:
-            props = j.get("properties") or {}
-            out.append({
-                "company": "Microsoft",
-                "title": j.get("title", ""),
-                "location": props.get("primaryLocation", "") or ", ".join(
-                    props.get("locations", []) or []),
-                "url": f"https://jobs.careers.microsoft.com/global/en/job/{j.get('jobId','')}",
-                "external_id": str(j.get("jobId", "")),
-                "source": "microsoft careers",
-                "posted_at": iso_date(props.get("postingDate")),
-                "employment_type": props.get("employmentType", ""),
-                "workplace": ("Remote" if str(props.get("workSiteFlexibility", "")).lower()
-                              .startswith("up to 100") else ""),
-                "department": props.get("discipline", "") or props.get("profession", ""),
-                "snippet": clean_text(props.get("description", "")),
             })
     return out

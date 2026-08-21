@@ -1,6 +1,6 @@
 name: Scan big tech India (manual)
 
-# Manual-only fast check of the 11 big-tech India sources (~30s instead of the
+# Manual-only fast check of the 10 big-tech India sources (~30s instead of the
 # full sweep's few minutes). Deliberately has NO cron: `--tier all` in
 # scan-all.yml already includes every source this scans, so a schedule here
 # would just do the same work twice — and for an India-focused monitor the

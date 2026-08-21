@@ -2,7 +2,7 @@
 # bigtech: scanned every 3 hours. other + aggregators: scanned once daily.
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
-#                smartrecruiters | amazon | microsoft | instahyre
+#                smartrecruiters | amazon | instahyre
 #
 # Every entry below was verified to actually return India-located postings at
 # the time it was added (see the india= counts in the comments). Boards that
@@ -16,8 +16,6 @@
 bigtech:
   - name: Amazon India
     fetcher: amazon                 # pinned with normalized_country_code[]=IND
-  - name: Microsoft India
-    fetcher: microsoft              # pinned with lc=India
   - name: Nvidia
     fetcher: workday
     host: nvidia.wd5.myworkdayjobs.com
@@ -54,8 +52,9 @@ bigtech:
   - name: Anthropic
     fetcher: greenhouse
     token: anthropic                # india=4
-  # Google, Apple, Meta, LinkedIn and Uber have no usable public careers API
-  # for India — their roles arrive through the Instahyre aggregator below.
+  # Google, Apple, Microsoft, Meta, LinkedIn and Uber have no usable public
+  # careers API for India any more (see the header of fetchers/custom.py for
+  # what each one does now) — their roles arrive via the Instahyre aggregator.
 
 other:
   # --- Indian product companies & unicorns ---

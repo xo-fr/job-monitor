@@ -20,13 +20,13 @@ centres, Indian product companies & unicorns, fintech, GCCs, and semiconductor
 
 ```
                      ┌────────────────────────────────────────────┐
- GitHub Actions cron │  every 3h  → scan big tech (12 sources)    │
-                     │  every 3h  → scan everything (60 sources)  │
+ GitHub Actions cron │  every 3h  → scan big tech (10 sources)    │
+                     │  every 3h  → scan everything (59 sources)  │
                      └───────────────────┬────────────────────────┘
                                          │
              fetchers pull JSON from public careers APIs
              (Greenhouse, Lever, Ashby, Workday, Eightfold,
-              SmartRecruiters + Amazon India / Microsoft India
+              SmartRecruiters + Amazon India
               + the Instahyre India aggregator)
                                          │
              filters: India-only · SWE + adjacent roles · tier
@@ -102,9 +102,10 @@ job-monitor/
 │       │                            Eightfold, or SmartRecruiters can be
 │       │                            added with 3–5 lines of YAML.
 │       ├── custom.py              ← company-specific fetchers pinned to
-│       │                            India: Amazon (normalized_country_code
-│       │                            =IND) and Microsoft (lc=India). These
-│       │                            endpoints are unofficial and may change.
+│       │                            India. Only Amazon survives here
+│       │                            (normalized_country_code=IND); the module
+│       │                            header records what happened to the
+│       │                            Google/Apple/Uber/Microsoft endpoints.
 │       └── instahyre.py           ← the India aggregator. ~13k live Indian
 │                                    tech postings; this is what covers the
 │                                    companies with no usable public API —
@@ -128,12 +129,12 @@ job-monitor/
 └── .github/workflows/
     ├── scan-all.yml               ← THE SCHEDULED ONE. cron "30 */3 * * *"
     │                                (every 3h at :30 UTC = 06:00, 09:00,
-    │                                12:00… IST): all 60 sources, commits
+    │                                12:00… IST): all 59 sources, commits
     │                                jobs.json if changed. Manual runs take
     │                                tier / dry-run / no-notify / include-senior
     │                                as form inputs.
     └── scan-bigtech.yml           ← manual only, no cron: a ~30s check of just
-                                     the 11 big-tech India sources. It has no
+                                     the 10 big-tech India sources. It has no
                                      schedule on purpose — `--tier all` already
                                      includes everything it scans, so a cron
                                      here would only duplicate the sweep.
@@ -145,7 +146,7 @@ job-monitor/
 did the same work twice. It also had the priorities backwards for an India
 monitor: the companies worth checking often — PhonePe, Paytm, Meesho, CRED,
 Groww, InMobi — live in the `other` tier, which only the full sweep covers.
-One sweep every 3 hours covers all 60 sources; the big-tech workflow stays
+One sweep every 3 hours covers all 59 sources; the big-tech workflow stays
 around for a fast manual check.
 
 Both workflows share the `job-scan` concurrency group so they can never write
@@ -331,11 +332,13 @@ prune before that.)
 - **Unofficial APIs**: the fetchers use the same JSON endpoints the careers
   sites themselves use — they can change without notice. A failing fetcher is
   logged and skipped, never fatal.
-- **Google, Apple, Meta, LinkedIn and Uber have no usable public careers API**
-  any more (`careers.google.com/api/v3` and
+- **Google, Apple, Microsoft, Meta, LinkedIn and Uber have no usable public
+  careers API** any more (`careers.google.com/api/v3` and
   `uber.com/api/loadSearchJobsResults` both 404; `jobs.apple.com` refuses
-  non-browser clients). Their India roles arrive via Instahyre instead, which
-  means a delay and less complete coverage.
+  non-browser clients; `gcsservices.careers.microsoft.com` serves a TLS
+  certificate valid only for `*.azureedge.net`, so it fails for any correct
+  client). Their India roles arrive via Instahyre instead, which means a delay
+  and less complete coverage.
 - **Naukri and foundit are not usable as sources.** Naukri's job API returns
   `recaptcha required` to server-side clients and foundit rejects the request
   at content negotiation. Instahyre is the aggregator that does work.

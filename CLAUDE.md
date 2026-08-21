@@ -71,11 +71,14 @@ FETCHERS["greenhouse"]({"name": "Foo", "token": "foo"})`.
   Greenhouse, Lever, Ashby, Workday, Eightfold, SmartRecruiters. Adding a company on one
   of these ATSes is a config-only change (see the token-finding instructions at the top
   of `companies.yaml`).
-- `custom.py` — Amazon (`normalized_country_code[]=IND`; the plain `country[]` param is
-  silently ignored by that endpoint) and Microsoft (`lc=India`), hitting each company's
-  own unofficial-but-public careers API. Google, Apple, Tesla and Uber fetchers were
-  **deleted, not disabled** — their endpoints now 404 or refuse non-browser clients.
-  Don't re-add them without verifying the endpoint first.
+- `custom.py` — Amazon only (`normalized_country_code[]=IND`; the plain `country[]` param
+  is silently ignored by that endpoint). The Google, Apple, Tesla, Uber and Microsoft
+  fetchers were **deleted, not disabled**, and the module header records exactly what
+  each endpoint does now so nobody re-discovers it. Microsoft is the subtle one:
+  `gcsservices.careers.microsoft.com` serves a certificate valid only for
+  `*.azureedge.net`, which reproduces identically on a GitHub Actions runner — if you see
+  that SSL error, it is Microsoft's misconfiguration, not the local network. Don't re-add
+  any of them without verifying the endpoint first.
 - `instahyre.py` — the India aggregator (replaced the US-only SimplifyJobs scraper). It
   is what covers companies with no usable public API at all: Google India, Uber India,
   Flipkart, Swiggy, Zomato, and the TCS/Infosys/Wipro services sector. Three API quirks
@@ -140,5 +143,6 @@ the time. Global boards are pinned to India where the API allows it (Workday
 `facets: {locationCountry: [c4f78be1a8f14da0ab49ce1162348a5e]}` — accepted by some
 tenants, HTTP 400 from others, in which case use `search: software engineer India`).
 Keep this up: when adding a company, probe the endpoint first and only commit the entry
-if India postings actually come back. A dry run should show ~60 sources and roughly
-9.6k raw → 570 in scope.
+if India postings actually come back. A dry run should show 59 sources and roughly
+9.6k raw → 570 in scope, with zero FAILED lines — a permanently-failing source is a
+bug to remove, not background noise.

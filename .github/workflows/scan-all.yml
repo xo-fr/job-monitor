@@ -1,6 +1,6 @@
 name: Full sweep India (every 3h)
 
-# The scheduled workhorse: all 60 sources, including every Indian product
+# The scheduled workhorse: all 59 sources, including every Indian product
 # company and the Instahyre aggregator. `--tier all` is a superset of
 # `--tier bigtech`, so this is the only workflow that needs a cron.
 

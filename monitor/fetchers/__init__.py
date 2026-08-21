@@ -8,6 +8,5 @@ FETCHERS = {
     "eightfold": generic.eightfold,
     "smartrecruiters": generic.smartrecruiters,
     "amazon": custom.amazon,
-    "microsoft": custom.microsoft,
     "instahyre": instahyre.instahyre,
 }
