@@ -4912,6 +4912,17 @@
    "title": "Software Engineer II-2",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II-2_R-282788-1"
   },
+  "mastercard:91fc357b01cb": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-22",
+   "location": "Pune, India",
+   "posted_at": "2026-07-23",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Technical Program Management/ Software Engineering/ Program Management",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Technical-Program-Management--Software-Engineering--Program-Management_R-249209"
+  },
   "mastercard:a0dc6e723a6e": {
    "company": "Mastercard",
    "first_seen": "2026-08-21",
@@ -6458,6 +6469,18 @@
    "title": "Fullstack Engineer",
    "url": "https://www.instahyre.com/job-438126-fullstack-engineer-at-thena-bangalore/"
   },
+  "thinkify.io:40d51a31041d": {
+   "company": "thinkify.io",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-17001-java-developer-at-thinkify-2-bangalore/"
+  },
   "thomson-reuters:7c45783e39e4": {
    "company": "Thomson Reuters",
    "department": "Data Science / Machine Learning",
@@ -6690,6 +6713,6 @@
    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5190485007"
   }
  },
- "updated": "2026-08-22T15:45:56Z",
+ "updated": "2026-08-22T18:58:11Z",
  "version": 1
 }
