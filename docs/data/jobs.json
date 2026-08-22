@@ -1083,6 +1083,19 @@
    "title": "Software Development II",
    "url": "https://www.amazon.jobs/en/jobs/10500291/software-development-ii"
   },
+  "amazon:486f25084aa5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-07-14",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II",
+   "url": "https://www.amazon.jobs/en/jobs/10474678/software-development-engineer-ii"
+  },
   "amazon:492a6d6e11b9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3320,6 +3333,18 @@
    "title": "Fullstack Engineer",
    "url": "https://www.instahyre.com/job-439190-fullstack-engineer-at-credflow-ai-gurgaon/"
   },
+  "cult-fit:4fd332cb62dc": {
+   "company": "Cult Fit",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer (Python)",
+   "url": "https://www.instahyre.com/job-437899-backend-developer-python-at-cult-fit-2-bangalore/"
+  },
   "dat-freight-&-analytics:8a23c0a45440": {
    "company": "DAT Freight & Analytics",
    "department": "Backend Development",
@@ -3675,6 +3700,18 @@
    "tier": "experienced",
    "title": "AI Fullstack Developer",
    "url": "https://www.instahyre.com/job-436321-ai-fullstack-developer-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
+  "dextr-ai:e35c2c56867a": {
+   "company": "Dextr AI",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer (React) - UI / UX",
+   "url": "https://www.instahyre.com/job-439997-frontend-developer-react-ui-ux-at-dextr-ai-bangalore/"
   },
   "dgliger-consulting:59973cfc6e6e": {
    "company": "DGLiger Consulting",
@@ -4300,6 +4337,18 @@
    "tier": "experienced",
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-438582-data-engineer-at-holman-hyderabad/"
+  },
+  "hyperface:85576a4c41cd": {
+   "company": "Hyperface",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - 2",
+   "url": "https://www.instahyre.com/job-408156-software-development-engineer-2-at-hyperface-bangalore/"
   },
   "hyperface:966ec5785105": {
    "company": "Hyperface",
@@ -6533,6 +6582,6 @@
    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5190485007"
   }
  },
- "updated": "2026-08-22T04:05:32Z",
+ "updated": "2026-08-22T07:09:32Z",
  "version": 1
 }
