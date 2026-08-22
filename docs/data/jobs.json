@@ -1523,6 +1523,19 @@
    "title": "Software Dev Engineer II",
    "url": "https://www.amazon.jobs/en/jobs/10491670/software-dev-engineer-ii"
   },
+  "amazon:783b5818543d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-07-14",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II",
+   "url": "https://www.amazon.jobs/en/jobs/10474680/software-development-engineer-ii"
+  },
   "amazon:7a63e81fc6e3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2921,6 +2934,18 @@
    "tier": "experienced",
    "title": "SSE - AI / ML",
    "url": "https://www.instahyre.com/job-433759-sse-ai-ml-at-cheq-2-bangalore/"
+  },
+  "cheq:195e07e8badd": {
+   "company": "CheQ",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SSE (Backend)",
+   "url": "https://www.instahyre.com/job-440002-sse-backend-at-cheq-2-bangalore/"
   },
   "citi:1b66ed4ddceb": {
    "company": "Citi",
@@ -4422,6 +4447,18 @@
    "title": "Application Developer",
    "url": "https://www.instahyre.com/job-430915-application-developer-at-indihood-bangalore/"
   },
+  "indihood:e735fb812681": {
+   "company": "Indihood",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Application Developer",
+   "url": "https://www.instahyre.com/job-428502-application-developer-at-indihood-bangalore/"
+  },
   "infosys:05e0a32709c1": {
    "company": "Infosys",
    "department": "Full-Stack Development",
@@ -4699,6 +4736,18 @@
    "tier": "experienced",
    "title": "Data Protection and Security Engineer",
    "url": "https://www.instahyre.com/job-439731-data-protection-and-security-engineer-at-invoicecloud-hyderabad/"
+  },
+  "kissht:0c8c52f259ca": {
+   "company": "Kissht",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 2 - AI Pod",
+   "url": "https://www.instahyre.com/job-435776-software-development-engineer-2-ai-pod-at-kissht-mumbai/"
   },
   "klimb.io:417a671a121e": {
    "company": "Klimb.io",
@@ -5573,6 +5622,18 @@
    "tier": "experienced",
    "title": "ML Engineer",
    "url": "https://www.instahyre.com/job-435402-ml-engineer-at-oolka-bangalore/"
+  },
+  "oolka:926d1ba89ab7": {
+   "company": "Oolka",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-435162-ai-engineer-at-oolka-bangalore/"
   },
   "oolka:b65ab51db88b": {
    "company": "Oolka",
@@ -6470,6 +6531,18 @@
    "title": "Full Stack Engineer",
    "url": "https://www.instahyre.com/job-396160-full-stack-engineer-at-viven-bangalore/"
   },
+  "vutto:548c785ce0a5": {
+   "company": "Vutto",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-22",
+   "location": "Delhi",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II (Fullstack)",
+   "url": "https://www.instahyre.com/job-432937-software-development-engineer-ii-fullstack-at-vutto-delhi/"
+  },
   "wealth-quotient:a8df27d9ca44": {
    "company": "Wealth Quotient",
    "department": "Backend Development",
@@ -6582,6 +6655,6 @@
    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5190485007"
   }
  },
- "updated": "2026-08-22T07:09:32Z",
+ "updated": "2026-08-22T09:51:11Z",
  "version": 1
 }
