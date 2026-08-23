@@ -4411,6 +4411,18 @@
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-438582-data-engineer-at-holman-hyderabad/"
   },
+  "hsv-digital:79e4dd816fc6": {
+   "company": "HSV Digital",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-23",
+   "location": "Gurgaon, Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II",
+   "url": "https://www.instahyre.com/job-400354-sde-ii-at-hsv-digital-gurgaon-work-from-home/"
+  },
   "hyperface:85576a4c41cd": {
    "company": "Hyperface",
    "department": "Backend Development",
@@ -5544,6 +5556,17 @@
    "tier": "experienced",
    "title": "System Software Engineer - Deep Learning",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Deep-Learning_JR2011323"
+  },
+  "nvidia:e6e42af895a3": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-23",
+   "location": "India, Pune",
+   "posted_at": "2026-08-23",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software QA Test and Tools Developer – Automotive Platform",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Software-QA-Test-and-Tools-Developer---Automotive-Platform_JR2023573"
   },
   "nvidia:f6f8dd98d75e": {
    "company": "Nvidia",
@@ -6762,6 +6785,6 @@
    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5190485007"
   }
  },
- "updated": "2026-08-23T18:57:22Z",
+ "updated": "2026-08-23T21:46:01Z",
  "version": 1
 }
