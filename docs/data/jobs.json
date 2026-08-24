@@ -1283,6 +1283,19 @@
    "title": "Software Development Engineer II, EU INTech - Prime and Marketing Tech",
    "url": "https://www.amazon.jobs/en/jobs/10473116/software-development-engineer-ii-eu-intech-prime-and-marketing-tech"
   },
+  "amazon:4d56e8db1fe6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-24",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Under the Roof Labor Planning, UTR",
+   "url": "https://www.amazon.jobs/en/jobs/10512648/software-engineer-under-the-roof-labor-planning-utr"
+  },
   "amazon:4d70e3f63bf2": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2099,6 +2112,19 @@
    "title": "Software Dev Engineer II, Amazon Payment Products",
    "url": "https://www.amazon.jobs/en/jobs/10458821/software-dev-engineer-ii-amazon-payment-products"
   },
+  "amazon:a17516c61761": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-08-24",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II , Finance Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10512283/software-dev-engineer-ii-finance-tech"
+  },
   "amazon:a32d8a9f6d9c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2163,6 +2189,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, EU INTech - Prime and Marketing Tech",
    "url": "https://www.amazon.jobs/en/jobs/10473118/software-development-engineer-ii-eu-intech-prime-and-marketing-tech"
+  },
+  "amazon:ac47ada7a2b5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-24",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Vendor Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10512590/software-development-engineer-vendor-experience"
   },
   "amazon:afcc10c0d622": {
    "company": "Amazon",
@@ -2473,6 +2512,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer, AFT External Fulfillment",
    "url": "https://www.amazon.jobs/en/jobs/10509821/software-development-engineer-aft-external-fulfillment"
+  },
+  "amazon:d401e65baf80": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-24",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Vendor Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10512593/software-development-engineer-ii-vendor-experience"
   },
   "amazon:d4796d109c1b": {
    "company": "Amazon",
@@ -6759,6 +6811,30 @@
    "url": "https://jobs.ashbyhq.com/openai/bf036b23-cd23-46d0-a02f-4b1483f4698a",
    "workplace": "Hybrid"
   },
+  "openfx:fceb3e2b662e": {
+   "company": "OpenFX",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Developer",
+   "url": "https://www.instahyre.com/job-439057-full-stack-developer-at-openfx-bangalore/"
+  },
+  "opsly:37180b287e47": {
+   "company": "Opsly",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-357200-ai-engineer-at-opsly-work-from-home/"
+  },
   "optiq.ai:92773bbbe43d": {
    "company": "OptIQ.AI",
    "department": "Data Science / Machine Learning",
@@ -7983,6 +8059,18 @@
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-268257-backend-developer-at-upswing-financial-technologies-bangalore/"
   },
+  "usefulbi:c408011d472e": {
+   "company": "UsefulBI",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-24",
+   "location": "Bangalore, Lucknow, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI / ML Engineer - GenAI",
+   "url": "https://www.instahyre.com/job-432301-ai-ml-engineer-genai-at-usefulbi-bangalore-lucknow-pune/"
+  },
   "usefulbi:f6ec553b09b4": {
    "company": "UsefulBI",
    "department": "Backend Development",
@@ -8263,6 +8351,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-24T16:04:05Z",
+ "updated": "2026-08-24T19:10:12Z",
  "version": 1
 }
