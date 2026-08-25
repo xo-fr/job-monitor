@@ -4768,6 +4768,17 @@
    "title": "AI Engineer",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8556658002"
   },
+  "gitlab:e9bca2ecd2a2": {
+   "company": "GitLab",
+   "first_seen": "2026-08-25",
+   "location": "Bangalore, India",
+   "posted_at": "2026-08-24",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Intermediate Software Engineer",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8721229002"
+  },
   "gitlab:fe39ca965165": {
    "company": "GitLab",
    "first_seen": "2026-08-24",
@@ -8364,6 +8375,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-24T21:53:48Z",
+ "updated": "2026-08-25T01:59:26Z",
  "version": 1
 }
