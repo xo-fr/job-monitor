@@ -60,6 +60,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-440169-ai-engineer-internship-at-abstrabit-technologies-bangalore/"
   },
+  "accenture:00e66e00fbf0": {
+   "company": "Accenture",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Custom Software Engineer - Full - Stack",
+   "url": "https://www.instahyre.com/job-440507-custom-software-engineer-full-stack-at-accenture-2-chennai/"
+  },
   "accenture:18e0a69e8c91": {
    "company": "Accenture",
    "department": "Full-Stack Development",
@@ -3422,6 +3434,17 @@
    "tier": "newgrad",
    "title": "Software Engineer - I",
    "url": "https://www.instahyre.com/job-440178-software-engineer-i-at-aurva-bangalore/"
+  },
+  "autodesk:951d33c1a2c2": {
+   "company": "Autodesk",
+   "first_seen": "2026-08-26",
+   "location": "Pune, IND",
+   "posted_at": "2026-08-26",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Java, AWS)",
+   "url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Pune-IND/Software-Engineer--Java--AWS-_26WD100669-1"
   },
   "autodesk:953bf0dce5b2": {
    "company": "Autodesk",
@@ -9633,6 +9656,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-26T02:08:51Z",
+ "updated": "2026-08-26T04:09:42Z",
  "version": 1
 }
