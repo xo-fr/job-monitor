@@ -2423,6 +2423,19 @@
    "title": "Software Development Engineer II, Fintelligence Workplace",
    "url": "https://www.amazon.jobs/en/jobs/10499455/software-development-engineer-ii-fintelligence-workplace"
   },
+  "amazon:b37ee967e443": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-08-26",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Delivery Experience, Delivery Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10515543/software-dev-engineer-ii-delivery-experience-delivery-experience"
+  },
   "amazon:b3be2f3b158d": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3183,6 +3196,18 @@
    "tier": "experienced",
    "title": "Quality Engineer",
    "url": "https://www.instahyre.com/job-439332-quality-engineer-at-american-airlines-hyderabad/"
+  },
+  "american-airlines:d55a592f6138": {
+   "company": "American Airlines",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Developer",
+   "url": "https://www.instahyre.com/job-416284-fullstack-developer-at-american-airlines-hyderabad/"
   },
   "anaira-ai:a60ef26e1c30": {
    "company": "Anaira AI",
@@ -4882,6 +4907,18 @@
    "title": "SAS DMS AI Full Stack Engineer, AS",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Business-Bay/AI-Full-Stack-Engineer--AS_R0434039"
   },
+  "deutsche-börse:0508e08226ff": {
+   "company": "Deutsche Börse",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ServiceNow Developer",
+   "url": "https://www.instahyre.com/job-440563-servicenow-developer-at-deutsche-borse-hyderabad/"
+  },
   "deutsche-telekom-digital-labs:01f39ed05b06": {
    "company": "Deutsche Telekom Digital Labs",
    "department": "Other Software Development",
@@ -5482,6 +5519,18 @@
    "title": ".NET Developer",
    "url": "https://www.instahyre.com/job-381145-dot-net-developer-at-engineo-solutions-gurgaon/"
   },
+  "entain-india:db739efb5641": {
+   "company": "Entain India",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II",
+   "url": "https://www.instahyre.com/job-439170-software-development-engineer-ii-at-entain-india-hyderabad/"
+  },
   "epifi-(fi-money):13a05be94b9a": {
    "company": "Epifi (Fi Money)",
    "department": "Data Science",
@@ -5968,6 +6017,18 @@
    "tier": "experienced",
    "title": "Software Development Engineer - III",
    "url": "https://www.instahyre.com/job-425907-software-development-engineer-iii-at-greyorange-2-gurgaon/"
+  },
+  "greyorange:de17d4e86088": {
+   "company": "GreyOrange",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 3",
+   "url": "https://www.instahyre.com/job-437729-sde-3-at-greyorange-2-gurgaon/"
   },
   "hardlaunch:9b6912738e55": {
    "company": "HardLaunch",
@@ -6801,6 +6862,18 @@
    "tier": "experienced",
    "title": "SDE II - Fullstack",
    "url": "https://www.instahyre.com/job-420449-sde-ii-fullstack-at-khatabook-bangalore/"
+  },
+  "kily:30152c54f8ff": {
+   "company": "Kily",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied Data Scientist",
+   "url": "https://www.instahyre.com/job-439661-applied-data-scientist-at-kily-bangalore/"
   },
   "kissht:0c8c52f259ca": {
    "company": "Kissht",
@@ -7643,6 +7716,18 @@
    "tier": "experienced",
    "title": "AL / ML Engineer (SLM Fine Tuning)",
    "url": "https://www.instahyre.com/job-439543-al-ml-engineer-slm-fine-tuning-at-neoqubit-bangalore/"
+  },
+  "neurogrid:3ef4f5be681c": {
+   "company": "neuroGrid",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-415006-ai-engineer-at-neurogrid-bangalore/"
   },
   "neuron7:c8ea7809690c": {
    "company": "Neuron7",
@@ -10345,6 +10430,18 @@
    "title": "AI Data Engineer (LLM Training Data)",
    "url": "https://www.instahyre.com/job-439080-ai-data-engineer-llm-training-data-at-zenteiq-bangalore/"
   },
+  "zero-to-1:19a5f3761aab": {
+   "company": "Zero to 1",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-26",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-390614-ai-engineer-at-zero-to-1-work-from-home/"
+  },
   "zeta:4e8c2cca964d": {
    "company": "Zeta",
    "department": "Engineering",
@@ -10421,6 +10518,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-26T13:33:39Z",
+ "updated": "2026-08-26T16:36:18Z",
  "version": 1
 }
