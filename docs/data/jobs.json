@@ -108,6 +108,18 @@
    "title": "Backend Engineer (Spring Boot)",
    "url": "https://www.instahyre.com/job-439822-backend-engineer-spring-boot-at-accenture-2-pune/"
   },
+  "accenture:44cca9c7b3d5": {
+   "company": "Accenture",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML Researcher Engineer",
+   "url": "https://www.instahyre.com/job-414534-ml-researcher-engineer-at-accenture-2-bangalore-gurgaon/"
+  },
   "accenture:5a2da9f32407": {
    "company": "Accenture",
    "department": "Backend Development",
@@ -191,6 +203,30 @@
    "tier": "experienced",
    "title": "Full Stack Developer - Java",
    "url": "https://www.instahyre.com/job-440312-full-stack-developer-java-at-accenture-2-bangalore-chennai-noida/"
+  },
+  "accenture:93bea6cec5e3": {
+   "company": "Accenture",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Gurgaon, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer",
+   "url": "https://www.instahyre.com/job-440798-machine-learning-engineer-at-accenture-2-bangalore-gurgaon-pune/"
+  },
+  "accenture:d8522ef4c48f": {
+   "company": "Accenture",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Gurgaon, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "LLM Developer",
+   "url": "https://www.instahyre.com/job-440752-llm-developer-at-accenture-2-bangalore-gurgaon-hyderabad/"
   },
   "acko:c2697e5b2e5f": {
    "company": "Acko",
@@ -349,6 +385,17 @@
    "tier": "experienced",
    "title": "Software Development Engineer 4",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Software-Development-Engineer-4_R170155-1"
+  },
+  "adobe:3e1540eb6c6b": {
+   "company": "Adobe",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Software-Development-Engineer_R171363"
   },
   "adobe:40afda7dfec3": {
    "company": "Adobe",
@@ -611,6 +658,18 @@
    "tier": "experienced",
    "title": "Fullstack Engineer (AI)",
    "url": "https://www.instahyre.com/job-438531-fullstack-engineer-ai-at-algouniversity-2-bangalore/"
+  },
+  "alora-advisors:fbe9175bd17e": {
+   "company": "Alora Advisors",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.instahyre.com/job-414314-data-engineer-at-alora-advisors-bangalore-hyderabad/"
   },
   "amazon-store:8e721b426cdb": {
    "company": "Amazon Store",
@@ -1180,6 +1239,19 @@
    "title": "Software Development Engineer II, Selling Partner Financial Technology",
    "url": "https://www.amazon.jobs/en/jobs/10474772/software-development-engineer-ii-selling-partner-financial-technology"
   },
+  "amazon:357fb76353c0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, EU INTech Partner Growth Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10516656/software-dev-engineer-ii-eu-intech-partner-growth-experience"
+  },
   "amazon:358bef6736cc": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1426,6 +1498,19 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II, Profit Intelligence",
    "url": "https://www.amazon.jobs/en/jobs/10509892/software-dev-engineer-ii-profit-intelligence"
+  },
+  "amazon:4acc924bddc0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, PXT Case Management System",
+   "url": "https://www.amazon.jobs/en/jobs/10516674/software-development-engineer-pxt-case-management-system"
   },
   "amazon:4b0a203d80ef": {
    "company": "Amazon",
@@ -1826,6 +1911,19 @@
    "title": "Software Development Engineer II, E Reader Software",
    "url": "https://www.amazon.jobs/en/jobs/10477484/software-development-engineer-ii-e-reader-software"
   },
+  "amazon:72cf1059555e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, Prime Video Infrastructure and platform team",
+   "url": "https://www.amazon.jobs/en/jobs/10516673/software-development-engineer-iii-prime-video-infrastructure-and-platform-team"
+  },
   "amazon:7554630130a1": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2151,6 +2249,19 @@
    "title": "Software Development Engineer, Hardline FX (Wireless / H&B), Hardline FX (Wireless / H&B)",
    "url": "https://www.amazon.jobs/en/jobs/10478558/software-development-engineer-hardline-fx-wireless-h-b-hardline-fx-wireless-h-b"
   },
+  "amazon:8f63b568b85b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Cross Border Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10516484/software-dev-engineer-ii-cross-border-tech"
+  },
   "amazon:924387531e74": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2357,6 +2468,19 @@
    "tier": "experienced",
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-370456-backend-developer-at-amazon-bangalore/"
+  },
+  "amazon:a80a33f7800c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II (Level 5), GT Foundation",
+   "url": "https://www.amazon.jobs/en/jobs/10516597/sde-ii-level-5-gt-foundation"
   },
   "amazon:a997eff2235d": {
    "company": "Amazon",
@@ -2772,6 +2896,19 @@
    "title": "Software Development Engineer, Customer Experience and Business Trends",
    "url": "https://www.amazon.jobs/en/jobs/10491966/software-development-engineer-customer-experience-and-business-trends"
   },
+  "amazon:d4defe3fddf2": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Alexa Connections",
+   "url": "https://www.amazon.jobs/en/jobs/10516728/software-development-engineer-alexa-connections"
+  },
   "amazon:d4e8753075ed": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3082,6 +3219,19 @@
    "title": "Data Engineer - III",
    "url": "https://www.instahyre.com/job-427500-data-engineer-iii-at-amazon-bangalore/"
   },
+  "amazon:f1d110303242": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-27",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software dev engineer, WWGST Workforce management",
+   "url": "https://www.amazon.jobs/en/jobs/10516468/software-dev-engineer-wwgst-workforce-management"
+  },
   "amazon:f7334259376e": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3172,6 +3322,18 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Loss Prevention Tech, WWOS Corporate",
    "url": "https://www.amazon.jobs/en/jobs/10477117/software-development-engineer-loss-prevention-tech-wwos-corporate"
+  },
+  "ambient-security:d11a88c30887": {
+   "company": "Ambient Security",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.instahyre.com/job-438404-software-development-engineer-at-ambient-security-bangalore/"
   },
   "american-airlines:23095ebaba9e": {
    "company": "American Airlines",
@@ -3397,6 +3559,18 @@
    "title": "SDE - 3 - Backend",
    "url": "https://www.instahyre.com/job-430543-sde-3-backend-at-arintra-bangalore/"
   },
+  "arintra:6e37d83b0b6b": {
+   "company": "Arintra",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE III (Backend) - Agentic SDLC",
+   "url": "https://www.instahyre.com/job-440477-sde-iii-backend-agentic-sdlc-at-arintra-bangalore/"
+  },
   "arintra:6ec26b129854": {
    "company": "Arintra",
    "department": "Backend Development",
@@ -3420,6 +3594,18 @@
    "tier": "experienced",
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-393812-ai-engineer-at-arintra-bangalore/"
+  },
+  "arintra:b996a0b6d6c3": {
+   "company": "Arintra",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE III (Backend) Agentic SDLC",
+   "url": "https://www.instahyre.com/job-440872-sde-iii-backend-agentic-sdlc-at-arintra-bangalore/"
   },
   "aris-infra:f1d724825f58": {
    "company": "Aris Infra",
@@ -3587,6 +3773,18 @@
    "tier": "newgrad",
    "title": "Software Development Engineer 1",
    "url": "https://www.instahyre.com/job-436290-software-development-engineer-1-at-axi-work-from-home/"
+  },
+  "axi:f86670b4dc73": {
+   "company": "Axi",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Developer (.NET)",
+   "url": "https://www.instahyre.com/job-422359-fullstack-developer-net-at-axi-bangalore/"
   },
   "axiamatic:def714668a66": {
    "company": "Axiamatic",
@@ -4118,6 +4316,17 @@
    "title": "Java Backend",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Engineer-Sr-Analyst---C12---CHENNAI_26967338"
   },
+  "citi:4bee2c5d8199": {
+   "company": "Citi",
+   "first_seen": "2026-08-27",
+   "location": "Chennai Tamil Nadu India",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Digital Software Engineer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Digital-Software-Engineer_26988896"
+  },
   "citi:6fc95588eabf": {
    "company": "Citi",
    "first_seen": "2026-08-21",
@@ -4206,6 +4415,18 @@
    "tier": "experienced",
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-437946-ai-engineer-at-clair-labs-bangalore/"
+  },
+  "clair-labs:37d7a698bbf4": {
+   "company": "Clair Labs",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Agentic AI Engineer",
+   "url": "https://www.instahyre.com/job-434825-agentic-ai-engineer-at-clair-labs-bangalore/"
   },
   "clair-labs:684305fda62b": {
    "company": "Clair Labs",
@@ -4314,6 +4535,18 @@
    "tier": "experienced",
    "title": "AI Engineer (Supply Chain)",
    "url": "https://www.instahyre.com/job-436544-ai-engineer-supply-chain-at-cognite-bangalore/"
+  },
+  "cognizant:03dd80a45cae": {
+   "company": "Cognizant",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": ".NET Developer",
+   "url": "https://www.instahyre.com/job-430425-dot-net-developer-at-cognizant-hyderabad/"
   },
   "cognizant:166f15b07429": {
    "company": "Cognizant",
@@ -4677,6 +4910,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://www.instahyre.com/job-436242-machine-learning-engineer-at-datanimbus-work-from-home/"
   },
+  "decisions:dcf1c6014309": {
+   "company": "Decisions",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Angular Developer",
+   "url": "https://www.instahyre.com/job-404540-angular-developer-at-decisions-2-bangalore/"
+  },
   "deloitte:71b23a67c5b8": {
    "company": "Deloitte",
    "department": "Data Science / Machine Learning",
@@ -4830,6 +5075,28 @@
    "title": "Software Developer/Specialist, AS",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Margarpatta/Software-Developer-Specialist--AS_R0432229-1"
   },
+  "deutsche-bank:300395a4a3d2": {
+   "company": "Deutsche Bank",
+   "first_seen": "2026-08-27",
+   "location": "Pune - Business Bay",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Automation QA Test Engineer",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Pune---Business-Bay/CSO-ISPS-Identity---Authentication-Service-Operations-Specialist-L2--AVP_R0401571-1"
+  },
+  "deutsche-bank:418f1ec0c163": {
+   "company": "Deutsche Bank",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore Velankani ISC",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Bangalore-Velankani-ISC/Full-Stack-Engineer_R0438569"
+  },
   "deutsche-bank:5907b09fc3b2": {
    "company": "Deutsche Bank",
    "first_seen": "2026-08-21",
@@ -4979,6 +5246,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-426729-ai-engineer-at-deutsche-telekom-digital-labs-bangalore-gurgaon/"
   },
+  "deutsche-telekom-digital-labs:11f5523c0b05": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer - Java",
+   "url": "https://www.instahyre.com/job-431643-backend-developer-java-at-deutsche-telekom-digital-labs-bangalore/"
+  },
   "deutsche-telekom-digital-labs:19444537acc8": {
    "company": "Deutsche Telekom Digital Labs",
    "department": "Other Software Development",
@@ -5039,6 +5318,18 @@
    "title": "Android Developer",
    "url": "https://www.instahyre.com/job-440171-android-developer-at-deutsche-telekom-digital-labs-gurgaon/"
   },
+  "deutsche-telekom-digital-labs:4713f45ad6bd": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Java + AI",
+   "url": "https://www.instahyre.com/job-432062-software-engineer-java-plus-ai-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
   "deutsche-telekom-digital-labs:47814b98f34f": {
    "company": "Deutsche Telekom Digital Labs",
    "department": "Other Software Development",
@@ -5074,6 +5365,18 @@
    "tier": "experienced",
    "title": "Full Stack - AI Engineer",
    "url": "https://www.instahyre.com/job-428032-full-stack-ai-engineer-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
+  "deutsche-telekom-digital-labs:4fc886224bcf": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-433626-ai-engineer-at-deutsche-telekom-digital-labs-gurgaon/"
   },
   "deutsche-telekom-digital-labs:5011d2fa5664": {
    "company": "Deutsche Telekom Digital Labs",
@@ -5171,6 +5474,18 @@
    "title": "Fullstack Engineer (AI)",
    "url": "https://www.instahyre.com/job-428039-fullstack-engineer-ai-at-deutsche-telekom-digital-labs-delhi-gurgaon-noida/"
   },
+  "deutsche-telekom-digital-labs:9a75300872cb": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Delhi, Gurgaon, Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Backend Developer",
+   "url": "https://www.instahyre.com/job-432816-java-backend-developer-at-deutsche-telekom-digital-labs-delhi-gurgaon-noida/"
+  },
   "deutsche-telekom-digital-labs:a19b835c8d7c": {
    "company": "Deutsche Telekom Digital Labs",
    "department": "Frontend / Mobile Development",
@@ -5182,6 +5497,18 @@
    "tier": "experienced",
    "title": "Frontend Developer - AI",
    "url": "https://www.instahyre.com/job-426123-frontend-developer-ai-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
+  "deutsche-telekom-digital-labs:a8956619f39e": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer - Java",
+   "url": "https://www.instahyre.com/job-425499-backend-developer-java-at-deutsche-telekom-digital-labs-gurgaon/"
   },
   "deutsche-telekom-digital-labs:af9c0fcc90bf": {
    "company": "Deutsche Telekom Digital Labs",
@@ -5279,6 +5606,18 @@
    "title": "AI Fullstack Developer",
    "url": "https://www.instahyre.com/job-436321-ai-fullstack-developer-at-deutsche-telekom-digital-labs-gurgaon/"
   },
+  "dextr-ai:170bb11cb98d": {
+   "company": "Dextr AI",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - 3",
+   "url": "https://www.instahyre.com/job-440804-software-development-engineer-3-at-dextr-ai-bangalore/"
+  },
   "dextr-ai:e35c2c56867a": {
    "company": "Dextr AI",
    "department": "Frontend / Mobile Development",
@@ -5290,6 +5629,18 @@
    "tier": "experienced",
    "title": "Frontend Developer (React) - UI / UX",
    "url": "https://www.instahyre.com/job-439997-frontend-developer-react-ui-ux-at-dextr-ai-bangalore/"
+  },
+  "dextr-ai:e9b0dc5fc703": {
+   "company": "Dextr AI",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.instahyre.com/job-436886-software-development-engineer-at-dextr-ai-work-from-home/"
   },
   "dgliger-consulting:59973cfc6e6e": {
    "company": "DGLiger Consulting",
@@ -5471,6 +5822,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-436376-ai-engineer-at-echos-gurgaon/"
   },
+  "editorialist-yx:686816490d91": {
+   "company": "Editorialist YX",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II",
+   "url": "https://www.instahyre.com/job-420208-software-development-engineer-ii-at-editorialist-yx-gurgaon/"
+  },
   "editorialist-yx:6d22df267524": {
    "company": "Editorialist YX",
    "department": "Frontend / Mobile Development",
@@ -5598,6 +5961,18 @@
    "url": "https://jobs.lever.co/epifi/d29bf970-adb6-43c4-9155-03491b1b7b91",
    "workplace": "On-site"
   },
+  "epsilon:940094effedd": {
+   "company": "Epsilon",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SE - Full Stack",
+   "url": "https://www.instahyre.com/job-439909-se-full-stack-at-epsilon-bangalore/"
+  },
   "equall:1d5bbec2f055": {
    "company": "Equall",
    "department": "Backend Development",
@@ -5621,6 +5996,18 @@
    "tier": "experienced",
    "title": "UI / UX Developer - AVP",
    "url": "https://www.instahyre.com/job-437544-ui-ux-developer-avp-at-fareye-mumbai/"
+  },
+  "fleetpanda:b8f3057ee4cb": {
+   "company": "FleetPanda",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-436130-full-stack-engineer-at-fleetpanda-bangalore/"
   },
   "forbes-advisor:7a42adb3a84c": {
    "company": "Forbes Advisor",
@@ -5729,6 +6116,30 @@
    "tier": "experienced",
    "title": ".NET Full Stack Developer",
    "url": "https://www.instahyre.com/job-411476-dot-net-full-stack-developer-at-geoserve-bangalore/"
+  },
+  "geoserve:c57426cb7b03": {
+   "company": "GeoServe",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-342524-full-stack-engineer-at-geoserve-bangalore/"
+  },
+  "geoserve:f3ebc3d69395": {
+   "company": "GeoServe",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-352689-full-stack-engineer-at-geoserve-bangalore/"
   },
   "gigaml:386deded4b6e": {
    "company": "GigaML",
@@ -5873,6 +6284,18 @@
    "tier": "experienced",
    "title": "SDE III - Backend",
    "url": "https://job-boards.greenhouse.io/glance/jobs/7213699"
+  },
+  "global-grand-gaming:294d61088416": {
+   "company": "Global Grand Gaming",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "JavaScript Developer",
+   "url": "https://www.instahyre.com/job-440765-javascript-developer-at-global-grand-gaming-bangalore/"
   },
   "glomopay:d7e5edba8ecb": {
    "company": "Glomopay",
@@ -6030,6 +6453,18 @@
    "title": "Software Development Engineer - III",
    "url": "https://www.instahyre.com/job-425907-software-development-engineer-iii-at-greyorange-2-gurgaon/"
   },
+  "greyorange:827702d488a2": {
+   "company": "GreyOrange",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE III (Backend)",
+   "url": "https://www.instahyre.com/job-440767-sde-iii-backend-at-greyorange-2-gurgaon/"
+  },
   "greyorange:de17d4e86088": {
    "company": "GreyOrange",
    "department": "Backend Development",
@@ -6125,6 +6560,18 @@
    "tier": "experienced",
    "title": "Java Developer",
    "url": "https://www.instahyre.com/job-440704-java-developer-at-hexaware-technologies-chennai/"
+  },
+  "heymarket:03c8a3b5bc57": {
+   "company": "Heymarket",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer",
+   "url": "https://www.instahyre.com/job-440152-frontend-developer-at-heymarket-work-from-home/"
   },
   "highlevel:39a732ae38a3": {
    "company": "HighLevel",
@@ -6286,6 +6733,30 @@
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-438582-data-engineer-at-holman-hyderabad/"
   },
+  "hoomanely:721df916aac7": {
+   "company": "Hoomanely",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer",
+   "url": "https://www.instahyre.com/job-437348-machine-learning-engineer-at-hoomanely-bangalore/"
+  },
+  "hoomanely:eefeedc89ee2": {
+   "company": "Hoomanely",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 2",
+   "url": "https://www.instahyre.com/job-438568-software-development-engineer-2-at-hoomanely-bangalore/"
+  },
   "hotel-trader:6ff50dea6a07": {
    "company": "Hotel Trader",
    "department": "Full-Stack Development",
@@ -6417,6 +6888,18 @@
    "tier": "experienced",
    "title": "Node.js Developer",
    "url": "https://www.instahyre.com/job-428964-node-js-developer-at-impact-analytics-bangalore/"
+  },
+  "inamo:e0229955ffae": {
+   "company": "Inamo",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-412849-backend-engineer-at-inamo-bangalore/"
   },
   "inceptionmind-technologies:0111ea718cd0": {
    "company": "Inceptionmind Technologies",
@@ -6782,6 +7265,17 @@
    "title": "Software Application Development Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Software-Application-Development-Engineer_JR0286151"
   },
+  "intel:3d5f395b09f9": {
+   "company": "Intel",
+   "first_seen": "2026-08-27",
+   "location": "India, Bangalore",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Robotics & Physical AI Developer Support Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Robotics---Physical-AI-Developer-Support-Engineer_JR0286420"
+  },
   "intel:835723389d52": {
    "company": "Intel",
    "first_seen": "2026-08-21",
@@ -6826,6 +7320,18 @@
    "tier": "experienced",
    "title": "Data Protection and Security Engineer",
    "url": "https://www.instahyre.com/job-439731-data-protection-and-security-engineer-at-invoicecloud-hyderabad/"
+  },
+  "itineris:a4302f0be4dd": {
+   "company": "Itineris",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Test Engineer - 0061",
+   "url": "https://www.instahyre.com/job-440560-test-engineer-0061-at-itineris-hyderabad/"
   },
   "jio-platforms-limited:d13a2665ec0b": {
    "company": "Jio Platforms Limited",
@@ -6995,6 +7501,18 @@
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-413264-backend-engineer-internship-at-lawvriksh-work-from-home/"
   },
+  "leena-ai:f9b41eb6d62d": {
+   "company": "Leena AI",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 3",
+   "url": "https://www.instahyre.com/job-440953-sde-3-at-leena-ai-bangalore/"
+  },
   "lentra.ai:22538deac2b4": {
    "company": "Lentra.ai",
    "department": "Frontend / Mobile Development",
@@ -7018,6 +7536,18 @@
    "tier": "experienced",
    "title": "Platform AI Engineer",
    "url": "https://www.instahyre.com/job-440674-platform-ai-engineer-at-lentra-pune/"
+  },
+  "liquify:364e0b4346a3": {
+   "company": "Liquify",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Delhi",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Fullstack Developer",
+   "url": "https://www.instahyre.com/job-409157-java-fullstack-developer-at-liquify-2-delhi/"
   },
   "loop-ai:77ba7e8c23d5": {
    "company": "Loop AI",
@@ -7154,6 +7684,17 @@
    "tier": "experienced",
    "title": "Software Engineer II",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-287456"
+  },
+  "mastercard:bae621b2a4e9": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-27",
+   "location": "Pune, India",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288941"
   },
   "mastercard:beb9426fd928": {
    "company": "Mastercard",
@@ -7295,6 +7836,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-433575-ai-engineer-at-meesho-work-from-home/"
   },
+  "meesho:18c102d88810": {
+   "company": "Meesho",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE - 3",
+   "url": "https://www.instahyre.com/job-366338-sde-3-at-meesho-bangalore/"
+  },
   "meesho:2ff6e2f4edef": {
    "company": "Meesho",
    "department": "Data Science / Machine Learning",
@@ -7320,6 +7873,20 @@
    "title": "Software Development Engineer III DevOps",
    "url": "https://jobs.lever.co/meesho/60e0d986-abe8-42ee-b172-0d9aecb307b7",
    "workplace": "Hybrid"
+  },
+  "meesho:450d2d72cff1": {
+   "company": "Meesho",
+   "department": "Meesho Grocery",
+   "employment_type": "Full Time Employee",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Karnataka",
+   "posted_at": "2024-02-21",
+   "source": "lever",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III -Backend",
+   "url": "https://jobs.lever.co/meesho/c68ee07f-0e16-455b-bc4a-87848aaf46fa",
+   "workplace": "On-site"
   },
   "meesho:909c020ae77f": {
    "company": "Meesho",
@@ -7681,6 +8248,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-426998-ai-engineer-at-nablon-ai-bangalore/"
   },
+  "navi:06d44dd00eaf": {
+   "company": "Navi",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II (Backend)",
+   "url": "https://www.instahyre.com/job-440513-sde-ii-backend-at-navi-3-bangalore/"
+  },
   "navtech:d935fe5d1783": {
    "company": "Navtech",
    "department": "Full-Stack Development",
@@ -7728,6 +8307,29 @@
    "tier": "experienced",
    "title": "AL / ML Engineer (SLM Fine Tuning)",
    "url": "https://www.instahyre.com/job-439543-al-ml-engineer-slm-fine-tuning-at-neoqubit-bangalore/"
+  },
+  "neosoft-technologies:56195363d8f0": {
+   "company": "NeoSOFT Technologies",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Ahmedabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Linux Software Engineer",
+   "url": "https://www.instahyre.com/job-440608-embedded-linux-software-engineer-at-neosoft-technologies-ahmedabad/"
+  },
+  "netskope:3ec24d8fddae": {
+   "company": "Netskope",
+   "first_seen": "2026-08-27",
+   "location": "India",
+   "posted_at": "2026-03-25",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Systems Engineer ",
+   "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7748523"
   },
   "neurogrid:3ef4f5be681c": {
    "company": "neuroGrid",
@@ -7973,6 +8575,30 @@
    "title": "Full Stack Engineer",
    "url": "https://www.instahyre.com/job-440153-full-stack-engineer-at-nullaxis-ai-solutions-bangalore/"
   },
+  "nuplay-ai:7b86a1ba66e2": {
+   "company": "NuPlay AI",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-439360-software-engineer-at-nurix-bangalore/"
+  },
+  "nuplay-ai:82a305b8f1f7": {
+   "company": "NuPlay AI",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer - Versatile",
+   "url": "https://www.instahyre.com/job-395839-backend-engineer-versatile-at-nuplay-ai-bangalore/"
+  },
   "nurix:7b86a1ba66e2": {
    "company": "Nurix",
    "department": "Backend Development",
@@ -8008,6 +8634,17 @@
    "tier": "experienced",
    "title": "IoT Developer / Consultant",
    "url": "https://www.instahyre.com/job-439018-iot-developer-consultant-at-nutanxt-technologies-pune/"
+  },
+  "nvidia:11b39f402b13": {
+   "company": "Nvidia",
+   "first_seen": "2026-08-27",
+   "location": "India, Pune",
+   "posted_at": "2026-08-27",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software QA Test Developer -  Embedded",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Software-QA-Test-Developer----Embedded_JR2024124"
   },
   "nvidia:1b2ab6d1abfe": {
    "company": "Nvidia",
@@ -8243,6 +8880,18 @@
    "tier": "experienced",
    "title": "Full Stack Engineer",
    "url": "https://www.instahyre.com/job-435345-full-stack-engineer-at-ollive-bangalore/"
+  },
+  "ollive:3fbd8ef86b7b": {
+   "company": "Ollive",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Software Engineer",
+   "url": "https://www.instahyre.com/job-437826-fullstack-software-engineer-at-ollive-bangalore/"
   },
   "omnissa:5bb1e181e4d2": {
    "company": "Omnissa",
@@ -8776,6 +9425,18 @@
    "title": "Frontend Engineer 2",
    "url": "https://www.instahyre.com/job-408493-frontend-engineer-2-at-piramal-finance-limited-bangalore-mumbai/"
   },
+  "playedx:7bf651e4adfc": {
+   "company": "PlayedX",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Engineer",
+   "url": "https://www.instahyre.com/job-440422-fullstack-engineer-at-playedx-work-from-home/"
+  },
   "playedx:d92d1575fe1f": {
    "company": "PlayedX",
    "department": "Full-Stack Development",
@@ -8932,6 +9593,18 @@
    "title": "Software Developer",
    "url": "https://www.instahyre.com/job-434454-software-developer-at-purplle-mumbai/"
   },
+  "purplle:bddbc41bd4b9": {
+   "company": "Purplle",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "iOS Engineer",
+   "url": "https://www.instahyre.com/job-432436-ios-engineer-at-purplle-mumbai/"
+  },
   "quantum-capital-group:2ed5ef694f31": {
    "company": "Quantum Capital Group",
    "department": "Other Software Development",
@@ -9052,6 +9725,18 @@
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-434812-data-engineer-at-roadzen-delhi/"
   },
+  "roche:1d0be283c993": {
+   "company": "Roche",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full - Stack Software Engineer",
+   "url": "https://www.instahyre.com/job-440857-full-stack-software-engineer-at-roche-hyderabad/"
+  },
   "roche:1e7ed63d60c4": {
    "company": "Roche",
    "department": "Full-Stack Development",
@@ -9100,6 +9785,18 @@
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-440683-data-scientist-at-roche-hyderabad/"
   },
+  "rocketlane:ea69e730c5ae": {
+   "company": "Rocketlane",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-440753-full-stack-engineer-at-rocketlane-chennai/"
+  },
   "rp-sanjiv-goenka-group:cfeab8f55c39": {
    "company": "RP Sanjiv Goenka Group",
    "department": "Data Science / Machine Learning",
@@ -9123,6 +9820,18 @@
    "tier": "experienced",
    "title": "Software Engineer II (Golang)",
    "url": "https://www.instahyre.com/job-437323-software-engineer-ii-golang-at-rupeezy-bangalore/"
+  },
+  "sahi:bee249557c76": {
+   "company": "Sahi",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II",
+   "url": "https://www.instahyre.com/job-430959-sde-ii-at-sahi-bangalore/"
   },
   "sahi:d48f3962003d": {
    "company": "Sahi",
@@ -9484,6 +10193,18 @@
    "title": "SDE 1 - Android",
    "url": "https://www.instahyre.com/job-438517-sde-1-android-at-snapmint-gurgaon/"
   },
+  "solugenix:9ee10c6a1c86": {
+   "company": "Solugenix",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI System Engineer",
+   "url": "https://www.instahyre.com/job-433077-ai-system-engineer-at-solugenix-bangalore/"
+  },
   "spotdraft:139df2d54a8c": {
    "company": "SpotDraft",
    "department": "Backend Development",
@@ -9746,6 +10467,18 @@
    "title": "Software Developer - AI Systems",
    "url": "https://www.instahyre.com/job-432788-software-developer-ai-systems-at-tara-ai-labs-bangalore/"
   },
+  "tata-group:ba38190537d0": {
+   "company": "Tata Group",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Software Engineer (STB)",
+   "url": "https://www.instahyre.com/job-438599-embedded-software-engineer-stb-at-tata-group-bangalore-chennai/"
+  },
   "tekion:14dd3b4e96fa": {
    "company": "Tekion",
    "department": "All Cost Centers",
@@ -9799,6 +10532,18 @@
    "title": "Software Development Test Engineer II",
    "url": "https://jobs.ashbyhq.com/tekion/4d6bd5e9-5b48-4934-aae2-e30c2d368245",
    "workplace": "On-site"
+  },
+  "tekion:58bf73af0293": {
+   "company": "Tekion",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Forward Deployed Software Engineer",
+   "url": "https://www.instahyre.com/job-440880-forward-deployed-software-engineer-at-tekion-work-from-home/"
   },
   "tekion:59f684805b5c": {
    "company": "Tekion",
@@ -9950,6 +10695,18 @@
    "title": "Fullstack Engineer",
    "url": "https://www.instahyre.com/job-438126-fullstack-engineer-at-thena-bangalore/"
   },
+  "thena:b3a0f10f7cf5": {
+   "company": "Thena",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Engineer",
+   "url": "https://www.instahyre.com/job-438200-fullstack-engineer-at-thena-bangalore/"
+  },
   "thinkify.io:40d51a31041d": {
    "company": "thinkify.io",
    "department": "Backend Development",
@@ -10021,6 +10778,18 @@
    "tier": "experienced",
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-421419-backend-developer-at-truscholar-amravati/"
+  },
+  "trustevals:602b852aea43": {
+   "company": "TrustEvals",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-440843-full-stack-engineer-at-trustevals-bangalore/"
   },
   "truva:0bf730fe2a95": {
    "company": "Truva",
@@ -10141,6 +10910,18 @@
    "tier": "experienced",
    "title": "Frontend Engineer",
    "url": "https://www.instahyre.com/job-433074-frontend-engineer-at-vectorshift-work-from-home/"
+  },
+  "velocious:829fab37c3d1": {
+   "company": "Velocious",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-430365-java-developer-at-velocious-bangalore/"
   },
   "velocious:fdb09b59dd9a": {
    "company": "Velocious",
@@ -10358,6 +11139,18 @@
    "title": "SDE - 3",
    "url": "https://www.instahyre.com/job-398524-sde-3-at-wex-bangalore/"
   },
+  "wipro:4dc8c5c3e7eb": {
+   "company": "Wipro",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, Delhi, Navi Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Asset Control Developer",
+   "url": "https://www.instahyre.com/job-440894-asset-control-developer-at-wipro-bangalore-delhi-navi-mumbai/"
+  },
   "wipro:57bf54e89b4f": {
    "company": "Wipro",
    "department": "Data Science / Machine Learning",
@@ -10518,6 +11311,29 @@
    "title": "SDE - Intern",
    "url": "https://www.instahyre.com/job-440325-sde-intern-internship-at-zetwerk-bangalore/"
   },
+  "zingg:4ebb6e15b5d6": {
+   "company": "Zingg",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-27",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer (Java)",
+   "url": "https://www.instahyre.com/job-199766-backend-engineer-java-at-zingg-work-from-home/"
+  },
+  "zscaler:9d5923f63ca9": {
+   "company": "Zscaler",
+   "first_seen": "2026-08-27",
+   "location": "Bangalore, IND",
+   "posted_at": "2026-08-27",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5219488007"
+  },
   "zscaler:e6bc1c2bcd00": {
    "company": "Zscaler",
    "first_seen": "2026-08-21",
@@ -10554,6 +11370,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-27T00:57:17Z",
+ "updated": "2026-08-27T14:26:18Z",
  "version": 1
 }
