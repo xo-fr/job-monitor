@@ -7069,6 +7069,18 @@
    "title": "Python Developer",
    "url": "https://www.instahyre.com/job-414097-python-developer-at-infosys-4-bangalore-noida-pune/"
   },
+  "infosys:7caf39574b4f": {
+   "company": "Infosys",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Bangalore, Hyderabad, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-416133-software-engineer-at-infosys-4-bangalore-hyderabad-pune/"
+  },
   "infosys:b4b53c4dab69": {
    "company": "Infosys",
    "department": "Full-Stack Development",
@@ -9922,6 +9934,17 @@
    "title": "Zuora Revenue Systems Engineer",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Zuora-Revenue-Systems-Engineer_JR335226-1"
   },
+  "salesforce:a3923f18b73f": {
+   "company": "Salesforce",
+   "first_seen": "2026-08-28",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-08-28",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering MTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR356833"
+  },
   "salesforce:b2f5a92a7581": {
    "company": "Salesforce",
    "first_seen": "2026-08-21",
@@ -9954,6 +9977,17 @@
    "tier": "experienced",
    "title": "Software Engineering LMTS- MLE",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/AI-ML-Software-Engineering-PMTS_JR313327"
+  },
+  "salesforce:e424d7e90624": {
+   "company": "Salesforce",
+   "first_seen": "2026-08-28",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-08-28",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering MTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR356834"
   },
   "salesforce:ea01f3c8ced9": {
    "company": "Salesforce",
@@ -11271,6 +11305,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-390614-ai-engineer-at-zero-to-1-work-from-home/"
   },
+  "zero-to-1:1a8d865440a5": {
+   "company": "Zero to 1",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-28",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Principle Software Engineer",
+   "url": "https://www.instahyre.com/job-440842-principle-software-engineer-at-zero-to-1-work-from-home/"
+  },
   "zeta:4e8c2cca964d": {
    "company": "Zeta",
    "department": "Engineering",
@@ -11370,6 +11416,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-27T14:26:18Z",
+ "updated": "2026-08-28T00:30:10Z",
  "version": 1
 }
