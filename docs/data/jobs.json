@@ -10133,6 +10133,18 @@
    "url": "https://jobs.ashbyhq.com/openai/bf036b23-cd23-46d0-a02f-4b1483f4698a",
    "workplace": "Hybrid"
   },
+  "openfx:510e7d8afac8": {
+   "company": "OpenFX",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer",
+   "url": "https://www.instahyre.com/job-437641-backend-developer-at-openfx-bangalore/"
+  },
   "openfx:fceb3e2b662e": {
    "company": "OpenFX",
    "department": "Full-Stack Development",
@@ -11547,6 +11559,18 @@
    "title": "Golang Developer",
    "url": "https://www.instahyre.com/job-397593-golang-developer-at-swiggy-work-from-home/"
   },
+  "swimlane:e4877b4ad161": {
+   "company": "Swimlane",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-394554-ai-engineer-at-swimlane-work-from-home/"
+  },
   "sydiai:cc445d04dded": {
    "company": "SYDIAI",
    "department": "Data Science / Machine Learning",
@@ -12658,6 +12682,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-29T18:44:52Z",
+ "updated": "2026-08-29T23:29:42Z",
  "version": 1
 }
