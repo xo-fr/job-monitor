@@ -3838,6 +3838,18 @@
    "title": "Software Engineer",
    "url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Bengaluru-IND/Software-Engineer_26WD99323-2"
   },
+  "axi:87a4e1cf4fe4": {
+   "company": "Axi",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE",
+   "url": "https://www.instahyre.com/job-441113-sde-at-axi-work-from-home/"
+  },
   "axi:bffe0c424f1c": {
    "company": "Axi",
    "department": "Backend Development",
@@ -4718,6 +4730,17 @@
    "tier": "experienced",
    "title": "Software Engineer, EAA Integrations",
    "url": "https://www.coinbase.com/careers/positions/7558051?gh_jid=7558051"
+  },
+  "coinbase:e328b3b5f4e8": {
+   "company": "Coinbase",
+   "first_seen": "2026-08-29",
+   "location": "Remote - India",
+   "posted_at": "2026-08-28",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Security Platform",
+   "url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441"
   },
   "coinbase:ea863eb715c2": {
    "company": "Coinbase",
@@ -5694,6 +5717,18 @@
    "title": "AI Frontend Engineer",
    "url": "https://www.instahyre.com/job-426104-ai-frontend-engineer-at-deutsche-telekom-digital-labs-gurgaon/"
   },
+  "deutsche-telekom-digital-labs:60bf135e466f": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SSE - Backend",
+   "url": "https://www.instahyre.com/job-430761-sse-backend-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
   "deutsche-telekom-digital-labs:65169b80e6ab": {
    "company": "Deutsche Telekom Digital Labs",
    "department": "Other Software Development",
@@ -6257,6 +6292,18 @@
    "tier": "experienced",
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-436372-ai-engineer-at-echos-bangalore-gurgaon/"
+  },
+  "echos:5fe34e6e8ef5": {
+   "company": "Echos",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Bangalore, Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer (AI)",
+   "url": "https://www.instahyre.com/job-429079-backend-engineer-ai-at-echos-bangalore-gurgaon/"
   },
   "echos:b21376c7ba90": {
    "company": "Echos",
@@ -11661,6 +11708,18 @@
    "title": "Software Development Engineer III",
    "url": "https://www.instahyre.com/job-404794-software-development-engineer-iii-at-tesco-bangalore/"
   },
+  "tesco:2b149b9d121f": {
+   "company": "Tesco",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.instahyre.com/job-440820-software-development-engineer-at-tesco-bangalore/"
+  },
   "tesco:dafce4869733": {
    "company": "Tesco",
    "department": "Other Software Development",
@@ -12444,6 +12503,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-28T22:31:36Z",
+ "updated": "2026-08-29T07:15:47Z",
  "version": 1
 }
