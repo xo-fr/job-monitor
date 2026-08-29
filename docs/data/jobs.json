@@ -5981,6 +5981,18 @@
    "title": "AI Frontend Engineer",
    "url": "https://www.instahyre.com/job-428243-ai-frontend-engineer-at-deutsche-telekom-digital-labs-gurgaon/"
   },
+  "deutsche-telekom-digital-labs:c540c52f1b9a": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer - Java",
+   "url": "https://www.instahyre.com/job-425469-backend-developer-java-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
   "deutsche-telekom-digital-labs:c9613f615cb8": {
    "company": "Deutsche Telekom Digital Labs",
    "department": "Backend Development",
@@ -6064,6 +6076,18 @@
    "tier": "experienced",
    "title": "iOS Developer - 2",
    "url": "https://www.instahyre.com/job-433853-ios-developer-2-at-deutsche-telekom-digital-labs-gurgaon/"
+  },
+  "deutsche-telekom-digital-labs:e5dd29a6e439": {
+   "company": "Deutsche Telekom Digital Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SSE - Backend",
+   "url": "https://www.instahyre.com/job-430772-sse-backend-at-deutsche-telekom-digital-labs-gurgaon/"
   },
   "deutsche-telekom-digital-labs:eae18d6e09a7": {
    "company": "Deutsche Telekom Digital Labs",
@@ -8459,6 +8483,17 @@
    "title": "Software Engineer II (Java Full Stack Developer)",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Java-Full-Stack-Developer-_R-259024"
   },
+  "mastercard:86f235433bd1": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-29",
+   "location": "Pune, India",
+   "posted_at": "2026-07-30",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II (Backend Developer)",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Backend-Developer-_R-274179"
+  },
   "mastercard:91fc357b01cb": {
    "company": "Mastercard",
    "first_seen": "2026-08-22",
@@ -8829,6 +8864,18 @@
    "tier": "experienced",
    "title": "Member of Technical Staff , Memory Design",
    "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/Hyderabad---Phoenix-Aquila-India/Member-of-Technical-Staff---Memory-Design_JR109678-2"
+  },
+  "mobikwik:167a41757dee": {
+   "company": "MobiKwik",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-29",
+   "location": "Delhi, Gurgaon, Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE - 3",
+   "url": "https://www.instahyre.com/job-422172-sde-3-at-mobikwik-2-delhi-gurgaon-noida/"
   },
   "mobikwik:17ae9de406c3": {
    "company": "MobiKwik",
@@ -12611,6 +12658,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-29T14:37:30Z",
+ "updated": "2026-08-29T18:44:52Z",
  "version": 1
 }
