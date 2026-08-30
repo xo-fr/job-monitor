@@ -1223,6 +1223,19 @@
    "title": "Software Development Engineer II, FinTech",
    "url": "https://www.amazon.jobs/en/jobs/10447725/software-development-engineer-ii-fintech"
   },
+  "amazon:2a610a440fc7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-30",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-08-30",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, SCOT ROW AIM TECH",
+   "url": "https://www.amazon.jobs/en/jobs/10521288/software-dev-engineer-ii-scot-row-aim-tech"
+  },
   "amazon:30dad186d7fa": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8439,6 +8452,17 @@
    "title": "Software Engineer I",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-I_R-282195"
   },
+  "mastercard:1b4b31fa7202": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-30",
+   "location": "Pune, India",
+   "posted_at": "2026-07-31",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-211834"
+  },
   "mastercard:1e86e4109306": {
    "company": "Mastercard",
    "first_seen": "2026-08-21",
@@ -8460,6 +8484,28 @@
    "tier": "newgrad",
    "title": "Software Engineer - 1",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer---1_R-288516"
+  },
+  "mastercard:434604f5d40f": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-30",
+   "location": "Pune, India",
+   "posted_at": "2026-07-31",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-276237"
+  },
+  "mastercard:47c56fee148f": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-30",
+   "location": "Pune, India",
+   "posted_at": "2026-07-31",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-208485"
   },
   "mastercard:5c7e463ef734": {
    "company": "Mastercard",
@@ -8493,6 +8539,17 @@
    "tier": "experienced",
    "title": "Software Engineer II (Backend Developer)",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Backend-Developer-_R-274179"
+  },
+  "mastercard:901000afe0e2": {
+   "company": "Mastercard",
+   "first_seen": "2026-08-30",
+   "location": "Pune, India",
+   "posted_at": "2026-07-31",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II (Software Engineer in Test )",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Software-Engineer-in-Test--_R-274181"
   },
   "mastercard:91fc357b01cb": {
    "company": "Mastercard",
@@ -12694,6 +12751,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-30T16:54:11Z",
+ "updated": "2026-08-30T21:21:30Z",
  "version": 1
 }
