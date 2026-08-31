@@ -204,6 +204,18 @@
    "title": "Full Stack Developer - Java",
    "url": "https://www.instahyre.com/job-440312-full-stack-developer-java-at-accenture-2-bangalore-chennai-noida/"
   },
+  "accenture:8b5b18f0ac4d": {
+   "company": "Accenture",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Delhi, Gurgaon, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Custom Software Engineer",
+   "url": "https://www.instahyre.com/job-439552-custom-software-engineer-at-accenture-2-delhi-gurgaon-hyderabad/"
+  },
   "accenture:93bea6cec5e3": {
    "company": "Accenture",
    "department": "Data Science / Machine Learning",
@@ -215,6 +227,18 @@
    "tier": "experienced",
    "title": "Machine Learning Engineer",
    "url": "https://www.instahyre.com/job-440798-machine-learning-engineer-at-accenture-2-bangalore-gurgaon-pune/"
+  },
+  "accenture:9c36589b8a2d": {
+   "company": "Accenture",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Chennai, Gurgaon, Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack & AI - GenAI Engineer (Python)",
+   "url": "https://www.instahyre.com/job-441131-full-stack-ai-genai-engineer-python-at-accenture-2-chennai-gurgaon-mumbai/"
   },
   "accenture:d8522ef4c48f": {
    "company": "Accenture",
@@ -3732,6 +3756,30 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-420572-software-engineer-at-aris-infra-bangalore/"
   },
+  "arista-networks:085af4928701": {
+   "company": "Arista Networks",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-419425-software-engineer-at-arista-networks-bangalore/"
+  },
+  "arista-networks:298ef42b7097": {
+   "company": "Arista Networks",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Bangalore, Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - EOS Team",
+   "url": "https://www.instahyre.com/job-394324-software-engineer-eos-team-at-arista-networks-bangalore-chennai/"
+  },
   "arista-networks:919d030c110b": {
    "company": "Arista Networks",
    "department": "Other Software Development",
@@ -4007,6 +4055,18 @@
    "title": "SDE 2 - Backend",
    "url": "https://www.instahyre.com/job-439895-sde-2-backend-at-bharatpe-gurgaon/"
   },
+  "big-assets-infra:3b5936a5acba": {
+   "company": "Big Assets Infra",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-424485-backend-engineer-at-big-assets-infra-noida/"
+  },
   "big-assets-infra:4c200017bc0f": {
    "company": "Big Assets Infra",
    "department": "Backend Development",
@@ -4126,6 +4186,18 @@
    "tier": "experienced",
    "title": "Full Stack Developer",
    "url": "https://www.instahyre.com/job-438713-full-stack-developer-at-blue-yonder-bangalore/"
+  },
+  "brankas:4f483ce27bd3": {
+   "company": "Brankas",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Golang Developer",
+   "url": "https://www.instahyre.com/job-404810-golang-developer-at-brankas-work-from-home/"
   },
   "bravebird:10ce5e67925b": {
    "company": "Bravebird",
@@ -6294,6 +6366,30 @@
    "title": "Python Developer",
    "url": "https://www.instahyre.com/job-423127-python-developer-at-docusign-work-from-home/"
   },
+  "drimco-gmbh:026276875f42": {
+   "company": "DRIMCO GmbH",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML Engineer",
+   "url": "https://www.instahyre.com/job-420893-ml-engineer-at-drimco-gmbh-work-from-home/"
+  },
+  "drimco-gmbh:0ff6add390b3": {
+   "company": "DRIMCO GmbH",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer - C++",
+   "url": "https://www.instahyre.com/job-415442-backend-developer-c-plus-plus-at-drimco-gmbh-work-from-home/"
+  },
   "dynamofl:de6f2169a3d7": {
    "company": "DynamoFL",
    "department": "Frontend / Mobile Development",
@@ -6588,6 +6684,18 @@
    "tier": "experienced",
    "title": "SDE - 3",
    "url": "https://www.instahyre.com/job-418994-sde-3-at-equall-bangalore/"
+  },
+  "equall:7d84a2a5bf51": {
+   "company": "Equall",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II",
+   "url": "https://www.instahyre.com/job-436893-sde-ii-at-equall-bangalore/"
   },
   "extensible-it-solutions:1043fd10cc41": {
    "company": "Extensible IT Solutions",
@@ -7529,6 +7637,18 @@
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-438582-data-engineer-at-holman-hyderabad/"
   },
+  "hoomanely:144f9be5e956": {
+   "company": "Hoomanely",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 2 (Fullstack)",
+   "url": "https://www.instahyre.com/job-437395-sde-2-fullstack-at-hoomanely-bangalore/"
+  },
   "hoomanely:721df916aac7": {
    "company": "Hoomanely",
    "department": "Data Science / Machine Learning",
@@ -7552,6 +7672,18 @@
    "tier": "experienced",
    "title": "Software Development Engineer 2",
    "url": "https://www.instahyre.com/job-438568-software-development-engineer-2-at-hoomanely-bangalore/"
+  },
+  "hotel-trader:291da9d6af72": {
+   "company": "Hotel Trader",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-427762-full-stack-engineer-at-hotel-trader-work-from-home/"
   },
   "hotel-trader:6ff50dea6a07": {
    "company": "Hotel Trader",
@@ -7636,6 +7768,18 @@
    "tier": "experienced",
    "title": "Data Scientist (Fraud & Ops Analytics)",
    "url": "https://www.instahyre.com/job-381999-data-scientist-fraud-ops-analytics-at-idfc-first-bank-mumbai/"
+  },
+  "idfc-first-bank:8f56b9d39ffa": {
+   "company": "IDFC FIRST Bank",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Bangalore, Gurgaon, Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-398232-ai-engineer-at-idfc-first-bank-bangalore-gurgaon-mumbai/"
   },
   "idfc-first-bank:9078ecfe50b1": {
    "company": "IDFC FIRST Bank",
@@ -8851,6 +8995,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-434260-ai-engineer-at-meraki-labs-bangalore/"
   },
+  "meraki-labs:84fafd7bdf2b": {
+   "company": "Meraki Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Mumbai, Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer - Backend",
+   "url": "https://www.instahyre.com/job-430194-ai-engineer-backend-at-meraki-labs-mumbai-work-from-home/"
+  },
   "meraki-labs:8633b9a01966": {
    "company": "Meraki Labs",
    "department": "Data Science / Machine Learning",
@@ -8898,6 +9054,18 @@
    "tier": "experienced",
    "title": "AI Data Engineer",
    "url": "https://www.instahyre.com/job-439818-ai-data-engineer-at-meraki-labs-work-from-home/"
+  },
+  "meraki-labs:fd44a7764245": {
+   "company": "Meraki Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-426679-ai-engineer-at-meraki-labs-mumbai/"
   },
   "meraki-labs:fe30dbf5f1fd": {
    "company": "Meraki Labs",
@@ -10840,6 +11008,18 @@
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-416101-backend-engineer-at-razorpay-bangalore/"
   },
+  "rippling:2a573c99bb22": {
+   "company": "Rippling",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-08-31",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 3",
+   "url": "https://www.instahyre.com/job-433197-ai-engineer-3-at-rippling-bangalore/"
+  },
   "roadzen:5eaf51159ba6": {
    "company": "Roadzen",
    "department": "Data Science / Machine Learning",
@@ -12751,6 +12931,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-30T23:41:20Z",
+ "updated": "2026-08-31T05:54:21Z",
  "version": 1
 }
