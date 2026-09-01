@@ -2882,6 +2882,19 @@
    "title": "Software Development Engineer II, Fintelligence Workplace",
    "url": "https://www.amazon.jobs/en/jobs/10499455/software-development-engineer-ii-fintelligence-workplace"
   },
+  "amazon:b37478d95362": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-01",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-01",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II , Last Mile Payments",
+   "url": "https://www.amazon.jobs/en/jobs/10523037/software-dev-engineer-ii-last-mile-payments"
+  },
   "amazon:b37ee967e443": {
    "company": "Amazon",
    "department": "Software Development",
@@ -10608,6 +10621,17 @@
    "title": "Software QA Tools Development Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Software-QA-Tools-Development-Engineer_JR2020055"
   },
+  "nvidia:79379e9179f7": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-01",
+   "location": "India, Pune",
+   "posted_at": "2026-09-01",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer - Local AI",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/System-Software-Engineer---Local-AI_JR2024810"
+  },
   "nvidia:8c1deb15b8da": {
    "company": "Nvidia",
    "first_seen": "2026-08-21",
@@ -13827,6 +13851,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-08-31T20:57:23Z",
+ "updated": "2026-09-01T00:43:18Z",
  "version": 1
 }
