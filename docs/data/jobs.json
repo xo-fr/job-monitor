@@ -180,6 +180,18 @@
    "title": "Fullstack Developer - Java",
    "url": "https://www.instahyre.com/job-440310-fullstack-developer-java-at-accenture-2-bangalore-chennai-delhi/"
   },
+  "accenture:5ddb18344ab5": {
+   "company": "Accenture",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-02",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Custom Software Engineer - SAP PP",
+   "url": "https://www.instahyre.com/job-441313-custom-software-engineer-sap-pp-at-accenture-2-mumbai/"
+  },
   "accenture:6492363cfa47": {
    "company": "Accenture",
    "department": "Other Software Development",
@@ -8121,6 +8133,17 @@
    "title": "Intermediate Backend Engineer",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8686962002"
   },
+  "gitlab:86ab63c8030d": {
+   "company": "GitLab",
+   "first_seen": "2026-09-02",
+   "location": "Remote, India",
+   "posted_at": "2026-09-02",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Intermediate Backend Engineer, India",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8775507002"
+  },
   "gitlab:e08016486c32": {
    "company": "GitLab",
    "first_seen": "2026-08-21",
@@ -15387,6 +15410,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-02T16:46:41Z",
+ "updated": "2026-09-02T21:11:55Z",
  "version": 1
 }
