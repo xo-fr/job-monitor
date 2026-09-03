@@ -606,6 +606,18 @@
    "title": "Machine Learning Engineer - 5",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Machine-Learning-Engineer---5_R168703-1"
   },
+  "adobe:91bb2a0eb6be": {
+   "company": "Adobe",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Python",
+   "url": "https://www.instahyre.com/job-441727-software-engineer-python-at-adobe-noida/"
+  },
   "adobe:939687c01279": {
    "company": "Adobe",
    "department": "Frontend / Mobile Development",
@@ -2451,6 +2463,19 @@
    "tier": "experienced",
    "title": "Software Dev Engineer 2",
    "url": "https://www.amazon.jobs/en/jobs/10521448/software-dev-engineer-2"
+  },
+  "amazon:740263eb021e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-02",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon Music",
+   "url": "https://www.amazon.jobs/en/jobs/10526906/software-development-engineer-amazon-music"
   },
   "amazon:7554630130a1": {
    "company": "Amazon",
@@ -7822,6 +7847,18 @@
    "title": "Python Developer",
    "url": "https://www.instahyre.com/job-440989-python-developer-at-extensible-it-solutions-jaipur/"
   },
+  "falkonry:5fd83b5146c8": {
+   "company": "Falkonry",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML Engineer",
+   "url": "https://www.instahyre.com/job-441553-ml-engineer-at-falkonry-mumbai/"
+  },
   "fareye:e21068b1990d": {
    "company": "FarEye",
    "department": "Frontend / Mobile Development",
@@ -7857,6 +7894,18 @@
    "tier": "experienced",
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-427472-data-scientist-at-flipkart-bangalore/"
+  },
+  "flipkart:5253811e36d8": {
+   "company": "Flipkart",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-03",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-425985-ai-engineer-at-flipkart-bangalore/"
   },
   "flipkart:b862552e2d54": {
    "company": "Flipkart",
@@ -15410,6 +15459,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-02T23:29:20Z",
+ "updated": "2026-09-03T04:51:17Z",
  "version": 1
 }
