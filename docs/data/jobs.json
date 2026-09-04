@@ -4720,6 +4720,18 @@
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-432362-backend-engineer-at-athena-gaming-bangalore/"
   },
+  "athos-commerce:30653dbcd0f3": {
+   "company": "Athos Commerce",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-04",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "React.js Developer",
+   "url": "https://www.instahyre.com/job-441832-react-js-developer-at-athos-commerce-work-from-home/"
+  },
   "atlan:0731631f5910": {
    "company": "Atlan",
    "department": "IT & Security",
@@ -9265,6 +9277,18 @@
    "tier": "experienced",
    "title": "Software Engineer - Frontend",
    "url": "https://www.instahyre.com/job-440771-software-engineer-frontend-at-hilabs-bangalore/"
+  },
+  "hinduja-tech:97e199d2bef4": {
+   "company": "Hinduja Tech",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-04",
+   "location": "Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Developer",
+   "url": "https://www.instahyre.com/job-441897-full-stack-developer-at-hinduja-tech-pune/"
   },
   "hiver:137112cbaad8": {
    "company": "Hiver",
@@ -15305,6 +15329,18 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-418553-software-engineer-at-truva-work-from-home/"
   },
+  "uber:1e6b0ad73ccf": {
+   "company": "Uber",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-04",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-421607-backend-engineer-at-uber-bangalore/"
+  },
   "uber:269b688bba01": {
    "company": "Uber",
    "department": "Other Software Development",
@@ -16052,6 +16088,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-03T23:24:55Z",
+ "updated": "2026-09-04T04:54:26Z",
  "version": 1
 }
