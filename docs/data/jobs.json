@@ -3748,6 +3748,19 @@
    "title": "Software Dev Engineer II, UTR Tech, UTR Tech",
    "url": "https://www.amazon.jobs/en/jobs/10493791/software-dev-engineer-ii-utr-tech-utr-tech"
   },
+  "amazon:d2a6fdfe443d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-10",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II , Selection Management - Subscribe & Save",
+   "url": "https://www.amazon.jobs/en/jobs/10497126/software-dev-engineer-ii-selection-management-subscribe-save"
+  },
   "amazon:d301782197a1": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5164,6 +5177,30 @@
    "title": "Fullstack Developer",
    "url": "https://www.instahyre.com/job-440701-fullstack-developer-at-big-assets-infra-bangalore/"
   },
+  "big-assets-infra:5660c581588d": {
+   "company": "Big Assets Infra",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-414980-backend-engineer-at-big-assets-infra-bangalore/"
+  },
+  "big-assets-infra:600189b3d4ce": {
+   "company": "Big Assets Infra",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Engineer",
+   "url": "https://www.instahyre.com/job-417138-frontend-engineer-at-big-assets-infra-bangalore/"
+  },
   "big-assets-infra:85673b314750": {
    "company": "Big Assets Infra",
    "department": "Data Science / Machine Learning",
@@ -5223,6 +5260,18 @@
    "tier": "experienced",
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-439179-data-scientist-at-big-assets-infra-bangalore/"
+  },
+  "big-assets-infra:ffc5d75e0d0f": {
+   "company": "Big Assets Infra",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer",
+   "url": "https://www.instahyre.com/job-442064-frontend-developer-at-big-assets-infra-work-from-home/"
   },
   "biopeak:07f5d1ad7634": {
    "company": "Biopeak",
@@ -6053,6 +6102,18 @@
    "tier": "experienced",
    "title": "Product Developer - III",
    "url": "https://www.instahyre.com/job-435801-product-developer-iii-at-cloudwick-technologies-bangalore/"
+  },
+  "codenatives:b2c25089150d": {
+   "company": "Codenatives",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bangalore, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.instahyre.com/job-433168-data-engineer-at-codenatives-bangalore-hyderabad/"
   },
   "codenatives:bc4e6fd0ceb8": {
    "company": "Codenatives",
@@ -14827,6 +14888,18 @@
    "title": "SDE - 3",
    "url": "https://www.instahyre.com/job-411573-sde-3-at-spotdraft-bangalore/"
   },
+  "sprinklr:39041ae6910e": {
+   "company": "Sprinklr",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer",
+   "url": "https://www.instahyre.com/job-406069-frontend-developer-at-sprinklr-gurgaon/"
+  },
   "spry-health:f6a7ea7bd104": {
    "company": "Spry Health",
    "department": "Frontend / Mobile Development",
@@ -15969,6 +16042,18 @@
    "title": "Angular Developer",
    "url": "https://www.instahyre.com/job-430432-angular-developer-at-velocious-bangalore/"
   },
+  "velox:b277f52c2ea0": {
+   "company": "Velox",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-395235-java-developer-at-velox-bangalore/"
+  },
   "verita-ai:ee06a592ce64": {
    "company": "Verita AI",
    "department": "Frontend / Mobile Development",
@@ -16572,6 +16657,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-05T04:47:57Z",
+ "updated": "2026-09-05T10:49:23Z",
  "version": 1
 }
