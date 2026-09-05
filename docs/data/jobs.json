@@ -1074,6 +1074,19 @@
    "title": "Software Development Engineer, PXT Case Management System",
    "url": "https://www.amazon.jobs/en/jobs/10523762/software-development-engineer-pxt-case-management-system"
   },
+  "amazon:0205714fc38a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-05",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II , Amazon Cross Border Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10530595/software-development-engineer-ii-amazon-cross-border-tech"
+  },
   "amazon:02e41bb59286": {
    "company": "Amazon",
    "department": "Software Development",
@@ -14394,6 +14407,18 @@
    "title": "Software Engineering- MTS (Backend + Infra)",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering--MTS--Backend---Infra-_JR350272"
   },
+  "scaleorange-technologies:1a8c12050a6d": {
+   "company": "ScaleOrange Technologies",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Developer",
+   "url": "https://www.instahyre.com/job-442006-full-stack-developer-at-scaleorange-technologies-bangalore/"
+  },
   "scalesdm-india:692c5eb7f225": {
    "company": "SCALEsdm India",
    "department": "Full-Stack Development",
@@ -14513,6 +14538,18 @@
    "tier": "experienced",
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-440643-backend-engineer-at-shortloop-bangalore/"
+  },
+  "shuru-technologies:1a20c3e4b4db": {
+   "company": "Shuru Technologies",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-05",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.instahyre.com/job-442016-data-engineer-at-shuru-technologies-work-from-home/"
   },
   "shuru-technologies:3db4deb70655": {
    "company": "Shuru Technologies",
@@ -16535,6 +16572,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-04T23:09:34Z",
+ "updated": "2026-09-05T04:47:57Z",
  "version": 1
 }
