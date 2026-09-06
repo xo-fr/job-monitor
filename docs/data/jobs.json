@@ -1838,6 +1838,19 @@
    "title": "SDE II, Campaign and Creative",
    "url": "https://www.amazon.jobs/en/jobs/10467929/sde-ii-campaign-and-creative"
   },
+  "amazon:3deab7777ffc": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-06",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-06",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10530754/software-development-engineer"
+  },
   "amazon:3e40f0a05a3f": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2419,6 +2432,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer , Amazon Lending",
    "url": "https://www.amazon.jobs/en/jobs/10491646/software-development-engineer-amazon-lending"
+  },
+  "amazon:66a32ef3ef3e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-06",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-06",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10530753/software-development-engineer"
   },
   "amazon:67f274dced3a": {
    "company": "Amazon",
@@ -12507,6 +12533,18 @@
    "title": "AI / ML Automation Engineer",
    "url": "https://www.instahyre.com/job-432876-ai-ml-automation-engineer-at-nomura-gurgaon/"
   },
+  "northern-arc-capital:9b1b85202b9f": {
+   "company": "Northern Arc Capital",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-06",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-442060-software-engineer-at-northern-arc-capital-bangalore/"
+  },
   "northstar-quant:0ec9fa215e16": {
    "company": "Northstar Quant",
    "department": "Backend Development",
@@ -16695,6 +16733,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-06T11:12:55Z",
+ "updated": "2026-09-06T15:39:16Z",
  "version": 1
 }
