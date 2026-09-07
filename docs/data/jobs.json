@@ -3647,6 +3647,19 @@
    "title": "Software Dev Engineer II, UTR Tech",
    "url": "https://www.amazon.jobs/en/jobs/10498630/software-dev-engineer-ii-utr-tech"
   },
+  "amazon:c7ad1127c961": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-07",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II , Amazon Cross Border Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10530594/software-development-engineer-ii-amazon-cross-border-tech"
+  },
   "amazon:c9a37fb6c940": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4755,6 +4768,18 @@
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-436220-data-scientist-at-arintra-bangalore-noida/"
   },
+  "arintra:6a73a2984a97": {
+   "company": "Arintra",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 3",
+   "url": "https://www.instahyre.com/job-442200-software-development-engineer-3-at-arintra-bangalore/"
+  },
   "arintra:6e37d83b0b6b": {
    "company": "Arintra",
    "department": "Other Software Development",
@@ -5424,6 +5449,18 @@
    "tier": "experienced",
    "title": "Frontend Engineer",
    "url": "https://www.instahyre.com/job-441588-frontend-engineer-at-birla-pivot-bangalore/"
+  },
+  "birla-pivot:b784a7486584": {
+   "company": "Birla Pivot",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-414823-backend-engineer-at-birla-pivot-bangalore/"
   },
   "blinkit:8ca876845492": {
    "company": "Blinkit",
@@ -6335,6 +6372,18 @@
    "title": "AI Engineer (Supply Chain)",
    "url": "https://www.instahyre.com/job-436544-ai-engineer-supply-chain-at-cognite-bangalore/"
   },
+  "cognite:cc3e6dc6c69a": {
+   "company": "Cognite",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-411234-software-engineer-at-cognite-bangalore/"
+  },
   "cognium:08f9600d08b8": {
    "company": "Cognium",
    "department": "Backend Development",
@@ -6733,6 +6782,18 @@
    "tier": "experienced",
    "title": "SDE - 3",
    "url": "https://www.instahyre.com/job-440326-sde-3-at-credilio-mumbai/"
+  },
+  "ctrlb:8e8437d02ddb": {
+   "company": "CtrlB",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Developer",
+   "url": "https://www.instahyre.com/job-414885-fullstack-developer-at-ctrlb-bangalore/"
   },
   "cult-fit:0cfb95a7334a": {
    "company": "Cult Fit",
@@ -9843,6 +9904,18 @@
    "tier": "experienced",
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-438582-data-engineer-at-holman-hyderabad/"
+  },
+  "hoomanely:0e69467fb953": {
+   "company": "Hoomanely",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Machine Learning Engineer",
+   "url": "https://www.instahyre.com/job-441706-machine-learning-engineer-at-hoomanely-bangalore/"
   },
   "hoomanely:144f9be5e956": {
    "company": "Hoomanely",
@@ -13461,6 +13534,18 @@
    "tier": "experienced",
    "title": "AI / ML Engineer",
    "url": "https://www.instahyre.com/job-428756-ai-ml-engineer-at-oneshot-ai-noida/"
+  },
+  "oneshot-ai:f8a7974e2ead": {
+   "company": "OneShot AI",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer 2",
+   "url": "https://www.instahyre.com/job-430586-ai-engineer-2-at-oneshot-ai-bangalore/"
   },
   "oneture-technologies:027acf65f04e": {
    "company": "Oneture Technologies",
@@ -17113,6 +17198,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-07T12:54:22Z",
+ "updated": "2026-09-07T19:20:09Z",
  "version": 1
 }
