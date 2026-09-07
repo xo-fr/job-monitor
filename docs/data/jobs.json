@@ -609,6 +609,17 @@
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-376656-backend-developer-at-adobe-bangalore/"
   },
+  "adobe:51f1e8187daf": {
+   "company": "Adobe",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "posted_at": "2026-09-07",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Computer Scientist I (Full Stack Growth Engineer)",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Computer-Scientist-I--Full-Stack-Growth-Engineer-_R171690"
+  },
   "adobe:689a388cb99f": {
    "company": "Adobe",
    "first_seen": "2026-09-01",
@@ -14439,6 +14450,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://www.instahyre.com/job-437218-machine-learning-engineer-at-quantum-capital-group-bangalore/"
   },
+  "quince:1660594a9746": {
+   "company": "Quince",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-07",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - 3",
+   "url": "https://www.instahyre.com/job-422185-software-development-engineer-3-at-quince-bangalore/"
+  },
   "qure.ai:e693435700c6": {
    "company": "Qure.ai",
    "department": "Backend Development",
@@ -17198,6 +17221,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-07T19:20:09Z",
+ "updated": "2026-09-07T23:39:12Z",
  "version": 1
 }
