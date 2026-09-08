@@ -1951,6 +1951,19 @@
    "title": "Software Development Engineer, Amazon Device Observability & Troubleshooting Team",
    "url": "https://www.amazon.jobs/en/jobs/10463026/software-development-engineer-amazon-device-observability-troubleshooting-team"
   },
+  "amazon:43aa7ef4eb98": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-08",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, TFS",
+   "url": "https://www.amazon.jobs/en/jobs/10531789/software-development-engineer-ii-tfs"
+  },
   "amazon:442a2488cc0c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -11257,6 +11270,18 @@
    "title": "AI Engineer (Backend)",
    "url": "https://www.instahyre.com/job-441403-ai-engineer-backend-at-kuku-fm-mumbai/"
   },
+  "kuku-fm:d1667c53e85d": {
+   "company": "KuKu FM",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-442339-ai-engineer-at-kuku-fm-mumbai/"
+  },
   "kutumb:e9599da6193c": {
    "company": "Kutumb",
    "department": "Backend Development",
@@ -11832,6 +11857,18 @@
    "tier": "experienced",
    "title": "SDE 3 / 4 - Backend",
    "url": "https://www.instahyre.com/job-441994-sde-3-4-backend-at-matter-2-bangalore/"
+  },
+  "matters:056415c97f08": {
+   "company": "Matters",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "ML Engineer",
+   "url": "https://www.instahyre.com/job-442343-ml-engineer-at-matters-bangalore/"
   },
   "matters:514d236d9a69": {
    "company": "Matters",
@@ -12994,6 +13031,18 @@
    "tier": "experienced",
    "title": "Backend Engineer (AI)",
    "url": "https://www.instahyre.com/job-395177-backend-engineer-ai-at-nexthink-bangalore/"
+  },
+  "nidec-corporation-global:ae3992c23fff": {
+   "company": "Nidec Corporation Global",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Junior Software Engineer",
+   "url": "https://www.instahyre.com/job-442230-junior-software-engineer-at-nidec-corporation-global-bangalore/"
   },
   "nielsen:3b665457c0ff": {
    "company": "Nielsen",
@@ -15987,6 +16036,18 @@
    "title": "SDE 2 (Frontend)",
    "url": "https://www.instahyre.com/job-360574-sde-2-frontend-at-swiggy-work-from-home/"
   },
+  "swimlane:6892dd807f21": {
+   "company": "Swimlane",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer (GenAI)",
+   "url": "https://www.instahyre.com/job-402128-full-stack-engineer-genai-at-swimlane-hyderabad/"
+  },
   "swimlane:e4877b4ad161": {
    "company": "Swimlane",
    "department": "Backend Development",
@@ -17022,6 +17083,18 @@
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-418641-backend-engineer-at-waayupay-bangalore/"
   },
+  "waayupay:ddae9e895298": {
+   "company": "WaayuPay",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-430378-ai-engineer-at-waayupay-bangalore/"
+  },
   "wayfair:4ccc14a9f55f": {
    "company": "Wayfair",
    "department": "Data Science / Machine Learning",
@@ -17589,6 +17662,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-08T11:34:18Z",
+ "updated": "2026-09-08T16:47:41Z",
  "version": 1
 }
