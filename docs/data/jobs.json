@@ -1303,6 +1303,19 @@
    "title": "Software Development Engineer, AFT External Fulfillment",
    "url": "https://www.amazon.jobs/en/jobs/10511704/software-development-engineer-aft-external-fulfillment"
   },
+  "amazon:0ea3ffe34bb3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-08",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II",
+   "url": "https://www.amazon.jobs/en/jobs/10532279/software-development-engineer-ii"
+  },
   "amazon:0f5d82da03f5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -15414,6 +15427,18 @@
    "title": "Software Development Engineer 2 - AI Platform",
    "url": "https://www.instahyre.com/job-435514-software-development-engineer-2-ai-platform-at-seedlinglabs-bangalore/"
   },
+  "shopos:f83822738c46": {
+   "company": "ShopOS",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-442286-ai-engineer-at-shopos-2-bangalore/"
+  },
   "shoppingate:575c2cc35dad": {
    "company": "Shoppingate",
    "department": "Full-Stack Development",
@@ -15893,6 +15918,18 @@
    "tier": "experienced",
    "title": "Software Engineer 2",
    "url": "https://www.instahyre.com/job-434171-software-engineer-2-at-stockx-bangalore/"
+  },
+  "stockx:a797d2991119": {
+   "company": "StockX",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-344488-software-engineer-at-stockx-bangalore/"
   },
   "stripe:1b05942b7ff7": {
    "company": "Stripe",
@@ -17662,6 +17699,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-08T16:47:41Z",
+ "updated": "2026-09-08T21:19:07Z",
  "version": 1
 }
