@@ -4695,6 +4695,18 @@
    "title": "SDE 2 (Frontend)",
    "url": "https://www.instahyre.com/job-416779-sde-2-frontend-at-arcana-bangalore/"
   },
+  "arcana:97458faa37db": {
+   "company": "Arcana",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 2 (Backend)",
+   "url": "https://www.instahyre.com/job-421883-software-engineer-2-backend-at-arcana-bangalore/"
+  },
   "arcana:fa9f4fb04059": {
    "company": "Arcana",
    "department": "Backend Development",
@@ -4742,6 +4754,18 @@
    "tier": "experienced",
    "title": "AI Engineer - 3",
    "url": "https://www.instahyre.com/job-436452-ai-engineer-3-at-arintra-bangalore/"
+  },
+  "arintra:4b51be13ac99": {
+   "company": "Arintra",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 3",
+   "url": "https://www.instahyre.com/job-442220-software-development-engineer-3-at-arintra-bangalore/"
   },
   "arintra:4e731f6fa077": {
    "company": "Arintra",
@@ -6547,6 +6571,18 @@
    "tier": "experienced",
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-438758-backend-engineer-at-confido-health-bangalore/"
+  },
+  "consuma:2c48ea57d982": {
+   "company": "Consuma",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-442235-software-engineer-at-consuma-bangalore/"
   },
   "consuma:525e07c8b864": {
    "company": "Consuma",
@@ -11623,6 +11659,17 @@
    "title": "Software Engineer II (Mainframe Developer)",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Mainframe-Developer-_R-262302"
   },
+  "mastercard:e0efcc679d15": {
+   "company": "Mastercard",
+   "first_seen": "2026-09-08",
+   "location": "Pune, India",
+   "posted_at": "2026-09-08",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-287513"
+  },
   "mastercard:ec8dcce3e185": {
    "company": "Mastercard",
    "first_seen": "2026-08-24",
@@ -16390,6 +16437,17 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-418553-software-engineer-at-truva-work-from-home/"
   },
+  "twilio:3a6834aeed8c": {
+   "company": "Twilio",
+   "first_seen": "2026-09-08",
+   "location": "Remote - India",
+   "posted_at": "2026-06-12",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Engineer (L3)",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/7996779"
+  },
   "uber:1e6b0ad73ccf": {
    "company": "Uber",
    "department": "Backend Development",
@@ -16846,6 +16904,18 @@
    "title": "Agentic AI Engineer",
    "url": "https://www.instahyre.com/job-440448-agentic-ai-engineer-at-wipro-pune/"
   },
+  "wipro:928ab8308721": {
+   "company": "Wipro",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-08",
+   "location": "Bangalore, Gurgaon, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist",
+   "url": "https://www.instahyre.com/job-442237-data-scientist-at-wipro-bangalore-gurgaon-hyderabad/"
+  },
   "wipro:95b79b5421f8": {
    "company": "Wipro",
    "department": "Full-Stack Development",
@@ -17221,6 +17291,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-07T23:39:12Z",
+ "updated": "2026-09-08T04:59:25Z",
  "version": 1
 }
