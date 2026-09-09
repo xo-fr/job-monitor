@@ -1846,6 +1846,19 @@
    "title": "FTVx Voice Experience - SDE II, FTVX Team (Voice Experience)",
    "url": "https://www.amazon.jobs/en/jobs/10466660/ftvx-voice-experience-sde-ii-ftvx-team-voice-experience"
   },
+  "amazon:3158bb1e6056": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-09",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10534666/software-development-engineer"
+  },
   "amazon:34877eda62aa": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3565,6 +3578,19 @@
    "tier": "experienced",
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-370456-backend-developer-at-amazon-bangalore/"
+  },
+  "amazon:a7c745e58282": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-09",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Fulfillment by Amazon (FBA)",
+   "url": "https://www.amazon.jobs/en/jobs/10534656/software-development-engineer-ii-fulfillment-by-amazon-fba"
   },
   "amazon:a80a33f7800c": {
    "company": "Amazon",
@@ -18295,6 +18321,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-09T16:49:37Z",
+ "updated": "2026-09-09T21:04:26Z",
  "version": 1
 }
