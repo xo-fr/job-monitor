@@ -1704,6 +1704,19 @@
    "title": "Software Devlopment Engineer I, Amazon Rewards",
    "url": "https://www.amazon.jobs/en/jobs/10523331/software-devlopment-engineer-i-amazon-rewards"
   },
+  "amazon:2d7a07747f72": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-09",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10533665/software-development-engineer-amazon"
+  },
   "amazon:30dad186d7fa": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1976,6 +1989,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, TFS",
    "url": "https://www.amazon.jobs/en/jobs/10531789/software-development-engineer-ii-tfs"
+  },
+  "amazon:43fe80e9d548": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-07",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Development Engineer I",
+   "url": "https://www.amazon.jobs/en/jobs/10530909/software-development-engineer-i"
   },
   "amazon:442a2488cc0c": {
    "company": "Amazon",
@@ -3464,6 +3490,19 @@
    "title": "Software Development Engineer II, Payments Acceptance and Experience Tech",
    "url": "https://www.amazon.jobs/en/jobs/10521781/software-development-engineer-ii-payments-acceptance-and-experience-tech"
   },
+  "amazon:aee482c7fdbb": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-09",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10533696/software-development-engineer"
+  },
   "amazon:afcc10c0d622": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4430,6 +4469,19 @@
    "title": "Software Development Engineer II , Cross Border Haul Team",
    "url": "https://www.amazon.jobs/en/jobs/10506473/software-development-engineer-ii-cross-border-haul-team"
   },
+  "amazon:f7f1979b9fde": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-02",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SDE-1 (FTC)",
+   "url": "https://www.amazon.jobs/en/jobs/10525636/sde-1-ftc"
+  },
   "amazon:f840448d3798": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5270,6 +5322,18 @@
    "tier": "experienced",
    "title": "Fullstack Engineer",
    "url": "https://www.instahyre.com/job-430049-fullstack-engineer-at-axitrust-gurgaon/"
+  },
+  "azisly:e0342c91bb90": {
+   "company": "Azisly",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI / ML Engineer",
+   "url": "https://www.instahyre.com/job-442377-ai-ml-engineer-at-azisly-gurgaon/"
   },
   "bajaj-finserv:fa3203572018": {
    "company": "Bajaj Finserv",
@@ -11127,6 +11191,18 @@
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-421833-backend-engineer-at-kiwi-general-insurance-mumbai/"
   },
+  "kiwi-general-insurance:800c05d2c528": {
+   "company": "Kiwi General Insurance",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Mumbai, Navi Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-421361-backend-engineer-at-kiwi-general-insurance-mumbai-navi-mumbai/"
+  },
   "klimb.io:417a671a121e": {
    "company": "Klimb.io",
    "department": "Data Science / Machine Learning",
@@ -12238,6 +12314,18 @@
    "tier": "experienced",
    "title": "AI Engineer - Backend",
    "url": "https://www.instahyre.com/job-430192-ai-engineer-backend-at-meraki-labs-work-from-home/"
+  },
+  "meraki-labs:8d32c2163b6e": {
+   "company": "Meraki Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-441337-backend-engineer-at-meraki-labs-mumbai/"
   },
   "meraki-labs:e1d6c64a46ed": {
    "company": "Meraki Labs",
@@ -13406,6 +13494,17 @@
    "tier": "experienced",
    "title": "Software QA Tools Development Engineer",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Software-QA-Tools-Development-Engineer_JR2020055"
+  },
+  "nvidia:472382e19635": {
+   "company": "Nvidia",
+   "first_seen": "2026-09-09",
+   "location": "India, Bengaluru",
+   "posted_at": "2026-09-09",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System Software Engineer - Performance Verification Infrastructure",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Performance-Verification-Infrastructure_JR2025205"
   },
   "nvidia:79379e9179f7": {
    "company": "Nvidia",
@@ -15607,6 +15706,18 @@
    "title": "Software Engineer 1",
    "url": "https://www.instahyre.com/job-422412-software-engineer-1-at-snapdeal-2-gurgaon/"
   },
+  "snapdeal:dfbf09b96daa": {
+   "company": "Snapdeal",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-09",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist",
+   "url": "https://www.instahyre.com/job-418303-data-scientist-at-snapdeal-2-gurgaon/"
+  },
   "snapmint:0eb7d33fe21f": {
    "company": "Snapmint",
    "department": "Backend Development",
@@ -17699,6 +17810,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-08T23:31:35Z",
+ "updated": "2026-09-09T04:58:58Z",
  "version": 1
 }
