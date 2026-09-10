@@ -6010,6 +6010,18 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-437338-software-engineer-at-bravebird-work-from-home/"
   },
+  "bright-money:023bc73150b9": {
+   "company": "Bright Money",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist III",
+   "url": "https://www.instahyre.com/job-442547-data-scientist-iii-at-bright-money-bangalore/"
+  },
   "broccoli-ai:19e89fbd39a6": {
    "company": "Broccoli AI",
    "department": "Backend Development",
@@ -6771,6 +6783,18 @@
    "tier": "experienced",
    "title": "Mainframes Developer",
    "url": "https://www.instahyre.com/job-440691-mainframes-developer-at-codenatives-chennai-pune/"
+  },
+  "codewinglet:8ac08de71e22": {
+   "company": "Codewinglet",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Surat",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software QA Automation Engineer",
+   "url": "https://www.instahyre.com/job-442446-software-qa-automation-engineer-at-codewinglet-surat/"
   },
   "coforge:153e5ba37aeb": {
    "company": "Coforge",
@@ -17550,6 +17574,18 @@
    "title": "Full - Stack Developer",
    "url": "https://www.instahyre.com/job-435685-full-stack-developer-at-urban-ladder-bangalore/"
   },
+  "usefulbi:172f2226e55b": {
+   "company": "UsefulBI",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bangalore, Lucknow, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Gen AI Developer",
+   "url": "https://www.instahyre.com/job-442480-gen-ai-developer-at-usefulbi-bangalore-lucknow-pune/"
+  },
   "usefulbi:94d0f21beeea": {
    "company": "UsefulBI",
    "department": "Data Science / Machine Learning",
@@ -18321,6 +18357,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-09T23:25:36Z",
+ "updated": "2026-09-10T05:02:24Z",
  "version": 1
 }
