@@ -1994,6 +1994,19 @@
    "title": "Software Development Engineer II, Selling Partner Financial Technology",
    "url": "https://www.amazon.jobs/en/jobs/10474772/software-development-engineer-ii-selling-partner-financial-technology"
   },
+  "amazon:34f46e673ede": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-10",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Recipient Experience, Recipient Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10536816/software-development-engineer-ii-recipient-experience-recipient-experience"
+  },
   "amazon:357fb76353c0": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4899,6 +4912,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Loss Prevention Tech, WWOS Corporate",
    "url": "https://www.amazon.jobs/en/jobs/10477117/software-development-engineer-loss-prevention-tech-wwos-corporate"
+  },
+  "amazon:fe084e5dc323": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-17",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Amazon Leo Commerce",
+   "url": "https://www.amazon.jobs/en/jobs/10503915/software-dev-engineer-ii-amazon-leo-commerce"
   },
   "amazon:fe352398bb7d": {
    "company": "Amazon",
@@ -16697,6 +16723,18 @@
    "title": "Frontend Engineer",
    "url": "https://www.instahyre.com/job-441499-frontend-engineer-at-soulside-ai-work-from-home/"
   },
+  "soulside-ai:881b5ea2917e": {
+   "company": "Soulside AI",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bangalore, Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-442078-backend-engineer-at-soulside-ai-bangalore-work-from-home/"
+  },
   "spotdraft:139df2d54a8c": {
    "company": "SpotDraft",
    "department": "Backend Development",
@@ -18873,6 +18911,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-10T16:35:52Z",
+ "updated": "2026-09-10T21:03:33Z",
  "version": 1
 }
