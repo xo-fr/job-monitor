@@ -536,6 +536,17 @@
    "title": "Fullstack Developer - AI",
    "url": "https://www.instahyre.com/job-423997-fullstack-developer-ai-at-adobe-noida/"
   },
+  "adobe:17dc6d01c8ba": {
+   "company": "Adobe",
+   "first_seen": "2026-09-10",
+   "location": "Noida",
+   "posted_at": "2026-09-10",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Software-Development-Engineer_R171304"
+  },
   "adobe:191f90729c1d": {
    "company": "Adobe",
    "first_seen": "2026-08-21",
@@ -1426,6 +1437,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II , Amazon Cross Border Tech",
    "url": "https://www.amazon.jobs/en/jobs/10502055/software-development-engineer-ii-amazon-cross-border-tech"
+  },
+  "amazon:0bb5f044feca": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-10",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II , Amazon Cross Border Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10535856/software-development-engineer-ii-amazon-cross-border-tech"
   },
   "amazon:0c69ca4dbc65": {
    "company": "Amazon",
@@ -3173,6 +3197,18 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, Amazon Music",
    "url": "https://www.amazon.jobs/en/jobs/10482609/software-development-engineer-ii-amazon-music"
+  },
+  "amazon:83f0e2c34a49": {
+   "company": "Amazon",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 2",
+   "url": "https://www.instahyre.com/job-442754-software-development-engineer-2-at-amazon-bangalore/"
   },
   "amazon:8480e6e6ecb4": {
    "company": "Amazon",
@@ -12469,6 +12505,17 @@
    "title": "Software Engineer - Full Stack",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer---Full-Stack_R-289575"
   },
+  "mastercard:be43a83f3304": {
+   "company": "Mastercard",
+   "first_seen": "2026-09-10",
+   "location": "Pune, India",
+   "posted_at": "2026-09-10",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290024-1"
+  },
   "mastercard:beb9426fd928": {
    "company": "Mastercard",
    "first_seen": "2026-08-21",
@@ -16614,6 +16661,18 @@
    "title": "SDE 1 - Android",
    "url": "https://www.instahyre.com/job-438517-sde-1-android-at-snapmint-gurgaon/"
   },
+  "socure:456d577e8947": {
+   "company": "Socure",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-410236-software-engineer-at-socure-work-from-home/"
+  },
   "solugenix:9ee10c6a1c86": {
    "company": "Solugenix",
    "department": "Data Science / Machine Learning",
@@ -18743,6 +18802,18 @@
    "title": "Backend Engineer (Java)",
    "url": "https://www.instahyre.com/job-199766-backend-engineer-java-at-zingg-work-from-home/"
   },
+  "zoomcar:b07ef5cc46b1": {
+   "company": "Zoomcar",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-10",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist",
+   "url": "https://www.instahyre.com/job-442738-data-scientist-at-zoomcar-bangalore/"
+  },
   "zscaler:9d5923f63ca9": {
    "company": "Zscaler",
    "first_seen": "2026-08-27",
@@ -18802,6 +18873,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-10T11:39:03Z",
+ "updated": "2026-09-10T16:35:52Z",
  "version": 1
 }
