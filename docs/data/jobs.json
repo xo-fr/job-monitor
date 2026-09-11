@@ -7336,6 +7336,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://www.instahyre.com/job-435105-machine-learning-engineer-at-convegenius-noida/"
   },
+  "convegenius:50fc56211793": {
+   "company": "ConveGenius",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SDE - 1 Node.js",
+   "url": "https://www.instahyre.com/job-432998-sde-1-node-js-at-convegenius-bangalore/"
+  },
   "convegenius:9bb07dba93a3": {
    "company": "ConveGenius",
    "department": "Backend Development",
@@ -12563,6 +12575,17 @@
    "title": "Software Engineer II (Backend Developer)",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II--Backend-Developer-_R-274179"
   },
+  "mastercard:8afc8e4b3014": {
+   "company": "Mastercard",
+   "first_seen": "2026-09-11",
+   "location": "Pune, India",
+   "posted_at": "2026-09-11",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-288000"
+  },
   "mastercard:901000afe0e2": {
    "company": "Mastercard",
    "first_seen": "2026-08-30",
@@ -14108,6 +14131,18 @@
    "title": "React Native Developer",
    "url": "https://www.instahyre.com/job-439595-react-native-developer-at-nexbuzz-bangalore/"
   },
+  "nexthink:97c672809c62": {
+   "company": "Nexthink",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-412341-full-stack-engineer-at-nexthink-bangalore/"
+  },
   "nexthink:9ff02309ecab": {
    "company": "Nexthink",
    "department": "Backend Development",
@@ -14543,6 +14578,18 @@
    "tier": "experienced",
    "title": "SDE II - Fullstack",
    "url": "https://www.instahyre.com/job-441767-sde-ii-fullstack-at-nuvertos-noida/"
+  },
+  "nuvertos:d759e4aa117e": {
+   "company": "NuvertOS",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II (Full - Stack)",
+   "url": "https://www.instahyre.com/job-442878-sde-ii-full-stack-at-nuvertos-noida/"
   },
   "nvidia:11b39f402b13": {
    "company": "Nvidia",
@@ -19383,6 +19430,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-11T11:40:23Z",
+ "updated": "2026-09-11T16:40:39Z",
  "version": 1
 }
