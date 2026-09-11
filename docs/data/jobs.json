@@ -1016,6 +1016,18 @@
    "title": "Backend Software Engineer (Java / Scala / Kotlin)",
    "url": "https://www.instahyre.com/job-441758-backend-software-engineer-java-scala-kotlin-at-agoda-2-bangkok-thailand/"
   },
+  "aisensy:ce19041ee12f": {
+   "company": "AiSensy",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-442753-ai-engineer-at-aisensy-bangalore/"
+  },
   "aisensy:e12fe1804a7a": {
    "company": "AiSensy",
    "department": "Full-Stack Development",
@@ -11650,6 +11662,18 @@
    "title": "Forward Deployed Software Engineer",
    "url": "https://www.instahyre.com/job-440658-forward-deployed-software-engineer-at-jio-platforms-limited-work-from-home/"
   },
+  "jodo:1785ca05df06": {
+   "company": "Jodo",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 3",
+   "url": "https://www.instahyre.com/job-441599-sde-3-at-jodo-bangalore/"
+  },
   "jodo:a4d890056ccf": {
    "company": "Jodo",
    "department": "Backend Development",
@@ -12862,6 +12886,18 @@
    "url": "https://jobs.lever.co/meesho/c68ee07f-0e16-455b-bc4a-87848aaf46fa",
    "workplace": "On-site"
   },
+  "meesho:4816f9b6abd8": {
+   "company": "Meesho",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.instahyre.com/job-442746-data-engineer-at-meesho-bangalore/"
+  },
   "meesho:4dc90c540fff": {
    "company": "Meesho",
    "department": "Backend Development",
@@ -13898,6 +13934,18 @@
    "tier": "experienced",
    "title": "Backend Engineer (AI)",
    "url": "https://www.instahyre.com/job-395177-backend-engineer-ai-at-nexthink-bangalore/"
+  },
+  "nference:ce19f61a3df7": {
+   "company": "nference",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-11",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer",
+   "url": "https://www.instahyre.com/job-132902-backend-developer-at-nference-3-bangalore/"
   },
   "nidec-corporation-global:ae3992c23fff": {
    "company": "Nidec Corporation Global",
@@ -18911,6 +18959,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-10T23:19:24Z",
+ "updated": "2026-09-11T04:58:58Z",
  "version": 1
 }
