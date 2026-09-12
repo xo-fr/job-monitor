@@ -2342,6 +2342,18 @@
    "title": "Software Development Engineer, Amazon",
    "url": "https://www.amazon.jobs/en/jobs/10480080/software-development-engineer-amazon"
   },
+  "amazon:4726fac323e2": {
+   "company": "Amazon",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 2",
+   "url": "https://www.instahyre.com/job-442718-software-development-engineer-2-at-amazon-gurgaon/"
+  },
   "amazon:4821c0c553c5": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5715,6 +5727,18 @@
    "title": "SDE 2 - Full Stack",
    "url": "https://www.instahyre.com/job-417729-sde-2-full-stack-at-axi-bangalore/"
   },
+  "axi:5978330183f8": {
+   "company": "Axi",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Developer",
+   "url": "https://www.instahyre.com/job-419547-fullstack-developer-at-axi-bangalore/"
+  },
   "axi:87a4e1cf4fe4": {
    "company": "Axi",
    "department": "Full-Stack Development",
@@ -5738,6 +5762,18 @@
    "tier": "newgrad",
    "title": "SDE 1",
    "url": "https://www.instahyre.com/job-422523-sde-1-at-axi-work-from-home/"
+  },
+  "axi:c90d86e36e42": {
+   "company": "Axi",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": ".NET Developer",
+   "url": "https://www.instahyre.com/job-442944-dot-net-developer-at-axi-bangalore/"
   },
   "axi:ee41d3194e06": {
    "company": "Axi",
@@ -9314,6 +9350,18 @@
    "title": "SDE II",
    "url": "https://www.instahyre.com/job-426722-sde-ii-at-editorialist-yx-bangalore/"
   },
+  "educationtechplus:9d1119edd07b": {
+   "company": "EducationTechPlus",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Jaipur",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer",
+   "url": "https://www.instahyre.com/job-402054-backend-developer-at-educationtechplus-jaipur/"
+  },
   "emb-global:a7d551e591ed": {
    "company": "EMB Global",
    "department": "Backend Development",
@@ -11386,6 +11434,18 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-416133-software-engineer-at-infosys-4-bangalore-hyderabad-pune/"
   },
+  "infosys:7e4b6ae59c5d": {
+   "company": "Infosys",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore, Hyderabad, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": ".NET Developer",
+   "url": "https://www.instahyre.com/job-442843-dot-net-developer-at-infosys-4-bangalore-hyderabad-pune/"
+  },
   "infosys:95cd3adb2cc8": {
    "company": "Infosys",
    "department": "Data Science / Machine Learning",
@@ -11445,6 +11505,18 @@
    "tier": "experienced",
    "title": "Java Developer",
    "url": "https://www.instahyre.com/job-414255-java-developer-at-infosys-4-bangalore-hyderabad-pune/"
+  },
+  "infosys:f014912efced": {
+   "company": "Infosys",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore, Hyderabad, Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-441433-java-developer-at-infosys-4-bangalore-hyderabad-noida/"
   },
   "infosys:f903b281724a": {
    "company": "Infosys",
@@ -15727,6 +15799,18 @@
    "title": "Frontend Engineer",
    "url": "https://www.instahyre.com/job-439185-frontend-engineer-at-pinegap-bangalore/"
   },
+  "piramal-finance-limited:691aac3c7c2e": {
+   "company": "Piramal Finance Limited",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Front End Engineer I",
+   "url": "https://www.instahyre.com/job-442848-front-end-engineer-i-at-piramal-finance-limited-bangalore/"
+  },
   "piramal-finance-limited:6f18a0eb1e19": {
    "company": "Piramal Finance Limited",
    "department": "Backend Development",
@@ -17758,6 +17842,30 @@
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-441759-data-scientist-at-tata-consultancy-services-bangalore-gurgaon/"
   },
+  "tata-consultancy-services:3b7c63f887fe": {
+   "company": "Tata Consultancy Services",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI / ML Developer",
+   "url": "https://www.instahyre.com/job-442862-ai-ml-developer-at-tata-consultancy-services-chennai/"
+  },
+  "tata-consultancy-services:4d4084cd9cd3": {
+   "company": "Tata Consultancy Services",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore, Chennai, Trivandrum",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Network Software Engineer - C / C++",
+   "url": "https://www.instahyre.com/job-438787-network-software-engineer-c-c-plus-plus-at-tata-consultancy-services-bangalore-chennai-trivandrum/"
+  },
   "tata-consultancy-services:6ea29e3b381d": {
    "company": "Tata Consultancy Services",
    "department": "Other Software Development",
@@ -19093,6 +19201,18 @@
    "title": "Angular Developer",
    "url": "https://www.instahyre.com/job-430971-angular-developer-at-wissen-technology-mumbai/"
   },
+  "wizcommerce:56c9ff137cb5": {
+   "company": "WizCommerce",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE III (Backend)",
+   "url": "https://www.instahyre.com/job-442832-sde-iii-backend-at-wizcommerce-2-bangalore/"
+  },
   "wooqer:eb321b76a2ec": {
    "company": "Wooqer",
    "department": "Backend Development",
@@ -19456,6 +19576,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-12T04:50:57Z",
+ "updated": "2026-09-12T11:04:35Z",
  "version": 1
 }
