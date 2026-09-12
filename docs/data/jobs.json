@@ -17614,6 +17614,18 @@
    "title": "SDE 2 (Frontend)",
    "url": "https://www.instahyre.com/job-360574-sde-2-frontend-at-swiggy-work-from-home/"
   },
+  "swiggy:ce8b37b36c41": {
+   "company": "Swiggy",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-12",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Golang Developer",
+   "url": "https://www.instahyre.com/job-442952-golang-developer-at-swiggy-bangalore/"
+  },
   "swiggy:fef307b012cd": {
    "company": "Swiggy",
    "department": "Backend Development",
@@ -19576,6 +19588,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-12T11:04:35Z",
+ "updated": "2026-09-12T15:42:54Z",
  "version": 1
 }
