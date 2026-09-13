@@ -4559,6 +4559,19 @@
    "title": "Software Development Engineer II, Payments Acceptance and Experience Tech",
    "url": "https://www.amazon.jobs/en/jobs/10521433/software-development-engineer-ii-payments-acceptance-and-experience-tech"
   },
+  "amazon:dd0fb55dfe01": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-13",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-07-06",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Alexa Connections",
+   "url": "https://www.amazon.jobs/en/jobs/10466979/software-dev-engineer-ii-alexa-connections"
+  },
   "amazon:dd2750f86799": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4804,6 +4817,19 @@
    "tier": "experienced",
    "title": "Data Engineer - III",
    "url": "https://www.instahyre.com/job-427500-data-engineer-iii-at-amazon-bangalore/"
+  },
+  "amazon:ef88d3bc92dd": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-13",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-06-11",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II, FinTech - TFAW",
+   "url": "https://www.amazon.jobs/en/jobs/10446957/software-development-engineer-ii-fintech-tfaw"
   },
   "amazon:f003fd605d16": {
    "company": "Amazon",
@@ -6014,6 +6040,18 @@
    "tier": "experienced",
    "title": "AI / ML Engineer",
    "url": "https://www.instahyre.com/job-421772-ai-ml-engineer-at-big-assets-infra-bangalore/"
+  },
+  "big-assets-infra:a432e969fa6d": {
+   "company": "Big Assets Infra",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-13",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer",
+   "url": "https://www.instahyre.com/job-426596-backend-developer-at-big-assets-infra-gurgaon/"
   },
   "big-assets-infra:a588653d3907": {
    "company": "Big Assets Infra",
@@ -19588,6 +19626,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-13T05:09:28Z",
+ "updated": "2026-09-13T12:11:51Z",
  "version": 1
 }
