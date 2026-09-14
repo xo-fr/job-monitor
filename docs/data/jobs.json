@@ -372,6 +372,18 @@
    "title": "Machine Learning Engineer",
    "url": "https://www.instahyre.com/job-440798-machine-learning-engineer-at-accenture-2-bangalore-gurgaon-pune/"
   },
+  "accenture:953b0a0b7061": {
+   "company": "Accenture",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Gurgaon, Mumbai, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Custom Software Engineer",
+   "url": "https://www.instahyre.com/job-442966-custom-software-engineer-at-accenture-2-gurgaon-mumbai-pune/"
+  },
   "accenture:9c36589b8a2d": {
    "company": "Accenture",
    "department": "Full-Stack Development",
@@ -3838,6 +3850,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II , Product & Offers Experience",
    "url": "https://www.amazon.jobs/en/jobs/10517857/software-development-engineer-ii-product-offers-experience"
+  },
+  "amazon:ac2e40dd755d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-14",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Amazon Now (Tez)",
+   "url": "https://www.amazon.jobs/en/jobs/10538347/software-development-engineer-ii-amazon-now-tez"
   },
   "amazon:ac47ada7a2b5": {
    "company": "Amazon",
@@ -9293,6 +9318,18 @@
    "title": "Fullstack Developer",
    "url": "https://www.instahyre.com/job-356474-fullstack-developer-at-easebuzz-pune/"
   },
+  "easyship:cdf6f2d4ab1b": {
+   "company": "Easyship",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-390720-backend-engineer-at-easyship-bangalore/"
+  },
   "echos:4cf554eb6064": {
    "company": "Echos",
    "department": "Data Science / Machine Learning",
@@ -9599,6 +9636,18 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-441329-software-engineer-at-ergobite-pune/"
+  },
+  "everestengineering:6c487315606d": {
+   "company": "EverestEngineering",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SAP Developer",
+   "url": "https://www.instahyre.com/job-368419-sap-developer-at-everestengineering-work-from-home/"
   },
   "extensible-it-solutions:1043fd10cc41": {
    "company": "Extensible IT Solutions",
@@ -14064,6 +14113,18 @@
    "tier": "experienced",
    "title": "Wordpress / CRM Developer",
    "url": "https://www.instahyre.com/job-439573-wordpress-crm-developer-at-navtech-hyderabad/"
+  },
+  "neander:c7f31b104454": {
+   "company": "Neander",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend + AI Engineer",
+   "url": "https://www.instahyre.com/job-442917-backend-plus-ai-engineer-at-neander-bangalore/"
   },
   "neev-systems:82453d9653d2": {
    "company": "Neev Systems",
@@ -19639,6 +19700,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-13T23:18:36Z",
+ "updated": "2026-09-14T05:16:28Z",
  "version": 1
 }
