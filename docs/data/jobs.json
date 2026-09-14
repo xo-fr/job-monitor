@@ -156,6 +156,18 @@
    "title": "Custom Software Engineer - Python",
    "url": "https://www.instahyre.com/job-439973-custom-software-engineer-python-at-accenture-2-bangalore-delhi-hyderabad/"
   },
+  "accenture:1a7bad8bd656": {
+   "company": "Accenture",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Custom Software Engineer",
+   "url": "https://www.instahyre.com/job-442984-custom-software-engineer-at-accenture-2-bangalore/"
+  },
   "accenture:1dd9655d1354": {
    "company": "Accenture",
    "department": "Frontend / Mobile Development",
@@ -19826,6 +19838,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-14T19:54:48Z",
+ "updated": "2026-09-14T23:56:40Z",
  "version": 1
 }
