@@ -1628,6 +1628,19 @@
    "title": "Software Development Engineer , Concessions Tech",
    "url": "https://www.amazon.jobs/en/jobs/10496146/software-development-engineer-concessions-tech"
   },
+  "amazon:1552f3ff2387": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-06-01",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Cross Border Seller Programs",
+   "url": "https://www.amazon.jobs/en/jobs/10435426/software-dev-engineer-ii-cross-border-seller-programs"
+  },
   "amazon:156c489e68db": {
    "company": "Amazon",
    "department": "Software Development",
@@ -1705,6 +1718,19 @@
    "tier": "experienced",
    "title": "Software Dev Engineer II",
    "url": "https://www.amazon.jobs/en/jobs/10491671/software-dev-engineer-ii"
+  },
+  "amazon:1aa592731195": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-06-05",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Prime Video - Linear Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10441175/software-development-engineer-prime-video-linear-experience"
   },
   "amazon:1e2fd016d864": {
    "company": "Amazon",
@@ -3710,6 +3736,19 @@
    "title": "Software Dev Engineer II , Finance Tech",
    "url": "https://www.amazon.jobs/en/jobs/10512283/software-dev-engineer-ii-finance-tech"
   },
+  "amazon:a235da44710d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-06-20",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Emerging Devices Software",
+   "url": "https://www.amazon.jobs/en/jobs/10454395/software-development-engineer-emerging-devices-software"
+  },
   "amazon:a32d8a9f6d9c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4120,6 +4159,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, WWGST Tesseract",
    "url": "https://www.amazon.jobs/en/jobs/10503791/software-development-engineer-ii-wwgst-tesseract"
+  },
+  "amazon:c28cbe27a04d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-06-08",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Digital Acceleration",
+   "url": "https://www.amazon.jobs/en/jobs/10442110/software-development-engineer-ii-digital-acceleration"
   },
   "amazon:c3736150e10f": {
    "company": "Amazon",
@@ -5012,6 +5064,19 @@
    "title": "Software Dev Engineer II, Planning Intelligence",
    "url": "https://www.amazon.jobs/en/jobs/10471554/software-dev-engineer-ii-planning-intelligence"
   },
+  "amazon:fb8ae7939b1f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-06-03",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Digital Acceleration",
+   "url": "https://www.amazon.jobs/en/jobs/10438962/software-development-engineer-ii-digital-acceleration"
+  },
   "amazon:fc529dd864ec": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5564,6 +5629,18 @@
    "tier": "experienced",
    "title": "Fullstack Developer",
    "url": "https://www.instahyre.com/job-440474-fullstack-developer-at-ascendion-bangalore/"
+  },
+  "aspora:fc77bfe4f25f": {
+   "company": "Aspora",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 3 / 4 - Backend",
+   "url": "https://www.instahyre.com/job-400690-sde-3-4-backend-at-aspora-bangalore/"
   },
   "athena-gaming:d7888cd2358e": {
    "company": "Athena Gaming",
@@ -11438,6 +11515,18 @@
    "title": "Full Stack Developer - Python",
    "url": "https://www.instahyre.com/job-416147-full-stack-developer-python-at-infosys-4-bangalore-chennai-hyderabad/"
   },
+  "infosys:188124cf3a19": {
+   "company": "Infosys",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Gurgaon, Hyderabad, Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Engineer",
+   "url": "https://www.instahyre.com/job-442979-data-engineer-at-infosys-4-gurgaon-hyderabad-noida/"
+  },
   "infosys:1ec08f639a54": {
    "company": "Infosys",
    "department": "Backend Development",
@@ -13393,6 +13482,18 @@
    "tier": "experienced",
    "title": "AI Data Engineer",
    "url": "https://www.instahyre.com/job-439612-ai-data-engineer-at-meraki-labs-work-from-home/"
+  },
+  "meraki-labs:0f0af004a5b0": {
+   "company": "Meraki Labs",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Applied ML Engineer",
+   "url": "https://www.instahyre.com/job-442981-applied-ml-engineer-at-meraki-labs-work-from-home/"
   },
   "meraki-labs:342c19e18cf3": {
    "company": "Meraki Labs",
@@ -19641,6 +19742,18 @@
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-442738-data-scientist-at-zoomcar-bangalore/"
   },
+  "zs:103e3139a218": {
+   "company": "ZS",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-14",
+   "location": "United States (USA)",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Agentic AI Engineer",
+   "url": "https://www.instahyre.com/job-441779-agentic-ai-engineer-at-zs-united-states-usa/"
+  },
   "zscaler:9d5923f63ca9": {
    "company": "Zscaler",
    "first_seen": "2026-08-27",
@@ -19700,6 +19813,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-14T05:16:28Z",
+ "updated": "2026-09-14T13:09:50Z",
  "version": 1
 }
