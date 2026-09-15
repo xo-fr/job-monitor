@@ -2547,6 +2547,19 @@
    "title": "Software Development Engineer II, EU INTech - Prime and Marketing Tech",
    "url": "https://www.amazon.jobs/en/jobs/10473116/software-development-engineer-ii-eu-intech-prime-and-marketing-tech"
   },
+  "amazon:4c85cae49905": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon OpenSearch Service - Control Plane",
+   "url": "https://www.amazon.jobs/en/jobs/10543018/software-development-engineer-amazon-opensearch-service-control-plane"
+  },
   "amazon:4cab3deeabf9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2675,6 +2688,19 @@
    "tier": "experienced",
    "title": "Front End Developer",
    "url": "https://www.instahyre.com/job-370401-front-end-developer-at-amazon-bangalore/"
+  },
+  "amazon:5317d009f75b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Sidewalk Cloud",
+   "url": "https://www.amazon.jobs/en/jobs/10543432/software-development-engineer-sidewalk-cloud"
   },
   "amazon:5379e6aa606c": {
    "company": "Amazon",
@@ -3837,6 +3863,19 @@
    "tier": "experienced",
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-436549-ai-engineer-at-amazon-bangalore/"
+  },
+  "amazon:a36340fcacad": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon OpenSearch Service - Plugins and Security",
+   "url": "https://www.amazon.jobs/en/jobs/10543108/software-development-engineer-amazon-opensearch-service-plugins-and-security"
   },
   "amazon:a4a694ed06f2": {
    "company": "Amazon",
@@ -6256,6 +6295,18 @@
    "tier": "experienced",
    "title": "AI / ML Engineer",
    "url": "https://www.instahyre.com/job-421772-ai-ml-engineer-at-big-assets-infra-bangalore/"
+  },
+  "big-assets-infra:95c83960f92b": {
+   "company": "Big Assets Infra",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Engineer",
+   "url": "https://www.instahyre.com/job-414978-frontend-engineer-at-big-assets-infra-bangalore/"
   },
   "big-assets-infra:a432e969fa6d": {
    "company": "Big Assets Infra",
@@ -20289,6 +20340,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-15T17:11:52Z",
+ "updated": "2026-09-15T21:36:43Z",
  "version": 1
 }
