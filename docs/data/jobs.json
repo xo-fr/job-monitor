@@ -2469,6 +2469,19 @@
    "title": "Software Development Engineer - Prime Video Linear, Prime Video",
    "url": "https://www.amazon.jobs/en/jobs/10496609/software-development-engineer-prime-video-linear-prime-video"
   },
+  "amazon:493af36ea4b3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II , Product & Offers Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10541244/software-development-engineer-ii-product-offers-experience"
+  },
   "amazon:49f15ebc9aee": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6336,6 +6349,18 @@
    "tier": "experienced",
    "title": "React Developer",
    "url": "https://www.instahyre.com/job-424487-react-developer-at-bloom-value-corporation-bangalore/"
+  },
+  "blue-machines-ai:6437947c3d50": {
+   "company": "Blue Machines AI",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Frontend",
+   "url": "https://www.instahyre.com/job-431578-software-development-engineer-frontend-at-blue-machines-ai-bangalore/"
   },
   "blue-yonder:5ff6ef2b0b23": {
    "company": "Blue Yonder",
@@ -16157,6 +16182,18 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-432562-software-engineer-at-pocketfm-bangalore/"
   },
+  "pocketpills:1d2404ffa0c9": {
+   "company": "PocketPills",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer (Agentic AI & LLM Applications)",
+   "url": "https://www.instahyre.com/job-443016-ai-engineer-agentic-ai-llm-applications-at-pocketpills-gurgaon/"
+  },
   "point72:64f8bc22cda8": {
    "company": "Point72",
    "department": "Backend Development",
@@ -19838,6 +19875,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-14T23:56:40Z",
+ "updated": "2026-09-15T05:08:10Z",
  "version": 1
 }
