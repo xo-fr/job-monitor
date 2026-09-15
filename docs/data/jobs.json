@@ -2882,6 +2882,19 @@
    "title": "Machine Learning Engineer IV",
    "url": "https://www.instahyre.com/job-412500-machine-learning-engineer-iv-at-amazon-bangalore/"
   },
+  "amazon:638c34857c4a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, AWS Infrastructure Supply Chain ",
+   "url": "https://www.amazon.jobs/en/jobs/10541980/software-dev-engineer-ii-aws-infrastructure-supply-chain"
+  },
   "amazon:64e5f72f6cb8": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2946,6 +2959,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer , Concessions Tech",
    "url": "https://www.amazon.jobs/en/jobs/10498614/software-development-engineer-concessions-tech"
+  },
+  "amazon:69b51215ed3a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development II, Core Services OTF Team",
+   "url": "https://www.amazon.jobs/en/jobs/10541973/software-development-ii-core-services-otf-team"
   },
   "amazon:69c1cb92a44d": {
    "company": "Amazon",
@@ -3875,6 +3901,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, Fulfillment by Amazon (FBA)",
    "url": "https://www.amazon.jobs/en/jobs/10534656/software-development-engineer-ii-fulfillment-by-amazon-fba"
+  },
+  "amazon:a7e200c7ef96": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-15",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer-II, Infra Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10541979/software-dev-engineer-ii-infra-supply-chain-automation"
   },
   "amazon:a80a33f7800c": {
    "company": "Amazon",
@@ -5274,6 +5313,17 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore-Nova/Software-Engineer_R263778"
+  },
+  "analog-devices:641aaa60ed57": {
+   "company": "Analog Devices",
+   "first_seen": "2026-09-15",
+   "location": "India, Bangalore, Nova",
+   "posted_at": "2026-09-15",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore-Nova/Software-Engineer_R266038"
   },
   "analog-devices:acfa41cc5b29": {
    "company": "Analog Devices",
@@ -12461,6 +12511,18 @@
    "title": "Software Development Engineer 2 - AI Pod",
    "url": "https://www.instahyre.com/job-435776-software-development-engineer-2-ai-pod-at-kissht-mumbai/"
   },
+  "kivi-capital:246b2ac61452": {
+   "company": "Kivi Capital",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Quant Developer",
+   "url": "https://www.instahyre.com/job-419919-quant-developer-at-kivi-capital-hyderabad/"
+  },
   "kiwi-general-insurance:6548309154a1": {
    "company": "Kiwi General Insurance",
    "department": "Backend Development",
@@ -14630,6 +14692,18 @@
    "tier": "experienced",
    "title": "Systems Engineer ",
    "url": "https://www.netskope.com/company/careers/open-positions/?gh_jid=7748523"
+  },
+  "neurodiscovery-ai:0b29a721b1b7": {
+   "company": "NeuroDiscovery AI",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-15",
+   "location": "Bangalore, Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Engineer",
+   "url": "https://www.instahyre.com/job-424344-fullstack-engineer-at-neurodiscovery-ai-bangalore-gurgaon/"
   },
   "neurogrid:3ef4f5be681c": {
    "company": "neuroGrid",
@@ -17097,6 +17171,17 @@
    "title": "Member of Technical Staff, Software Engineering",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Member-of-Technical-Staff--Software-Engineering_JR356805"
   },
+  "salesforce:4b935c15f600": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-15",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-09-15",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering SMTS, Identity and Access Management",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-SMTS--Identity-and-Access-Management_JR358231-1"
+  },
   "salesforce:590f2ca2a229": {
    "company": "Salesforce",
    "first_seen": "2026-08-24",
@@ -17250,6 +17335,17 @@
    "tier": "experienced",
    "title": "Software Engineering MTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR356834"
+  },
+  "salesforce:e52cdd2fe2d9": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-15",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-09-15",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Product Security Engineer",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Product-Security-Engineer_JR355204"
   },
   "salesforce:ea01f3c8ced9": {
    "company": "Salesforce",
@@ -20193,6 +20289,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-15T11:58:47Z",
+ "updated": "2026-09-15T17:11:52Z",
  "version": 1
 }
