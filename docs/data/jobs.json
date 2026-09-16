@@ -1704,6 +1704,19 @@
    "title": "Software Development Engineer, Amazon OpenSearch Service - Plugins and Security",
    "url": "https://www.amazon.jobs/en/jobs/10497207/software-development-engineer-amazon-opensearch-service-plugins-and-security"
   },
+  "amazon:189111e35147": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-16",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Amazon",
+   "url": "https://www.amazon.jobs/en/jobs/10546640/software-development-engineer-amazon"
+  },
   "amazon:18f429ecbbb7": {
    "company": "Amazon",
    "department": "Software Development",
@@ -19614,6 +19627,17 @@
    "title": "Software Engineer (L3)",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/7996779"
   },
+  "twilio:d1c6e4274d8f": {
+   "company": "Twilio",
+   "first_seen": "2026-09-16",
+   "location": "Remote - India",
+   "posted_at": "2026-09-16",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern (January 12th start, 23 weeks) ",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8190889"
+  },
   "uber:1e6b0ad73ccf": {
    "company": "Uber",
    "department": "Backend Development",
@@ -20841,6 +20865,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-16T17:12:39Z",
+ "updated": "2026-09-16T21:31:27Z",
  "version": 1
 }
