@@ -1833,6 +1833,19 @@
    "title": "Software Dev Engineer II, Planning Intelligence",
    "url": "https://www.amazon.jobs/en/jobs/10471550/software-dev-engineer-ii-planning-intelligence"
   },
+  "amazon:210c716e02e9": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-16",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II",
+   "url": "https://www.amazon.jobs/en/jobs/10545214/software-development-engineer-ii"
+  },
   "amazon:225db7c4fbbd": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4211,6 +4224,19 @@
    "title": "SDE III - Fullstack",
    "url": "https://www.instahyre.com/job-441612-sde-iii-fullstack-at-amazon-bangalore/"
   },
+  "amazon:b70258dd5131": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-16",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II",
+   "url": "https://www.amazon.jobs/en/jobs/10545155/software-development-engineer-ii"
+  },
   "amazon:b7cdfd0caabf": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5112,6 +5138,19 @@
    "title": "Software Development Engineer - II, FinTech - TFAW",
    "url": "https://www.amazon.jobs/en/jobs/10446957/software-development-engineer-ii-fintech-tfaw"
   },
+  "amazon:efa6a3c1a9b7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-16",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - II",
+   "url": "https://www.amazon.jobs/en/jobs/10545175/software-development-engineer-ii"
+  },
   "amazon:f003fd605d16": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5977,6 +6016,17 @@
    "tier": "newgrad",
    "title": "Software Engineer - I",
    "url": "https://www.instahyre.com/job-440178-software-engineer-i-at-aurva-bangalore/"
+  },
+  "autodesk:444942306bf3": {
+   "company": "Autodesk",
+   "first_seen": "2026-09-16",
+   "location": "Bengaluru, IND",
+   "posted_at": "2026-09-16",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (Back-end)",
+   "url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Bengaluru-IND/Software-Engineer--Back-end-_26WD101081-1"
   },
   "autodesk:6d8496cb423c": {
    "company": "Autodesk",
@@ -11294,6 +11344,18 @@
    "title": "Full Stack Engineer",
    "url": "https://www.instahyre.com/job-435044-full-stack-engineer-at-hdfc-credila-financial-services-2-bangalore/"
   },
+  "hdfc-credila-financial-services:f7eff6d83bda": {
+   "company": "HDFC Credila Financial Services",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-366582-backend-engineer-at-hdfc-credila-financial-services-2-bangalore/"
+  },
   "healthfab:3b497bd3016a": {
    "company": "Healthfab",
    "department": "Backend Development",
@@ -12291,6 +12353,17 @@
    "tier": "experienced",
    "title": "SDE 2",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/7956882"
+  },
+  "inmobi:13bb9bc9d8cd": {
+   "company": "InMobi",
+   "first_seen": "2026-09-16",
+   "location": "Lucknow",
+   "posted_at": "2026-09-16",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE IV (ML Engineering)",
+   "url": "https://job-boards.greenhouse.io/inmobi/jobs/8073655"
   },
   "inmobi:1bee894c0029": {
    "company": "InMobi",
@@ -13503,6 +13576,17 @@
    "title": "AI Engineer",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/AI-Engineer_R-279646"
   },
+  "mastercard:939027997ec2": {
+   "company": "Mastercard",
+   "first_seen": "2026-09-16",
+   "location": "Pune, India",
+   "posted_at": "2026-09-16",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-289234"
+  },
   "mastercard:96c0851b2670": {
    "company": "Mastercard",
    "first_seen": "2026-08-24",
@@ -13831,6 +13915,18 @@
    "tier": "experienced",
    "title": "Founding Full Stack Engineer",
    "url": "https://www.instahyre.com/job-439864-founding-full-stack-engineer-at-maxhome-bangalore/"
+  },
+  "medanta:d2182cfa4c63": {
+   "company": "Medanta",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Software Engineer",
+   "url": "https://www.instahyre.com/job-443200-backend-software-engineer-at-medanta-noida/"
   },
   "media.net:67adc56e4dd8": {
    "company": "Media.net",
@@ -17751,6 +17847,18 @@
    "title": "AI / ML Engineer - Product Management",
    "url": "https://www.instahyre.com/job-425954-ai-ml-engineer-product-management-at-scispace-bangalore/"
   },
+  "scope-retail-systems:ae1b9627374f": {
+   "company": "Scope Retail Systems",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Indore, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer",
+   "url": "https://www.instahyre.com/job-417212-frontend-developer-at-scope-retail-systems-indore-pune/"
+  },
   "scope-retail-systems:aeec02ee3ddc": {
    "company": "Scope Retail Systems",
    "department": "Full-Stack Development",
@@ -19578,6 +19686,18 @@
    "title": "Gen AI Engineer - Python",
    "url": "https://www.instahyre.com/job-434289-gen-ai-engineer-python-at-unionsys-technologies-bangalore/"
   },
+  "unionsys-technologies:677a3acae6c4": {
+   "company": "UnionSys Technologies",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-430636-java-developer-at-unionsys-technologies-hyderabad/"
+  },
   "unionsys-technologies:a43a29530e64": {
    "company": "UnionSys Technologies",
    "department": "Backend Development",
@@ -20721,6 +20841,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-16T11:54:52Z",
+ "updated": "2026-09-16T17:12:39Z",
  "version": 1
 }
