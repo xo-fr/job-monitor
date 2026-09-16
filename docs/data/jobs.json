@@ -3594,6 +3594,19 @@
    "title": "Software Development Engineer - II, ShipTech Analytics",
    "url": "https://www.amazon.jobs/en/jobs/10513792/software-development-engineer-ii-shiptech-analytics"
   },
+  "amazon:8dd2d39e61f7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-16",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer , Selection Monitoring",
+   "url": "https://www.amazon.jobs/en/jobs/10544124/software-engineer-selection-monitoring"
+  },
   "amazon:8e0f90f6a936": {
    "company": "Amazon",
    "department": "Software Development",
@@ -18008,6 +18021,18 @@
    "title": "Software QA Engineer",
    "url": "https://www.instahyre.com/job-367471-software-qa-engineer-at-stable-money-bangalore/"
   },
+  "star-health-and-allied-insurance:e0650bfdeb22": {
+   "company": "Star Health and Allied Insurance",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Web Developer",
+   "url": "https://www.instahyre.com/job-443180-frontend-web-developer-at-star-health-and-allied-insurance-pune/"
+  },
   "starrez:ef05ea462477": {
    "company": "StarRez",
    "department": "Full-Stack Development",
@@ -18617,6 +18642,18 @@
    "tier": "experienced",
    "title": "Embedded Software Engineer (STB)",
    "url": "https://www.instahyre.com/job-438599-embedded-software-engineer-stb-at-tata-group-bangalore-chennai/"
+  },
+  "teachmint:23e1db6fe672": {
+   "company": "Teachmint",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE III - Backend",
+   "url": "https://www.instahyre.com/job-443169-sde-iii-backend-at-teachmint-bangalore/"
   },
   "tekion:14dd3b4e96fa": {
    "company": "Tekion",
@@ -19869,6 +19906,18 @@
    "title": "RPA Developer - Automation Anywhere",
    "url": "https://www.instahyre.com/job-432513-rpa-developer-automation-anywhere-at-wissen-technology-bangalore/"
   },
+  "wissen-technology:3f33e3f88606": {
+   "company": "Wissen Technology",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-443034-java-developer-at-wissen-technology-bangalore/"
+  },
   "wissen-technology:5430d9cd3aa3": {
    "company": "Wissen Technology",
    "department": "Full-Stack Development",
@@ -19940,6 +19989,18 @@
    "tier": "experienced",
    "title": "Angular Developer",
    "url": "https://www.instahyre.com/job-430971-angular-developer-at-wissen-technology-mumbai/"
+  },
+  "wissen-technology:f20c12984f07": {
+   "company": "Wissen Technology",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-16",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Developer (Node & React)",
+   "url": "https://www.instahyre.com/job-443140-fullstack-developer-node-react-at-wissen-technology-hyderabad/"
   },
   "wizcommerce:56c9ff137cb5": {
    "company": "WizCommerce",
@@ -20340,6 +20401,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-15T21:36:43Z",
+ "updated": "2026-09-16T05:03:39Z",
  "version": 1
 }
