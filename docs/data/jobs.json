@@ -6684,6 +6684,18 @@
    "title": "AI / ML Engineer",
    "url": "https://www.instahyre.com/job-441439-ai-ml-engineer-at-bluno-bangalore/"
   },
+  "bluno:22f892e1f829": {
+   "company": "Bluno",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 2",
+   "url": "https://www.instahyre.com/job-443214-software-development-engineer-2-at-bluno-bangalore/"
+  },
   "bluno:3795720e9605": {
    "company": "Bluno",
    "department": "Data Science / Machine Learning",
@@ -17281,6 +17293,18 @@
    "title": "SDET - Backend",
    "url": "https://www.instahyre.com/job-438205-sdet-backend-at-r3-mumbai/"
   },
+  "radius-agent:0dbd0a83b33d": {
+   "company": "Radius Agent",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "QA Engineer",
+   "url": "https://www.instahyre.com/job-434391-qa-engineer-at-radius-agent-bangalore/"
+  },
   "rakuten:4da52377c79e": {
    "company": "Rakuten",
    "department": "Full-Stack Development",
@@ -20865,6 +20889,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-16T21:31:27Z",
+ "updated": "2026-09-17T05:07:35Z",
  "version": 1
 }
