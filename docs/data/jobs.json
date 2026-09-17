@@ -1830,6 +1830,19 @@
    "title": "Software Development Engineer, Prime Video - Linear Experience",
    "url": "https://www.amazon.jobs/en/jobs/10441175/software-development-engineer-prime-video-linear-experience"
   },
+  "amazon:1e177b857fe0": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-17",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Dev Engineer I FTC",
+   "url": "https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc"
+  },
   "amazon:1e2fd016d864": {
    "company": "Amazon",
    "department": "Software Development",
@@ -2683,6 +2696,19 @@
    "tier": "experienced",
    "title": "Software Engineer, Under the Roof Labor Planning, UTR",
    "url": "https://www.amazon.jobs/en/jobs/10512648/software-engineer-under-the-roof-labor-planning-utr"
+  },
+  "amazon:4d5e5171938a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-17",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, DSP Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10552162/software-dev-engineer-ii-dsp-tech"
   },
   "amazon:4d70e3f63bf2": {
    "company": "Amazon",
@@ -3717,6 +3743,19 @@
    "title": "Software Development Engineer - II, ShipTech Analytics",
    "url": "https://www.amazon.jobs/en/jobs/10513792/software-development-engineer-ii-shiptech-analytics"
   },
+  "amazon:8d5defb7f137": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-17",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Amazon Pharmacy",
+   "url": "https://www.amazon.jobs/en/jobs/10552119/software-development-engineer-ii-amazon-pharmacy"
+  },
   "amazon:8dd2d39e61f7": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4167,6 +4206,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Vendor Experience",
    "url": "https://www.amazon.jobs/en/jobs/10512590/software-development-engineer-vendor-experience"
+  },
+  "amazon:adbf7d4d8b5a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-17",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer III, HST Health Foundation",
+   "url": "https://www.amazon.jobs/en/jobs/10552117/software-development-engineer-iii-hst-health-foundation"
   },
   "amazon:ae696c6fb046": {
    "company": "Amazon",
@@ -7302,6 +7354,18 @@
    "title": "Data Scientist - 3",
    "url": "https://www.instahyre.com/job-348210-data-scientist-3-at-cashfree-bangalore/"
   },
+  "cashfree:b363e4387f1b": {
+   "company": "Cashfree",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore, Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE - 3",
+   "url": "https://www.instahyre.com/job-337046-sde-3-at-cashfree-bangalore-gurgaon/"
+  },
   "cbx1:2659f644aaf2": {
    "company": "CBX1",
    "department": "Backend Development",
@@ -10392,6 +10456,18 @@
    "title": "Software Development Engineer II",
    "url": "https://www.instahyre.com/job-439170-software-development-engineer-ii-at-entain-india-hyderabad/"
   },
+  "epam-systems:fe6bc21219b3": {
+   "company": "EPAM Systems",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer - Java Dsalgo",
+   "url": "https://www.instahyre.com/job-443468-backend-developer-java-dsalgo-at-epam-systems-hyderabad/"
+  },
   "epifi-(fi-money):13a05be94b9a": {
    "company": "Epifi (Fi Money)",
    "department": "Data Science",
@@ -10794,6 +10870,30 @@
    "tier": "experienced",
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-426618-backend-engineer-at-gap-bangalore/"
+  },
+  "geoiq:1c06e93f8cae": {
+   "company": "GeoIQ",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Engineer",
+   "url": "https://www.instahyre.com/job-443527-frontend-engineer-at-geoiq-bangalore/"
+  },
+  "geoiq:2ee202a776a8": {
+   "company": "GeoIQ",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Junior AI Engineer",
+   "url": "https://www.instahyre.com/job-443533-junior-ai-engineer-at-geoiq-bangalore/"
   },
   "geoiq:4052a3e784be": {
    "company": "GeoIQ",
@@ -17184,6 +17284,18 @@
    "title": "Frontend Engineer 2",
    "url": "https://www.instahyre.com/job-408493-frontend-engineer-2-at-piramal-finance-limited-bangalore-mumbai/"
   },
+  "planview:3ecb4cd88017": {
+   "company": "Planview",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://www.instahyre.com/job-443467-software-engineer-ii-at-planview-bangalore/"
+  },
   "playedx:7bf651e4adfc": {
    "company": "PlayedX",
    "department": "Full-Stack Development",
@@ -17279,6 +17391,18 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-432562-software-engineer-at-pocketfm-bangalore/"
+  },
+  "pocketfm:fe7cf2e81f24": {
+   "company": "PocketFM",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-17",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Member of Technical Staff - Applied AI (Backend)",
+   "url": "https://www.instahyre.com/job-443537-member-of-technical-staff-applied-ai-backend-at-pocketfm-bangalore/"
   },
   "pocketpills:1d2404ffa0c9": {
    "company": "PocketPills",
@@ -21344,6 +21468,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-17T11:57:36Z",
+ "updated": "2026-09-17T17:11:54Z",
  "version": 1
 }
