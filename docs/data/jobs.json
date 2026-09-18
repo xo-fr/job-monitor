@@ -650,6 +650,17 @@
    "title": "Software Engineer 2",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Software-Engineer-2_R169381"
   },
+  "adobe:2030ee7f66c7": {
+   "company": "Adobe",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "posted_at": "2026-09-18",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 3 - Java",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Software-Development-Engineer-3---Java_R171822"
+  },
   "adobe:284e65439fd9": {
    "company": "Adobe",
    "first_seen": "2026-08-21",
@@ -862,6 +873,17 @@
    "tier": "experienced",
    "title": "Frontend Developer",
    "url": "https://www.instahyre.com/job-429982-frontend-developer-at-adobe-delhi-noida/"
+  },
+  "adobe:9b432c97b49e": {
+   "company": "Adobe",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "posted_at": "2026-09-18",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer 3 - Microsoft Dynamics Developer",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Software-Development-Engineer-3---Microsoft-Dynamics-Developer_R171858"
   },
   "adobe:9f1a972c6cbb": {
    "company": "Adobe",
@@ -1842,6 +1864,19 @@
    "tier": "newgrad",
    "title": "Software Dev Engineer I FTC",
    "url": "https://www.amazon.jobs/en/jobs/10551515/software-dev-engineer-i-ftc"
+  },
+  "amazon:1e18281150d5": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-18",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Buyer Fraud Prevention",
+   "url": "https://www.amazon.jobs/en/jobs/10553122/software-development-engineer-buyer-fraud-prevention"
   },
   "amazon:1e2fd016d864": {
    "company": "Amazon",
@@ -3007,6 +3042,19 @@
    "title": "SDE-1 (FTC)",
    "url": "https://www.amazon.jobs/en/jobs/10525643/sde-1-ftc"
   },
+  "amazon:5f906c49aeac": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-16",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "Software Development Engineer I, IESP Merchant Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10544314/software-development-engineer-i-iesp-merchant-tech"
+  },
   "amazon:6038c6f13e84": {
    "company": "Amazon",
    "department": "Software Development",
@@ -3509,6 +3557,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer, Amazon Fulfilment Tech",
    "url": "https://www.amazon.jobs/en/jobs/10499857/software-development-engineer-amazon-fulfilment-tech"
+  },
+  "amazon:81bc9ce9709b": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-18",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II",
+   "url": "https://www.amazon.jobs/en/jobs/10553121/software-development-engineer-ii"
   },
   "amazon:82a92b0b9152": {
    "company": "Amazon",
@@ -10397,6 +10458,18 @@
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-402054-backend-developer-at-educationtechplus-jaipur/"
   },
+  "elchemy:5d89335d3a70": {
+   "company": "Elchemy",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Gurgaon, Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-443347-full-stack-engineer-at-elchemy-gurgaon-mumbai/"
+  },
   "emb-global:a7d551e591ed": {
    "company": "EMB Global",
    "department": "Backend Development",
@@ -16945,6 +17018,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-431711-ai-engineer-at-pascal-ai-labs-bangalore/"
   },
+  "pascal-ai-labs:d6753017c08f": {
+   "company": "Pascal AI Labs",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-431448-ai-engineer-at-pascal-ai-labs-bangalore/"
+  },
   "payoneer:69afe3d54727": {
    "company": "Payoneer",
    "department": "Backend Development",
@@ -21481,6 +21566,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-17T21:35:55Z",
+ "updated": "2026-09-18T04:59:19Z",
  "version": 1
 }
