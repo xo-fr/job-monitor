@@ -144,6 +144,18 @@
    "title": "Custom Software Engineer",
    "url": "https://www.instahyre.com/job-442564-custom-software-engineer-at-accenture-2-ahmedabad-bangalore-indore/"
   },
+  "accenture:0caf1831c46c": {
+   "company": "Accenture",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore, Gurgaon, Kolkata",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Python Developer - Generative AI",
+   "url": "https://www.instahyre.com/job-443425-python-developer-generative-ai-at-accenture-2-bangalore-gurgaon-kolkata/"
+  },
   "accenture:18e0a69e8c91": {
    "company": "Accenture",
    "department": "Full-Stack Development",
@@ -3257,6 +3269,19 @@
    "title": "Software Development Engineer, Appstore Commerce",
    "url": "https://www.amazon.jobs/en/jobs/10465003/software-development-engineer-appstore-commerce"
   },
+  "amazon:6d6186cdb2a3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-18",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SDE-1, Expansions Tech and Product",
+   "url": "https://www.amazon.jobs/en/jobs/10553343/sde-1-expansions-tech-and-product"
+  },
   "amazon:6d6235de05ea": {
    "company": "Amazon",
    "department": "Full-Stack Development",
@@ -6341,6 +6366,17 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/Bengaluru-IND/Software-Engineer_26WD99323-2"
+  },
+  "autodesk:bf96cfcc7ea7": {
+   "company": "Autodesk",
+   "first_seen": "2026-09-18",
+   "location": "APAC - India - Pune - ABIL Boulevard",
+   "posted_at": "2026-09-18",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Site Reliability Engineer",
+   "url": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext/job/APAC---India---Pune---ABIL-Boulevard/Site-Reliability-Engineer_26WD98218-1"
   },
   "autodesk:db77d811c36b": {
    "company": "Autodesk",
@@ -11779,6 +11815,18 @@
    "title": "SDE - 2",
    "url": "https://www.instahyre.com/job-422793-sde-2-at-greyorange-2-gurgaon/"
   },
+  "greyorange:cb64c7b4afc5": {
+   "company": "GreyOrange",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II",
+   "url": "https://www.instahyre.com/job-443257-software-development-engineer-ii-at-greyorange-2-gurgaon/"
+  },
   "greyorange:cd38e5cd1190": {
    "company": "GreyOrange",
    "department": "Other Software Development",
@@ -13070,6 +13118,18 @@
    "title": "SDE III Gen AI",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/7548045"
   },
+  "inmobi:ca4475fde4f5": {
+   "company": "InMobi",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 3 (Glance)",
+   "url": "https://www.instahyre.com/job-416233-sde-3-glance-at-inmobi-bangalore/"
+  },
   "inmobi:d2ab1f05b4eb": {
    "company": "InMobi",
    "department": "Full-Stack Development",
@@ -13821,6 +13881,18 @@
    "title": "Java Fullstack Developer",
    "url": "https://www.instahyre.com/job-409157-java-fullstack-developer-at-liquify-2-delhi/"
   },
+  "livekeeping:37cc3069dd22": {
+   "company": "Livekeeping",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Gurgaon, Hyderabad, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "React Developer - Java",
+   "url": "https://www.instahyre.com/job-443690-react-developer-java-at-livekeeping-gurgaon-hyderabad-pune/"
+  },
   "loco:6c90ac44df86": {
    "company": "Loco",
    "department": "Backend Development",
@@ -14126,6 +14198,17 @@
    "tier": "experienced",
    "title": "Software Engineer II-2",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II-2_R-282788-1"
+  },
+  "mastercard:610c0cf24185": {
+   "company": "Mastercard",
+   "first_seen": "2026-09-18",
+   "location": "Pune, India",
+   "posted_at": "2026-09-18",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-286355"
   },
   "mastercard:63342c34d9e3": {
    "company": "Mastercard",
@@ -17570,6 +17653,30 @@
    "title": "Frontend Engineer",
    "url": "https://www.instahyre.com/job-439185-frontend-engineer-at-pinegap-bangalore/"
   },
+  "piramal-finance-limited:29835c4c574e": {
+   "company": "Piramal Finance Limited",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II",
+   "url": "https://www.instahyre.com/job-441943-sde-ii-at-piramal-finance-limited-bangalore/"
+  },
+  "piramal-finance-limited:43df30a1dc6a": {
+   "company": "Piramal Finance Limited",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SDE 1 - AI",
+   "url": "https://www.instahyre.com/job-417085-sde-1-ai-at-piramal-finance-limited-bangalore/"
+  },
   "piramal-finance-limited:691aac3c7c2e": {
    "company": "Piramal Finance Limited",
    "department": "Frontend / Mobile Development",
@@ -18575,6 +18682,17 @@
    "title": "Software Engineer - MTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineer---MTS_JR358482"
   },
+  "salesforce:da9f830f2399": {
+   "company": "Salesforce",
+   "first_seen": "2026-09-18",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-09-18",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineering PMTS - Cloud Security - Hyderabad",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS---Cloud-Security---Hyderabad_JR357893"
+  },
   "salesforce:e01366fa5d6e": {
    "company": "Salesforce",
    "first_seen": "2026-09-01",
@@ -18940,6 +19058,18 @@
    "tier": "experienced",
    "title": "Frontend Developer",
    "url": "https://www.instahyre.com/job-438321-frontend-developer-at-slikk-bangalore/"
+  },
+  "slikk:e9f593ab6a4d": {
+   "company": "Slikk",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Developer",
+   "url": "https://www.instahyre.com/job-420106-backend-developer-at-slikk-bangalore/"
   },
   "slikk:f63259280e64": {
    "company": "Slikk",
@@ -20983,6 +21113,18 @@
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-430378-ai-engineer-at-waayupay-bangalore/"
   },
+  "walmart-global-tech-india:2d1ace5e1de2": {
+   "company": "Walmart Global Tech India",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-18",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java API Gateway Developer",
+   "url": "https://www.instahyre.com/job-442566-java-api-gateway-developer-at-walmart-global-tech-india-bangalore/"
+  },
   "walmart-global-tech-india:636a16634c60": {
    "company": "Walmart Global Tech India",
    "department": "Frontend / Mobile Development",
@@ -21874,6 +22016,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-18T11:36:26Z",
+ "updated": "2026-09-18T16:37:32Z",
  "version": 1
 }
