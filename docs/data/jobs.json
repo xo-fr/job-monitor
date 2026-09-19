@@ -12242,6 +12242,18 @@
    "title": "Software Development Engineer - IV",
    "url": "https://www.highradius.com/about/careers-list/?gh_jid=7608435003"
   },
+  "highradius:ab6ced995a90": {
+   "company": "Highradius",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.instahyre.com/job-439467-software-development-engineer-at-highradius-hyderabad/"
+  },
   "highradius:ac57546ffa9e": {
    "company": "HighRadius",
    "first_seen": "2026-08-21",
@@ -12467,6 +12479,18 @@
    "title": "Platform Engineer",
    "url": "https://www.instahyre.com/job-442305-platform-engineer-at-humyn-labs-bangalore/"
   },
+  "huru:3b30fc68cee0": {
+   "company": "Huru",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Delhi, Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI Engineer",
+   "url": "https://www.instahyre.com/job-443761-ai-engineer-at-huru-delhi-noida/"
+  },
   "hydden:53a087d23108": {
    "company": "Hydden",
    "department": "Backend Development",
@@ -12586,6 +12610,18 @@
    "tier": "experienced",
    "title": "Data Engineer",
    "url": "https://www.instahyre.com/job-440484-data-engineer-at-idfc-first-bank-bangalore-mumbai/"
+  },
+  "idfc-first-bank:ea16770d0139": {
+   "company": "IDFC FIRST Bank",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist",
+   "url": "https://www.instahyre.com/job-438347-data-scientist-at-idfc-first-bank-mumbai/"
   },
   "imagine-learning:38988fac619e": {
    "company": "Imagine Learning",
@@ -13269,6 +13305,30 @@
    "tier": "experienced",
    "title": "Software Application Development Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Software-Application-Development-Engineer_JR0285646"
+  },
+  "intel:bc54836a6c37": {
+   "company": "Intel",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Node.js Developer",
+   "url": "https://www.instahyre.com/job-443569-node-js-developer-at-intel-2-hyderabad/"
+  },
+  "intellect-design-arena:f7b24e667710": {
+   "company": "Intellect Design Arena",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Node.js Developer",
+   "url": "https://www.instahyre.com/job-438112-node-js-developer-at-intellect-design-arena-hyderabad/"
   },
   "intellicar:8a9c6d2bc4fe": {
    "company": "Intellicar",
@@ -17180,6 +17240,18 @@
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-415264-backend-engineer-at-oolka-bangalore/"
   },
+  "oolka:eec42b803e64": {
+   "company": "Oolka",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "AI / ML Engineer",
+   "url": "https://www.instahyre.com/job-430564-ai-ml-engineer-at-oolka-bangalore/"
+  },
   "open-hearing:981dde45d387": {
    "company": "Open Hearing",
    "department": "Backend Development",
@@ -19431,6 +19503,18 @@
    "tier": "experienced",
    "title": "Frontend Developer",
    "url": "https://www.instahyre.com/job-406069-frontend-developer-at-sprinklr-gurgaon/"
+  },
+  "sprinklr:5c46d96f15fb": {
+   "company": "Sprinklr",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Jr. Frontend Developer",
+   "url": "https://www.instahyre.com/job-368323-jr-frontend-developer-at-sprinklr-bangalore/"
   },
   "spry-health:f6a7ea7bd104": {
    "company": "Spry Health",
@@ -22065,6 +22149,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-19T04:51:59Z",
+ "updated": "2026-09-19T11:19:47Z",
  "version": 1
 }
