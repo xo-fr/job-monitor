@@ -4648,6 +4648,19 @@
    "title": "Software Dev Engineer, WWGST Grocery operator experience ",
    "url": "https://www.amazon.jobs/en/jobs/10515069/software-dev-engineer-wwgst-grocery-operator-experience"
   },
+  "amazon:c3c6e7153a9d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-19",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, Alexa Smart Home Cameras",
+   "url": "https://www.amazon.jobs/en/jobs/10554118/software-development-engineer-ii-alexa-smart-home-cameras"
+  },
   "amazon:c4dd826cdd94": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12286,6 +12299,18 @@
    "title": "Full Stack Developer",
    "url": "https://www.instahyre.com/job-441897-full-stack-developer-at-hinduja-tech-pune/"
   },
+  "hinduja-tech:b975a158d8ae": {
+   "company": "Hinduja Tech",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Mid - Level Full Stack Developer",
+   "url": "https://www.instahyre.com/job-443708-mid-level-full-stack-developer-at-hinduja-tech-pune/"
+  },
   "hiver:137112cbaad8": {
    "company": "Hiver",
    "department": "Frontend / Mobile Development",
@@ -17797,6 +17822,18 @@
    "title": "Senor Software Engineer - Web",
    "url": "https://www.instahyre.com/job-429084-senor-software-engineer-web-at-pocketfm-bangalore/"
   },
+  "pocketfm:0e130e53a30f": {
+   "company": "PocketFM",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Flutter Developer",
+   "url": "https://www.instahyre.com/job-443718-flutter-developer-at-pocketfm-bangalore/"
+  },
   "pocketfm:43c2ea6ece1d": {
    "company": "PocketFM",
    "department": "Other Software Development",
@@ -22028,6 +22065,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-18T23:27:59Z",
+ "updated": "2026-09-19T04:51:59Z",
  "version": 1
 }
