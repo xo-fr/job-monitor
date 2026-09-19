@@ -5668,6 +5668,18 @@
    "title": "Software Development Engineer",
    "url": "https://www.instahyre.com/job-438404-software-development-engineer-at-ambient-security-bangalore/"
   },
+  "ambrosia-botanicals:1de999a0c097": {
+   "company": "Ambrosia Botanicals",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Fullstack Developer",
+   "url": "https://www.instahyre.com/job-443682-fullstack-developer-at-ambrosia-botanicals-gurgaon/"
+  },
   "american-airlines:23095ebaba9e": {
    "company": "American Airlines",
    "department": "Other Software Development",
@@ -13605,6 +13617,30 @@
    "tier": "experienced",
    "title": "Backend Engineer",
    "url": "https://www.instahyre.com/job-421361-backend-engineer-at-kiwi-general-insurance-mumbai-navi-mumbai/"
+  },
+  "kla-tencor:3c82183429ec": {
+   "company": "KLA-Tencor",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Java Developer",
+   "url": "https://www.instahyre.com/job-437468-java-developer-at-kla-tencor-chennai/"
+  },
+  "kla-tencor:81bcffd8cbb2": {
+   "company": "KLA-Tencor",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-19",
+   "location": "Chennai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Developer - Java",
+   "url": "https://www.instahyre.com/job-437676-full-stack-developer-java-at-kla-tencor-chennai/"
   },
   "klimb.io:417a671a121e": {
    "company": "Klimb.io",
@@ -22149,6 +22185,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-19T11:19:47Z",
+ "updated": "2026-09-19T15:59:59Z",
  "version": 1
 }
