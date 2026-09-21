@@ -3785,6 +3785,19 @@
    "title": "Software Development Engineer II, PGX, EU INTech",
    "url": "https://www.amazon.jobs/en/jobs/10476122/software-development-engineer-ii-pgx-eu-intech"
   },
+  "amazon:860fb6a26e2e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-21",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-21",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer II, FBA Capacity and Inventory Health Management",
+   "url": "https://www.amazon.jobs/en/jobs/10554270/software-development-engineer-ii-fba-capacity-and-inventory-health-management"
+  },
   "amazon:872302c2f53f": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12104,6 +12117,42 @@
    "title": "Full Stack Engineer - Gen AI",
    "url": "https://www.instahyre.com/job-442103-full-stack-engineer-gen-ai-at-hellocounsel-bangalore/"
   },
+  "hellocounsel.ai:abd04ef9f39d": {
+   "company": "HelloCounsel.ai",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-21",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-443566-software-engineer-at-hellocounsel-bangalore/"
+  },
+  "hellocounsel.ai:e56ca959d992": {
+   "company": "HelloCounsel.ai",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-21",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer",
+   "url": "https://www.instahyre.com/job-443590-software-engineer-at-hellocounsel-bangalore/"
+  },
+  "hevo-data:9fc4de91ce10": {
+   "company": "Hevo Data",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-21",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Business System Engineer",
+   "url": "https://www.instahyre.com/job-443580-business-system-engineer-at-hevo-data-bangalore/"
+  },
   "hexaware-technologies:f091a6e6d0cd": {
    "company": "Hexaware Technologies",
    "department": "Backend Development",
@@ -12718,6 +12767,18 @@
    "tier": "intern",
    "title": "DevOps Engineer - Intern",
    "url": "https://www.instahyre.com/job-399709-devops-engineer-intern-internship-at-inceptionmind-technologies-bangalore/"
+  },
+  "incred-financial-services:ca2bb861aa23": {
+   "company": "InCred Financial Services",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-21",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Developer",
+   "url": "https://www.instahyre.com/job-432408-frontend-developer-at-incred-financial-services-bangalore/"
   },
   "indicus-software:eae6ffaaa9cc": {
    "company": "Indicus Software",
@@ -22220,6 +22281,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-20T23:21:30Z",
+ "updated": "2026-09-21T05:15:54Z",
  "version": 1
 }
