@@ -4065,6 +4065,19 @@
    "title": "Software Engineer , Selection Monitoring",
    "url": "https://www.amazon.jobs/en/jobs/10544124/software-engineer-selection-monitoring"
   },
+  "amazon:8def7d055d99": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-22",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Business Data Technologies",
+   "url": "https://www.amazon.jobs/en/jobs/10555707/software-dev-engineer-ii-business-data-technologies"
+  },
   "amazon:8e0f90f6a936": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6395,6 +6408,18 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-419425-software-engineer-at-arista-networks-bangalore/"
+  },
+  "arista-networks:24392e7aee88": {
+   "company": "Arista Networks",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Bangalore, Chennai, Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "WiFi Software Development Engineer",
+   "url": "https://www.instahyre.com/job-443984-wifi-software-development-engineer-at-arista-networks-bangalore-chennai-pune/"
   },
   "arista-networks:298ef42b7097": {
    "company": "Arista Networks",
@@ -10708,6 +10733,18 @@
    "title": "Backend Developer - C++",
    "url": "https://www.instahyre.com/job-415442-backend-developer-c-plus-plus-at-drimco-gmbh-work-from-home/"
   },
+  "drimco-gmbh:c5eb7197e39a": {
+   "company": "DRIMCO GmbH",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Work From Home",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Front End Developer - Angular",
+   "url": "https://www.instahyre.com/job-414799-front-end-developer-angular-at-drimco-gmbh-work-from-home/"
+  },
   "dxc-technology:6f43019c587c": {
    "company": "DXC Technology",
    "department": "Full-Stack Development",
@@ -11194,6 +11231,18 @@
    "tier": "experienced",
    "title": ".NET Developer",
    "url": "https://www.instahyre.com/job-256133-dot-net-developer-at-extensible-it-solutions-jaipur/"
+  },
+  "falabella:2895749b1cd2": {
+   "company": "Falabella",
+   "department": "Full-Stack Development",
+   "employment_type": "Intern",
+   "first_seen": "2026-09-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "intern",
+   "title": "Software Engineer Intern",
+   "url": "https://www.instahyre.com/job-443890-software-engineer-intern-internship-at-falabella-2-bangalore/"
   },
   "falkonry:5fd83b5146c8": {
    "company": "Falkonry",
@@ -13114,6 +13163,18 @@
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-438347-data-scientist-at-idfc-first-bank-mumbai/"
   },
+  "iifl:7cce28c9b6b7": {
+   "company": "IIFL",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist",
+   "url": "https://www.instahyre.com/job-442481-data-scientist-at-iifl-mumbai/"
+  },
   "imagine-learning:38988fac619e": {
    "company": "Imagine Learning",
    "department": "Other Software Development",
@@ -13753,6 +13814,17 @@
    "tier": "newgrad",
    "title": "SDE - 1 (Full - Stack)",
    "url": "https://www.instahyre.com/job-19-sde-1-full-stack-at-instahyre-noida/"
+  },
+  "intel:24b4c55ba33a": {
+   "company": "Intel",
+   "first_seen": "2026-09-22",
+   "location": "India, Bangalore",
+   "posted_at": "2026-09-22",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "System and Software Optimization Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/System-and-Software-Optimization-Engineer_JR0287295"
   },
   "intel:2ffc7ff89aa4": {
    "company": "Intel",
@@ -15474,6 +15546,18 @@
    "tier": "experienced",
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-433572-data-scientist-at-meesho-gurgaon/"
+  },
+  "meesho:38466380e4fc": {
+   "company": "Meesho",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist III",
+   "url": "https://www.instahyre.com/job-443789-data-scientist-iii-at-meesho-bangalore/"
   },
   "meesho:440eb1e11495": {
    "company": "Meesho",
@@ -17847,6 +17931,18 @@
    "tier": "experienced",
    "title": "AI Engineer",
    "url": "https://www.instahyre.com/job-435798-ai-engineer-at-oolka-bangalore/"
+  },
+  "oolka:6b48776c740e": {
+   "company": "Oolka",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-22",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "React Native Developer",
+   "url": "https://www.instahyre.com/job-443981-react-native-developer-at-oolka-bangalore/"
   },
   "oolka:926d1ba89ab7": {
    "company": "Oolka",
@@ -20483,6 +20579,17 @@
    "title": "Software Engineer, Intern",
    "url": "https://stripe.com/jobs/search?gh_jid=8031833"
   },
+  "stripe:28aa10eead33": {
+   "company": "Stripe",
+   "first_seen": "2026-09-22",
+   "location": "Bangalore",
+   "posted_at": "2026-03-03",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer, Core Technology",
+   "url": "https://stripe.com/jobs/search?gh_jid=7618977"
+  },
   "stripe:7610fb8e6db0": {
    "company": "Stripe",
    "first_seen": "2026-09-21",
@@ -23055,6 +23162,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-22T00:13:21Z",
+ "updated": "2026-09-22T05:14:52Z",
  "version": 1
 }
