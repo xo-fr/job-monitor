@@ -3146,6 +3146,19 @@
    "title": "Software Development Engineer, Amazon OpenSearch Service - Control Plane",
    "url": "https://www.amazon.jobs/en/jobs/10543018/software-development-engineer-amazon-opensearch-service-control-plane"
   },
+  "amazon:4c99b3c3c5a6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-23",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, HST Health Foundation",
+   "url": "https://www.amazon.jobs/en/jobs/10558348/software-dev-engineer-ii-hst-health-foundation"
+  },
   "amazon:4cab3deeabf9": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4333,6 +4346,19 @@
    "title": "Software Development Engineer, Fixed Asset Automation (FAA)",
    "url": "https://www.amazon.jobs/en/jobs/10501199/software-development-engineer-fixed-asset-automation-faa"
   },
+  "amazon:8c9e60e481bc": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-09-23",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "WiFi Software Development Engineer, eero",
+   "url": "https://www.amazon.jobs/en/jobs/10558339/wifi-software-development-engineer-eero"
+  },
   "amazon:8cb504ab9410": {
    "company": "Amazon",
    "department": "Software Development",
@@ -4512,6 +4538,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer, RBS Tech",
    "url": "https://www.amazon.jobs/en/jobs/10554342/software-development-engineer-rbs-tech"
+  },
+  "amazon:9519e0739457": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-09-23",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "WiFi Software Development Engineer, eero",
+   "url": "https://www.amazon.jobs/en/jobs/10558338/wifi-software-development-engineer-eero"
   },
   "amazon:95c19b639d5f": {
    "company": "Amazon",
@@ -6303,6 +6342,19 @@
    "title": "Software Development Engineer II, Digital Acceleration",
    "url": "https://www.amazon.jobs/en/jobs/10438962/software-development-engineer-ii-digital-acceleration"
   },
+  "amazon:fc18e03cad98": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-23",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, Customer Experience and Business Trends",
+   "url": "https://www.amazon.jobs/en/jobs/10558329/software-development-engineer-customer-experience-and-business-trends"
+  },
   "amazon:fc529dd864ec": {
    "company": "Amazon",
    "department": "Software Development",
@@ -6926,6 +6978,18 @@
    "tier": "experienced",
    "title": "Fullstack Developer",
    "url": "https://www.instahyre.com/job-440474-fullstack-developer-at-ascendion-bangalore/"
+  },
+  "aspora:ccc360e52546": {
+   "company": "Aspora",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer - Backend",
+   "url": "https://www.instahyre.com/job-427617-software-development-engineer-backend-at-aspora-bangalore/"
   },
   "aspora:fc77bfe4f25f": {
    "company": "Aspora",
@@ -24538,6 +24602,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-23T17:21:23Z",
+ "updated": "2026-09-23T21:39:29Z",
  "version": 1
 }
