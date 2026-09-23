@@ -3527,6 +3527,18 @@
    "title": "Software Development Engineer, Alexa Customers & Technology",
    "url": "https://www.amazon.jobs/en/jobs/10462377/software-development-engineer-alexa-customers-technology"
   },
+  "amazon:6b229ba81aef": {
+   "company": "Amazon",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-444171-backend-engineer-at-amazon-bangalore/"
+  },
   "amazon:6c2cc18f065b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -5973,6 +5985,19 @@
    "tier": "experienced",
    "title": "Software dev engineer, WWGST Workforce management",
    "url": "https://www.amazon.jobs/en/jobs/10516468/software-dev-engineer-wwgst-workforce-management"
+  },
+  "amazon:f1d3bbb65742": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-23",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer, AI Trust & Innovation",
+   "url": "https://www.amazon.jobs/en/jobs/10557199/software-development-engineer-ai-trust-innovation"
   },
   "amazon:f26183ca9086": {
    "company": "Amazon",
@@ -14787,6 +14812,18 @@
    "title": "Backend AI Engineer",
    "url": "https://www.instahyre.com/job-434994-backend-ai-engineer-at-knowl-bangalore/"
   },
+  "knowl:6d1670d17f41": {
+   "company": "Knowl",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Mumbai",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-443839-backend-engineer-at-knowl-mumbai/"
+  },
   "knowl:89bd9fabbea9": {
    "company": "Knowl",
    "department": "Frontend / Mobile Development",
@@ -21555,6 +21592,18 @@
    "title": "SDE 4 - Backend",
    "url": "https://www.instahyre.com/job-396341-sde-4-backend-at-synapsewave-innovations-bangalore/"
   },
+  "synapsewave-innovations:e4e54a984b92": {
+   "company": "Synapsewave Innovations",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-23",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SDE - 1",
+   "url": "https://www.instahyre.com/job-429444-sde-1-at-synapsewave-innovations-bangalore/"
+  },
   "synapsewave-innovations:ee218d86c319": {
    "company": "Synapsewave Innovations",
    "department": "Backend Development",
@@ -23876,6 +23925,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-22T21:33:22Z",
+ "updated": "2026-09-23T04:59:10Z",
  "version": 1
 }
