@@ -3025,6 +3025,19 @@
    "title": "Software Development Engineer II, Amazon Smart Vehicles",
    "url": "https://www.amazon.jobs/en/jobs/10462916/software-development-engineer-ii-amazon-smart-vehicles"
   },
+  "amazon:450d978a9775": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-09-24",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer, IN Amazon Pay ",
+   "url": "https://www.amazon.jobs/en/jobs/10558785/software-dev-engineer-in-amazon-pay"
+  },
   "amazon:4564552b7d1c": {
    "company": "Amazon",
    "department": "Software Development",
@@ -8751,6 +8764,18 @@
    "tier": "experienced",
    "title": "Software Developer",
    "url": "https://www.instahyre.com/job-350634-software-developer-at-cbx1-bangalore/"
+  },
+  "celerity-consulting:a4fb86eb7d81": {
+   "company": "Celerity Consulting",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Delhi",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Full Stack Engineer",
+   "url": "https://www.instahyre.com/job-444519-full-stack-engineer-at-celerity-consulting-delhi/"
   },
   "centricity-wealthtech:7d1f48e3d7aa": {
    "company": "Centricity WealthTech",
@@ -16561,6 +16586,17 @@
    "title": "Software Engineer I",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-I_R-290204"
   },
+  "mastercard:cbafa0747266": {
+   "company": "Mastercard",
+   "first_seen": "2026-09-24",
+   "location": "Pune, India",
+   "posted_at": "2026-09-24",
+   "source": "workday",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-290198"
+  },
   "mastercard:e0efcc679d15": {
    "company": "Mastercard",
    "first_seen": "2026-09-08",
@@ -17269,6 +17305,18 @@
    "url": "https://jobs.lever.co/mindtickle/b6e024c2-42c2-463c-8bc8-ca0aa0826845",
    "workplace": "Hybrid"
   },
+  "mirabel-technologies:407ad334b96a": {
+   "company": "Mirabel Technologies",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Jr. Full Stack Developer (AI Assisted Coding)",
+   "url": "https://www.instahyre.com/job-440467-jr-full-stack-developer-ai-assisted-coding-at-mirabel-technologies-hyderabad/"
+  },
   "mobikwik:167a41757dee": {
    "company": "MobiKwik",
    "department": "Backend Development",
@@ -17554,6 +17602,17 @@
    "tier": "experienced",
    "title": "Software Engineer 3",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7597723"
+  },
+  "mongodb:2bf7235f9dba": {
+   "company": "MongoDB",
+   "first_seen": "2026-09-24",
+   "location": "Gurugram",
+   "posted_at": "2026-09-24",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer 3",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8208074"
   },
   "mongodb:5d68bdde1ff9": {
    "company": "MongoDB",
@@ -23425,6 +23484,18 @@
    "title": "ML / MLOps Engineer",
    "url": "https://www.instahyre.com/job-437890-ml-mlops-engineer-at-triomics-bangalore/"
   },
+  "truefan-ai:d9c7d548686b": {
+   "company": "TrueFan AI",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Frontend Engineer",
+   "url": "https://www.instahyre.com/job-444529-frontend-engineer-at-truefan-ai-gurgaon/"
+  },
   "truscholar:894928b840ee": {
    "company": "TruScholar",
    "department": "Backend Development",
@@ -23553,6 +23624,18 @@
    "tier": "experienced",
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-436208-backend-developer-at-unacademy-bangalore/"
+  },
+  "unacademy:a9e19502715b": {
+   "company": "Unacademy",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE II (Frontend)",
+   "url": "https://www.instahyre.com/job-444369-sde-ii-frontend-at-unacademy-bangalore/"
   },
   "unify:8f6faaffae0a": {
    "company": "Unify",
@@ -25021,6 +25104,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-24T12:03:46Z",
+ "updated": "2026-09-24T17:26:38Z",
  "version": 1
 }
