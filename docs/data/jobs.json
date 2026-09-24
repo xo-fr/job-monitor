@@ -72,6 +72,18 @@
    "title": "SDE II (AI)",
    "url": "https://www.instahyre.com/job-442517-sde-ii-ai-at-aatmix-systems-bangalore/"
   },
+  "ablyworks:4ad34178be4f": {
+   "company": "AblyWorks",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Delhi, Gurgaon, Noida",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "QA Engineer",
+   "url": "https://www.instahyre.com/job-438995-qa-engineer-at-ablyworks-delhi-gurgaon-noida/"
+  },
   "ablyworks:8af2c17f4273": {
    "company": "AblyWorks",
    "department": "Backend Development",
@@ -2613,6 +2625,19 @@
    "tier": "experienced",
    "title": "Software Development Engineer II, Recipient Experience, Recipient Experience",
    "url": "https://www.amazon.jobs/en/jobs/10536816/software-development-engineer-ii-recipient-experience-recipient-experience"
+  },
+  "amazon:3523022de420": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-24",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer-II, Infra Supply Chain Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10558685/software-dev-engineer-ii-infra-supply-chain-automation"
   },
   "amazon:357fb76353c0": {
    "company": "Amazon",
@@ -6381,6 +6406,19 @@
    "title": "Software Development Engineer, Loss Prevention Tech, WWOS Corporate",
    "url": "https://www.amazon.jobs/en/jobs/10477117/software-development-engineer-loss-prevention-tech-wwos-corporate"
   },
+  "amazon:fdea5fbed84c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-08-20",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Dev Engineer II, Advertisement Billing",
+   "url": "https://www.amazon.jobs/en/jobs/10509563/software-dev-engineer-ii-advertisement-billing"
+  },
   "amazon:fe084e5dc323": {
    "company": "Amazon",
    "department": "Software Development",
@@ -9782,6 +9820,18 @@
    "tier": "experienced",
    "title": "Fullstack Developer - Python",
    "url": "https://www.instahyre.com/job-436500-fullstack-developer-python-at-d-e-hyderabad/"
+  },
+  "d.-e.-shaw:b9469e517067": {
+   "company": "D. E. Shaw",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bangalore, Gurgaon, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-438809-backend-engineer-at-d-e-bangalore-gurgaon-hyderabad/"
   },
   "d.-e.-shaw:dedcd63d01ac": {
    "company": "D. E. Shaw",
@@ -22718,6 +22768,18 @@
    "title": "Software Development Engineer",
    "url": "https://www.instahyre.com/job-440820-software-development-engineer-at-tesco-bangalore/"
   },
+  "tesco:2bdf57e7f601": {
+   "company": "Tesco",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE 2 - Node.js",
+   "url": "https://www.instahyre.com/job-413716-sde-2-node-js-at-tesco-bangalore/"
+  },
   "tesco:a7fb338b5df7": {
    "company": "Tesco",
    "department": "Backend Development",
@@ -22957,6 +23019,18 @@
    "tier": "experienced",
    "title": "Backend Developer",
    "url": "https://www.instahyre.com/job-425620-backend-developer-at-tradl-ai-bangalore/"
+  },
+  "transak:9f811ec4bdf0": {
+   "company": "Transak",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SDE III",
+   "url": "https://www.instahyre.com/job-444217-sde-iii-at-transak-bangalore/"
   },
   "tredence-inc:d9d9b39f2f8b": {
    "company": "Tredence Inc",
@@ -23867,6 +23941,18 @@
    "title": "Agent Developer - Knowledge Graph Specialize",
    "url": "https://www.instahyre.com/job-442822-agent-developer-knowledge-graph-specialize-at-wipro-chennai/"
   },
+  "wipro:e66baaef71ca": {
+   "company": "Wipro",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-24",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Embedded Software Developer",
+   "url": "https://www.instahyre.com/job-443643-embedded-software-developer-at-wipro-bangalore/"
+  },
   "wipro:ea4b83076017": {
    "company": "Wipro",
    "department": "Data Science / Machine Learning",
@@ -24602,6 +24688,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-23T21:39:29Z",
+ "updated": "2026-09-24T05:10:00Z",
  "version": 1
 }
