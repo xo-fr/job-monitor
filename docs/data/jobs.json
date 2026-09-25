@@ -13010,6 +13010,18 @@
    "title": "Founding Platform Engineer",
    "url": "https://www.instahyre.com/job-444376-founding-platform-engineer-at-goldcast-bangalore/"
   },
+  "goldcast:0c2cef22149f": {
+   "company": "Goldcast",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Backend Engineer",
+   "url": "https://www.instahyre.com/job-444535-backend-engineer-at-goldcast-bangalore/"
+  },
   "goldman-sachs:2718a7e209f1": {
    "company": "Goldman Sachs",
    "department": "Backend Development",
@@ -15852,6 +15864,18 @@
    "tier": "experienced",
    "title": "SDE 3",
    "url": "https://www.instahyre.com/job-440953-sde-3-at-leena-ai-bangalore/"
+  },
+  "lentra.ai:0e1d16f659d9": {
+   "company": "Lentra.ai",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Pune",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Platform AI Engineer",
+   "url": "https://www.instahyre.com/job-444541-platform-ai-engineer-at-lentra-pune/"
   },
   "lentra.ai:22538deac2b4": {
    "company": "Lentra.ai",
@@ -19895,6 +19919,18 @@
    "title": "Full Stack Engineer",
    "url": "https://www.instahyre.com/job-392652-full-stack-engineer-at-petco-hyderabad/"
   },
+  "pharmeasy:5bd8d70e2493": {
+   "company": "PharmEasy",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Development Engineer",
+   "url": "https://www.instahyre.com/job-444185-software-development-engineer-at-pharmeasy-bangalore/"
+  },
   "phonepe:0a27a071ab29": {
    "company": "PhonePe",
    "first_seen": "2026-08-21",
@@ -20446,6 +20482,18 @@
    "tier": "experienced",
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-421891-software-engineer-at-postman-bangalore/"
+  },
+  "postman:8ecea20396dd": {
+   "company": "Postman",
+   "department": "Frontend / Mobile Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer - Frontend",
+   "url": "https://www.instahyre.com/job-444425-software-engineer-frontend-at-postman-bangalore/"
   },
   "praja-app:833f852cee62": {
    "company": "Praja App",
@@ -23449,6 +23497,18 @@
    "title": "Data Scientist",
    "url": "https://www.instahyre.com/job-417346-data-scientist-at-trellance-hyderabad/"
   },
+  "trellance:6c2cd541f03a": {
+   "company": "Trellance",
+   "department": "Data Science / Machine Learning",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Data Scientist",
+   "url": "https://www.instahyre.com/job-416960-data-scientist-at-trellance-bangalore/"
+  },
   "trika-technologies:2e3dcc22b106": {
    "company": "Trika Technologies",
    "department": "Full-Stack Development",
@@ -25117,6 +25177,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-24T21:40:58Z",
+ "updated": "2026-09-25T05:11:49Z",
  "version": 1
 }
