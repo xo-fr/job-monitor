@@ -20626,6 +20626,18 @@
    "title": "AI Engineer (Agentic AI & LLM Applications)",
    "url": "https://www.instahyre.com/job-443016-ai-engineer-agentic-ai-llm-applications-at-pocketpills-gurgaon/"
   },
+  "pocketpills:994a5742c12c": {
+   "company": "PocketPills",
+   "department": "Full-Stack Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Gurgaon",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer II (Frontend)",
+   "url": "https://www.instahyre.com/job-345283-software-engineer-ii-frontend-at-pocketpills-gurgaon/"
+  },
   "point72:5873b19bc3cd": {
    "company": "Point72",
    "department": "Backend Development",
@@ -23117,6 +23129,18 @@
    "title": "Software Engineer",
    "url": "https://www.instahyre.com/job-441714-software-engineer-at-tata-consultancy-services-bangalore-chennai/"
   },
+  "tata-consultancy-services:d26b78cae377": {
+   "company": "Tata Consultancy Services",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Android Framework Engineer",
+   "url": "https://www.instahyre.com/job-444646-android-framework-engineer-at-tata-consultancy-services-bangalore/"
+  },
   "tata-consultancy-services:f0c5a11cff06": {
    "company": "Tata Consultancy Services",
    "department": "Backend Development",
@@ -24067,6 +24091,18 @@
    "tier": "experienced",
    "title": "Python Backend Engineer (AWS Integration)",
    "url": "https://www.instahyre.com/job-437097-python-backend-engineer-aws-integration-at-usefulbi-bangalore-pune/"
+  },
+  "valorant:67e0f6ba4e38": {
+   "company": "Valorant",
+   "department": "Backend Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-25",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "newgrad",
+   "title": "SDE - 1 (Backend)",
+   "url": "https://www.instahyre.com/job-444586-sde-1-backend-at-valorant-bangalore/"
   },
   "valorant:e08f33aca590": {
    "company": "Valorant",
@@ -25403,6 +25439,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-25T12:04:01Z",
+ "updated": "2026-09-25T17:25:12Z",
  "version": 1
 }
