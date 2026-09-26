@@ -324,6 +324,18 @@
    "title": "GEN AI Engineer",
    "url": "https://www.instahyre.com/job-443828-gen-ai-engineer-at-accenture-2-bangalore-chennai-gurgaon/"
   },
+  "accenture:33c66966eabc": {
+   "company": "Accenture",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-26",
+   "location": "Chennai, Delhi, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "SnapLogic Developer",
+   "url": "https://www.instahyre.com/job-444724-snaplogic-developer-at-accenture-2-chennai-delhi-hyderabad/"
+  },
   "accenture:44cca9c7b3d5": {
    "company": "Accenture",
    "department": "Data Science / Machine Learning",
@@ -647,6 +659,18 @@
    "tier": "experienced",
    "title": "AI / ML Engineer",
    "url": "https://www.instahyre.com/job-444263-ai-ml-engineer-at-accenture-2-bhubaneswar-gurgaon-kolkata/"
+  },
+  "accenture:c3e03ed9f815": {
+   "company": "Accenture",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-26",
+   "location": "Chennai, Gurgaon, Hyderabad",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "Software Engineer (AWS)",
+   "url": "https://www.instahyre.com/job-444735-software-engineer-aws-at-accenture-2-chennai-gurgaon-hyderabad/"
   },
   "accenture:c6d5f09b8cff": {
    "company": "Accenture",
@@ -18798,6 +18822,18 @@
    "title": "Software Engineer II",
    "url": "https://www.instahyre.com/job-443431-software-engineer-ii-at-ninja-van-hyderabad/"
   },
+  "nium:013664609691": {
+   "company": "NIUM",
+   "department": "Other Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-09-26",
+   "location": "Bangalore",
+   "source": "instahyre",
+   "status": "new",
+   "tier": "experienced",
+   "title": "QA Engineer (API / UI Testing)",
+   "url": "https://www.instahyre.com/job-444685-qa-engineer-api-ui-testing-at-nium-bangalore/"
+  },
   "nomura:341a53a6ded2": {
    "company": "Nomura",
    "department": "Data Science / Machine Learning",
@@ -25504,6 +25540,6 @@
    "url": "https://www.instahyre.com/job-430277-data-scientist-at-zzazz-bangalore/"
   }
  },
- "updated": "2026-09-26T05:17:16Z",
+ "updated": "2026-09-26T11:39:45Z",
  "version": 1
 }
