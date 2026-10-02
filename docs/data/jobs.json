@@ -7541,6 +7541,21 @@
    "title": "Java Full Stack Developer",
    "url": "http://in.indeed.com/job/java-full-stack-developer-808d5d40989b5a4f"
   },
+  "coforge:076f51beb7f8": {
+   "comp": "₹5L - ₹10L / yr",
+   "company": "Coforge",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java React Fullstack Developer - Bangalore Hybrid",
+   "url": "https://www.naukri.com/job-listings-java-react-fullstack-developer-bangalore-hybrid-coforge-bengaluru-3-to-6-years-011026022676",
+   "workplace": "Hybrid"
+  },
   "coforge:18098bbc25f7": {
    "comp": "₹14L - ₹24L / yr",
    "company": "Coforge",
@@ -13679,6 +13694,19 @@
    "url": "https://www.naukri.com/job-listings-hiring-java-full-stack-developer-motivity-labs-hyderabad-10-to-20-years-220926020957",
    "workplace": "Work From Office"
   },
+  "motorola-solutions:297aafa0f566": {
+   "company": "Motorola Solutions",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer(Java, Spring boot, Microservices)",
+   "url": "https://www.linkedin.com/jobs/view/4444539640"
+  },
   "motorola-solutions:9d0eaaf8c915": {
    "company": "Motorola Solutions",
    "first_seen": "2026-10-02",
@@ -18448,7 +18476,7 @@
   },
   "Capital One": {
    "best": 235,
-   "last": 235,
+   "last": 233,
    "last_ok": "2026-10-02"
   },
   "Ciena": {
@@ -18457,8 +18485,8 @@
    "last_ok": "2026-10-02"
   },
   "Cisco": {
-   "best": 264,
-   "last": 264,
+   "best": 265,
+   "last": 265,
    "last_ok": "2026-10-02"
   },
   "Citi": {
@@ -18468,7 +18496,7 @@
   },
   "Cloudflare": {
    "best": 403,
-   "last": 403,
+   "last": 402,
    "last_ok": "2026-10-02"
   },
   "Coinbase": {
@@ -18483,7 +18511,7 @@
   },
   "Datadog": {
    "best": 445,
-   "last": 445,
+   "last": 443,
    "last_ok": "2026-10-02"
   },
   "Deutsche Bank": {
@@ -18498,7 +18526,7 @@
   },
   "Elastic": {
    "best": 395,
-   "last": 395,
+   "last": 394,
    "last_ok": "2026-10-02"
   },
   "Expedia": {
@@ -18532,8 +18560,8 @@
    "last_ok": "2026-10-02"
   },
   "GitLab": {
-   "best": 206,
-   "last": 206,
+   "best": 213,
+   "last": 213,
    "last_ok": "2026-10-02"
   },
   "Google": {
@@ -18578,7 +18606,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 246,
-   "last": 246,
+   "last": 245,
    "last_ok": "2026-10-02"
   },
   "Intel": {
@@ -18592,8 +18620,8 @@
    "last_ok": "2026-10-02"
   },
   "LinkedIn (JobSpy)": {
-   "best": 454,
-   "last": 454,
+   "best": 456,
+   "last": 456,
    "last_ok": "2026-10-02"
   },
   "Lowe's": {
@@ -18602,8 +18630,8 @@
    "last_ok": "2026-10-02"
   },
   "Mastercard": {
-   "best": 245,
-   "last": 245,
+   "best": 246,
+   "last": 246,
    "last_ok": "2026-10-02"
   },
   "Meesho": {
@@ -18637,8 +18665,8 @@
    "last_ok": "2026-10-02"
   },
   "Naukri (JobSpy)": {
-   "best": 326,
-   "last": 326,
+   "best": 327,
+   "last": 327,
    "last_ok": "2026-10-02"
   },
   "Netskope": {
@@ -18748,7 +18776,7 @@
   },
   "Stripe": {
    "best": 713,
-   "last": 713,
+   "last": 711,
    "last_ok": "2026-10-02"
   },
   "Target": {
@@ -18763,7 +18791,7 @@
   },
   "Toast": {
    "best": 331,
-   "last": 331,
+   "last": 330,
    "last_ok": "2026-10-02"
   },
   "Twilio": {
@@ -18778,7 +18806,7 @@
   },
   "Waymo": {
    "best": 361,
-   "last": 361,
+   "last": 359,
    "last_ok": "2026-10-02"
   },
   "Wells Fargo": {
@@ -18792,8 +18820,8 @@
    "last_ok": "2026-10-02"
   },
   "Yugabyte": {
-   "best": 15,
-   "last": 15,
+   "best": 16,
+   "last": 16,
    "last_ok": "2026-10-02"
   },
   "Zeta": {
@@ -18812,6 +18840,6 @@
    "last_ok": "2026-10-02"
   }
  },
- "updated": "2026-10-02T17:48:16Z",
+ "updated": "2026-10-02T18:07:19Z",
  "version": 1
 }
