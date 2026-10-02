@@ -105,6 +105,20 @@ def test_a_half_open_salary_range_still_reads(monkeypatch):
     assert job["comp"] == "$120,000 / yearly"
 
 
+def test_indian_pay_reads_in_lakhs(monkeypatch):
+    """Naukri/Indeed India post yearly INR; '10L - 15L' is how it is read."""
+    row = dict(ROW, currency="INR", min_amount=1000000.0, max_amount=1550000.0)
+    job, = run(monkeypatch, {"search": "x"}, [row])
+    assert job["comp"] == "₹10L - ₹15.5L / yr"
+
+
+def test_search_defaults_to_india_and_tags_the_country(monkeypatch):
+    got = {}
+    job, = run(monkeypatch, {"search": "java", "country": "India"}, captured=got)
+    assert got["location"] == "India"
+    assert job["country"] == "India"           # lets filters.is_india trust it
+
+
 def test_rows_missing_an_identity_are_dropped(monkeypatch):
     rows = [dict(ROW, company=""), dict(ROW, title=None), dict(ROW, job_url="")]
     assert run(monkeypatch, {"search": "x"}, rows) == []

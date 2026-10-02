@@ -1,4 +1,4 @@
-"""Aggregator fetcher: JobSpy (LinkedIn, Indeed, Glassdoor, Google, ZipRecruiter).
+"""Aggregator fetcher: JobSpy (LinkedIn, Naukri, Indeed, Glassdoor, Google...).
 
 Every other fetcher in this package talks to one company's ATS. This one talks
 to the job boards themselves, via https://github.com/speedyapply/JobSpy, which
@@ -27,15 +27,16 @@ Config (config/companies*.yaml):
 
     - name: LinkedIn (JobSpy)
       fetcher: jobspy
-      sites: [linkedin]          # any of linkedin|indeed|glassdoor|google|zip_recruiter
-      location: United States
+      sites: [linkedin]          # any of linkedin|naukri|indeed|glassdoor|google
+      location: India
+      country: India             # Indeed's country; also tags every row as India
       results_wanted: 100        # per search term, per site
-      hours_old: 72              # only postings newer than this
+      hours_old: 48              # only postings newer than this
       fetch_description: false   # +1 request per job; see below
       proxies_env: JOBSPY_PROXIES
       searches:
-        - software engineer intern
-        - new grad software engineer
+        - senior java developer
+        - java backend developer
 
 `fetch_description: true` pulls each posting's body, which is what
 filters.parse_yoe reads to correct a tier the title got wrong. It costs one
@@ -96,6 +97,9 @@ def _comp(row) -> str:
     if not lo and not hi:
         return ""
     cur = _s(row.get("currency")) or "USD"
+    interval = _s(row.get("interval"))
+    if cur == "INR":
+        return _inr(lo, hi, interval)
     sym = "$" if cur in ("USD", "CAD", "AUD") else ""
 
     def money(v):
@@ -105,8 +109,22 @@ def _comp(row) -> str:
             return f"{sym}{v}"
 
     span = f"{money(lo)} - {money(hi)}" if lo and hi else money(lo or hi)
-    interval = _s(row.get("interval"))
     return f"{span} / {interval}" if interval else span
+
+
+def _inr(lo: str, hi: str, interval: str) -> str:
+    """Indian pay reads in lakhs per annum: '₹10L - ₹15L / yr' (= 10-15 LPA)."""
+    def lakh(v):
+        try:
+            n = float(v)
+        except (TypeError, ValueError):
+            return f"₹{v}"
+        if interval in ("yearly", "") and n >= 100000:
+            return f"₹{n / 100000:g}L"
+        return f"₹{n:,.0f}"
+    span = f"{lakh(lo)} - {lakh(hi)}" if lo and hi else lakh(lo or hi)
+    unit = {"yearly": "yr", "monthly": "month", "hourly": "hr"}.get(interval, interval)
+    return f"{span} / {unit}" if unit else span
 
 
 def _workplace(row) -> str:
@@ -142,7 +160,7 @@ def jobspy(c):
     kwargs = {
         "site_name": sites,
         "search_term": term or None,
-        "location": c.get("location") or "United States",
+        "location": c.get("location") or "India",
         "results_wanted": int(c.get("results_wanted", 100)),
         "linkedin_fetch_description": fetch_desc,
         "description_format": "markdown",
@@ -184,6 +202,8 @@ def jobspy(c):
             "company": company,
             "title": title,
             "location": _s(row.get("location")),
+            # the search itself was restricted to this country
+            "country": c.get("country", ""),
             # The board's own link-out to the employer's ATS, where it has one.
             # Preferred for applying; LinkedIn fills it only some of the time.
             "url": _s(row.get("job_url_direct")) or url,

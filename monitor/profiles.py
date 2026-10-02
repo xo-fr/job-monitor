@@ -1,24 +1,23 @@
-"""Tracker profiles: two independent job monitors sharing one engine.
+"""Tracker profiles.
 
-Everything that differs between the trackers lives here - which companies are
+Everything that is specific to one job search lives here - which companies are
 scanned, which role rules admit a posting, which file the results are stored
 in, which dashboard reads that file, and which Discord webhook is notified.
 Everything else (fetchers, de-duplication, state, source health, prune) is
-profile-agnostic and shared, so a fix to the engine lands in both trackers at
-once instead of being ported by hand.
+profile-agnostic and shared.
 
-  tech         - the original: SWE and adjacent, intern -> ~5 years.
-  supplychain  - demand planning, forecasting and the planning family around
-                 it; analyst -> manager.
+  india-java  - Java backend / senior software engineer roles in India,
+                tuned for ~6 years of experience (SDE II -> Lead).
 
-Adding a third tracker is a Profile entry, a companies-*.yaml, a dashboard
-page, and a workflow - no changes to the engine.
+Adding a second tracker (say, a different city or stack) is a Profile entry,
+a companies-*.yaml, a filters module, a dashboard page and a workflow - no
+changes to the engine.
 """
 import os
 from dataclasses import dataclass
 from types import ModuleType
 
-from . import filters, filters_scm
+from . import filters
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -51,31 +50,20 @@ class Profile:
         return {k: color for k, _, color in self.tiers}
 
 
+DEFAULT = "india-java"
+
 PROFILES = {
-    "tech": Profile(
-        key="tech",
-        label="Software & adjacent",
+    "india-java": Profile(
+        key="india-java",
+        label="Java backend / Senior SWE - India",
         config="companies.yaml",
         state="jobs.json",
         dashboard="index.html",
         webhook_env="DISCORD_WEBHOOK_URL",
         rules=filters,
-        tiers=(("intern", "🎓 Intern", 0x3498DB),
-               ("newgrad", "🌱 New Grad", 0x2ECC71),
-               ("experienced", "🛠 Experienced", 0xE67E22)),
-    ),
-    "supplychain": Profile(
-        key="supplychain",
-        label="Supply chain planning",
-        config="companies-supplychain.yaml",
-        state="supplychain.json",
-        dashboard="supplychain.html",
-        webhook_env="DISCORD_WEBHOOK_URL_SUPPLYCHAIN",
-        rules=filters_scm,
-        tiers=(("intern", "🎓 Intern / Co-op", 0x3498DB),
-               ("entry", "🌱 Entry / Associate", 0x2ECC71),
-               ("mid", "📈 Analyst / Planner", 0xE67E22),
-               ("manager", "🧭 Manager / Lead", 0x9B59B6)),
+        tiers=(("mid", "🛠 SDE II / Mid", 0x2ECC71),
+               ("senior", "🚀 Senior / SDE III", 0xE67E22),
+               ("lead", "🧭 Lead / Staff", 0x9B59B6)),
     ),
 }
 

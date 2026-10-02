@@ -1,18 +1,9 @@
 """Company-name normalization, shared by everything that has to match one.
 
-Two parts of this repo compare company names written by different people for
-the same employer, and neither can use the string as given:
-
-  state.soft_key   decides whether a LinkedIn row and a Greenhouse row are the
-                   same posting ("Whatnot" vs "Whatnot, Inc.")
-  h1b.lookup       decides whether a tracked employer is the one that filed a
-                   visa petition ("Anthropic" vs "Anthropic, PBC")
-
-They want slightly different suffix lists - the job matcher also drops
-"Technologies", which the visa matcher must keep so that "Space Exploration
-Technologies" stays distinguishable - so this module supplies the shared core
-and lets each caller extend it, rather than holding one list that is wrong for
-somebody or two lists that drift apart.
+state.soft_key compares company names written by different people for the
+same employer ("Whatnot" vs "Whatnot, Inc.", "Infosys" vs "Infosys Limited")
+to decide whether a LinkedIn row and an ATS row are the same posting. This
+module supplies the shared core and lets a caller widen the suffix list.
 """
 import re
 
@@ -25,7 +16,7 @@ NOISE = re.compile(r"[^a-z0-9 ]+")
 # not a place to put industry words: dropping "Technologies" or "Systems" here
 # would make the visa matcher confuse companies that differ only by that word.
 LEGAL_SUFFIX = ("inc|llc|ltd|corp|corporation|co|company|plc|gmbh|sa|nv|ag"
-                "|holdings|group")
+                "|holdings|group|limited|pvt|private|llp|india")
 
 
 def suffix_pattern(*extra: str) -> re.Pattern:

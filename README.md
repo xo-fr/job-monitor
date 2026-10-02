@@ -1,543 +1,389 @@
-# Job Monitor
+# India Java Jobs Monitor
 
-A self-hosted, zero-server monitor for newly posted **US jobs**, running **two
-independent trackers** off one engine:
+A free, serverless job alert for **Java backend / Senior Software Engineer roles in India**,
+tuned for **~6 years of experience** (SDE II → Senior → Lead).
 
-| Tracker | `--profile` | Scope | Database | Dashboard | Discord secret |
-|---|---|---|---|---|---|
-| **Software** | `tech` (default) | SWE + adjacent, intern → ~5 yrs | `docs/data/jobs.json` | `docs/index.html` | `DISCORD_WEBHOOK_URL` |
-| **Supply chain** | `supplychain` | Demand planning, forecasting & adjacent planning roles, analyst → manager | `docs/data/supplychain.json` | `docs/supplychain.html` | `DISCORD_WEBHOOK_URL_SUPPLYCHAIN` |
+Every two hours it checks LinkedIn, Naukri, Indeed India and the careers sites of ~90
+companies hiring Java engineers in India. Every **new** matching posting is sent to your
+**Discord** channel with a direct apply link, and a **web dashboard** lets you track what
+you have applied to.
 
-The two share every piece of machinery — fetchers, de-duplication, state,
-source-health alerting, the dashboard code — and differ only in the four
-things listed in `monitor/profiles.py`: which companies to scan, which role
-rules admit a posting, which file to write, and which webhook to notify. A fix
-to the engine lands on both at once. The software tracker covers **big tech,
-finance & fintech, Fortune 500, and high-growth startups**; the supply-chain
-tracker covers **CPG & food, medtech & pharma, semis & hardware, retail,
-defense/space, logistics and the DTC brands** that run real planning teams.
-
-- **GitHub Actions** runs the scans on a schedule (a full sweep of everything
-  every 2 hours, with big tech again on the off hour, so the biggest names are
-  checked hourly). No server, no cost.
-- **Discord** receives an alert for every genuinely new posting, with a direct
-  apply link. The same job ID is **never notified twice**. Each tracker
-  notifies its own webhook, so the two feeds never mix.
-- **A web dashboard** (GitHub Pages) per tracker shows everything found so far
-  and lets you mark roles **Applied / Skip / Interview**. Your marks are saved
-  back to the repo and survive forever. The two pages link to each other in
-  the header.
-
----
-
-## 1. How it works (30-second version)
+There is no server and no cost: it runs entirely on GitHub Actions and GitHub Pages.
 
 ```
-                     ┌────────────────────────────────────────────┐
- GitHub Actions cron │  every 2h  → scan everything (45+ sources) │
-                     │  +1h offset→ scan big tech (12 companies)  │
-                     └───────────────────┬────────────────────────┘
-                                         │
-             fetchers pull JSON from public careers APIs
-             (Greenhouse, Lever, Ashby, Workday, Eightfold,
-              SmartRecruiters + Amazon/Microsoft/Google/Apple/
-              Tesla/Uber + SimplifyJobs GitHub aggregator
-              + LinkedIn and friends via JobSpy)
-                                         │
-             filters: US-only · the profile's role rules · tier
-             detection (software: staff/principal/senior excluded;
-             supply chain: director and above excluded)
-                                         │
-             compare against the profile's database file (committed
-             back into this repo after every run)
-                                         │
-              new jobs only → that profile's Discord webhook
-```
-
-Add `--profile supplychain` and the same pipeline runs over
-`config/companies-supplychain.yaml`, `monitor/filters_scm.py` and
-`docs/data/supplychain.json` instead. Its own cron
-(`.github/workflows/scan-supplychain.yml`) does exactly that every 2 hours,
-offset from the software crons.
-
-The dashboards are static pages sharing `docs/app.js` + `docs/app.css`; each
-declares a small `TRACKER` object saying which database it reads and what its
-tiers and role buckets are called. Your Applied/Skip marks are stored in the
-browser as you make them and synced back through the GitHub API when a token
-is set.
-
----
-
-## 2. What every file does
-
-```
-job-monitor/
-├── README.md                      ← this file
-├── requirements.txt               ← Python dependencies (requests, PyYAML)
-├── .gitignore                     ← keeps __pycache__ etc. out of git
-│
-├── config/
-│   ├── companies-supplychain.yaml ← THE SUPPLY-CHAIN COMPANY LIST. Same
-│   │                                shape as the file below. Every source
-│   │                                in it was verified live before being
-│   │                                added: the endpoint answers AND returns
-│   │                                planning titles. Entries may carry a
-│   │                                `searches:` list (see main.py).
-│   └── companies.yaml             ← THE SOFTWARE COMPANY LIST. Three
-│                                    sections:
-│                                    · bigtech:     every 2h, offset 1h (so
-│                                    ·                these get hourly cover)
-│                                    · other:       every 2h (full sweep)
-│                                    · aggregators: SimplifyJobs repos and
-│                                    ·                LinkedIn (JobSpy), ditto
-│                                    Each entry names a fetcher + its
-│                                    parameters (ATS token, Workday tenant…).
-│                                    This is the file you'll edit most.
-│
-├── monitor/                       ← the Python package (the scanner)
-│   ├── __init__.py                ← empty; makes `monitor` importable
-│   ├── main.py                    ← ENTRYPOINT. Reads the config, runs all
-│   │                                fetchers in parallel, filters results,
-│   │                                dedupes against the database, saves new
-│   │                                jobs, triggers Discord. CLI flags:
-│   │                                --profile tech|supplychain, --tier
-│   │                                bigtech|other|all, --dry-run,
-│   │                                --include-senior.
-│   │                                A company with a `searches:` list is
-│   │                                fetched once per term and merged — one
-│   │                                phrase never covers a whole job family
-│   │                                on a keyword-search board.
-│   ├── profiles.py                ← THE TWO TRACKERS. One Profile entry per
-│   │                                tracker naming its config, database,
-│   │                                dashboard, webhook env var, filter
-│   │                                module and tier vocabulary. Adding a
-│   │                                third tracker needs no engine changes.
-│   ├── filters_scm.py             ← SUPPLY-CHAIN FILTERING RULES: which
-│   │                                titles count as planning/forecasting,
-│   │                                the other professions that own the same
-│   │                                words (FP&A, media planning, facilities,
-│   │                                maintenance planners, recruiting
-│   │                                "sourcing"), hourly/shift exclusions,
-│   │                                tiers (intern/entry/mid/manager) and
-│   │                                role families. Shares this file's
-│   │                                location and years-of-experience rules.
-│   ├── filters.py                 ← SOFTWARE FILTERING RULES as regexes:
-│   │                                which titles count as SWE/adjacent,
-│   │                                tier detection (intern/newgrad/
-│   │                                experienced), staff/principal/senior
-│   │                                exclusion, US-location detection.
-│   │                                Edit this to widen or narrow scope.
-│   ├── state.py                   ← the "database" layer. Reads/writes
-│   │                                docs/data/jobs.json, generates stable
-│   │                                job IDs (company + hash of job ID/URL),
-│   │                                appends only unseen jobs, NEVER touches
-│   │                                your Applied/Skip statuses.
-│   ├── notify.py                  ← Discord webhook sender. Batches embeds
-│   │                                (10 per message), handles rate limits.
-│   │                                Reads whichever env var the running
-│   │                                profile names, and labels tiers with
-│   │                                that profile's vocabulary.
-│   │
-│   └── fetchers/                  ← one module per data-source type
-│       ├── __init__.py            ← FETCHERS registry: maps the `fetcher:`
-│       │                            name in companies.yaml to a function
-│       ├── http.py                ← shared HTTP session (browser-like
-│       │                            User-Agent, retries on 429/5xx)
-│       ├── generic.py             ← the 6 generic ATS fetchers. Any company
-│       │                            on Greenhouse, Lever, Ashby, Workday,
-│       │                            Eightfold, or SmartRecruiters can be
-│       │                            added with 3–5 lines of YAML.
-│       ├── custom.py              ← company-specific fetchers for careers
-│       │                            sites with their own APIs: Amazon,
-│       │                            Microsoft, Google, Apple, Tesla, Uber,
-│       │                            Walmart, plus `phenom` (PepsiCo, AMD and
-│       │                            the many Fortune 500 sites on Phenom —
-│       │                            its keyword search is decorative, so the
-│       │                            board is paged and filtered locally).
-│       │                            These endpoints are unofficial and may
-│       │                            change — see Troubleshooting.
-│       ├── simplify.py            ← parses the SimplifyJobs GitHub repos
-│       │                            (New-Grad-Positions, Summer2027-
-│       │                            Internships). Catches Meta, LinkedIn,
-│       │                            and hundreds of companies with no
-│       │                            public API. Only rows newer than
-│       │                            `max_age_days` are considered.
-│       └── jobspy_board.py        ← searches the job boards themselves
-│                                    (LinkedIn, and optionally Indeed,
-│                                    Glassdoor, Google, ZipRecruiter) through
-│                                    the `python-jobspy` library. One search
-│                                    per term under `searches:`; rows are
-│                                    marked so a posting the employer's own
-│                                    ATS also gave us is merged, not tracked
-│                                    twice. See §5 for the knobs.
-│
-├── monitor/h1b.py                 ← builds docs/data/h1b.json: for every
-│                                    company either tracker has seen, how many
-│                                    H-1B petitions that employer has filed,
-│                                    how recently, and whether it files as a
-│                                    staffing agency. Run by its own weekly
-│                                    workflow; see §7 for what the signal does
-│                                    and does not mean.
-├── monitor/names.py               ← company-name normalization shared by the
-│                                    posting de-duplicator and the visa matcher
-│
-├── docs/                          ← served by GitHub Pages
-│   ├── app.css                    ← all dashboard styling, shared by both
-│   │                                pages. Tier hues are NOT here: each
-│   │                                page declares its own, since the two
-│   │                                trackers name different tiers.
-│   ├── app.js                     ← all dashboard behaviour, shared by both
-│   │                                pages: filtering, the KPI band, the
-│   │                                activity heatmap, the folding of
-│   │                                duplicate requisitions into one row,
-│   │                                and your Applied/Skip
-│   │                                marks — written to this browser's
-│   │                                localStorage the moment you click, then
-│   │                                synced back through the GitHub API (your
-│   │                                token stays in localStorage too, and is
-│   │                                never sent anywhere else). A mark is only
-│   │                                forgotten once the published JSON is seen
-│   │                                carrying it. Reads window.TRACKER for
-│   │                                everything page-specific.
-│   ├── index.html                 ← SOFTWARE DASHBOARD. Markup plus a
-│   │                                TRACKER object naming jobs.json, its
-│   │                                tiers and its role labels.
-│   ├── supplychain.html           ← SUPPLY-CHAIN DASHBOARD. Same markup,
-│   │                                pointed at supplychain.json with its
-│   │                                own tiers and planning role labels.
-│   └── data/
-│       ├── jobs.json              ← THE SOFTWARE DATABASE. One entry per
-│       │                            job ever seen: company, title, tier,
-│       │                            location, url, first_seen, status.
-│       └── supplychain.json       ← THE SUPPLY-CHAIN DATABASE, same shape.
-│                                    Actions commits updates after each run.
-│
-└── .github/workflows/
-    ├── scan-bigtech.yml           ← cron "30 1-23/2 * * *" (odd hours UTC):
-    │                                runs `python -m monitor.main --tier
-    │                                bigtech`, commits jobs.json if changed
-    ├── scan-all.yml               ← cron "30 */2 * * *" (even hours UTC,
-    │                                :30): full sweep including
-    │                                Fortune 500, fintech, startups, and
-    │                                the Simplify aggregator
-    ├── scan-supplychain.yml       ← cron "0 */2 * * *": the supply-chain
-    │                                sweep. Its own concurrency group, so it
-    │                                can run alongside a software scan —
-    │                                they write different files
-    ├── h1b-refresh.yml            ← cron "45 4 * * 1" (Mondays): rebuilds
-    │                                docs/data/h1b.json. Weekly, not quarterly:
-    │                                the DOL data moves each quarter but the
-    │                                company list grows daily, and a company
-    │                                with no entry gets no badge
-    └── linkedin-smoke.yml         ← manual only. Asks LinkedIn for postings
-                                     from a runner and fails loudly if it
-                                     gets none, which is how you tell
-                                     "throttled" from "broken" without
-                                     waiting for a scan
+ GitHub Actions (every hour, alternating)
+        │
+        ▼
+ Fetch postings ─── LinkedIn · Naukri · Indeed India           (job boards)
+        │       ─── Amazon · Google · Nvidia · Adobe · Cisco …  (big tech)
+        │       ─── Citi · Barclays · Mastercard · Wells Fargo … (bank GCCs)
+        │       ─── Okta · MongoDB · Databricks · Paytm · Meesho … (product cos)
+        ▼
+ Filter: India location · Java/backend/SWE title · SDE II → Lead · 2–10 yrs asked
+        ▼
+ Compare with docs/data/jobs.json  ──►  only NEW jobs  ──►  Discord alert
+        ▼
+ Commit jobs.json back to the repo  ──►  Dashboard (GitHub Pages) updates
 ```
 
 ---
 
-## 3. Setup guide — from zip to working (~15 minutes)
+## Contents
 
-### Prerequisites
+1. [What gets matched](#1-what-gets-matched)
+2. [Setup (≈15 minutes)](#2-setup-15-minutes)
+   - [Step 1 – Get the code into your GitHub](#step-1--get-the-code-into-your-github)
+   - [Step 2 – Create a Discord webhook](#step-2--create-a-discord-webhook)
+   - [Step 3 – Add the webhook as a GitHub secret](#step-3--add-the-webhook-as-a-github-secret)
+   - [Step 4 – Turn on the GitHub workflows](#step-4--turn-on-the-github-workflows)
+   - [Step 5 – Run the first (seed) scan](#step-5--run-the-first-seed-scan)
+   - [Step 6 – Turn on the dashboard](#step-6--turn-on-the-dashboard-github-pages)
+   - [Step 7 – (Optional) Save your "Applied" marks](#step-7--optional-save-your-applied-marks)
+3. [Daily use](#3-daily-use)
+4. [Customising](#4-customising)
+5. [Running it on your own computer](#5-running-it-on-your-own-computer)
+6. [The GitHub workflows explained](#6-the-github-workflows-explained)
+7. [Troubleshooting](#7-troubleshooting)
+8. [Project layout](#8-project-layout)
 
-- A GitHub account.
-- Git installed (`git --version` in a terminal; download from
-  https://git-scm.com if missing).
-- A Discord server where you can manage webhooks (any server you own; create
-  one free in Discord with **+ Add a Server** if needed).
-- (Optional, for local testing) Python 3.10+.
+---
 
-### Step 1 — Create the GitHub repository
+## 1. What gets matched
 
-1. Go to https://github.com/new
-2. Repository name: `job-monitor` (anything works).
-3. Visibility: **Public** is simplest (free GitHub Pages). Private also works,
-   but Pages on a private repo needs GitHub Pro — see Step 6 for the
-   workaround.
-4. Do **NOT** check "Add a README" / .gitignore / license (the project already
-   has them; an empty repo avoids merge conflicts).
-5. Click **Create repository**.
+| Rule | Kept | Dropped |
+|---|---|---|
+| **Location** | Any Indian city (Bengaluru, Hyderabad, Pune, Chennai, Gurugram, Noida, Mumbai…), "India", "Remote – India" | Everything outside India, and unlabelled "Remote" on global boards |
+| **Role** | Java / Spring / J2EE, Backend, Software Engineer / Developer, SDE, Full-stack (if Java), Platform, Distributed Systems | Frontend, mobile, QA/SDET, DevOps/SRE, data/ML, security, embedded; titles naming another stack (Go, Python, .NET, Node…) unless Java is also named |
+| **Level** | SDE II / mid, Senior / SDE III, Lead / Tech Lead | Intern, fresher, SDE I, Associate; Principal, Architect, Manager, Director. Staff is off by default |
+| **Experience** | Posting asks for 2–10 years, or doesn't say | Asks for 0–1 years, or 11+ years |
 
-### Step 2 — Push the project
+Each match is put in one of three **tiers** (shown in Discord and the dashboard):
 
-Unzip `job-monitor.zip`, open a terminal **inside the unzipped `job-monitor`
-folder** (the one containing `README.md`), and run:
+| Tier | Examples |
+|---|---|
+| 🛠 **SDE II / Mid** | SDE II, Software Engineer II, Java Developer, Software Engineer |
+| 🚀 **Senior / SDE III** | Senior Software Engineer, Sr. Java Developer, SDE III, SMTS |
+| 🧭 **Lead / Staff** | Lead Software Engineer, Java Tech Lead, Staff (only with `--include-staff`) |
 
-```bash
-git init
-git add -A
-git commit -m "initial commit"
-git branch -M main
-git remote add origin https://github.com/<YOUR-USERNAME>/job-monitor.git
-git push -u origin main
-```
+All of these rules live in one file, [`monitor/filters.py`](monitor/filters.py), as plain
+regular expressions — see [Customising](#4-customising) to change them.
 
-Replace `<YOUR-USERNAME>` with your GitHub username. If git asks you to log
-in, follow the browser prompt (or use GitHub Desktop / `gh auth login` if you
-prefer).
+---
 
-Refresh the repo page — you should see all the folders.
+## 2. Setup (≈15 minutes)
 
-### Step 3 — Create the Discord webhook
+**You need:** a GitHub account and a Discord account. Nothing to install for the basic setup.
 
-1. In Discord, pick (or create) the channel where alerts should land, e.g.
-   `#job-alerts`.
-2. Server Settings → **Integrations** → **Webhooks** → **New Webhook**.
-3. Name it (e.g. "Job Monitor"), select the channel, click
-   **Copy Webhook URL**. It looks like
-   `https://discord.com/api/webhooks/1234.../AbCd...`. Treat it like a
-   password — anyone with it can post to your channel.
+### Step 1 – Get the code into your GitHub
 
-### Step 4 — Add the webhook as a repo secret
+**Option A – you already have this repo on GitHub:** skip to Step 2.
 
-1. On GitHub: your repo → **Settings** → **Secrets and variables** →
-   **Actions** → **New repository secret**.
-2. Name: `DISCORD_WEBHOOK_URL` (exactly this, case-sensitive).
-3. Secret: paste the webhook URL. Click **Add secret**.
+**Option B – push it from your computer:**
 
-**For the supply-chain tracker**, repeat steps 3–4 with a *second* Discord
-webhook (a different channel is the point — two job searches in one channel
-is unreadable) and store it as `DISCORD_WEBHOOK_URL_SUPPLYCHAIN`. Until that
-secret exists the supply-chain scan still runs and still commits its
-database; it just prints `DISCORD_WEBHOOK_URL_SUPPLYCHAIN not set - skipping
-notification` instead of messaging you.
+1. Create an **empty** repository at <https://github.com/new> (name it e.g. `job-monitor`).
+   Don't tick "Add a README". **Public** is easiest — GitHub Pages is free for public repos.
+2. In a terminal inside this folder:
 
-### Step 5 — Enable workflows and run the seed scan
+   ```bash
+   git remote add origin https://github.com/<YOUR-USERNAME>/job-monitor.git
+   git branch -M main
+   git push -u origin main
+   ```
 
-1. Repo → **Actions** tab. If prompted "Workflows aren't being run on this
-   repository", click **I understand my workflows, go ahead and enable them**.
-2. In the left sidebar click **Full sweep (every 2h)** → **Run workflow** →
-   green **Run workflow** button. Do the same for **Supply chain sweep
-   (every 2h)** to seed the second tracker.
-3. Wait 2–4 minutes, then open the run and read the log of the "Run full
-   sweep" step. You'll see one line per company (`✓ Amazon: 100 raw
-   postings` / `! SomeCompany: FAILED …`) and a summary like
-   `2600 raw -> 340 in scope -> 340 new (seed run: notifications suppressed)`.
+> **Public vs private:** in a public repo anyone can see the job list (not your Discord
+> webhook or tokens — those are secrets). Private works too, but GitHub Pages on a private
+> repo needs a paid plan; you can still open `docs/index.html` locally instead.
 
-**Important:** this first run is a **seed run**. It records everything
-currently open into the database **without sending any Discord messages** —
-otherwise you'd be flooded with hundreds of alerts for old postings. Every
-run after this one notifies **only new postings**.
+### Step 2 – Create a Discord webhook
 
-4. Check that the run's last step committed — the repo should now show a
-   commit like `scan(all): update jobs.json`, and `docs/data/jobs.json`
-   should be full of entries.
+A webhook is a URL that lets the scanner post messages into one Discord channel.
 
-A few companies failing is normal (endpoints change, some ATS tokens are
-best-effort) — the run continues past them. See Troubleshooting.
+1. In Discord, create a server if you don't have one (**+** in the left bar → *Create My Own*).
+2. Create a channel for alerts, e.g. `#java-jobs`.
+3. Hover the channel → ⚙ **Edit Channel** → **Integrations** → **Webhooks** → **New Webhook**.
+4. Give it a name (e.g. *Job Monitor*), then click **Copy Webhook URL**.
+   It looks like `https://discord.com/api/webhooks/1234567890/AbCdEf...`
 
-### Step 6 — Turn on the dashboard (GitHub Pages)
+> ⚠️ Treat this URL like a password — anyone who has it can post to your channel.
+> Never commit it to the repo; it goes into GitHub Secrets (next step).
+
+**Tip:** on your phone, enable notifications for this channel in the Discord app
+(long-press channel → *Notification Settings* → *All Messages*) so you hear about jobs instantly.
+
+### Step 3 – Add the webhook as a GitHub secret
+
+1. On GitHub open your repo → **Settings** → **Secrets and variables** → **Actions**.
+2. Click **New repository secret**.
+3. **Name:** `DISCORD_WEBHOOK_URL` (exactly this, case-sensitive)
+   **Secret:** paste the webhook URL. Click **Add secret**.
+
+Optional second secret — only if LinkedIn stops returning results (see
+[Troubleshooting](#7-troubleshooting)):
+
+| Name | Value |
+|---|---|
+| `JOBSPY_PROXIES` | Comma-separated proxy URLs, e.g. `http://user:pass@host:port,http://...` |
+
+### Step 4 – Turn on the GitHub workflows
+
+1. Open the repo's **Actions** tab.
+2. If you see *"Workflows aren't being run on this repository"*, click
+   **I understand my workflows, go ahead and enable them**.
+3. Repo → **Settings** → **Actions** → **General** → *Workflow permissions* →
+   select **Read and write permissions** → **Save**.
+   (The scan needs this to commit `jobs.json` back to the repo.)
+
+That's it — the schedules in `.github/workflows/` now run automatically.
+
+### Step 5 – Run the first (seed) scan
+
+1. **Actions** tab → **Full sweep (every 2h)** in the left sidebar → **Run workflow** → **Run workflow**.
+2. Wait for it to finish (roughly 10–20 minutes) and open the run to read the log. You'll see
+   one line per source, then a summary:
+
+   ```
+     ✓ Citi: 283 raw postings over 3 searches
+     ✓ LinkedIn (JobSpy): 640 raw postings over 9 searches
+     ! SomeCompany: FAILED - 404 ...
+   4100 raw -> 850 in scope -> 850 new (seed run: notifications suppressed)
+   ```
+
+**The first run is a seed run:** it saves everything currently open **without** sending
+Discord messages (otherwise you'd get hundreds at once). From the second run onwards,
+**only new postings** are sent.
+
+A few sources failing is normal — careers sites change. The run carries on without them, and
+Discord gets a ⚠️ alert if a source that used to work stops returning anything.
+
+### Step 6 – Turn on the dashboard (GitHub Pages)
 
 1. Repo → **Settings** → **Pages**.
-2. Under "Build and deployment": Source = **Deploy from a branch**,
-   Branch = `main`, Folder = **/docs**. Save.
-3. After ~1 minute your dashboards are live at
-   `https://<YOUR-USERNAME>.github.io/job-monitor/` (software) and
-   `https://<YOUR-USERNAME>.github.io/job-monitor/supplychain.html`
-   (supply chain). Each page has a link to the other in its header.
+2. *Build and deployment*: Source = **Deploy from a branch**, Branch = **main**, Folder = **/docs** → **Save**.
+3. After a minute or two the dashboard is live at
+   `https://<YOUR-USERNAME>.github.io/<REPO-NAME>/`
 
-**Private repo without GitHub Pro?** Skip Pages entirely: pull the repo and
-open `docs/index.html` directly in your browser — the dashboard works the
-same (statuses still save via the API; only the job list needs a
-`git pull` to refresh, or click ⚙ and it will still read via your token).
+The dashboard shows every job found so far with filters for tier, role, company, experience
+asked, and source (job boards vs company sites). It refreshes itself while open.
 
-### Step 7 — Enable "mark as Applied" saving
+### Step 7 – (Optional) Save your "Applied" marks
 
-**Optional.** Applied/Skip/Interview is remembered by your browser as soon as
-you click it, with or without a token: it survives a refresh, a new scan
-landing, and a closed tab. A token is what carries those marks *into the
-repo*, so they show up on your other devices and in the JSON itself. Until
-one is set, the status bar shows a `THIS BROWSER n` chip counting the marks
-that live only here.
+Clicking **✓ Applied / ✗ Skip / ★ Interview** on the dashboard is remembered by your browser
+straight away. To also save those marks **into the repo** (so they follow you to other
+devices), give the dashboard a GitHub token:
 
-To let the dashboard write statuses back to the repo:
+1. GitHub → avatar → **Settings** → **Developer settings** → **Personal access tokens** →
+   **Fine-grained tokens** → **Generate new token**.
+2. *Repository access*: **Only select repositories** → pick this repo.
+3. *Permissions* → *Repository permissions* → **Contents: Read and write**. Nothing else.
+4. Generate and copy the `github_pat_...` value.
+5. On the dashboard click **⚙ GitHub token**, fill in Owner (your username), Repo, Branch
+   (`main`) and the token → **Save**.
 
-1. GitHub → click your avatar → **Settings** → **Developer settings** →
-   **Personal access tokens** → **Fine-grained tokens** → **Generate new
-   token**.
-2. Token name: `job-monitor-dashboard`. Expiration: your choice (you'll
-   re-paste it when it expires).
-3. Repository access: **Only select repositories** → choose `job-monitor`.
-4. Permissions → Repository permissions → **Contents** → **Read and write**.
-   Nothing else.
-5. Generate, copy the `github_pat_...` value.
-6. Open your dashboard → click **⚙ GitHub token** → fill in:
-   Owner = your username, Repo = `job-monitor`, Branch = `main`,
-   Token = the PAT. Save.
-
-The token is stored **only in your own browser's localStorage** — it is never
-committed or sent anywhere except api.github.com.
-
-### Step 8 — Verify end-to-end
-
-1. In the dashboard, click **✓ Applied** on any job → you should see
-   "Saved ✓" and, on GitHub, a commit `dashboard: update statuses`. (The mark
-   itself shows up immediately either way; the `SYNCING n` chip clears once
-   the published file comes back carrying it, a minute or two later after
-   Pages redeploys.)
-2. Actions tab → run **Scan big tech (every 3h)** manually once → since the
-   seed already happened, any *genuinely new* posting now produces a Discord
-   message. (If nothing new was posted in the last 3 hours, no message —
-   that's correct behavior.)
-3. Done. From now on everything is automatic.
+The token is stored only in your browser's localStorage and is only ever sent to `api.github.com`.
 
 ---
 
-## 4. Daily use
+## 3. Daily use
 
-- New postings arrive in Discord with tier, location, and a direct apply link.
-- Open the dashboard (default filter shows **Open (new)**), apply on the
-  company site, click **✓ Applied**. Clicking the same button again undoes it.
-- **✗ Skip** hides roles you don't want; **★ Interview** tracks progress.
-- **Duplicate requisitions fold into one row.** Big employers post the same
-  role many times over — 22 separate "Software Engineer III" reqs in
-  Bentonville, 16 "Lead Software Engineer" in McLean — and shown in full they
-  bury everything else. Postings that match on company, title *and* location
-  collapse into a single row carrying a **`N openings`** badge; click it to
-  open the full list, each req with its own apply link and buttons. The row
-  shows the freshest of them. Nothing is dropped and nothing about the stored
-  data changes — these are genuinely distinct reqs, and the scanner still
-  tracks each one separately. Switch the header's **Group duplicate reqs** to
-  **Show every posting** to see them all inline; the choice is remembered.
-- **On a folded row, ✓ Applied marks one req and ✗ Skip clears them all.**
-  You apply to a single requisition — marking 22 would log 22 applications on
-  the activity heatmap — but dismissing the cluster is the whole point of
-  folding it. Expand the row to act on one req at a time.
-- Applied/skipped roles never re-alert. The scanner only ever *adds* new job
-  IDs — it cannot overwrite your statuses.
-- **The page keeps itself current.** An open tab checks for a new scan every
-  minute (and the moment you switch back to it) and folds in new roles with a
-  toast, so you never sit on stale data. Marks you have not saved yet survive
-  that refresh.
-- **Track your own progress.** Each tier tile counts what you have applied to,
-  and the activity heatmap plus streak show applications per day. Marking a
-  role Applied stamps the date, so the history builds from your first click.
+- New postings arrive in Discord: company, title, tier, location, salary (when posted),
+  experience asked, and an **apply link** (the title is clickable).
+- Open the dashboard, apply on the company's site, click **✓ Applied**. Click again to undo.
+- **✗ Skip** hides roles you're not interested in; **★ Interview** tracks progress.
+- Identical openings (same company + title + city, posted as many separate requisitions)
+  are folded into one row with an **N openings** badge — click it to see them all.
+- The **Experience** filter (`≤ 6 yrs asked` etc.) uses the years the posting states,
+  when it states them.
 
 ---
 
-## 5. Customizing
+## 4. Customising
 
-| Want to… | Edit |
+Everything is plain text — edit, commit, push. The next scheduled run picks it up.
+
+### Add or remove a company — `config/companies.yaml`
+
+Find the company's careers page and look at the URL (or your browser's *Network* tab):
+
+| You see… | Add this |
 |---|---|
-| Add/remove a company | `config/companies.yaml` (software) or `config/companies-supplychain.yaml` (supply chain) — see the comment at the top of either for how to find a company's Greenhouse/Lever/Ashby/Workday token |
-| Cover more of a keyword-search board | add or edit that entry's `searches:` list. Workday/Eightfold/Amazon/Google/Walmart only answer keyword searches, so each term is a separate pass whose results are merged |
-| Change scan frequency | the `cron:` lines in `.github/workflows/*.yml` — times are **UTC** |
-| Include Senior titles | add `--include-senior` to the `run:` command in the workflows |
-| Change role/location rules | `monitor/filters.py` (software) or `monitor/filters_scm.py` (supply chain). Location and years-of-experience rules live in `filters.py` and are shared — a change there affects both trackers |
-| Narrow the supply-chain feed | procurement and logistics are the highest-volume families in it. Drop those alternatives from `ROLE_INCLUDE` in `filters_scm.py`, or just filter to *Demand planning & forecasting* on the dashboard |
-| Add a third tracker | a `Profile` entry in `monitor/profiles.py`, a `companies-*.yaml`, a dashboard page (copy `docs/supplychain.html` and edit its `TRACKER`), and a workflow. The engine needs no changes |
-| Wider/narrower aggregator window | `max_age_days` under `aggregators:` in the config |
-| Which LinkedIn searches run | `searches:` under the `LinkedIn (JobSpy)` entry — one term per job family; the boards rank by relevance, so more terms beat a bigger `results_wanted` |
-| How far back LinkedIn looks | `hours_old:` on the same entry (default 72) |
-| Read each LinkedIn posting's body | `fetch_description: true` — lets `parse_yoe` correct a tier the title got wrong, at +1 request per job |
-| Other boards (Indeed, Glassdoor…) | add to `sites:` on the same entry — `[linkedin, indeed]`. Indeed is the least rate-limited of the set |
-| Fix a wrongly matched employer | add the company to `ALIASES` in `monitor/h1b.py`, then re-run the H-1B refresh workflow |
-| Route LinkedIn through proxies | set the `JOBSPY_PROXIES` repo secret (comma-separated URLs); the config only names the variable, never holds a credential |
-| Change what counts as a duplicate req | `groupKey` in `docs/app.js` — postings are folded when company, title and location all match once whitespace and case are normalized. Folding is a view-only concern; nothing in `monitor/` or the JSON is involved |
-| Test locally without side effects | `pip install -r requirements.txt` then `python -m monitor.main --tier all --dry-run`, or `python -m monitor.main --profile supplychain --tier all --dry-run` |
-| Run the unit tests | `pip install -r requirements-dev.txt` then `python -m pytest tests -q`. Covers the filter/tier rules, the id scheme, jobs.json reconciliation, and Discord delivery. CI runs them on every push to `monitor/`. |
-| Drop tracked postings that are not US | `python -m monitor.prune --dry-run` to review, then without the flag to save. Add `--profile supplychain` for the other tracker. Re-applies the current location rules to that tracker's database; anything you have already marked (status past `new`) is reported and kept. |
+| `boards.greenhouse.io/acme` or `job-boards.greenhouse.io/acme` | `fetcher: greenhouse` + `token: acme` |
+| `jobs.lever.co/acme` | `fetcher: lever` + `token: acme` |
+| `jobs.ashbyhq.com/acme` | `fetcher: ashby` + `token: acme` |
+| `jobs.smartrecruiters.com/Acme` | `fetcher: smartrecruiters` + `token: Acme` |
+| `acme.wd5.myworkdayjobs.com/AcmeCareers` | `fetcher: workday` + `host`, `tenant`, `site` (below) |
+
+```yaml
+other:
+  - name: Acme
+    fetcher: greenhouse
+    token: acme
+
+  - name: Acme Bank
+    fetcher: workday
+    host: acmebank.wd5.myworkdayjobs.com   # from the URL
+    tenant: acmebank                       # the part before .wd5
+    site: AcmeCareers                      # the part after the host
+    searches: *search_terms                # java / software engineer / backend
+```
+
+Workday boards are **automatically restricted to India** (the fetcher looks up the board's
+own "India" location filter). Then check it works before pushing:
+
+```bash
+python -m monitor.main --tier all --dry-run
+```
+
+Companies in the `bigtech:` section are scanned every hour; `other:` and `aggregators:`
+every two hours.
+
+### Change the job-board searches
+
+The `aggregators:` section at the bottom of `companies.yaml` holds the LinkedIn / Naukri /
+Indeed search terms (`senior java developer`, `java spring boot microservices`, …).
+Add or remove phrases; each phrase is one search per board per run.
+
+### Change the experience band, levels or tech stack — `monitor/filters.py`
+
+| Want to… | Change |
+|---|---|
+| Accept roles asking up to 12 years | `YOE_MAX = 12` |
+| Drop roles asking for less than 4 years | `YOE_MIN = 4` |
+| Include Staff engineer roles | Add `--include-staff` to the `python -m monitor.main` lines in the workflows |
+| Allow Kotlin/Go/Python titles too | Remove the language from `OTHER_STACK` |
+| Allow DevOps / SRE titles | Remove `devops\|site reliability\|\bsre\b` from `ROLE_EXCLUDE` |
+| Add a city | Add it to `INDIA_HINT` |
+
+Run `python -m pytest tests -q` after editing to make sure nothing else broke.
+
+### Change how often it runs
+
+Edit the `cron:` lines in `.github/workflows/scan-all.yml` and `scan-bigtech.yml`.
+Times are **UTC** (IST = UTC + 5:30). <https://crontab.guru> helps.
 
 ---
 
-## 6. Troubleshooting
+## 5. Running it on your own computer
 
-**A company shows `! FAILED` in every run.** Its endpoint or ATS token is
-wrong/changed. Open that company's careers page with your browser's network
-tab (F12 → Network) and look for requests to `boards-api.greenhouse.io/...`,
-`api.lever.co/...`, `jobs.ashbyhq.com/...`, or
-`<tenant>.wdX.myworkdayjobs.com/wday/cxs/...`, then correct the entry in
-`companies.yaml`. Apple/Google/Tesla/Uber use unofficial endpoints
-(`monitor/fetchers/custom.py`) that occasionally change — same technique.
+Needs Python 3.10+.
 
-**No Discord messages ever.** Check the secret name is exactly
-`DISCORD_WEBHOOK_URL`; check the Actions log — it prints
-`DISCORD_WEBHOOK_URL not set` if the secret is missing. Remember the very
-first run never notifies (seed), and later runs only notify *new* jobs.
+```bash
+pip install -r requirements.txt -r requirements-dev.txt
 
-**"Save failed" in the dashboard.** Token expired, or missing
-Contents-write permission, or wrong owner/repo/branch in ⚙ settings.
+# see what would be found, without saving or notifying
+python -m monitor.main --tier all --dry-run
 
-**Workflow stops running after ~60 days.** GitHub disables cron on
-repositories with no activity. Any commit re-enables it — but the scanner's
-own commits count as activity, so this only matters if all scans fail for
-60 days straight.
+# scan only the big-tech section
+python -m monitor.main --tier bigtech --dry-run
 
-**jobs.json grows big.** Delete old entries with status `applied`/`skip`
-occasionally if you like — or just leave it; a year of use stays in the
-low MBs. (Note: past ~1 MB the dashboard's save round-trip may fail due to
-a GitHub API limit; prune before that.)
+# real run that also posts to Discord
+export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."     # PowerShell: $env:DISCORD_WEBHOOK_URL="..."
+python -m monitor.main --tier all
 
-**Runs start late.** GitHub cron is best-effort; a few minutes late is
-normal, occasionally more during peak load.
+# tests
+python -m pytest tests -q
+```
+
+| Flag | Meaning |
+|---|---|
+| `--tier bigtech\|other\|all` | Which section of `companies.yaml` to scan |
+| `--dry-run` | Print results; save nothing, send nothing |
+| `--no-notify` | Save new jobs but don't message Discord (useful after widening filters) |
+| `--include-staff` | Also accept Staff-level titles |
+
+To view the dashboard locally: `python -m http.server -d docs 8000` and open <http://localhost:8000>.
 
 ---
 
-## 7. Known limitations (honest list)
+## 6. The GitHub workflows explained
 
-- **Unofficial APIs**: the big-tech fetchers use the same JSON endpoints
-  the careers sites themselves use — they can change without notice. A
-  failing fetcher is logged and skipped, never fatal.
-- **Meta & LinkedIn** have no stable public careers API. LinkedIn postings
-  arrive two ways: the SimplifyJobs aggregator, and the `jobspy` fetcher,
-  which drives LinkedIn's own search endpoints.
-- **A board search is a sample, not a listing.** LinkedIn ranks by relevance
-  and rate-limits around the 10th page, so the `jobspy` source returns the
-  top N for each term in `searches:` rather than everything posted. Widening
-  coverage means adding terms, not raising `results_wanted`.
-- **LinkedIn rate-limits datacenter IPs**, which is what GitHub's runners
-  are. If the source starts reporting 0 postings (the source-health alert
-  says so), it is being throttled, not broken: add a `JOBSPY_PROXIES` secret
-  and it resumes. `Actions → LinkedIn reachability → Run workflow` answers
-  "is it being throttled right now?" without waiting for a scan.
-- **H-1B sponsorship is a company's filing history, not a promise about the
-  role.** The badge counts petitions the employer has filed with the Department
-  of Labor. A company with 400 filings still posts citizenship-only and
-  clearance-only reqs, so it narrows the field rather than settling it.
-- **No filings found is not "does not sponsor".** Northrop Grumman has zero
-  records across 2009–2026 — a hole in the disclosure data, not a fact about
-  the employer. The dashboard says "no H-1B filings found" and styles it
-  neutrally for exactly that reason, and nothing is ever filtered out by
-  default.
-- **~16% of companies do not match a filer.** Matching is by normalized name:
-  exact, then de-spaced (`WAL-MART` → `Walmart`), then a hand-written alias
-  table, then a first-token prefix. The last tier is loose by design — it is
-  what lets short names like Uber, Okta and CGI match at all, and it costs a
-  few wrong guesses ("Flex" lands on *Flex Consulting Group*, not the
-  manufacturer). Loose matches are badged with a `~` and name the matched
-  employer on hover, so a bad guess is visible rather than asserted. Widening
-  `ALIASES` in `monitor/h1b.py` is the fix for any that matter to you.
-- **The visa data is a third-party mirror.** USCIS and DOL both serve their
-  bulk files behind bot protection that refuses automated download (403), so
-  the index is built from a community mirror of the same public-domain DOL
-  disclosures. Every build verifies the download against the sha256 in the
-  mirror's own manifest, and `version`/`built_at` are written into
-  `docs/data/h1b.json` — so if the mirror stops updating, the badge ages
-  visibly rather than breaking.
-- **"Experienced ≤5 yrs" is title-based** (SWE II/III, Engineer 2…). Plain
-  "Software Engineer" titles are included too — verify the years requirement
-  in the actual posting.
-- **Some ATS tokens in the config are best-effort** (see comments). A
-  `--dry-run` shows you immediately which ones need fixing.
-- **The supply-chain tracker is title-based too, and the job family shares
-  its vocabulary with half the company.** "Planning", "forecast", "buyer"
-  and "sourcing" all belong to other professions, so `filters_scm.py` runs a
-  long exclusion list (FP&A, media planning, facilities and campus planning,
-  maintenance planners, recruiting "sourcing", HR business partners, hourly
-  and shift roles). Titles it cannot place still get through — that costs
-  one glance, whereas a wrong exclusion loses the posting silently.
-- **Procurement and logistics dominate that feed by volume** (roughly a
-  third and a fifth of it). They are genuinely adjacent, so they are kept;
-  filter to *Demand planning & forecasting* on the dashboard when you want
-  the core discipline only.
-- **A company's planning team may not be in the US at all.** General Mills,
-  for instance, runs demand planning out of Mumbai — those postings are
-  correctly dropped by the US filter, which is why a big CPG name can show
-  up with very few rows.
-- **Big-box retailers are under-covered.** Their careers sites (Kroger,
-  Best Buy, Lowe's, Kraft Heinz, Colgate…) are client-rendered with no
-  reachable JSON endpoint, so they are absent rather than half-working. The
-  Workday and Phenom tenants that *do* answer were each verified before
-  being added.
+All in `.github/workflows/`. You can run any of them by hand from the **Actions** tab → pick
+the workflow → **Run workflow**.
+
+| Workflow | When (IST) | What it does |
+|---|---|---|
+| **Full sweep (every 2h)** — `scan-all.yml` | 6:00, 8:00, 10:00 … (every 2h) | Scans every company + LinkedIn/Naukri/Indeed, alerts new jobs, commits `jobs.json`. Has a *no_notify* checkbox for silent catch-up runs |
+| **Scan big tech** — `scan-bigtech.yml` | 7:00, 9:00, 11:00 … (every 2h) | Scans only `bigtech:` companies, so those get hourly coverage |
+| **LinkedIn reachability** — `linkedin-smoke.yml` | Manual only | Checks whether LinkedIn is answering GitHub's servers right now |
+| **Tests** — `tests.yml` | On every push | Runs the test suite |
+
+**How a scan workflow works** (`scan-all.yml`, simplified):
+
+```yaml
+on:
+  schedule:
+    - cron: "30 */2 * * *"        # every 2 hours at :30 UTC
+  workflow_dispatch:               # adds the "Run workflow" button
+
+permissions:
+  contents: write                  # allows committing jobs.json
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: python -m monitor.main --tier all
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}   # from Step 3
+      - run: git commit docs/data/jobs.json && git push              # save state
+```
+
+The real file also retries the push and merges `jobs.json` safely if the dashboard saved a
+status at the same moment.
+
+> **Note:** GitHub pauses scheduled workflows in a repo with no activity for 60 days.
+> The scans commit regularly so this normally never triggers, but if it does, just
+> re-enable them from the Actions tab.
+
+GitHub Actions is free for public repos. For private repos the free plan includes
+2,000 minutes/month. A full sweep takes about 10 minutes (most of it is LinkedIn's
+rate-limit pacing) and a big-tech scan about 2, so the default schedule uses about
+4,500 minutes a month. On a private repo, run the full sweep every 4–6 hours instead.
+
+---
+
+## 7. Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| No Discord messages at all | Was it the first run? That's the silent seed run. Otherwise check the secret is named exactly `DISCORD_WEBHOOK_URL`, and look for `DISCORD_WEBHOOK_URL not set` in the run log |
+| Run fails at "Commit state" with a permission error | Settings → Actions → General → Workflow permissions → **Read and write** |
+| `! Company: FAILED - 404` in the log | That company changed its careers system. Find its new board (see [Customising](#4-customising)) or delete the entry |
+| `LinkedIn (JobSpy): 0 raw postings` | LinkedIn is throttling GitHub's IP addresses. Run **LinkedIn reachability** to confirm; if it fails, add a `JOBSPY_PROXIES` secret. Naukri and Indeed keep working meanwhile |
+| Too many alerts | Remove high-volume sources (e.g. Accenture), narrow `searches:`, or raise `YOE_MIN` |
+| A role you wanted was filtered out | Test its title: `python -c "from monitor import filters as F; print(F.classify('Your Title Here'))"` — `None` means rejected. Adjust the regexes in `filters.py` |
+| Dashboard says *Could not load data/jobs.json* | Run a scan first, and check Pages is serving the `/docs` folder |
+| Old/stale jobs piling up | `python -m monitor.prune --dry-run` lists postings no longer in scope; drop `--dry-run` to remove them |
+
+---
+
+## 8. Project layout
+
+```
+config/companies.yaml        ← the companies & job-board searches (edit this most)
+monitor/
+  main.py                    ← entry point: fetch → filter → dedupe → save → notify
+  filters.py                 ← India / Java / seniority / experience rules
+  profiles.py                ← tracker settings (config file, data file, tiers, webhook)
+  state.py                   ← reads/writes docs/data/jobs.json; never overwrites your marks
+  notify.py                  ← Discord messages
+  merge.py                   ← safely merges jobs.json when two writers race
+  prune.py                   ← removes stored postings that no longer match
+  names.py                   ← company-name normalising for de-duplication
+  fetchers/
+    generic.py               ← Greenhouse, Lever, Ashby, Workday, Eightfold, SmartRecruiters
+    custom.py                ← Amazon, Google, Microsoft, Walmart, Phenom
+    jobspy_board.py          ← LinkedIn, Naukri, Indeed (via python-jobspy)
+docs/                        ← the dashboard (served by GitHub Pages)
+  index.html · app.js · app.css
+  data/jobs.json             ← the database: every job seen + your Applied/Skip status
+tests/                       ← pytest suite
+.github/workflows/           ← the schedules (see §6)
+```
+
+How duplicates are avoided: every posting gets a stable ID (company + hash of its job
+ID/URL). A job already in `jobs.json` is never alerted again, and the same job found on both
+LinkedIn and the company's own site is merged into one entry.

@@ -18,9 +18,11 @@ def _sched(value: str) -> str:
 
 
 def amazon(c):
+    """c: {search?, country?}  country is amazon.jobs' ISO-3 code (default IND)"""
     s = session()
     url = ("https://www.amazon.jobs/en/search.json?result_limit=100&sort=recent"
-           "&category%5B%5D=software-development&country%5B%5D=USA"
+           "&category%5B%5D=software-development"
+           f"&country%5B%5D={c.get('country', 'IND')}"
            f"&base_query={c.get('search', 'software engineer').replace(' ', '+')}")
     data = get_json(s, url)
     out = []
@@ -50,7 +52,8 @@ def microsoft(c):
     for pg in (1, 2):
         url = ("https://gcsservices.careers.microsoft.com/search/api/v1/search"
                f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&lc=United%20States&l=en_us&pg={pg}&pgSz=100&o=Relevance&flt=true")
+               f"&lc={c.get('location', 'India').replace(' ', '%20')}"
+               f"&l=en_us&pg={pg}&pgSz=100&o=Relevance&flt=true")
         data = get_json(s, url)
         jobs = (((data.get("operationResult") or {}).get("result") or {}).get("jobs")) or []
         if not jobs:
@@ -96,7 +99,8 @@ def google(c):
     for page in range(1, int(c.get("pages", 5)) + 1):
         url = ("https://www.google.com/about/careers/applications/jobs/results/"
                f"?q={c.get('search', 'software engineer').replace(' ', '%20')}"
-               f"&location=United%20States&sort_by=date&page={page}")
+               f"&location={c.get('location', 'India').replace(' ', '%20')}"
+               f"&sort_by=date&page={page}")
         markup = get_text(s, url)
         cards = list(GOOGLE_CARD.finditer(markup))
         if not cards:
@@ -282,7 +286,7 @@ def phenom(c):
     for page in range(1, int(c.get("max_pages", 6)) + 1):
         data = get_json(s, f"https://{host}/api/jobs", params={
             "keyword": "", "limit": limit, "page": page, "sortBy": "relevance",
-            "locale": "en_US", "country": c.get("country", "United States"),
+            "locale": "en_US", "country": c.get("country", "India"),
         })
         rows = data.get("jobs") or []
         for row in rows:

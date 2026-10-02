@@ -1,19 +1,17 @@
-"""The two trackers, and the plumbing that keeps them apart.
+"""Tracker profiles, the company registry, and the multi-term search runner.
 
-The failure this guards against is quiet and expensive: one tracker writing
-into the other's database, or notifying the other's Discord channel. Both
-would look like a successful run.
+A typo in the registry or a profile pointing at a missing file both look like
+a successful run - just one with fewer postings. These catch that.
 """
 import os
 
 import pytest
-import yaml
 
 from monitor import main, profiles
 
 
-def test_both_profiles_are_registered():
-    assert set(profiles.PROFILES) == {"tech", "supplychain"}
+def test_the_default_profile_is_registered():
+    assert profiles.DEFAULT in profiles.PROFILES
 
 
 def test_unknown_profile_fails_loudly():
@@ -21,30 +19,19 @@ def test_unknown_profile_fails_loudly():
         profiles.get("nope")
 
 
-@pytest.mark.parametrize("key", ["tech", "supplychain"])
+@pytest.mark.parametrize("key", list(profiles.PROFILES))
 def test_every_profile_points_at_files_that_exist(key):
     p = profiles.get(key)
     assert os.path.exists(p.config_path), p.config_path
     assert os.path.exists(os.path.join(profiles.ROOT, "docs", p.dashboard))
 
 
-def test_the_trackers_never_share_a_file_or_a_webhook():
-    tech, scm = profiles.get("tech"), profiles.get("supplychain")
-    assert tech.state_path != scm.state_path
-    assert tech.config_path != scm.config_path
-    assert tech.dashboard != scm.dashboard
-    assert tech.webhook_env != scm.webhook_env
-
-
-@pytest.mark.parametrize("key", ["tech", "supplychain"])
+@pytest.mark.parametrize("key", list(profiles.PROFILES))
 def test_tier_vocabulary_covers_what_the_rules_emit(key):
-    """Every tier a profile's filters can return has a Discord label."""
+    """Every tier the filters can return has a Discord label and its own hue."""
     p = profiles.get(key)
-    labels = p.tier_labels
-    assert labels and len(labels) == len(p.tiers)
-    assert len(set(p.tier_colors.values())) == len(p.tiers)   # no repeated hue
-    for tier in labels:
-        assert isinstance(labels[tier], str) and labels[tier]
+    assert set(p.tier_labels) == {"mid", "senior", "lead"}
+    assert len(set(p.tier_colors.values())) == len(p.tiers)
 
 
 def test_config_entries_all_name_a_known_fetcher():
@@ -73,12 +60,12 @@ def test_searches_runs_the_fetcher_once_per_term_and_merges():
     main.FETCHERS["_fake"] = fake
     try:
         jobs = main.run_fetcher({"name": "T", "fetcher": "_fake",
-                                 "searches": ["demand planning", "S&OP"]})
+                                 "searches": ["java", "backend"]})
     finally:
         del main.FETCHERS["_fake"]
-    assert seen == ["demand planning", "S&OP"]
+    assert seen == ["java", "backend"]
     assert len(jobs) == 3                      # the duplicate is folded in
-    assert {j["external_id"] for j in jobs} == {"demand planning", "S&OP", "shared"}
+    assert {j["external_id"] for j in jobs} == {"java", "backend", "shared"}
 
 
 def test_the_newest_first_workday_pass_runs_only_once():
@@ -126,8 +113,17 @@ def test_a_source_that_fails_every_term_reports_nothing():
 
 
 def test_yaml_anchor_block_is_not_scanned_as_companies():
-    """companies-supplychain.yaml holds its shared search list at top level."""
-    cfg = main.load_config(profiles.get("supplychain").config_path)
+    """companies.yaml holds its shared search list at top level."""
+    cfg = main.load_config(profiles.get(profiles.DEFAULT).config_path)
     assert "x-searches" in cfg                 # the anchor block is present...
-    companies = (cfg.get("bigtech") or []) + (cfg.get("other") or [])
+    companies = ((cfg.get("bigtech") or []) + (cfg.get("other") or [])
+                 + (cfg.get("aggregators") or []))
     assert all(isinstance(c, dict) and "fetcher" in c for c in companies)
+
+
+def test_company_names_are_unique():
+    """Source health is keyed by name; two entries sharing one would mask each other."""
+    cfg = main.load_config(profiles.get(profiles.DEFAULT).config_path)
+    names = [c["name"] for sec in ("bigtech", "other", "aggregators")
+             for c in cfg.get(sec) or []]
+    assert len(names) == len(set(names))

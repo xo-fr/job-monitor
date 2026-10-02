@@ -1,10 +1,8 @@
 """State persistence: each tracker's JSON file is its single source of truth.
 
-Which file that is comes from the running profile (monitor/profiles.py):
-docs/data/jobs.json for the software tracker, docs/data/supplychain.json for
-the supply-chain one. The structure and every rule below are identical for
-both - only the tier vocabulary and the role buckets differ, and this layer
-never inspects either.
+Which file that is comes from the running profile (monitor/profiles.py) -
+docs/data/jobs.json by default. This layer never inspects the tier vocabulary
+or the role buckets, so it works unchanged for any profile.
 
 Structure:
 {
@@ -13,18 +11,13 @@ Structure:
   "jobs": {
     "<job_id>": {
       "company": str, "title": str,
-      "tier": software: "intern|newgrad|experienced"
-              supply chain: "intern|entry|mid|manager",
+      "tier": "mid|senior|lead",
       "location": str, "url": str, "source": str,
       "first_seen": "YYYY-MM-DD", "status": "new|applied|skip|interview|rejected|closed",
       # best-effort enrichment; key is omitted entirely when the ATS has no value
       "posted_at": "YYYY-MM-DD", "comp": str, "employment_type": str,
       "workplace": "Remote|Hybrid|On-site", "department": str,
-      "role": software: "ml-ai|data|security|devops-sre|mobile|frontend|
-                        fullstack|backend|embedded|qa-test|solutions|software"
-              supply chain: "demand-planning|supply-planning|inventory|
-                        merch-planning|procurement|logistics|analytics|
-                        program-mgmt|workforce|supply-chain",
+      "role": "java|fullstack|platform|backend|software",
       "yoe": int,            # lowest stated years-of-experience, when the posting says
       "deadline": "YYYY-MM-DD",  # application close date; very rarely published
       # written by the dashboard when you mark Applied/Interview; the scanner

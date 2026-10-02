@@ -15,9 +15,9 @@ class FakeResponse:
 
 
 def jobs(n):
-    return [{"company": "Stripe", "title": f"SWE {i}", "tier": "experienced",
+    return [{"company": "Stripe", "title": f"SWE {i}", "tier": "senior",
              "url": f"https://x.test/{i}", "source": "greenhouse",
-             "first_seen": "2026-08-26", "location": "NYC"} for i in range(n)]
+             "first_seen": "2026-08-26", "location": "Bengaluru"} for i in range(n)]
 
 
 def setup_webhook(monkeypatch, responses):

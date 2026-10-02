@@ -1,14 +1,14 @@
 """Entrypoint.
 
 Usage:
-  python -m monitor.main --tier bigtech                      # every-3h run
-  python -m monitor.main --tier all                          # daily full sweep
-  python -m monitor.main --tier all --dry-run                # print, don't save/notify
-  python -m monitor.main --profile supplychain --tier all    # the other tracker
+  python -m monitor.main --tier bigtech            # big names only (odd hours)
+  python -m monitor.main --tier all                # full sweep (even hours)
+  python -m monitor.main --tier all --dry-run      # print, don't save/notify
+  python -m monitor.main --include-staff           # also admit Staff titles
 
 --profile picks which tracker to run (see monitor/profiles.py): its company
-registry, its role rules, its state file and its Discord webhook. The default
-is the original software tracker, so every existing invocation is unchanged.
+registry, its role rules, its state file and its Discord webhook. There is one
+today (india-java), and it is the default.
 
 First run behavior: if the state file is empty, all found jobs are SEEDED
 into state without Discord notifications (avoids a 500-message flood).
@@ -19,7 +19,7 @@ import sys
 
 import yaml
 
-from . import h1b, notify, profiles, state
+from . import notify, profiles, state
 from .fetchers import FETCHERS
 
 
@@ -33,11 +33,11 @@ def run_fetcher(company):
 
     Boards that only expose a keyword search (Workday, Eightfold, Amazon,
     Microsoft, Google, Walmart) return whatever ranks highest for one phrase,
-    and no single phrase covers a whole job family - "demand planning" misses
-    every "Sr Planner" and "S&OP Manager" on the same board. A `searches:`
+    and no single phrase covers a whole job family - "java" misses every
+    "Senior Software Engineer, Payments" on the same board. A `searches:`
     list runs the fetcher once per term and merges the results, which is the
-    difference between seeing a company's planning org and seeing a corner of
-    it. Postings repeat heavily across terms, so the union costs far less
+    difference between seeing a company's engineering org and seeing a corner
+    of it. Postings repeat heavily across terms, so the union costs far less
     than the number of passes suggests.
     """
     name = company.get("name", company.get("fetcher"))
@@ -79,16 +79,15 @@ def run_fetcher(company):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--profile", choices=list(profiles.PROFILES), default="tech",
-                    help="which tracker to run (default: the software one)")
+    ap.add_argument("--profile", choices=list(profiles.PROFILES),
+                    default=profiles.DEFAULT, help="which tracker to run")
     ap.add_argument("--tier", choices=["bigtech", "other", "all"], default="all")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-notify", action="store_true",
                     help="save state but send no Discord messages (use after "
                          "repairing a fetcher, to absorb its backlog quietly)")
-    ap.add_argument("--include-senior", action="store_true",
-                    help="widen the band: senior titles (tech) / director and "
-                         "above (supply chain)")
+    ap.add_argument("--include-staff", action="store_true",
+                    help="widen the band: also admit Staff engineer titles")
     args = ap.parse_args()
 
     profile = profiles.get(args.profile)
@@ -111,11 +110,8 @@ def main():
 
     in_scope = []
     for j in raw:
-        r = filters.in_scope(j, include_senior=args.include_senior)
+        r = filters.in_scope(j, include_staff=args.include_staff)
         if r:
-            # Aggregator rows carry a tier hint; trust it if the title was ambiguous.
-            if j.get("tier_hint") and r["tier"] == "experienced":
-                r["tier"] = j["tier_hint"]
             in_scope.append(r)
 
     st = state.load(profile.state_path)
@@ -142,22 +138,13 @@ def main():
         print("BROKEN since last run: "
               + ", ".join(f"{b['name']} (was {b['was']})" for b in broke))
     for j in new[:50]:
-        print(f"  [{j['tier']:>11}] {j['company']}: {j['title']} ({j['location'][:60]})")
+        print(f"  [{j['tier']:>6}] {j['company']}: {j['title']} ({j['location'][:60]})")
 
     if args.dry_run:
         print("\nDry run: nothing saved or sent.")
         return
 
     state.save(st, profile.state_path)
-    # Sponsorship rides along on the notification copy only. It is per-company
-    # rather than per-posting, and h1b.json already holds it for the dashboard,
-    # so writing it into every job entry would duplicate a whole file across
-    # thousands of rows and make each weekly refresh rewrite the tracker.
-    sponsors = h1b.load()
-    if sponsors:
-        for j in new:
-            if j["company"] in sponsors:
-                j["h1b"] = sponsors[j["company"]]
     if new and not seeding and not args.no_notify:
         notify.send(new, run_label=f"(scan: {profile.key}/{args.tier})",
                     webhook_env=profile.webhook_env,

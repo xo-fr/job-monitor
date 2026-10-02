@@ -140,7 +140,11 @@ WD_US_PREFIX = re.compile(r"^(US|USA|United-States(-of-America)?)(-|$)", re.I)
 # MO, Peru IN, Paris TX, Berlin NH) can look foreign. A US state code standing
 # as its own segment settles it, and is checked first for that reason. No US
 # code collides with a Canadian or Mexican state abbreviation.
-WD_US_STATE = re.compile(rf"(^|-)({filters.US_STATES})(-|$)")
+US_STATES = (
+    "AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS"
+    "|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC"
+)
+WD_US_STATE = re.compile(rf"(^|-)({US_STATES})(-|$)")
 
 # Non-US countries as Workday slugs them. Longest match wins, so multi-word
 # names are listed ahead of the single word they start with.
@@ -226,11 +230,45 @@ def workday_country(external_path: str) -> str:
     return ""
 
 
-def _workday_pass(s, url, c, search):
+def _find_facet(facets, country):
+    """Walk Workday's (possibly nested) facet tree for a value named `country`.
+
+    Returns {facetParameter: [id]} or {}. Facet ids differ per tenant, and the
+    parameter that holds countries does too ("locationCountry",
+    "locationHierarchy1", "Location_Country"...), so it is discovered from the
+    board itself rather than hard-coded.
+    """
+    want = country.strip().lower()
+    for f in facets or []:
+        param = f.get("facetParameter", "")
+        for v in f.get("values") or []:
+            if (v.get("descriptor") or "").strip().lower() == want and v.get("id"):
+                return {param: [v["id"]]}
+            if v.get("values"):       # nested group, e.g. locationMainGroup
+                hit = _find_facet([v], country)
+                if hit:
+                    return hit
+    return {}
+
+
+def _workday_facets(s, url, c):
+    """Explicit `facets:` win; otherwise `country:` (default India) is resolved."""
+    if c.get("facets"):
+        return c["facets"]
+    country = c.get("country", "India")
+    if not country:
+        return {}
+    data = post_json(s, url, json={"appliedFacets": {}, "limit": 1, "offset": 0,
+                                   "searchText": ""},
+                     headers={"Content-Type": "application/json"})
+    return _find_facet(data.get("facets"), country)
+
+
+def _workday_pass(s, url, c, search, facets):
     """One paged sweep of a Workday board for a given search term."""
     out, offset, limit = [], 0, 20
     while offset < int(c.get("max_results", 100)):
-        body = {"appliedFacets": c.get("facets", {}), "limit": limit,
+        body = {"appliedFacets": facets, "limit": limit,
                 "offset": offset, "searchText": search}
         data = post_json(s, url, json=body,
                          headers={"Content-Type": "application/json"})
@@ -260,7 +298,12 @@ def _workday_pass(s, url, c, search):
 
 
 def workday(c):
-    """c: {name, host, tenant, site, search?}  e.g. host=nvidia.wd5.myworkdayjobs.com
+    """c: {name, host, tenant, site, search?, country?, facets?}
+
+    e.g. host=nvidia.wd5.myworkdayjobs.com. `country` (default "India") is
+    looked up in the board's own location facets so only that country's
+    postings are paged; `facets:` overrides it with explicit facet ids, and
+    `country: ""` turns the restriction off.
 
     Two sweeps, because Workday orders results one way or the other but never
     both. With a searchText it ranks by relevance, so on a 990-posting board
@@ -280,22 +323,28 @@ def workday(c):
     passes = [c.get("search", "software engineer")]
     if not c.get("skip_recent"):
         passes.append("")
+    facets = _workday_facets(s, url, c)
     for search in passes:
-        for job in _workday_pass(s, url, c, search):
+        for job in _workday_pass(s, url, c, search, facets):
             key = job["external_id"] or job["url"]
             if key in seen:
                 continue
             seen.add(key)
+            # the board was queried for one country, so every row is in it,
+            # even the ones whose slug or "N Locations" text would not say so
+            if facets and not c.get("facets") and not job["country"]:
+                job["country"] = c.get("country", "India")
             out.append(job)
     return out
 
 
 def eightfold(c):
-    """c: {name, host, domain, search?}  e.g. Netflix: explore.jobs.netflix.net"""
+    """c: {name, host, domain, search?, location?}  location defaults to India"""
     s = session()
     q = c.get("search", "software engineer").replace(" ", "%20")
     url = (f"https://{c['host']}/api/apply/v2/jobs?domain={c['domain']}"
-           f"&num=100&query={q}&location=United%20States&sort_by=timestamp")
+           f"&num=100&query={q}&location={c.get('location', 'India').replace(' ', '%20')}"
+           "&sort_by=timestamp")
     data = get_json(s, url)
     out = []
     for j in data.get("positions", []):

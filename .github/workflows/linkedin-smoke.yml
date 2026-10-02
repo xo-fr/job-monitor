@@ -14,10 +14,10 @@ on:
     inputs:
       search:
         description: "Search term to probe with"
-        default: "software engineer"
+        default: "senior java developer"
       location:
         description: "Location to probe with"
-        default: "United States"
+        default: "India"
 
 jobs:
   probe:

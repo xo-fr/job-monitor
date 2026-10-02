@@ -4,10 +4,10 @@ import time
 
 import requests
 
-# The tech tracker's vocabulary, and the fallback for any caller that does
-# not pass its own. A profile supplies its tiers via profiles.Profile.
-TIER_LABEL = {"intern": "🎓 Intern", "newgrad": "🌱 New Grad", "experienced": "🛠 Experienced"}
-TIER_COLOR = {"intern": 0x3498DB, "newgrad": 0x2ECC71, "experienced": 0xE67E22}
+# Fallback vocabulary for any caller that does not pass its own. A profile
+# supplies its tiers via profiles.Profile.
+TIER_LABEL = {"mid": "🛠 SDE II / Mid", "senior": "🚀 Senior / SDE III", "lead": "🧭 Lead / Staff"}
+TIER_COLOR = {"mid": 0x2ECC71, "senior": 0xE67E22, "lead": 0x9B59B6}
 
 DEFAULT_WEBHOOK_ENV = "DISCORD_WEBHOOK_URL"
 WORKPLACE_ICON = {"Remote": "🏠", "Hybrid": "🔀", "On-site": "🏢"}
@@ -29,18 +29,8 @@ def _fields(j: dict) -> list:
                     "inline": True})
     if j.get("department"):
         out.append({"name": "🗂 Team", "value": j["department"][:1024], "inline": True})
-    # Sponsorship history, when h1b.json has an answer for this employer. An
-    # employer it has never looked up says nothing at all - only a lookup that
-    # came back empty is worth printing, and even that is phrased as a gap in
-    # the record rather than a verdict (see monitor/h1b.py).
-    h = j.get("h1b", "missing")
-    if h is not None and h != "missing":
-        fuzzy = h.get("confidence") in ("loose", "prefix")
-        out.append({"name": "🛂 H-1B", "inline": True,
-                    "value": f"{h['filed']:,} filings{' (approx. match)' if fuzzy else ''}"
-                             + (" · staffing agency" if h.get("staffing") else "")})
-    elif h is None:
-        out.append({"name": "🛂 H-1B", "value": "no filings found", "inline": True})
+    if j.get("yoe") is not None:
+        out.append({"name": "🎯 Experience", "value": f"{j['yoe']}+ yrs", "inline": True})
     return out
 
 

@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Job Monitor</title>
+<title>India Java Jobs</title>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
 <header>
-  <h1 id="h1">Job Monitor</h1>
+  <h1 id="h1">India Java Jobs</h1>
   <nav id="nav"></nav>
   <select id="fTier"><option value="">All tiers</option></select>
   <select id="fStatus"><option value="open">Open (new)</option><option value="applied">Applied</option>
@@ -16,23 +16,17 @@
   <select id="fRole"><option value="">All roles</option></select>
   <select id="fYoe">
     <option value="">Any experience</option>
-    <option value="0">0 yrs stated</option>
-    <option value="2">&le; 2 yrs</option>
-    <option value="3">&le; 3 yrs</option>
-    <option value="5">&le; 5 yrs</option>
+    <option value="4">&le; 4 yrs asked</option>
+    <option value="5">&le; 5 yrs asked</option>
+    <option value="6">&le; 6 yrs asked</option>
+    <option value="8">&le; 8 yrs asked</option>
     <option value="unstated">Not stated</option>
   </select>
   <select id="fCompany"><option value="">All companies</option></select>
   <select id="fSource">
     <option value="">Any source</option>
-    <option value="linkedin">LinkedIn only</option>
-    <option value="direct">Excluding LinkedIn</option>
-  </select>
-  <select id="fH1b">
-    <option value="">Any sponsorship</option>
-    <option value="yes">Sponsors H-1B</option>
-    <option value="none">No filings found</option>
-    <option value="staffing">Staffing agency</option>
+    <option value="linkedin">Job boards only</option>
+    <option value="direct">Company career sites</option>
   </select>
   <select id="fGroup">
     <option value="1">Group duplicate reqs</option>
@@ -93,8 +87,8 @@
 
 <script>
 // What THIS page tracks. Everything else - styling, filtering, the KPI band,
-// saving status back to GitHub - is shared with the other tracker in
-// app.css / app.js, so a fix to the dashboard lands on both pages at once.
+// saving status back to GitHub - lives in app.css / app.js, so a second
+// tracker page can reuse it by declaring its own TRACKER object.
 //
 //   data        what the browser fetches, relative to this page
 //   path        the same file's path inside the repo, for writing status back
@@ -103,22 +97,20 @@
 //               categorical set - keep any replacement >=3:1 on the card
 //               surface and separated in CVD space
 window.TRACKER = {
-  title: "Job Monitor",
+  title: "India Java Jobs",
   data: "data/jobs.json",
   path: "docs/data/jobs.json",
   defaultRole: "software",
   tiers: [
-    ["intern", "Intern", "#3987e5"],
-    ["newgrad", "New Grad", "#199e70"],
-    ["experienced", "Experienced", "#d95926"],
+    ["mid", "SDE II / Mid", "#199e70"],
+    ["senior", "Senior / SDE III", "#d95926"],
+    ["lead", "Lead / Staff", "#8f6ad8"],
   ],
   roles: {
-    "software":"Software (general)", "backend":"Backend", "frontend":"Frontend",
-    "fullstack":"Full stack", "mobile":"Mobile", "ml-ai":"ML / AI", "data":"Data",
-    "devops-sre":"DevOps / SRE", "security":"Security", "embedded":"Embedded / Systems",
-    "qa-test":"QA / Test", "solutions":"Solutions / Forward-deployed",
+    "java":"Java / Spring", "backend":"Backend", "fullstack":"Full stack",
+    "platform":"Platform / Infra", "software":"Software (general)",
   },
-  siblings: [{ href: "supplychain.html", label: "Supply chain \u2192" }],
+  siblings: [],
 };
 </script>
 <script src="app.js"></script>

@@ -1,367 +1,457 @@
-# Company registry.
-# bigtech: scanned every 3 hours. other + aggregators: scanned once daily.
+# Company registry - India, Java backend / senior software engineer.
+#
+#   bigtech:      scanned every 2h on odd hours (so they get hourly cover
+#                 together with the full sweep)
+#   other:        scanned every 2h on even hours (the full sweep)
+#   aggregators:  job boards (LinkedIn, Naukri, Indeed) - full sweep
+#
+# Every entry below was probed live (Oct 2026) and returned postings located
+# in India. Counts in the comments are "India postings / in scope for a
+# senior Java backend engineer" on the day it was checked - they move daily.
 #
 # fetcher types: greenhouse | lever | ashby | workday | eightfold |
-#                smartrecruiters | amazon | microsoft | google | apple |
-#                tesla | uber | simplify | jobspy
+#                smartrecruiters | amazon | google | microsoft | walmart |
+#                phenom | jobspy
 #
-# NOTE: ATS tokens/tenants are best-effort and may need verification.
-# To find a token: open the company's careers page, check the URL or the
-# network tab for boards.greenhouse.io/<token>, jobs.lever.co/<token>,
-# jobs.ashbyhq.com/<token>, or <tenant>.wdX.myworkdayjobs.com/<site>.
+# ADDING A COMPANY: open its careers page and look at the URL (or the
+# browser's network tab) for one of:
+#   boards.greenhouse.io/<token>           -> fetcher: greenhouse, token
+#   jobs.lever.co/<token>                  -> fetcher: lever, token
+#   jobs.ashbyhq.com/<token>               -> fetcher: ashby, token
+#   jobs.smartrecruiters.com/<token>       -> fetcher: smartrecruiters, token
+#   <tenant>.wdN.myworkdayjobs.com/<site>  -> fetcher: workday, host, tenant, site
+# Then dry-run it:  python -m monitor.main --tier all --dry-run
+#
+# Workday boards are restricted to India automatically: the fetcher finds the
+# board's own "India" location facet (`country:` defaults to India). Keyword
+# search on Workday is relevance-ranked, so `searches:` runs one pass per term.
+
+x-searches: &search_terms
+  - java
+  - software engineer
+  - backend
 
 bigtech:
   - name: Amazon
-    fetcher: amazon
-  - name: Microsoft
-    fetcher: microsoft
+    fetcher: amazon               # 34 / 22
+    country: IND
+    searches: [java, software development engineer, backend]
   - name: Google
-    fetcher: google
-  - name: Apple
-    fetcher: apple
-  - name: Netflix
-    fetcher: eightfold
-    host: explore.jobs.netflix.net
-    domain: netflix.com
+    fetcher: google               # 105 / 17
+    location: India
+    searches: [software engineer, backend]
   - name: Nvidia
-    fetcher: workday
+    fetcher: workday              # 149 / 50
     host: nvidia.wd5.myworkdayjobs.com
     tenant: nvidia
     site: NVIDIAExternalCareerSite
-    # Nvidia lists ~270 Israel roles (Mellanox) that Workday reports as
-    # "N Locations", so they read as location-unknown and slipped into the
-    # US-only feed. Restrict the query itself to the US facet; this also
-    # stops non-US postings from eating the max_results budget.
-    # Facet ids are per-tenant: read them from the `facets` array in the
-    # /wday/cxs/<tenant>/<site>/jobs response before copying this elsewhere.
-    facets:
-      locationHierarchy1:
-        - 2fcb99c455831013ea52fb338f2932d8   # United States
-  - name: Tesla
-    fetcher: tesla
-  - name: Uber
-    fetcher: uber
-  - name: Stripe
-    fetcher: greenhouse
-    token: stripe
-  - name: Airbnb
-    fetcher: greenhouse
-    token: airbnb
-  - name: OpenAI
-    fetcher: ashby
-    token: openai
-  - name: Anthropic
-    fetcher: greenhouse
-    token: anthropic
-  # Meta and LinkedIn have no stable public API. They were assumed to be
-  # covered by the Simplify aggregator, but it currently carries 0 postings
-  # for either, so neither company is actually being monitored.
-  #
-  # Microsoft, Apple, Tesla and Uber are configured below but return nothing:
-  #   Microsoft - careers moved to Eightfold; its API answers
-  #               403 "Not authorized for PCSX" without a tenant token
-  #   Apple     - /api/role/search no longer exists (404) and the search page
-  #               renders results client-side, so there is nothing to read
-  #   Tesla     - Akamai "Access Denied" to non-browser clients
-  #   Uber      - the loadSearchJobsResults RPC handler was removed, and the
-  #               careers page no longer server-renders
-  # They are left in place so the source-health alert keeps reporting them
-  # rather than silently dropping the coverage.
-
-other:
-  # --- big tech adjacent ---
+    searches: *search_terms
   - name: Adobe
-    fetcher: workday
+    fetcher: workday              # 80 / 13
     host: adobe.wd5.myworkdayjobs.com
     tenant: adobe
     site: external_experienced
+    searches: *search_terms
   - name: Salesforce
-    fetcher: workday
+    fetcher: workday              # 106 / 1 (many MTS/SMTS, often PMTS)
     host: salesforce.wd12.myworkdayjobs.com
     tenant: salesforce
     site: External_Career_Site
-  # --- finance & fintech ---
+    searches: *search_terms
+  - name: Cisco
+    fetcher: workday              # 43 / 27
+    host: cisco.wd5.myworkdayjobs.com
+    tenant: cisco
+    site: Cisco_Careers
+    searches: *search_terms
+  - name: Intel
+    fetcher: workday              # 21 / 7
+    host: intel.wd1.myworkdayjobs.com
+    tenant: intel
+    site: External
+    searches: *search_terms
+  - name: eBay
+    fetcher: workday              # 81 / 30
+    host: ebay.wd5.myworkdayjobs.com
+    tenant: ebay
+    site: apply
+    searches: *search_terms
+  - name: Expedia
+    fetcher: workday              # 27 / 12
+    host: expedia.wd108.myworkdayjobs.com
+    tenant: expedia
+    site: search
+    searches: *search_terms
+  - name: Databricks
+    fetcher: greenhouse           # 94 / 17
+    token: databricks
+  - name: Stripe
+    fetcher: greenhouse           # 41 / 2
+    token: stripe
+  - name: Okta
+    fetcher: greenhouse           # 111 / 16
+    token: okta
+  - name: MongoDB
+    fetcher: greenhouse           # 83 / 11
+    token: mongodb
+  # Microsoft, Walmart Global Tech, Uber, Atlassian, Flipkart, PhonePe and
+  # Swiggy hire heavily for Java in India but have no careers API this repo
+  # can read (Microsoft's answers 403, the others are bespoke sites). They
+  # are covered through the LinkedIn / Naukri searches under `aggregators`.
+
+other:
+  # --- banks & fintech global capability centres (Java-heavy) ---
+  - name: Citi
+    fetcher: workday              # 283 / 51
+    host: citi.wd5.myworkdayjobs.com
+    tenant: citi
+    site: "2"
+    searches: *search_terms
+  - name: Barclays
+    fetcher: workday              # 110 / 42
+    host: barclays.wd3.myworkdayjobs.com
+    tenant: barclays
+    site: External_Career_Site_Barclays
+    searches: *search_terms
+  - name: Deutsche Bank
+    fetcher: workday              # 148 / 13
+    host: db.wd3.myworkdayjobs.com
+    tenant: db
+    site: DBWebSite
+    searches: *search_terms
+  - name: Wells Fargo
+    fetcher: workday              # 100 / 17
+    host: wf.wd1.myworkdayjobs.com
+    tenant: wf
+    site: WellsFargoJobs
+    searches: *search_terms
+  - name: Mastercard
+    fetcher: workday              # 64 / 32
+    host: mastercard.wd1.myworkdayjobs.com
+    tenant: mastercard
+    site: CorporateCareers
+    searches: *search_terms
+  - name: State Street
+    fetcher: workday              # 150 / 16
+    host: statestreet.wd1.myworkdayjobs.com
+    tenant: statestreet
+    site: Global
+    searches: *search_terms
+  - name: Morgan Stanley
+    fetcher: workday              # 102 / 1
+    host: ms.wd5.myworkdayjobs.com
+    tenant: ms
+    site: External
+    searches: *search_terms
+  - name: BlackRock
+    fetcher: workday              # 20 / 1
+    host: blackrock.wd1.myworkdayjobs.com
+    tenant: blackrock
+    site: BlackRock_Professional
+    searches: *search_terms
+  - name: Fidelity
+    fetcher: workday              # 11 / 0
+    host: fmr.wd1.myworkdayjobs.com
+    tenant: fmr
+    site: FidelityCareers
+    searches: *search_terms
   - name: Capital One
-    fetcher: workday
+    fetcher: workday              # 4 / 2
     host: capitalone.wd12.myworkdayjobs.com
     tenant: capitalone
     site: Capital_One
-  - name: Visa
-    fetcher: smartrecruiters
-    token: Visa
+    searches: *search_terms
+  - name: PayPal
+    fetcher: workday              # 7 / 0
+    host: paypal.wd1.myworkdayjobs.com
+    tenant: paypal
+    site: jobs
+    searches: *search_terms
+  - name: Broadridge
+    fetcher: workday              # 38 / 6
+    host: broadridge.wd5.myworkdayjobs.com
+    tenant: broadridge
+    site: Careers
+    searches: *search_terms
   - name: Coinbase
-    fetcher: greenhouse
+    fetcher: greenhouse           # 11 / 1
     token: coinbase
-  - name: Robinhood
-    fetcher: greenhouse
-    token: robinhood
-  - name: Citadel
-    fetcher: greenhouse
-    token: citadelcampus
-  - name: Two Sigma
-    fetcher: greenhouse
-    token: twosigma
-  - name: Affirm
-    fetcher: greenhouse
-    token: affirm
-  - name: Plaid
-    fetcher: ashby          # verified: moved off Lever, Lever board is empty
-    token: plaid
-  - name: Ramp
-    fetcher: ashby
-    token: ramp
-  - name: Chime
-    fetcher: greenhouse
-    token: chime
-  # --- Fortune 500 across sectors ---
-  - name: Boeing
-    fetcher: workday
-    host: boeing.wd1.myworkdayjobs.com
-    tenant: boeing
-    site: EXTERNAL_CAREERS
-  - name: Verizon
-    fetcher: workday        # mycareer.verizon.com is not a Workday CXS host
-    host: verizon.wd12.myworkdayjobs.com
-    tenant: verizon
-    site: verizon-careers
-  - name: Walmart Global Tech
-    fetcher: walmart        # their Workday CXS endpoint now answers 422
-    max_results: 200
+  - name: Paytm
+    fetcher: lever                # 162 / 3
+    token: paytm
+  - name: Zeta
+    fetcher: lever                # 23 / 1
+    token: zeta
+  - name: CRED
+    fetcher: lever                # 8 / 0
+    token: cred
+  - name: Groww
+    fetcher: greenhouse           # 7 / 0
+    token: groww
+  - name: Experian
+    fetcher: smartrecruiters      # 14 / 4
+    token: Experian
+
+  # --- product companies & retail/tech centres ---
+  - name: Nike
+    fetcher: workday              # 63 / 33
+    host: nike.wd1.myworkdayjobs.com
+    tenant: nike
+    site: nke
+    searches: *search_terms
   - name: Target
-    fetcher: workday
+    fetcher: workday              # 66 / 3
     host: target.wd5.myworkdayjobs.com
     tenant: target
     site: targetcareers
-  - name: CVS Health
-    fetcher: workday
-    host: cvshealth.wd1.myworkdayjobs.com
-    tenant: cvshealth
-    site: CVS_Health_Careers
-  # Ford uses Oracle Cloud HCM (no fetcher yet) - covered via aggregator.
-  # To add: build an oraclecloud fetcher or check if they expose eightfold.
-  # --- high-growth startups & unicorns ---
-  - name: Databricks
-    fetcher: greenhouse
-    token: databricks
-  - name: Figma
-    fetcher: greenhouse
-    token: figma
-  - name: Scale AI
-    fetcher: greenhouse
-    token: scaleai
-  - name: Notion
-    fetcher: ashby          # verified: no Greenhouse board exists
-    token: notion
-  - name: Discord
-    fetcher: greenhouse
-    token: discord
-  - name: Snowflake
-    fetcher: ashby          # verified: the Eightfold board returns nothing
-    token: snowflake
-  - name: Palantir
-    fetcher: lever
-    token: palantir
-  - name: Anduril
-    fetcher: greenhouse
-    token: andurilindustries
-  - name: SpaceX
-    fetcher: greenhouse
-    token: spacex
-  - name: Pinterest
-    fetcher: greenhouse
-    token: pinterest
-  - name: Reddit
-    fetcher: greenhouse
-    token: reddit
-  - name: DoorDash
-    fetcher: greenhouse
-    token: doordashusa
-  - name: Instacart
-    fetcher: greenhouse
-    token: instacart
-  - name: Roblox
-    fetcher: greenhouse
-    token: roblox
+    searches: *search_terms
+  - name: Lowe's
+    fetcher: workday              # 14 / 6
+    host: lowes.wd5.myworkdayjobs.com
+    tenant: lowes
+    site: LWS_External_CS
+    searches: *search_terms
+  - name: Applied Materials
+    fetcher: workday              # 128 / 23
+    host: amat.wd1.myworkdayjobs.com
+    tenant: amat
+    site: External
+    searches: *search_terms
+  - name: Athenahealth
+    fetcher: workday              # 34 / 5
+    host: athenahealth.wd1.myworkdayjobs.com
+    tenant: athenahealth
+    site: External
+    searches: *search_terms
+  - name: Sabre
+    fetcher: workday              # 40 / 9
+    host: sabre.wd1.myworkdayjobs.com
+    tenant: sabre
+    site: SabreJobs
+    searches: *search_terms
+  - name: HP
+    fetcher: workday              # 93 / 3
+    host: hp.wd5.myworkdayjobs.com
+    tenant: hp
+    site: ExternalCareerSite
+    searches: *search_terms
+  - name: Workday
+    fetcher: workday              # 24 / 1
+    host: workday.wd5.myworkdayjobs.com
+    tenant: workday
+    site: Workday
+    searches: *search_terms
+  - name: Autodesk
+    fetcher: workday              # 32 / 2
+    host: autodesk.wd1.myworkdayjobs.com
+    tenant: autodesk
+    site: Ext
+    searches: *search_terms
+  - name: Motorola Solutions
+    fetcher: workday              # 6 / 1
+    host: motorolasolutions.wd5.myworkdayjobs.com
+    tenant: motorolasolutions
+    site: Careers
+    searches: *search_terms
+  - name: Ciena
+    fetcher: workday              # 7 / 1
+    host: ciena.wd5.myworkdayjobs.com
+    tenant: ciena
+    site: Careers
+    searches: *search_terms
+  - name: Thomson Reuters
+    fetcher: workday              # 5 / 0
+    host: thomsonreuters.wd5.myworkdayjobs.com
+    tenant: thomsonreuters
+    site: External_Career_Site
+    searches: *search_terms
+  - name: Verizon
+    fetcher: workday              # 3 / 0
+    host: verizon.wd12.myworkdayjobs.com
+    tenant: verizon
+    site: verizon-careers
+    searches: *search_terms
+  - name: Boeing
+    fetcher: workday              # 8 / 0
+    host: boeing.wd1.myworkdayjobs.com
+    tenant: boeing
+    site: EXTERNAL_CAREERS
+    searches: *search_terms
+  - name: Red Hat
+    fetcher: workday              # 4 / 0
+    host: redhat.wd5.myworkdayjobs.com
+    tenant: redhat
+    site: jobs
+    searches: *search_terms
+  - name: ServiceNow
+    fetcher: smartrecruiters      # 16 / 5
+    token: ServiceNow
+  - name: Freshworks
+    fetcher: smartrecruiters      # 28 / 2
+    token: Freshworks
+  - name: NielsenIQ
+    fetcher: smartrecruiters      # 22 / 0
+    token: NielsenIQ
 
-  # --- added after verifying each board returns postings live ---
-  - name: Datadog
-    fetcher: greenhouse
-    token: datadog
-  - name: MongoDB
-    fetcher: greenhouse
-    token: mongodb
-  - name: Waymo
-    fetcher: greenhouse
-    token: waymo
-  - name: Okta
-    fetcher: greenhouse
-    token: okta
-  - name: Cloudflare
-    fetcher: greenhouse
-    token: cloudflare
-  - name: Brex
-    fetcher: greenhouse
-    token: brex
-  - name: Verkada
-    fetcher: greenhouse
-    token: verkada
-  - name: Samsara
-    fetcher: greenhouse
-    token: samsara
-  - name: Elastic
-    fetcher: greenhouse
-    token: elastic
+  # --- SaaS, infra & startups with India engineering ---
   - name: GitLab
-    fetcher: greenhouse
+    fetcher: greenhouse           # 28 / 3
     token: gitlab
-  - name: Block
-    fetcher: greenhouse
-    token: block
-  - name: Flexport
-    fetcher: greenhouse
-    token: flexport
-  - name: Lyft
-    fetcher: greenhouse
-    token: lyft
+  - name: Toast
+    fetcher: greenhouse           # 20 / 3
+    token: toast
+  - name: Fivetran
+    fetcher: greenhouse           # 17 / 3
+    token: fivetran
+  - name: Rubrik
+    fetcher: greenhouse           # 32 / 2
+    token: rubrik
+  - name: Zscaler
+    fetcher: greenhouse           # 84 / 2
+    token: zscaler
+  - name: Agoda
+    fetcher: greenhouse           # 9 / 2
+    token: agoda
+  - name: PubMatic
+    fetcher: greenhouse           # 34 / 4
+    token: pubmatic
+  - name: HackerRank
+    fetcher: greenhouse           # 17 / 4
+    token: hackerrank
+  - name: Sigmoid
+    fetcher: greenhouse           # 31 / 3
+    token: sigmoid
+  - name: HighRadius
+    fetcher: greenhouse           # 52 / 5
+    token: highradius
   - name: Twilio
-    fetcher: greenhouse
+    fetcher: greenhouse           # 10 / 1
     token: twilio
-  - name: Asana
-    fetcher: greenhouse
-    token: asana
-  - name: Nuro
-    fetcher: greenhouse
-    token: nuro
-  - name: Upstart
-    fetcher: greenhouse
-    token: upstart
-  - name: Gusto
-    fetcher: greenhouse
-    token: gusto
-  - name: Duolingo
-    fetcher: greenhouse
-    token: duolingo
-  - name: Faire
-    fetcher: greenhouse
-    token: faire
-  - name: SoFi
-    fetcher: greenhouse
-    token: sofi
-  - name: Carta
-    fetcher: greenhouse
-    token: carta
-  - name: Mercury
-    fetcher: greenhouse
-    token: mercury
-  - name: Peloton
-    fetcher: greenhouse
-    token: peloton
-  - name: Checkr
-    fetcher: greenhouse
-    token: checkr
-  - name: Dropbox
-    fetcher: greenhouse
-    token: dropbox
-  - name: Attentive
-    fetcher: greenhouse
-    token: attentive
+  - name: Elastic
+    fetcher: greenhouse           # 14 / 1
+    token: elastic
+  - name: New Relic
+    fetcher: greenhouse           # 9 / 1
+    token: newrelic
+  - name: Yugabyte
+    fetcher: greenhouse           # 6 / 1
+    token: yugabyte
+  - name: InMobi
+    fetcher: greenhouse           # 43 / 1
+    token: inmobi
+  - name: Netskope
+    fetcher: greenhouse           # 22 / 0
+    token: netskope
+  - name: Druva
+    fetcher: greenhouse           # 11 / 0
+    token: druva
+  - name: Datadog
+    fetcher: greenhouse           # 8 / 0
+    token: datadog
+  - name: Samsara
+    fetcher: greenhouse           # 6 / 0
+    token: samsara
+  - name: Airbnb
+    fetcher: greenhouse           # 5 / 0
+    token: airbnb
+  - name: Roblox
+    fetcher: greenhouse           # 11 / 0
+    token: roblox
+  - name: Flexport
+    fetcher: greenhouse           # 8 / 0
+    token: flexport
+  - name: Waymo
+    fetcher: greenhouse           # 5 / 2
+    token: waymo
   - name: Komodo Health
-    fetcher: greenhouse
+    fetcher: greenhouse           # 6 / 0
     token: komodohealth
-  - name: Betterment
-    fetcher: greenhouse
-    token: betterment
-  - name: PagerDuty
-    fetcher: greenhouse
-    token: pagerduty
-  - name: Webflow
-    fetcher: greenhouse
-    token: webflow
-  - name: Airtable
-    fetcher: greenhouse
-    token: airtable
-  - name: Marqeta
-    fetcher: greenhouse
-    token: marqeta
-  - name: Spotify
-    fetcher: lever
-    token: spotify
-  - name: Match Group
-    fetcher: lever
-    token: matchgroup
+  - name: Mixpanel
+    fetcher: greenhouse           # 4 / 0
+    token: mixpanel
+  - name: Cloudflare
+    fetcher: greenhouse           # 1 / 0
+    token: cloudflare
+  - name: Hevo Data
+    fetcher: lever                # 51 / 3
+    token: hevodata
+  - name: Meesho
+    fetcher: lever                # 57 / 1
+    token: meesho
+  - name: Mindtickle
+    fetcher: lever                # 16 / 1
+    token: mindtickle
+  - name: Sarvam AI
+    fetcher: ashby                # 59 / 3
+    token: sarvam
+  - name: Notion
+    fetcher: ashby                # 4 / 2
+    token: notion
+  - name: Snowflake
+    fetcher: ashby                # 13 / 0
+    token: snowflake
   - name: Harvey
-    fetcher: ashby
+    fetcher: ashby                # 7 / 1
     token: harvey
-  - name: ElevenLabs
-    fetcher: ashby
-    token: elevenlabs
-  - name: Decagon
-    fetcher: ashby
-    token: decagon
-  - name: Vanta
-    fetcher: ashby
-    token: vanta
-  - name: Perplexity
-    fetcher: ashby
-    token: perplexity
-  - name: Cognition
-    fetcher: ashby
-    token: cognition
-  - name: Replit
-    fetcher: ashby
-    token: replit
-  - name: Suno
-    fetcher: ashby
-    token: suno
-  - name: Abridge
-    fetcher: ashby
-    token: abridge
-  - name: Linear
-    fetcher: ashby
-    token: linear
-  - name: OpenEvidence
-    fetcher: ashby
-    token: openevidence
+  - name: Atlan
+    fetcher: ashby                # 4 / 0
+    token: atlan
+
+  # --- IT services (very high volume - delete if it floods your channel) ---
+  - name: Accenture
+    fetcher: workday              # 379 / 262
+    host: accenture.wd103.myworkdayjobs.com
+    tenant: accenture
+    site: AccentureCareers
+    searches: *search_terms
 
 aggregators:
-  # Catches Meta, LinkedIn, Goldman/JPMorgan campus roles, and hundreds of
-  # other companies. Only rows added in the last N days are considered.
-  - name: Simplify Aggregator
-    fetcher: simplify
-    # 30d roughly triples company coverage (90 -> ~293) and lets the
-    # scanner catch up after an outage instead of ageing rows out
-    max_age_days: 30
-
-  # LinkedIn, via JobSpy. LinkedIn has no public API and no queryable ATS, so
-  # this is the only way it is reachable - and it reaches the employers no
-  # company registry covers, because a search hits every employer at once.
+  # The job boards. A board search sweeps every employer at once - Flipkart,
+  # Walmart, Uber, PhonePe, Swiggy, Atlassian, Microsoft, every GCC and
+  # product startup - so these are the widest net in the file.
   #
-  # A search is a relevance-ranked sample, not a listing, so one term per job
-  # family is what widens it. Postings here also arrive from the employers'
-  # own boards; the fetcher marks its rows so the two copies are merged rather
-  # than tracked twice (monitor/state.py, soft_key).
+  # A search is a relevance-ranked sample, not a listing, so one term per
+  # phrasing is what widens it. Postings also arriving from an employer's own
+  # board are merged, not tracked twice (monitor/state.py, soft_key).
   #
-  # If LinkedIn starts returning nothing, it is rate limiting the runner's IP,
-  # not breaking: set the JOBSPY_PROXIES secret (comma-separated proxy URLs)
-  # and the fetcher picks it up. The source-health alert reports the outage.
+  # Each board is its own entry so one being throttled does not cost the
+  # others, and the source-health alert names which one went dark.
+  # If LinkedIn starts returning nothing, it is rate limiting the runner's IP:
+  # set the JOBSPY_PROXIES secret (comma-separated proxy URLs).
   - name: LinkedIn (JobSpy)
     fetcher: jobspy
     sites: [linkedin]
-    location: United States
+    location: India
+    country: India
     results_wanted: 100      # per term; LinkedIn rate limits around page 10
-    hours_old: 72            # the sweep runs 12x/day - 3 days is ample overlap
+    hours_old: 48            # the sweep runs 12x/day - 2 days is ample overlap
     fetch_description: false # true costs +1 request per job (see the module)
     proxies_env: JOBSPY_PROXIES
-    searches:
-      - software engineer intern
-      - new grad software engineer
-      - entry level software engineer
-      - junior software engineer
-      - machine learning engineer
-      - data engineer
-      - data scientist entry level
-      - devops engineer
-      - site reliability engineer
-      - security engineer
-      - frontend engineer
-      - backend engineer
+    searches: &board_terms
+      - senior java developer
+      - java backend developer
+      - senior software engineer java
+      - java spring boot microservices
+      - senior backend engineer
+      - sde 2 backend
+      - sde 3
+      - lead java developer
+      - java full stack developer
+  - name: Naukri (JobSpy)
+    fetcher: jobspy
+    sites: [naukri]
+    location: India
+    country: India
+    results_wanted: 60
+    hours_old: 48
+    proxies_env: JOBSPY_PROXIES
+    searches: *board_terms
+  - name: Indeed India (JobSpy)
+    fetcher: jobspy
+    sites: [indeed]
+    location: India
+    country: India
+    results_wanted: 60
+    hours_old: 48
+    proxies_env: JOBSPY_PROXIES
+    searches: *board_terms

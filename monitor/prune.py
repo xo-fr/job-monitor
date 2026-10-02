@@ -1,4 +1,4 @@
-"""Drop tracked postings that are not in the US after all.
+"""Drop tracked postings that are not in India after all.
 
 jobs.json accumulates; a filter fix only changes what future scans admit, so
 postings that a since-fixed hole let in stay on the dashboard forever. This
@@ -8,12 +8,12 @@ Entries the dashboard owns are never touched: anything whose status has moved
 off "new" is reported and kept, because a posting you have already applied to
 is worth more than a tidy feed.
 
-Usage:  python -m monitor.prune [--profile supplychain] [--dry-run]
+Usage:  python -m monitor.prune [--dry-run]
 """
 import sys
 
 from . import profiles, state
-from .filters import is_us
+from .filters import is_india
 from .fetchers.generic import workday_country
 
 
@@ -25,10 +25,10 @@ def find(jobs: dict) -> tuple[dict, dict]:
         # Workday hides the country behind "N Locations"; the URL slug has it.
         if j.get("source") == "workday":
             country = workday_country(j.get("url", ""))
-            if country and country != "US":
+            if country and country != "India":
                 reason = country
-        if not reason and not is_us(j.get("location", "")):
-            reason = j.get("location", "") or "non-US"
+        if not reason and not is_india(j.get("location", ""), j.get("country", "")):
+            reason = j.get("location", "") or "not India"
         if not reason:
             continue
         (held if j.get("status", "new") != "new" else drop)[jid] = reason
@@ -37,7 +37,7 @@ def find(jobs: dict) -> tuple[dict, dict]:
 
 def main(argv):
     dry = "--dry-run" in argv[1:]
-    key = "tech"
+    key = profiles.DEFAULT
     if "--profile" in argv:
         key = argv[argv.index("--profile") + 1]
     profile = profiles.get(key)
@@ -51,7 +51,7 @@ def main(argv):
         j = st["jobs"][jid]
         print(f"  drop [{reason}]: {j['company']} - {j['title']}")
 
-    print(f"\n{len(drop)} of {len(st['jobs'])} tracked postings are not US"
+    print(f"\n{len(drop)} of {len(st['jobs'])} tracked postings are not in India"
           + (f", {len(held)} more kept (already actioned)" if held else ""))
     if dry:
         print("Dry run: nothing saved.")
