@@ -245,12 +245,11 @@
    "location": "Mumbai, India",
    "posted_at": "2026-10-01",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-naukri",
+   "source": "workday",
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-011026926779",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5697699-S2060897-1",
    "workplace": "Work From Office"
   },
   "accenture:0eaf5fad8632": {
@@ -264,6 +263,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5098503-S2019628-1"
+  },
+  "accenture:0f31d92f4b10": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Pune",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineering-Lead_ATCI-5567328-S2025336"
   },
   "accenture:0f605bbdb709": {
    "company": "Accenture",
@@ -361,6 +372,30 @@
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineering-Lead_ATCI-5678552-S2058302"
   },
+  "accenture:1531d8a9ad88": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696399-S2060457-1"
+  },
+  "accenture:158a411439e9": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696397-S2060458-1"
+  },
   "accenture:162d98639edd": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -385,6 +420,18 @@
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineering-Lead_ATCI-5678554-S2058310-1"
   },
+  "accenture:17909bf1ea04": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-29",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Application-Developer_ATCI-5153795-S1912165"
+  },
   "accenture:17a601c1eb16": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -396,6 +443,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5393531-S1962023-1"
+  },
+  "accenture:185d32c5ed6b": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Full-Stack-Engineer_ATCI-5427956-S1980665-1"
   },
   "accenture:189df6bc8df3": {
    "company": "Accenture",
@@ -432,6 +491,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Full-Stack-Engineer_ATCI-R1-S1936668-1"
+  },
+  "accenture:1a03a8cb9e37": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696393-S2060653-1"
   },
   "accenture:1a65a66c6abf": {
    "company": "Accenture",
@@ -480,6 +551,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5393527-S1962030-1"
+  },
+  "accenture:1c1c282d3370": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Pune",
+   "posted_at": "2026-10-01",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Full-Stack-Engineer_ATCI-5427915-S1980648-1"
   },
   "accenture:1c6bd732f543": {
    "company": "Accenture",
@@ -542,6 +625,18 @@
    "tier": "lead",
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Custom-Software-Engineering-Lead_ATCI-5778179-S2069711-1"
+  },
+  "accenture:205c00dc99db": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-28",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Full-Stack-Engineer_ATCI-5590705-S2025294-1"
   },
   "accenture:2076d27d0c62": {
    "company": "Accenture",
@@ -675,6 +770,18 @@
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineering-Lead_ATCI-5782872-S2070501"
   },
+  "accenture:24c2dcf58b99": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-30",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Data Platform Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Data-Platform-Engineer_ATCI-5327722-S1947735"
+  },
   "accenture:2560102da095": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -711,6 +818,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5517346-S2015532-1"
   },
+  "accenture:2784c26f8767": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineering-Lead_ATCI-5686665-S2063057-1"
+  },
   "accenture:2855f8123fc8": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -735,6 +854,18 @@
    "title": "Lead Backend - Java 5",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kochi/Lead-Backend---Java-5_R00357546"
   },
+  "accenture:29ed5450a56e": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Pune",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5677547-S2058290-1"
+  },
   "accenture:2a33176fe402": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -753,12 +884,11 @@
    "location": "Pune, India",
    "posted_at": "2026-10-01",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-naukri",
+   "source": "workday",
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-pune-3-to-8-years-011026926869",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5785568-S2070781-1",
    "workplace": "Work From Office"
   },
   "accenture:2b97cba6b912": {
@@ -869,6 +999,18 @@
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineering-Lead_ATCI-5709240-S2062980-1"
   },
+  "accenture:34eed46f68c7": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Kolkata",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kolkata/Custom-Software-Engineer_ATCI-5723811-S2066362"
+  },
   "accenture:3649503a5fdb": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -880,6 +1022,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5393583-S1961935-1"
+  },
+  "accenture:3737e0bf7f21": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-28",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Full-Stack-Engineer_ATCI-5590708-S2025291"
   },
   "accenture:37648577af9b": {
    "company": "Accenture",
@@ -977,6 +1131,18 @@
    "title": "Lead Java Developer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kochi/Lead-Java-Developer_R00352502"
   },
+  "accenture:413301c9bf61": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Chennai",
+   "posted_at": "2026-10-01",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Full-Stack-Engineer_ATCI-5427881-S1980639-1"
+  },
   "accenture:420ddd71b003": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -1073,6 +1239,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5672677-S2057549-1"
   },
+  "accenture:490a1b9975d8": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Application-Lead_ATCI-5221572-S1915731-1"
+  },
   "accenture:49b5cb2e175e": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -1096,6 +1274,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5393580-S1962013-1"
+  },
+  "accenture:4a8f6e4ba164": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5695626-S2060475-1"
   },
   "accenture:4afab1a62dee": {
    "company": "Accenture",
@@ -1277,6 +1467,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5547830-S2020354-1"
   },
+  "accenture:5388ab7a81e4": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5689808-S2062627-1"
+  },
   "accenture:53a349b474d7": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -1288,6 +1490,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5322148-S1941877-1"
+  },
+  "accenture:53b31de198a3": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_14768796"
   },
   "accenture:545058fdeb68": {
    "company": "Accenture",
@@ -1326,6 +1540,18 @@
    "tier": "mid",
    "title": "Full Stack Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5480556-S2004867"
+  },
+  "accenture:5585450acad8": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5702805-S2062419-1"
   },
   "accenture:568ac89e4a73": {
    "company": "Accenture",
@@ -1374,6 +1600,30 @@
    "tier": "mid",
    "title": "Data Platform Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Data-Platform-Engineer_ATCI-5288485-S1935462-1"
+  },
+  "accenture:58d85081f548": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696396-S2060460-1"
+  },
+  "accenture:5a9c93575df5": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5695631-S2060470-1"
   },
   "accenture:5d0cb7f06112": {
    "company": "Accenture",
@@ -1507,6 +1757,18 @@
    "title": "Lead Backend - Java 4",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kochi/Lead-Backend---Java-4_R00357545"
   },
+  "accenture:675d65120ed2": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-29",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5565363-S2025012"
+  },
   "accenture:6822de9fbf5b": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -1525,12 +1787,11 @@
    "location": "Bengaluru, India",
    "posted_at": "2026-10-01",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-naukri",
+   "source": "workday",
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-bengaluru-7-to-12-years-011026916622",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5723714-S2066358-1",
    "workplace": "Work From Office"
   },
   "accenture:69b5dac7dbfe": {
@@ -1544,6 +1805,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5392913-S1961868"
+  },
+  "accenture:69bf5a07a10b": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Kolkata",
+   "posted_at": "2026-10-01",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kolkata/Full-Stack-Engineer_ATCI-5525242-S2015540-1"
   },
   "accenture:69c68911d5aa": {
    "company": "Accenture",
@@ -1640,6 +1913,30 @@
    "tier": "mid",
    "title": "Application Developer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Application-Developer_ATCI-5219185-S1915220-1"
+  },
+  "accenture:6e7c1c53212e": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-29",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Full-Stack-Engineer_ATCI-5505458-S2007519-1"
+  },
+  "accenture:6f2c9ba734b6": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Gurugram",
+   "posted_at": "2026-10-01",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Full-Stack-Engineer_ATCI-5427952-S1980649-1"
   },
   "accenture:6fc3ec1308e7": {
    "company": "Accenture",
@@ -1749,6 +2046,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Application-Developer_ATCI-5152900-S1919572-1"
   },
+  "accenture:789f5f72eff8": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Mumbai",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Application-Support-Engineer_ATCI-5422229-S1971288"
+  },
   "accenture:78a205a23d86": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -1809,6 +2118,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5393590-S1962017-1"
   },
+  "accenture:79deacd41538": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-29",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5643438-S2068655-1"
+  },
   "accenture:7a4308211ecf": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -1834,6 +2155,18 @@
    "tier": "lead",
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.com/in-en/careers/jobdetails?id=ATCI-5782874-S2070505_en"
+  },
+  "accenture:7a5a320881dd": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_14768816"
   },
   "accenture:7ba697c584c3": {
    "company": "Accenture",
@@ -2009,12 +2342,11 @@
    "location": "Chennai, India",
    "posted_at": "2026-10-01",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-naukri",
+   "source": "workday",
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-chennai-7-to-12-years-011026927127",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5780401-S2070689-1",
    "workplace": "Work From Office"
   },
   "accenture:8685b2b25df3": {
@@ -2028,6 +2360,30 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5551666-S2023133-1"
+  },
+  "accenture:87cd8956c1a3": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Pune",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineering-Lead_ATCI-5679147-S2058278-1"
+  },
+  "accenture:87d86d694a99": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-28",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineering-Lead_ATCI-5686666-S2063058-1"
   },
   "accenture:87e9df9336bd": {
    "company": "Accenture",
@@ -2076,6 +2432,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Application-Lead_ATCI-5046172-S1870767"
+  },
+  "accenture:8c204bc96382": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Mumbai",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5697698-S2060885-1"
   },
   "accenture:8c892140a0cf": {
    "company": "Accenture",
@@ -2137,6 +2505,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5322145-S1941773-1"
   },
+  "accenture:8e122e083762": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696483-S2060444-1"
+  },
   "accenture:8e47ea7fc1e9": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2149,6 +2529,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Enterprise-Architect_ATCI-5285766-S1931326-1"
   },
+  "accenture:8e5d168398b5": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Jaipur",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Jaipur/Custom-Software-Engineer_ATCI-5264344-S1929082-1"
+  },
   "accenture:8e8d38e3ec73": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2160,6 +2552,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5632286-S2030687-1"
+  },
+  "accenture:9097cdcc0e72": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Mumbai",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineering-Lead_ATCI-5694082-S2060881-1"
   },
   "accenture:90aed476bbd3": {
    "company": "Accenture",
@@ -2197,6 +2601,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5710075-S2062978-1"
   },
+  "accenture:92f186489f4d": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696454-S2060453-1"
+  },
   "accenture:9362af1492be": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2233,6 +2649,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Custom-Software-Engineer_ATCI-5395607-S1960355-1"
   },
+  "accenture:9442e4354cb4": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696398-S2060459-1"
+  },
   "accenture:948554f127c6": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2251,12 +2679,11 @@
    "location": "Gurugram, India",
    "posted_at": "2026-10-01",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-naukri",
+   "source": "workday",
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-gurugram-5-to-10-years-011026925887",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Application-Support-Engineer_ATCI-5422237-S1971175-1",
    "workplace": "Work From Office"
   },
   "accenture:9626cf15ef52": {
@@ -2282,6 +2709,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5392911-S1961954-1"
+  },
+  "accenture:97396c03cf0e": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Chennai",
+   "posted_at": "2026-10-01",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Full-Stack-Engineer_ATCI-5427917-S1980658-1"
   },
   "accenture:97e29a558f24": {
    "company": "Accenture",
@@ -2367,6 +2806,30 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5098126-S2002958-1"
   },
+  "accenture:9ffeb38ff542": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696462-S2060445-1"
+  },
+  "accenture:a0d2ad77ff50": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Chennai",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Web Developer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Web-Developer_ATCI-5723667-S2067785-1"
+  },
   "accenture:a0d7813ede90": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2414,6 +2877,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Application-Designer_ATCI-5060058-S1888503-1"
+  },
+  "accenture:a449299447b5": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Pune",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineering-Lead_ATCI-5679146-S2058274-1"
   },
   "accenture:a48dc8096128": {
    "company": "Accenture",
@@ -2657,6 +3132,19 @@
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineering-Lead_ATCI-5778177-S2069709-1"
   },
+  "accenture:b02dc08299c9": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Mumbai",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineering-Lead_ATCI-5694060-S2060884-1",
+   "workplace": "Work From Office"
+  },
   "accenture:b2a028bddf6c": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2755,6 +3243,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5496382-S2009598-1"
   },
+  "accenture:b76d1d76f45a": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Full-Stack-Engineer_ATCI-5721128-S2064280-1"
+  },
   "accenture:b777c8880866": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2766,6 +3266,20 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5744535-S2067500"
+  },
+  "accenture:b7dfabb7995c": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Application Developer",
+   "url": "https://www.naukri.com/job-listings-application-developer-accenture-solutions-pvt-ltd-hyderabad-2-to-5-years-011026925468",
+   "workplace": "Work From Office"
   },
   "accenture:b822f1b10bca": {
    "company": "Accenture",
@@ -2935,6 +3449,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineer_ATCI-5697700-S2060874-1"
   },
+  "accenture:c2758a0bc1ec": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Pune",
+   "posted_at": "2026-09-29",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Full-Stack-Engineer_ATCI-5479007-S2015576-1"
+  },
   "accenture:c2d7fc95bc3f": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -2958,6 +3484,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5215798-S1929790-1"
+  },
+  "accenture:c423745f20b1": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Chennai",
+   "posted_at": "2026-10-01",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Full-Stack-Engineer_ATCI-5427913-S1980651-1"
   },
   "accenture:c4ee1f0cd773": {
    "company": "Accenture",
@@ -3091,6 +3629,18 @@
    "title": "Custom Software Engineering Consultant",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineering-Consultant_AIOC-S01621612-1"
   },
+  "accenture:cadc07bbe761": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5723743-S2066598-1"
+  },
   "accenture:cb1c65c0c323": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -3114,6 +3664,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5639733-S2034403-1"
+  },
+  "accenture:cce1c6d192c5": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696456-S2060451-1"
   },
   "accenture:cd193a26d55e": {
    "company": "Accenture",
@@ -3162,6 +3724,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5392946-S1961987-1"
+  },
+  "accenture:d1d589ca0a52": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5696395-S2060462-1"
   },
   "accenture:d2a334f3b6d6": {
    "company": "Accenture",
@@ -3272,6 +3846,18 @@
    "title": "Custom Software Engineer",
    "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-noida-7-to-12-years-011026926772",
    "workplace": "Work From Office"
+  },
+  "accenture:dde2f07f8078": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Chennai",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Web Developer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Web-Developer_ATCI-5742606-S2070696-1"
   },
   "accenture:de0515510c3d": {
    "company": "Accenture",
@@ -3453,6 +4039,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5517343-S2015529-1"
   },
+  "accenture:e95706afd3ff": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru",
+   "posted_at": "2026-09-29",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Full-Stack-Engineer_ATCI-5631201-S2031215-1"
+  },
   "accenture:e97930f6799b": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -3483,13 +4081,24 @@
    "location": "Hyderabad, India",
    "posted_at": "2026-10-01",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-naukri",
+   "source": "workday",
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-hyderabad-5-to-10-years-011026926795",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Software-Development-Engineer_ATCI-5204965-S1907960-1",
    "workplace": "Work From Office"
+  },
+  "accenture:eb36abfb8f27": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Gurugram",
+   "posted_at": "2026-09-30",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Full-Stack-Engineer_ATCI-4973547-S1873963-1"
   },
   "accenture:eb78a78096e8": {
    "company": "Accenture",
@@ -3574,6 +4183,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5464305-S2024683-1"
+  },
+  "accenture:f16bb066d332": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineering-Lead_ATCI-5745239-S2067146"
   },
   "accenture:f26134cf7dbc": {
    "company": "Accenture",
@@ -3695,6 +4316,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5670228-S2064709-1"
   },
+  "accenture:fb7088c355fd": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5699469-S2061189-1"
+  },
   "accenture:fbccb42cd7e8": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -3707,6 +4340,18 @@
    "title": "Custom Software Engineering Lead",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineering-Lead_ATCI-5615387-S2031378-1"
   },
+  "accenture:fc2d29ba2be7": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5695634-S2060467-1"
+  },
   "accenture:fe12dfd57c87": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -3718,6 +4363,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5502848-S2069421"
+  },
+  "accenture:feedf2c5474d": {
+   "company": "Accenture",
+   "first_seen": "2026-10-02",
+   "location": "Mumbai",
+   "posted_at": "2026-09-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Custom Software Engineering Lead",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Custom-Software-Engineering-Lead_ATCI-5694079-S2060871-1"
   },
   "accenture:fff88640fe58": {
    "company": "Accenture",
@@ -4038,6 +4695,21 @@
    "url": "https://www.naukri.com/job-listings-java-developer-allegis-group-pune-5-to-9-years-130226005654",
    "workplace": "Hybrid"
   },
+  "alpha-consultants:a2badd574bde": {
+   "comp": "₹25L - ₹30L / yr",
+   "company": "Alpha Consultants",
+   "first_seen": "2026-10-02",
+   "location": "Mohali, Chandigarh, India",
+   "posted_at": "2026-10-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Technical Lead -JAVA",
+   "url": "https://www.naukri.com/job-listings-technical-lead-java-alpha-consultants-mohali-chandigarh-10-to-14-years-011026015277",
+   "workplace": "Work From Office"
+  },
   "alpha-plus-technologies:99257400e59d": {
    "company": "Alpha Plus Technologies",
    "first_seen": "2026-10-02",
@@ -4133,6 +4805,19 @@
    "title": "Software Development Engineer, Prime Video Live Events - Sports Data Platform",
    "url": "https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform",
    "yoe": 2
+  },
+  "amazon:04066bb5f0da": {
+   "company": "Amazon",
+   "first_seen": "2026-10-02",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Digital Acceleration",
+   "url": "https://www.linkedin.com/jobs/view/4455795149"
   },
   "amazon:149bee0f00ee": {
    "company": "Amazon",
@@ -4486,6 +5171,19 @@
    "title": "Software Engineer II",
    "url": "https://www.naukri.com/job-listings-software-engineer-ii-american-express-india-bengaluru-4-to-5-years-011026502238",
    "workplace": "Work From Office"
+  },
+  "anoud-technologies-llc:41c176f40fe5": {
+   "company": "Anoud Technologies LLC",
+   "first_seen": "2026-10-02",
+   "location": "Greater Chennai Area",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Oracle",
+   "url": "https://www.linkedin.com/jobs/view/4472698187"
   },
   "apexx-global:3eab832a6ff0": {
    "company": "APEXX Global",
@@ -5326,6 +6024,18 @@
    "title": "Full Stack Engineer",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122762"
   },
+  "barclays:495fbb663191": {
+   "company": "Barclays",
+   "first_seen": "2026-10-02",
+   "location": "Pune, Gera Commerzone SEZ",
+   "posted_at": "2026-09-15",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Platform Engineering",
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Platform-Engineering_JR-0000100184"
+  },
   "barclays:4c56875ca372": {
    "company": "Barclays",
    "first_seen": "2026-10-02",
@@ -5664,6 +6374,20 @@
    "tier": "lead",
    "title": "Senior Lead Developer – BARX PB",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Senior-Lead-Developer---BARX-PB_JR-0000056268-1"
+  },
+  "beo-software:485b717179c9": {
+   "company": "BEO Software",
+   "first_seen": "2026-10-02",
+   "location": "Kochi, Ernakulam, India",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Developer - Industrial Communication",
+   "url": "https://www.naukri.com/job-listings-senior-software-developer-industrial-communication-beo-software-kochi-ernakulam-5-to-10-years-240426027250",
+   "workplace": "Hybrid"
   },
   "bilvantis-technologies:cbb562b8aca0": {
    "company": "Bilvantis Technologies",
@@ -6214,6 +6938,20 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-capgemini-mumbai-bengaluru-6-to-11-years-011026013654",
    "workplace": "Hybrid"
   },
+  "capgemini:12b1f53db40c": {
+   "company": "Capgemini",
+   "first_seen": "2026-10-02",
+   "location": "Bangalore Rural, Bengaluru, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-capgemini-bangalore-rural-bengaluru-6-to-11-years-021026014329",
+   "workplace": "Hybrid"
+  },
   "capgemini:395b68affba6": {
    "company": "Capgemini",
    "first_seen": "2026-10-02",
@@ -6676,6 +7414,19 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2024102-1"
+  },
+  "cisco:764dad6a4d75": {
+   "company": "Cisco",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - 9+ yrs - ReactJS/Angular & Java",
+   "url": "https://www.linkedin.com/jobs/view/4447550357"
   },
   "cisco:776b6101f27e": {
    "company": "Cisco",
@@ -7207,6 +7958,19 @@
    "tier": "mid",
    "title": "Java spark Developer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Java-spark-Developer_26991300-1"
+  },
+  "citi:997e349fdf8c": {
+   "company": "Citi",
+   "first_seen": "2026-10-02",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4472584366"
   },
   "citi:9e6b69ac3841": {
    "company": "Citi",
@@ -8192,6 +8956,19 @@
    "tier": "senior",
    "title": "Senior Software Engineer (App-Framework)",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002"
+  },
+  "datum-technologies-group:0eb40e7f600e": {
+   "company": "Datum Technologies Group",
+   "first_seen": "2026-10-02",
+   "location": "Mumbai, Maharashtra, India",
+   "posted_at": "2026-10-02",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4473378722"
   },
   "deloitte-us-india-offices:d9e186326787": {
    "company": "Deloitte US-India Offices",
@@ -9412,6 +10189,19 @@
    "url": "https://www.naukri.com/job-listings-senior-software-engineer-java-fs-angular-17-epam-systems-hyderabad-bengaluru-5-to-8-years-040926019774",
    "workplace": "Work From Office"
   },
+  "equifax:e7951bf60983": {
+   "company": "Equifax",
+   "first_seen": "2026-10-02",
+   "location": "Trivandrum, Kerala, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Career",
+   "url": "https://www.linkedin.com/jobs/view/4464864751"
+  },
   "exl:bfa531e07357": {
    "company": "EXL",
    "first_seen": "2026-10-02",
@@ -9881,6 +10671,19 @@
    "title": "Java Developer with Angular , Spring Hibernate",
    "url": "https://www.linkedin.com/jobs/view/4474348684"
   },
+  "fis:7d7dde299a7f": {
+   "company": "FIS",
+   "first_seen": "2026-10-02",
+   "location": "Pune/Pimpri-Chinchwad Area",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer (Core Java, J2EE, Spring & Angular)",
+   "url": "https://www.linkedin.com/jobs/view/4444996535"
+  },
   "fis:a1bc783d00ab": {
    "company": "FIS",
    "employment_type": "Full-time",
@@ -10079,6 +10882,19 @@
    "title": "Full-Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4470933392"
   },
+  "fujitsu:6bb12c02d03b": {
+   "company": "Fujitsu",
+   "first_seen": "2026-10-02",
+   "location": "KA, IN",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.jobs.global.fujitsu.com/job/Senior-Software-Engineer/12941-en_US"
+  },
   "fujitsu:9b8ebb23677f": {
    "company": "Fujitsu",
    "first_seen": "2026-10-02",
@@ -10145,6 +10961,19 @@
    "tier": "senior",
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4465686519"
+  },
+  "ge-vernova:1587f63610c2": {
+   "company": "GE Vernova",
+   "first_seen": "2026-10-02",
+   "location": "Greater Hyderabad Area",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4456421109"
   },
   "ge-vernova:846ba08ed901": {
    "company": "GE Vernova",
@@ -10497,6 +11326,19 @@
    "url": "https://www.naukri.com/job-listings-senior-software-engineer-backend-grab-greco-llp-bengaluru-7-to-12-years-011026503558",
    "workplace": "Work From Office"
   },
+  "great-work-perks:47eb675839aa": {
+   "company": "Great Work Perks",
+   "first_seen": "2026-10-02",
+   "location": "India",
+   "posted_at": "2026-10-01",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Back End Developer",
+   "url": "https://www.linkedin.com/jobs/view/4472384897"
+  },
   "gresham:093ca8eb65e3": {
    "company": "Gresham",
    "first_seen": "2026-10-02",
@@ -10509,6 +11351,19 @@
    "tier": "mid",
    "title": "Full Stack Engineer (Java)",
    "url": "https://www.linkedin.com/jobs/view/4448898562"
+  },
+  "gresham:b96c3b58d143": {
+   "company": "Gresham",
+   "first_seen": "2026-10-02",
+   "location": "Greater Bengaluru Area",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer (Java)",
+   "url": "https://www.linkedin.com/jobs/view/4448886727"
   },
   "gresham:fcc28ee58a9d": {
    "company": "Gresham",
@@ -10835,6 +11690,20 @@
    "workplace": "On-site",
    "yoe": 4
   },
+  "hexaware-technologies:27d7471c6a99": {
+   "company": "Hexaware Technologies",
+   "first_seen": "2026-10-02",
+   "location": "India, Pune, Chennai, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Developer / Lead",
+   "url": "https://www.naukri.com/job-listings-java-developer-lead-hexaware-technologies-pune-chennai-india-6-to-11-years-250926025567",
+   "workplace": "Hybrid"
+  },
   "hexaware-technologies:319334e4c297": {
    "company": "Hexaware Technologies",
    "first_seen": "2026-10-02",
@@ -10861,6 +11730,20 @@
    "tier": "mid",
    "title": "Java Full Stack Developer",
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-hexaware-technologies-pune-chennai-bengaluru-7-to-12-years-120325015216",
+   "workplace": "Hybrid"
+  },
+  "hexaware-technologies:bfd3605e8d4d": {
+   "company": "Hexaware Technologies",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, Pune, Chennai, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Full Stack Developer/Lead",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-lead-hexaware-technologies-hyderabad-pune-chennai-6-to-11-years-060526013998",
    "workplace": "Hybrid"
   },
   "hexaware-technologies:c496e66a6826": {
@@ -11011,6 +11894,19 @@
    "title": "Kotlin & Java Developer-PL",
    "url": "https://www.naukri.com/job-listings-kotlin-java-developer-pl-iassess-consultants-pune-gurugram-bengaluru-16-to-20-years-011026501620",
    "workplace": "Work From Office"
+  },
+  "ibm:01a1db2dfd6e": {
+   "company": "IBM",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-02",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Application Developer-AWS Cloud FullStack",
+   "url": "https://www.linkedin.com/jobs/view/4453424368"
   },
   "ibm:9c17b41b08c2": {
    "company": "IBM",
@@ -11899,6 +12795,19 @@
    "url": "https://innovontek.com/jobs/lead-integration-claimcenter-developer/",
    "workplace": "Remote"
   },
+  "inovalon:60b603e134ca": {
+   "company": "Inovalon",
+   "first_seen": "2026-10-02",
+   "location": "Gurugram, Haryana, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4465851267"
+  },
   "intech-creative-services-pvt-ltd:caf00bfe3303": {
    "comp": "₹20L - ₹22.5L / yr",
    "company": "INTECH Creative Services Pvt. Ltd.",
@@ -12359,6 +13268,19 @@
    "url": "https://www.naukri.com/job-listings-lead-software-engineer-java-springboot-aws-jp-morgan-and-chase-mumbai-5-to-10-years-011026501925",
    "workplace": "Work From Office"
   },
+  "jpmorganchase:129afd904dbc": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer - Java, Python and AIML",
+   "url": "https://www.linkedin.com/jobs/view/4465388570"
+  },
   "jpmorganchase:25a7c5390f6c": {
    "company": "JPMorganChase",
    "first_seen": "2026-10-02",
@@ -12371,6 +13293,19 @@
    "tier": "lead",
    "title": "Lead Software Engineer - Java, SpringBoot, AWS",
    "url": "https://www.linkedin.com/jobs/view/4473954764"
+  },
+  "jpmorganchase:2b41fd0e56cf": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer- Java",
+   "url": "https://www.linkedin.com/jobs/view/4465639310"
   },
   "jpmorganchase:347ad169f7e0": {
    "company": "JPMorganChase",
@@ -12425,6 +13360,20 @@
    "tier": "lead",
    "title": "Lead Software Engineer - Java, Spring Boot",
    "url": "https://JPMorganChase.contacthr.com/153787359"
+  },
+  "jpmorganchase:9bf03f1df481": {
+   "company": "JPMorganChase",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-02",
+   "location": "KA, IN",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer II",
+   "url": "https://JPMorganChase.contacthr.com/153805765"
   },
   "jpmorganchase:c3c90c205055": {
    "company": "JPMorganChase",
@@ -12558,6 +13507,19 @@
    "tier": "mid",
    "title": "Software Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4453707792"
+  },
+  "kaseya:b6ee73efacdc": {
+   "company": "Kaseya",
+   "first_seen": "2026-10-02",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer (Development & Quality)",
+   "url": "https://www.linkedin.com/jobs/view/4472556098"
   },
   "kaushal-hr-solutions-noida:15a66f119213": {
    "comp": "₹7L - ₹10L / yr",
@@ -13010,6 +13972,19 @@
    "tier": "mid",
    "title": "Job Title Software Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4472952320"
+  },
+  "mastercard:13705e9d7b66": {
+   "company": "Mastercard",
+   "first_seen": "2026-10-02",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer - Java Backend",
+   "url": "https://www.linkedin.com/jobs/view/4454120522"
   },
   "mastercard:163b5dca9693": {
    "company": "Mastercard",
@@ -14435,6 +15410,21 @@
    "title": "Java Developer",
    "url": "https://www.linkedin.com/jobs/view/4472512887"
   },
+  "nirvikalp-ai-systems:0eddafc9f509": {
+   "comp": "₹1.44L - ₹2.4L / yr",
+   "company": "Nirvikalp Ai Systems",
+   "first_seen": "2026-10-02",
+   "location": "Jaipur(Vidhyadhar Nagar), India",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-nirvikalp-ai-systems-jaipur-0-to-2-years-300926036009",
+   "workplace": "Work From Office"
+  },
   "notion:1a55c17ac218": {
    "company": "Notion",
    "department": "Engineering",
@@ -14873,6 +15863,58 @@
    "title": "Sr. Software Developer",
    "url": "https://www.linkedin.com/jobs/view/4472900180"
   },
+  "optum-india:534ec8799f3c": {
+   "company": "Optum India",
+   "first_seen": "2026-10-02",
+   "location": "Noida, Uttar Pradesh, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4474583632"
+  },
+  "optum-india:8e36b84581f6": {
+   "company": "Optum India",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Senior Software Engineering Lead",
+   "url": "https://www.linkedin.com/jobs/view/4475044156"
+  },
+  "optum-india:b67f7dae4643": {
+   "company": "Optum India",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer II_GoLang and Java Springboot",
+   "url": "https://www.linkedin.com/jobs/view/4474522944"
+  },
+  "optum-india:b7895d458a80": {
+   "company": "Optum India",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Software Engineering Lead",
+   "url": "https://www.linkedin.com/jobs/view/4475043206"
+  },
   "optum-india:e4e200011510": {
    "company": "Optum India",
    "first_seen": "2026-10-02",
@@ -14957,6 +15999,19 @@
    "title": "Senior Java Developer / Lead Java Engineer – Spring Boot & Microservices",
    "url": "http://in.indeed.com/job/senior-java-developer-lead-java-engineer-spring-boot-microservices-ea791caef46634a7"
   },
+  "outsystems:c9eff9b01d83": {
+   "company": "OutSystems",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-01",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer -Tenant Lifecycle",
+   "url": "https://www.linkedin.com/jobs/view/4465043222"
+  },
   "par-technology:aaddb433b368": {
    "company": "PAR Technology",
    "first_seen": "2026-10-02",
@@ -14982,6 +16037,21 @@
    "tier": "mid",
    "title": "Software Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4464195721"
+  },
+  "paramatmuni-vijayakumari:31a85e27c74d": {
+   "comp": "₹4.8L - ₹6L / yr",
+   "company": "Paramatmuni Vijayakumari",
+   "first_seen": "2026-10-02",
+   "location": "Vijayawada(Satyaranayana Puram), India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-paramatmuni-vijayakumari-vijayawada-4-to-6-years-021026010605",
+   "workplace": "Work From Office"
   },
   "paroksya:8fe4cced7e1c": {
    "comp": "₹15,000 - ₹22,000 / month",
@@ -16240,6 +17310,19 @@
    "title": "Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4474199249"
   },
+  "sourcingxpress:3e545ff952e2": {
+   "company": "SourcingXPress",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-02",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full Stack",
+   "url": "https://www.linkedin.com/jobs/view/4475006553"
+  },
   "spigot-software:d04fbcc78fdc": {
    "company": "Spigot Software",
    "first_seen": "2026-10-02",
@@ -16740,6 +17823,20 @@
    "title": "Full stack - Java, Springboot, Microservices",
    "url": "https://www.linkedin.com/jobs/view/4474180674"
   },
+  "tata-consultancy-services:113117658d7e": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-tata-consultancy-services-bengaluru-4-to-7-years-031026000133",
+   "workplace": "Work From Office"
+  },
   "tata-consultancy-services:11d4af07430d": {
    "company": "Tata Consultancy Services",
    "first_seen": "2026-10-02",
@@ -16833,6 +17930,20 @@
    "title": "Java Springboot",
    "url": "https://www.linkedin.com/jobs/view/4472874744"
   },
+  "tata-consultancy-services:6e178385a131": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-02",
+   "location": "Navi Mumbai, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-tata-consultancy-services-navi-mumbai-5-to-9-years-031026000117",
+   "workplace": "Work From Office"
+  },
   "tata-consultancy-services:71daa8a3d75e": {
    "company": "Tata Consultancy Services",
    "first_seen": "2026-10-02",
@@ -16886,7 +17997,8 @@
    "status": "new",
    "tier": "mid",
    "title": "Java Developer",
-   "url": "https://www.linkedin.com/jobs/view/4472554176"
+   "url": "https://www.linkedin.com/jobs/view/4472554176",
+   "workplace": "Work From Office"
   },
   "tata-consultancy-services:b5500c4e6de9": {
    "company": "Tata Consultancy Services",
@@ -16916,6 +18028,20 @@
    "url": "https://www.naukri.com/job-listings-java-kotlin-developer-tata-consultancy-services-bengaluru-5-to-8-years-011026010682",
    "workplace": "Work From Office"
   },
+  "tata-consultancy-services:fd695796cfd8": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-02",
+   "location": "Gurugram, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-tata-consultancy-services-gurugram-6-to-11-years-031026000046",
+   "workplace": "Work From Office"
+  },
   "tata-consultancy-services:fdf4f8d6457a": {
    "company": "Tata Consultancy Services",
    "first_seen": "2026-10-02",
@@ -16942,6 +18068,20 @@
    "tier": "mid",
    "title": "Advanced Java Concepts E2",
    "url": "https://www.naukri.com/job-listings-advanced-java-concepts-e2-tata-consultancy-services-hyderabad-chennai-6-to-10-years-021026013533",
+   "workplace": "Work From Office"
+  },
+  "tata-consultancy-services:ff8f8bc9e097": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-02",
+   "location": "Pune, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-tata-consultancy-services-pune-8-to-10-years-031026000190",
    "workplace": "Work From Office"
   },
   "tavant:232372faab08": {
@@ -17250,6 +18390,19 @@
    "tier": "mid",
    "title": "Software Engineer (Java with Snowflake)",
    "url": "https://www.linkedin.com/jobs/view/4465652055"
+  },
+  "the-depository-trust-clearing-corporation-dtcc:ff112122d131": {
+   "company": "The Depository Trust & Clearing Corporation (DTCC)",
+   "first_seen": "2026-10-02",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4430473684"
   },
   "the-hartford:1a4c1839dd8a": {
    "company": "The Hartford",
@@ -17782,6 +18935,20 @@
    "title": "Java Developer",
    "url": "https://www.linkedin.com/jobs/view/4472518116"
   },
+  "vega-intellisoft:fa83dc0e3944": {
+   "company": "Vega Intellisoft",
+   "first_seen": "2026-10-02",
+   "location": "Pune, Bengaluru, India",
+   "posted_at": "2026-10-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-vega-intellisoft-pune-bengaluru-7-to-10-years-011026023316",
+   "workplace": "Hybrid"
+  },
   "vidaxl:95ad56a14b27": {
    "company": "vidaXL",
    "first_seen": "2026-10-02",
@@ -17905,6 +19072,33 @@
    "tier": "senior",
    "title": "SENIOR, SOFTWARE ENGINEER",
    "url": "https://www.linkedin.com/jobs/view/4472692456"
+  },
+  "warner-bros-discovery:7c394203452f": {
+   "company": "Warner Bros. Discovery",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru East, Karnataka, India",
+   "posted_at": "2026-10-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - FullStack(Java&Angular)",
+   "url": "https://www.linkedin.com/jobs/view/4466074223"
+  },
+  "wasteland-mineral:0a5ffea4dcd1": {
+   "company": "Wasteland Mineral",
+   "first_seen": "2026-10-02",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-wasteland-mineral-bengaluru-0-to-3-years-021026010506",
+   "workplace": "Work From Office"
   },
   "waymo:1165ce24e7b2": {
    "company": "Waymo",
@@ -18406,7 +19600,7 @@
  "sources": {
   "Accenture": {
    "best": 379,
-   "last": 379,
+   "last": 361,
    "last_ok": "2026-10-02"
   },
   "Adobe": {
@@ -18415,13 +19609,13 @@
    "last_ok": "2026-10-02"
   },
   "Agoda": {
-   "best": 299,
-   "last": 299,
+   "best": 301,
+   "last": 301,
    "last_ok": "2026-10-02"
   },
   "Airbnb": {
-   "best": 150,
-   "last": 150,
+   "best": 154,
+   "last": 154,
    "last_ok": "2026-10-02"
   },
   "Amazon": {
@@ -18451,17 +19645,17 @@
   },
   "Barclays": {
    "best": 240,
-   "last": 240,
+   "last": 239,
    "last_ok": "2026-10-02"
   },
   "BlackRock": {
    "best": 166,
-   "last": 166,
+   "last": 165,
    "last_ok": "2026-10-02"
   },
   "Boeing": {
    "best": 8,
-   "last": 8,
+   "last": 7,
    "last_ok": "2026-10-02"
   },
   "Broadridge": {
@@ -18476,7 +19670,7 @@
   },
   "Capital One": {
    "best": 235,
-   "last": 233,
+   "last": 231,
    "last_ok": "2026-10-02"
   },
   "Ciena": {
@@ -18495,23 +19689,23 @@
    "last_ok": "2026-10-02"
   },
   "Cloudflare": {
-   "best": 403,
-   "last": 402,
+   "best": 405,
+   "last": 405,
    "last_ok": "2026-10-02"
   },
   "Coinbase": {
-   "best": 222,
-   "last": 222,
+   "best": 228,
+   "last": 228,
    "last_ok": "2026-10-02"
   },
   "Databricks": {
-   "best": 885,
-   "last": 885,
+   "best": 886,
+   "last": 886,
    "last_ok": "2026-10-02"
   },
   "Datadog": {
    "best": 445,
-   "last": 443,
+   "last": 442,
    "last_ok": "2026-10-02"
   },
   "Deutsche Bank": {
@@ -18521,7 +19715,7 @@
   },
   "Druva": {
    "best": 35,
-   "last": 35,
+   "last": 34,
    "last_ok": "2026-10-02"
   },
   "Elastic": {
@@ -18530,8 +19724,8 @@
    "last_ok": "2026-10-02"
   },
   "Expedia": {
-   "best": 129,
-   "last": 129,
+   "best": 131,
+   "last": 131,
    "last_ok": "2026-10-02"
   },
   "Experian": {
@@ -18546,12 +19740,12 @@
   },
   "Fivetran": {
    "best": 183,
-   "last": 183,
+   "last": 181,
    "last_ok": "2026-10-02"
   },
   "Flexport": {
    "best": 201,
-   "last": 201,
+   "last": 200,
    "last_ok": "2026-10-02"
   },
   "Freshworks": {
@@ -18561,7 +19755,7 @@
   },
   "GitLab": {
    "best": 213,
-   "last": 213,
+   "last": 211,
    "last_ok": "2026-10-02"
   },
   "Google": {
@@ -18585,8 +19779,8 @@
    "last_ok": "2026-10-02"
   },
   "Harvey": {
-   "best": 321,
-   "last": 321,
+   "best": 326,
+   "last": 326,
    "last_ok": "2026-10-02"
   },
   "Hevo Data": {
@@ -18606,7 +19800,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 246,
-   "last": 245,
+   "last": 234,
    "last_ok": "2026-10-02"
   },
   "Intel": {
@@ -18621,17 +19815,17 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 456,
-   "last": 456,
+   "last": 449,
    "last_ok": "2026-10-02"
   },
   "Lowe's": {
    "best": 161,
-   "last": 161,
+   "last": 160,
    "last_ok": "2026-10-02"
   },
   "Mastercard": {
-   "best": 246,
-   "last": 246,
+   "best": 247,
+   "last": 247,
    "last_ok": "2026-10-02"
   },
   "Meesho": {
@@ -18646,7 +19840,7 @@
   },
   "Mixpanel": {
    "best": 66,
-   "last": 66,
+   "last": 62,
    "last_ok": "2026-10-02"
   },
   "MongoDB": {
@@ -18666,7 +19860,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 327,
-   "last": 327,
+   "last": 320,
    "last_ok": "2026-10-02"
   },
   "Netskope": {
@@ -18675,8 +19869,8 @@
    "last_ok": "2026-10-02"
   },
   "New Relic": {
-   "best": 46,
-   "last": 46,
+   "best": 47,
+   "last": 47,
    "last_ok": "2026-10-02"
   },
   "NielsenIQ": {
@@ -18686,12 +19880,12 @@
   },
   "Nike": {
    "best": 168,
-   "last": 168,
+   "last": 167,
    "last_ok": "2026-10-02"
   },
   "Notion": {
-   "best": 136,
-   "last": 136,
+   "best": 138,
+   "last": 138,
    "last_ok": "2026-10-02"
   },
   "Nvidia": {
@@ -18706,7 +19900,7 @@
   },
   "PayPal": {
    "best": 160,
-   "last": 160,
+   "last": 159,
    "last_ok": "2026-10-02"
   },
   "Paytm": {
@@ -18726,7 +19920,7 @@
   },
   "Roblox": {
    "best": 255,
-   "last": 255,
+   "last": 254,
    "last_ok": "2026-10-02"
   },
   "Rubrik": {
@@ -18745,8 +19939,8 @@
    "last_ok": "2026-10-02"
   },
   "Samsara": {
-   "best": 241,
-   "last": 241,
+   "best": 243,
+   "last": 243,
    "last_ok": "2026-10-02"
   },
   "Sarvam AI": {
@@ -18765,18 +19959,18 @@
    "last_ok": "2026-10-02"
   },
   "Snowflake": {
-   "best": 346,
-   "last": 346,
+   "best": 347,
+   "last": 347,
    "last_ok": "2026-10-02"
   },
   "State Street": {
    "best": 150,
-   "last": 150,
+   "last": 147,
    "last_ok": "2026-10-02"
   },
   "Stripe": {
    "best": 713,
-   "last": 713,
+   "last": 712,
    "last_ok": "2026-10-02"
   },
   "Target": {
@@ -18791,27 +19985,27 @@
   },
   "Toast": {
    "best": 331,
-   "last": 330,
+   "last": 329,
    "last_ok": "2026-10-02"
   },
   "Twilio": {
    "best": 130,
-   "last": 130,
+   "last": 129,
    "last_ok": "2026-10-02"
   },
   "Verizon": {
-   "best": 135,
-   "last": 135,
+   "best": 136,
+   "last": 136,
    "last_ok": "2026-10-02"
   },
   "Waymo": {
-   "best": 361,
-   "last": 359,
+   "best": 366,
+   "last": 366,
    "last_ok": "2026-10-02"
   },
   "Wells Fargo": {
    "best": 100,
-   "last": 100,
+   "last": 93,
    "last_ok": "2026-10-02"
   },
   "Workday": {
@@ -18831,7 +20025,7 @@
   },
   "Zscaler": {
    "best": 367,
-   "last": 367,
+   "last": 365,
    "last_ok": "2026-10-02"
   },
   "eBay": {
@@ -18840,6 +20034,6 @@
    "last_ok": "2026-10-02"
   }
  },
- "updated": "2026-10-02T21:26:01Z",
+ "updated": "2026-10-02T22:35:23Z",
  "version": 1
 }
