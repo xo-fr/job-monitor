@@ -47,6 +47,14 @@ def test_workday_country_reads_the_url_slug():
     assert workday_country("/job/Somewhere-Odd/SWE_R6") == ""
 
 
+def test_workday_blank_location_falls_back_to_the_url_slug():
+    """Accenture leaves locationsText empty; the city is still in the URL."""
+    from monitor.fetchers.generic import workday_slug_location
+    assert workday_slug_location("/job/Pune/Java-Dev_R1") == "Pune"
+    assert workday_slug_location("/job/India-Hyderabad/SWE_R6") == "India Hyderabad"
+    assert workday_slug_location("") == ""
+
+
 def test_workday_india_facet_is_found_even_when_nested():
     facets = [
         {"facetParameter": "jobFamilyGroup", "values": [{"descriptor": "Engineering", "id": "e1"}]},

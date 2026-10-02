@@ -191,6 +191,7 @@ The token is stored only in your browser's localStorage and is only ever sent to
 - **✗ Skip** hides roles you're not interested in; **★ Interview** tracks progress.
 - Identical openings (same company + title + city, posted as many separate requisitions)
   are folded into one row with an **N openings** badge — click it to see them all.
+- The **Location** filter groups postings by city (Bengaluru, Pune, Delhi NCR…); a posting naming several cities appears under each.
 - The **Experience** filter (`≤ 6 yrs asked` etc.) uses the years the posting states,
   when it states them.
 

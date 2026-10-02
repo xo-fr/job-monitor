@@ -92,6 +92,7 @@ async function load() {
     return;
   }
   fillCompanies();
+  fillLocations();
   fillRoles();
   fillSources();
   render();
@@ -143,6 +144,66 @@ function fillCompanies() {
   if (companies.includes(keep)) $("fCompany").value = keep;   // survive a refresh
 }
 
+// ---- location -----------------------------------------------------------
+// Boards spell one city a dozen ways ("Bengaluru, Karnataka, India",
+// "Bangalore,IND", "KA, IN", "Greater Bengaluru Area"), and a posting can name
+// several ("Hyderabad, Pune, Bengaluru, India"). So the filter works on
+// cities, not raw strings: each posting is tagged with every city it names,
+// and appears under each of them.
+const CITIES = [
+  ["Bengaluru",          /bengaluru|bangalore|karnataka|\bka,\s*in\b/i],
+  ["Hyderabad",          /hyderabad|secunderabad|telangana|\b(ts|tg),\s*in\b/i],
+  ["Pune",               /pune|pimpri|chinchwad|hinjewadi|ma?rgarpatta|kharadi/i],
+  ["Chennai",            /chennai|tamil nadu|\btn,\s*in\b/i],
+  ["Delhi NCR",          /gurugram|gurgaon|noida|delhi|\bncr\b|faridabad|ghaziabad|haryana|dlf cyber|\b(hr|dl|up),\s*in\b/i],
+  ["Mumbai",             /mumbai|bombay|thane/i],
+  ["Kolkata",            /kolkata|west bengal/i],
+  ["Ahmedabad / Gujarat", /ahmedabad|gandhinagar|gift city|gujarat|surat|vadodara|\bgj,\s*in\b/i],
+  ["Kerala (Kochi / Trivandrum)", /kochi|cochin|trivandrum|thiruvananthapuram|kerala|kollam|\bkl,\s*in\b/i],
+  ["Coimbatore",         /coimbatore/i],
+  ["Jaipur",             /jaipur|rajasthan/i],
+  ["Indore",             /indore/i],
+  ["Chandigarh / Mohali", /chandigarh|mohali|panchkula|\bpb,\s*in\b/i],
+  ["Remote",             /remote|work from home|\bwfh\b/i],
+];
+const NO_CITY = "Not specified";
+
+// Some Workday boards (Accenture) leave the location blank, and multi-site
+// ones say only "2 Locations" - but the primary city is in the URL slug.
+const slugOf = j => {
+  const m = /myworkdayjobs\.com\/.*?\/job\/([^/]+)\//.exec(j.url || "");
+  return m ? m[1].replace(/-+/g, " ") : "";
+};
+
+const cityCache = new Map();
+function citiesOf(j) {
+  const key = (j.location || "") + "|" + (j.url || "");
+  let out = cityCache.get(key);
+  if (!out) {
+    const text = (j.location || "") + " " + slugOf(j);
+    out = CITIES.filter(([, re]) => re.test(text)).map(([name]) => name);
+    if (!out.length) out = [NO_CITY];
+    cityCache.set(key, out);
+  }
+  return out;
+}
+
+function fillLocations() {
+  const sel = $("fLocation");
+  if (!sel) return;
+  const keep = sel.value;
+  const counts = {};
+  for (const j of Object.values(data.jobs))
+    for (const c of citiesOf(j)) counts[c] = (counts[c] || 0) + 1;
+  // busiest cities first; the catch-all always last
+  const order = Object.keys(counts).filter(c => c !== NO_CITY)
+    .sort((a, b) => counts[b] - counts[a]);
+  if (counts[NO_CITY]) order.push(NO_CITY);
+  sel.innerHTML = '<option value="">All locations</option>' +
+    order.map(c => `<option value="${esc(c)}">${esc(c)} (${counts[c].toLocaleString()})</option>`).join("");
+  if (order.includes(keep)) sel.value = keep;   // survive a refresh
+}
+
 // ---- live updates -------------------------------------------------------
 // A scan commits jobs.json every hour and Pages redeploys it, so an open tab
 // goes stale. Poll cheaply with HEAD and only pull the ~500KB body when the
@@ -170,6 +231,7 @@ async function checkForUpdates(force = false) {
     data = fresh;
     lastTag = tag;
     fillCompanies();
+    fillLocations();
     fillRoles();
     fillSources();
     render();
@@ -263,12 +325,14 @@ function render() {
   const tier = $("fTier").value, status = $("fStatus").value,
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
         role = $("fRole").value, yoe = $("fYoe").value,
-        src = $("fSource") ? $("fSource").value : "";
+        src = $("fSource") ? $("fSource").value : "",
+        loc = $("fLocation") ? $("fLocation").value : "";
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
       (status === "" || (status === "open" ? (j.status === "new") : j.status === status)) &&
       (!comp || j.company === comp) &&
+      (!loc || citiesOf(j).includes(loc)) &&
       (!role || (j.role || DEFAULT_ROLE) === role) &&
       (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
       (!src || (src === "linkedin") === isBoard(j)) &&
@@ -620,7 +684,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fSort","fRole","fYoe","fSource"]
+["fTier","fStatus","fCompany","fLocation","fSort","fRole","fYoe","fSource"]
   .forEach(id => { if ($(id)) $(id).onchange = render; });
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");

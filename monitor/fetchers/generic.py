@@ -211,6 +211,13 @@ WD_CITY = re.compile(
     r"^(" + "|".join(sorted(WD_CITIES, key=len, reverse=True)) + r")", re.I)
 
 
+def workday_slug_location(external_path: str) -> str:
+    """'/job/Pune/Java-Dev_R1' -> 'Pune'. For tenants (Accenture) that leave
+    locationsText blank - the primary site is still in the URL slug."""
+    m = re.search(r"/job/([^/]+)/", external_path or "")
+    return re.sub(r"-+", " ", m.group(1)).strip() if m else ""
+
+
 def workday_country(external_path: str) -> str:
     """Country of a Workday posting, read off its URL slug. '' if unrecognized."""
     m = re.search(r"/job/([^/]+)/", external_path or "")
@@ -286,7 +293,7 @@ def _workday_pass(s, url, c, search, facets):
             out.append({
                 "company": c["name"],
                 "title": j.get("title", ""),
-                "location": j.get("locationsText", ""),
+                "location": j.get("locationsText", "") or workday_slug_location(path),
                 "country": workday_country(path),
                 "url": f"{prefix}{path}" if path else "",
                 "external_id": j.get("bulletFields", [""])[0] if j.get("bulletFields") else path,
