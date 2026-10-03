@@ -20052,7 +20052,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 80,
+   "last": 0,
    "last_ok": "2026-10-03"
   },
   "Agoda": {
@@ -20067,7 +20067,7 @@
   },
   "Amazon": {
    "best": 247,
-   "last": 246,
+   "last": 245,
    "last_ok": "2026-10-03"
   },
   "Applied Materials": {
@@ -20127,7 +20127,7 @@
   },
   "Cisco": {
    "best": 265,
-   "last": 265,
+   "last": 0,
    "last_ok": "2026-10-03"
   },
   "Citi": {
@@ -20147,7 +20147,7 @@
   },
   "Databricks": {
    "best": 886,
-   "last": 885,
+   "last": 886,
    "last_ok": "2026-10-03"
   },
   "Datadog": {
@@ -20252,7 +20252,7 @@
   },
   "Intel": {
    "best": 176,
-   "last": 176,
+   "last": 0,
    "last_ok": "2026-10-03"
   },
   "Komodo Health": {
@@ -20337,7 +20337,7 @@
   },
   "Nvidia": {
    "best": 150,
-   "last": 149,
+   "last": 0,
    "last_ok": "2026-10-03"
   },
   "Okta": {
@@ -20416,8 +20416,8 @@
    "last_ok": "2026-10-03"
   },
   "Stripe": {
-   "best": 714,
-   "last": 714,
+   "best": 715,
+   "last": 715,
    "last_ok": "2026-10-03"
   },
   "Target": {
@@ -20477,10 +20477,10 @@
   },
   "eBay": {
    "best": 81,
-   "last": 81,
+   "last": 0,
    "last_ok": "2026-10-03"
   }
  },
- "updated": "2026-10-03T01:29:06Z",
+ "updated": "2026-10-03T06:59:02Z",
  "version": 1
 }
