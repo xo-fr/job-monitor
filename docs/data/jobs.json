@@ -17586,6 +17586,18 @@
    "title": "Senior Software Engineer",
    "url": "https://sabre.wd1.myworkdayjobs.com/en-US/SabreJobs/job/Bengaluru-Karnataka-India/Senior-Software-Engineer_JR108776"
   },
+  "salesforce:8e14bc7ce2fd": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-03",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-10-03",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Performance Engineer - Software Engineering SMTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Performance-Engineer---Software-Engineering-SMTS_JR358291"
+  },
   "salesforce:da9f830f2399": {
    "company": "Salesforce",
    "first_seen": "2026-10-02",
@@ -20590,7 +20602,7 @@
   },
   "Amazon": {
    "best": 247,
-   "last": 245,
+   "last": 247,
    "last_ok": "2026-10-03"
   },
   "Applied Materials": {
@@ -20649,8 +20661,8 @@
    "last_ok": "2026-10-03"
   },
   "Cisco": {
-   "best": 266,
-   "last": 266,
+   "best": 268,
+   "last": 268,
    "last_ok": "2026-10-03"
   },
   "Citi": {
@@ -20670,7 +20682,7 @@
   },
   "Databricks": {
    "best": 886,
-   "last": 885,
+   "last": 886,
    "last_ok": "2026-10-03"
   },
   "Datadog": {
@@ -20905,7 +20917,7 @@
   },
   "Salesforce": {
    "best": 106,
-   "last": 104,
+   "last": 105,
    "last_ok": "2026-10-03"
   },
   "Samsara": {
@@ -21004,6 +21016,6 @@
    "last_ok": "2026-10-03"
   }
  },
- "updated": "2026-10-03T08:35:48Z",
+ "updated": "2026-10-03T12:41:27Z",
  "version": 1
 }
