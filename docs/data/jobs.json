@@ -7120,6 +7120,19 @@
    "title": "Actimize Developer",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Actimize-Developer_JR-0000122603-1"
   },
+  "barclays:731cee9fc6a0": {
+   "company": "Barclays",
+   "first_seen": "2026-10-04",
+   "location": "MH, IN",
+   "posted_at": "2026-10-04",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://search.jobs.barclays/job/pune/full-stack-developer/13015/93906886976"
+  },
   "barclays:7827072a87bd": {
    "company": "Barclays",
    "first_seen": "2026-10-02",
@@ -10145,6 +10158,19 @@
    "tier": "senior",
    "title": "Senior Software Development Engineer",
    "url": "https://www.linkedin.com/jobs/view/4474139502"
+  },
+  "concentrix:dacb634ac92a": {
+   "company": "Concentrix",
+   "first_seen": "2026-10-04",
+   "location": "Andaman and Nicobar Islands, India",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Application Developer",
+   "url": "https://www.linkedin.com/jobs/view/4473606229"
   },
   "control-shift:45f56d8b96b5": {
    "company": "Control Shift",
@@ -17021,6 +17047,20 @@
    "title": "Lead Engineer, Software",
    "url": "https://www.linkedin.com/jobs/view/4474225304"
   },
+  "levi-strauss:aac992cddef6": {
+   "company": "Levi Strauss",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-04",
+   "location": "KA, IN",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Engineer III, Software",
+   "url": "https://levistraussandco.wd5.myworkdayjobs.com/External/job/GCC-Office--ITC-Green-Center-Bengaluru-Karnataka-India/Engineer-III--Software_R-0157606"
+  },
   "light-wonder:80ccb7c71694": {
    "company": "Light & Wonder",
    "first_seen": "2026-10-02",
@@ -23516,6 +23556,19 @@
    "title": "Java Developer",
    "url": "https://www.linkedin.com/jobs/view/4472814824"
   },
+  "transunion:e2bd99a85ba7": {
+   "company": "TransUnion",
+   "first_seen": "2026-10-04",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Developer",
+   "url": "https://www.linkedin.com/jobs/view/4474210915"
+  },
   "transunion:e5cdb44a2cb5": {
    "company": "TransUnion",
    "first_seen": "2026-10-02",
@@ -24636,6 +24689,19 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-wissen-technology-pvt-ltd-bangalore-rural-5-to-7-years-011026012311",
    "workplace": "Work From Office"
   },
+  "wissen-technology:3e3b99d6da08": {
+   "company": "Wissen Technology",
+   "first_seen": "2026-10-04",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-04",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4474231045"
+  },
   "wissen-technology:5dbdc336fb15": {
    "comp": "₹20L - ₹35L / yr",
    "company": "Wissen Technology",
@@ -24917,12 +24983,12 @@
   },
   "Agoda": {
    "best": 302,
-   "last": 301,
+   "last": 299,
    "last_ok": "2026-10-04"
   },
   "Airbnb": {
    "best": 154,
-   "last": 154,
+   "last": 152,
    "last_ok": "2026-10-04"
   },
   "Amazon": {
@@ -24952,12 +25018,12 @@
   },
   "Barclays": {
    "best": 240,
-   "last": 236,
+   "last": 235,
    "last_ok": "2026-10-04"
   },
   "BlackRock": {
    "best": 166,
-   "last": 163,
+   "last": 162,
    "last_ok": "2026-10-04"
   },
   "Boeing": {
@@ -25007,12 +25073,12 @@
   },
   "Databricks": {
    "best": 887,
-   "last": 887,
+   "last": 886,
    "last_ok": "2026-10-04"
   },
   "Datadog": {
    "best": 445,
-   "last": 444,
+   "last": 443,
    "last_ok": "2026-10-04"
   },
   "Deutsche Bank": {
@@ -25107,7 +25173,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 246,
-   "last": 47,
+   "last": 48,
    "last_ok": "2026-10-04"
   },
   "Intel": {
@@ -25122,7 +25188,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 456,
-   "last": 332,
+   "last": 330,
    "last_ok": "2026-10-04"
   },
   "Lowe's": {
@@ -25187,7 +25253,7 @@
   },
   "Nike": {
    "best": 170,
-   "last": 166,
+   "last": 167,
    "last_ok": "2026-10-04"
   },
   "Notion": {
@@ -25197,7 +25263,7 @@
   },
   "Nvidia": {
    "best": 150,
-   "last": 149,
+   "last": 150,
    "last_ok": "2026-10-04"
   },
   "Okta": {
@@ -25246,8 +25312,8 @@
    "last_ok": "2026-10-04"
   },
   "Samsara": {
-   "best": 247,
-   "last": 247,
+   "best": 248,
+   "last": 248,
    "last_ok": "2026-10-04"
   },
   "Sarvam AI": {
@@ -25267,7 +25333,7 @@
   },
   "Snowflake": {
    "best": 348,
-   "last": 347,
+   "last": 348,
    "last_ok": "2026-10-04"
   },
   "State Street": {
@@ -25341,6 +25407,6 @@
    "last_ok": "2026-10-04"
   }
  },
- "updated": "2026-10-04T20:22:44Z",
+ "updated": "2026-10-04T23:37:50Z",
  "version": 1
 }
