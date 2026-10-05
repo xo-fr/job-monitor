@@ -26035,7 +26035,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 78,
+   "last": 79,
    "last_ok": "2026-10-05"
   },
   "Agoda": {
@@ -26110,7 +26110,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 265,
+   "last": 266,
    "last_ok": "2026-10-05"
   },
   "Citi": {
@@ -26129,8 +26129,8 @@
    "last_ok": "2026-10-05"
   },
   "Databricks": {
-   "best": 887,
-   "last": 885,
+   "best": 888,
+   "last": 888,
    "last_ok": "2026-10-05"
   },
   "Datadog": {
@@ -26155,7 +26155,7 @@
   },
   "Expedia": {
    "best": 131,
-   "last": 126,
+   "last": 125,
    "last_ok": "2026-10-05"
   },
   "Experian": {
@@ -26235,7 +26235,7 @@
   },
   "Intel": {
    "best": 176,
-   "last": 176,
+   "last": 175,
    "last_ok": "2026-10-05"
   },
   "Komodo Health": {
@@ -26365,7 +26365,7 @@
   },
   "Salesforce": {
    "best": 106,
-   "last": 104,
+   "last": 106,
    "last_ok": "2026-10-05"
   },
   "Samsara": {
@@ -26399,8 +26399,8 @@
    "last_ok": "2026-10-05"
   },
   "Stripe": {
-   "best": 717,
-   "last": 717,
+   "best": 718,
+   "last": 718,
    "last_ok": "2026-10-05"
   },
   "Target": {
@@ -26464,6 +26464,6 @@
    "last_ok": "2026-10-05"
   }
  },
- "updated": "2026-10-05T06:12:22Z",
+ "updated": "2026-10-05T07:35:01Z",
  "version": 1
 }
