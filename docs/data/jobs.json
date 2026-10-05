@@ -9741,6 +9741,18 @@
    "title": "Software Technical Leader – Full Stack & AWS Cloud | Ruby, Go, Java & React",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Technical-Leader---Full-Stack---AWS-Cloud---Ruby--Go--Java---React_2022015"
   },
+  "cisco:a71274e053db": {
+   "company": "Cisco",
+   "first_seen": "2026-10-05",
+   "location": "2 Locations",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer | Solution Validation, Benchmarking & Release Engineer | 8+ years",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Solution-Validation--Benchmarking---Release-Engineer---8--years_2027373"
+  },
   "cisco:ad18d24db9c2": {
    "company": "Cisco",
    "first_seen": "2026-10-05",
@@ -25711,6 +25723,18 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4475598438"
   },
+  "salesforce:8a1d76bd619d": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-05",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-10-05",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering MTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR356688"
+  },
   "salesforce:8e14bc7ce2fd": {
    "company": "Salesforce",
    "first_seen": "2026-10-03",
@@ -31380,7 +31404,7 @@
   },
   "Amazon": {
    "best": 247,
-   "last": 245,
+   "last": 242,
    "last_ok": "2026-10-05"
   },
   "Applied Materials": {
@@ -31460,7 +31484,7 @@
   },
   "Databricks": {
    "best": 891,
-   "last": 891,
+   "last": 890,
    "last_ok": "2026-10-05"
   },
   "Datadog": {
@@ -31485,7 +31509,7 @@
   },
   "Expedia": {
    "best": 131,
-   "last": 126,
+   "last": 123,
    "last_ok": "2026-10-05"
   },
   "Experian": {
@@ -31520,7 +31544,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 102,
+   "last": 103,
    "last_ok": "2026-10-05"
   },
   "Groww": {
@@ -31565,7 +31589,7 @@
   },
   "Intel": {
    "best": 176,
-   "last": 172,
+   "last": 176,
    "last_ok": "2026-10-05"
   },
   "Komodo Health": {
@@ -31605,7 +31629,7 @@
   },
   "MongoDB": {
    "best": 393,
-   "last": 388,
+   "last": 389,
    "last_ok": "2026-10-05"
   },
   "Morgan Stanley": {
@@ -31695,7 +31719,7 @@
   },
   "Salesforce": {
    "best": 108,
-   "last": 108,
+   "last": 107,
    "last_ok": "2026-10-05"
   },
   "Samsara": {
@@ -31730,7 +31754,7 @@
   },
   "Stripe": {
    "best": 719,
-   "last": 719,
+   "last": 717,
    "last_ok": "2026-10-05"
   },
   "Target": {
@@ -31794,6 +31818,6 @@
    "last_ok": "2026-10-05"
   }
  },
- "updated": "2026-10-05T15:16:25Z",
+ "updated": "2026-10-05T18:46:19Z",
  "version": 1
 }
