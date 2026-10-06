@@ -40366,7 +40366,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 246,
+   "last": 247,
    "last_ok": "2026-10-06"
   },
   "Applied Materials": {
@@ -40590,8 +40590,8 @@
    "last_ok": "2026-10-06"
   },
   "MongoDB": {
-   "best": 394,
-   "last": 394,
+   "best": 397,
+   "last": 397,
    "last_ok": "2026-10-06"
   },
   "Morgan Stanley": {
@@ -40641,7 +40641,7 @@
   },
   "Okta": {
    "best": 376,
-   "last": 376,
+   "last": 375,
    "last_ok": "2026-10-06"
   },
   "PayPal": {
@@ -40715,8 +40715,8 @@
    "last_ok": "2026-10-06"
   },
   "Stripe": {
-   "best": 727,
-   "last": 727,
+   "best": 728,
+   "last": 728,
    "last_ok": "2026-10-06"
   },
   "Target": {
@@ -40780,6 +40780,6 @@
    "last_ok": "2026-10-06"
   }
  },
- "updated": "2026-10-06T21:16:11Z",
+ "updated": "2026-10-06T21:50:49Z",
  "version": 1
 }
