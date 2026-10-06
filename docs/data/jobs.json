@@ -28924,6 +28924,18 @@
    "title": "Workday Extend Developer ",
    "url": "https://www.okta.com/company/careers/opportunity/8195169?gh_jid=8195169"
   },
+  "okta:81bc31791c4c": {
+   "company": "Okta",
+   "first_seen": "2026-10-06",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior  Software Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8258817?gh_jid=8258817"
+  },
   "okta:9654ae2d0c73": {
    "company": "Okta",
    "first_seen": "2026-10-05",
@@ -39143,7 +39155,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 249,
+   "last": 247,
    "last_ok": "2026-10-06"
   },
   "Applied Materials": {
@@ -39203,7 +39215,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 265,
+   "last": 266,
    "last_ok": "2026-10-06"
   },
   "Citi": {
@@ -39223,7 +39235,7 @@
   },
   "Databricks": {
    "best": 891,
-   "last": 887,
+   "last": 888,
    "last_ok": "2026-10-06"
   },
   "Datadog": {
@@ -39328,7 +39340,7 @@
   },
   "Intel": {
    "best": 179,
-   "last": 179,
+   "last": 178,
    "last_ok": "2026-10-06"
   },
   "Komodo Health": {
@@ -39417,8 +39429,8 @@
    "last_ok": "2026-10-06"
   },
   "Okta": {
-   "best": 373,
-   "last": 373,
+   "best": 376,
+   "last": 376,
    "last_ok": "2026-10-06"
   },
   "PayPal": {
@@ -39493,7 +39505,7 @@
   },
   "Stripe": {
    "best": 723,
-   "last": 723,
+   "last": 722,
    "last_ok": "2026-10-06"
   },
   "Target": {
@@ -39557,6 +39569,6 @@
    "last_ok": "2026-10-06"
   }
  },
- "updated": "2026-10-06T15:31:42Z",
+ "updated": "2026-10-06T16:11:48Z",
  "version": 1
 }
