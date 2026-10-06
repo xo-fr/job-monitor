@@ -5748,6 +5748,18 @@
    "title": "Software Development Engineer 3 - Java",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Software-Development-Engineer-3---Java_R171822"
   },
+  "adobe:3b9ceeacafc4": {
+   "company": "Adobe",
+   "first_seen": "2026-10-06",
+   "location": "Noida",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Member of Technical Staff 1",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Member-of-Technical-Staff-1_R171786"
+  },
   "adobe:51f1e8187daf": {
    "company": "Adobe",
    "first_seen": "2026-10-02",
@@ -10517,6 +10529,18 @@
    "title": "Leader, Software Engineering | Go/Python/Java, Microservices, CASB Domain | 12+ years,",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Leader--Software-Engineering---Go-Python-Java--Microservices--Secure-Access--Cloud---10--years--Bangalore_2019451"
   },
+  "cisco:25272fff3ad0": {
+   "company": "Cisco",
+   "first_seen": "2026-10-06",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2019625-1"
+  },
   "cisco:28b1fd1f79f6": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -14062,6 +14086,18 @@
    "title": "Agentic Analytics Products Developer",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Agentic-Analytics-Products-Developer_R0076062"
   },
+  "ebay:62c993318e08": {
+   "company": "eBay",
+   "first_seen": "2026-10-06",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer 3 – Network Security",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Software-Engineer-3---Network-Security_R0075891"
+  },
   "ebay:672787cba632": {
    "company": "eBay",
    "first_seen": "2026-10-02",
@@ -15729,6 +15765,18 @@
    "title": "Software Development Engineer III (Java)",
    "url": "https://www.naukri.com/job-listings-software-development-engineer-iii-java-expedia-group-gurugram-6-to-11-years-011026502671",
    "workplace": "Work From Office"
+  },
+  "expedia:db4068d0d0b6": {
+   "company": "Expedia",
+   "first_seen": "2026-10-06",
+   "location": "India - Gurgaon",
+   "posted_at": "2026-10-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Senior-Software-Development-Engineer_R-109716"
   },
   "expedia:e2e86a873ebe": {
    "company": "Expedia",
@@ -35225,7 +35273,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 77,
+   "last": 78,
    "last_ok": "2026-10-06"
   },
   "Agoda": {
@@ -35300,7 +35348,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 260,
+   "last": 258,
    "last_ok": "2026-10-06"
   },
   "Citi": {
@@ -35345,7 +35393,7 @@
   },
   "Expedia": {
    "best": 131,
-   "last": 129,
+   "last": 130,
    "last_ok": "2026-10-06"
   },
   "Experian": {
@@ -35380,7 +35428,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 103,
+   "last": 102,
    "last_ok": "2026-10-06"
   },
   "Groww": {
@@ -35424,8 +35472,8 @@
    "last_ok": "2026-10-06"
   },
   "Intel": {
-   "best": 178,
-   "last": 178,
+   "best": 179,
+   "last": 179,
    "last_ok": "2026-10-06"
   },
   "Komodo Health": {
@@ -35464,8 +35512,8 @@
    "last_ok": "2026-10-06"
   },
   "MongoDB": {
-   "best": 393,
-   "last": 393,
+   "best": 394,
+   "last": 394,
    "last_ok": "2026-10-06"
   },
   "Morgan Stanley": {
@@ -35515,7 +35563,7 @@
   },
   "Okta": {
    "best": 369,
-   "last": 365,
+   "last": 366,
    "last_ok": "2026-10-06"
   },
   "PayPal": {
@@ -35555,7 +35603,7 @@
   },
   "Salesforce": {
    "best": 108,
-   "last": 106,
+   "last": 105,
    "last_ok": "2026-10-06"
   },
   "Samsara": {
@@ -35589,8 +35637,8 @@
    "last_ok": "2026-10-06"
   },
   "Stripe": {
-   "best": 719,
-   "last": 719,
+   "best": 720,
+   "last": 720,
    "last_ok": "2026-10-06"
   },
   "Target": {
@@ -35650,10 +35698,10 @@
   },
   "eBay": {
    "best": 81,
-   "last": 79,
+   "last": 81,
    "last_ok": "2026-10-06"
   }
  },
- "updated": "2026-10-06T06:50:52Z",
+ "updated": "2026-10-06T08:00:43Z",
  "version": 1
 }
