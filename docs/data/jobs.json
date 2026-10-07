@@ -16399,6 +16399,18 @@
    "title": "Senior Software Engineer - Search",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7841782002"
   },
+  "databricks:84a0e93a6263": {
+   "company": "Databricks",
+   "first_seen": "2026-10-07",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-08-20",
+   "role": "fullstack",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer - Agentic Applications (Full Stack)",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8679982002"
+  },
   "databricks:aad7546eb647": {
    "company": "Databricks",
    "first_seen": "2026-10-02",
@@ -46446,7 +46458,7 @@
   },
   "Databricks": {
    "best": 891,
-   "last": 888,
+   "last": 889,
    "last_ok": "2026-10-07"
   },
   "Datadog": {
@@ -46551,7 +46563,7 @@
   },
   "Intel": {
    "best": 184,
-   "last": 182,
+   "last": 183,
    "last_ok": "2026-10-07"
   },
   "Komodo Health": {
@@ -46716,7 +46728,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 716,
+   "last": 718,
    "last_ok": "2026-10-07"
   },
   "Target": {
@@ -46780,6 +46792,6 @@
    "last_ok": "2026-10-07"
   }
  },
- "updated": "2026-10-07T17:39:32Z",
+ "updated": "2026-10-07T17:56:48Z",
  "version": 1
 }
