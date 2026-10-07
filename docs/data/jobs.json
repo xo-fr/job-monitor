@@ -6604,6 +6604,18 @@
    "title": "Software Development Engineer 3 - Java",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Software-Development-Engineer-3---Java_R171822"
   },
+  "adobe:3a3bb3295657": {
+   "company": "Adobe",
+   "first_seen": "2026-10-07",
+   "location": "Noida",
+   "posted_at": "2026-10-07",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Mgr, Software Development",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Mgr--Software-Development_R172270"
+  },
   "adobe:3b9ceeacafc4": {
    "company": "Adobe",
    "first_seen": "2026-10-06",
@@ -34404,6 +34416,18 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4475598438"
   },
+  "salesforce:503c2ce49162": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-07",
+   "location": "2 Locations",
+   "posted_at": "2026-10-07",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "SMTS/LMTS Distributed Systems - Public Cloud, GCP",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/SMTS-LMTS-Distributed-Systems---Public-Cloud--GCP_JR314149"
+  },
   "salesforce:8a1d76bd619d": {
    "company": "Salesforce",
    "first_seen": "2026-10-05",
@@ -42970,7 +42994,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 66,
+   "last": 67,
    "last_ok": "2026-10-07"
   },
   "Agoda": {
@@ -43169,8 +43193,8 @@
    "last_ok": "2026-10-07"
   },
   "Intel": {
-   "best": 183,
-   "last": 183,
+   "best": 184,
+   "last": 184,
    "last_ok": "2026-10-07"
   },
   "Komodo Health": {
@@ -43210,7 +43234,7 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 394,
+   "last": 395,
    "last_ok": "2026-10-07"
   },
   "Morgan Stanley": {
@@ -43260,7 +43284,7 @@
   },
   "Okta": {
    "best": 376,
-   "last": 371,
+   "last": 374,
    "last_ok": "2026-10-07"
   },
   "PayPal": {
@@ -43299,8 +43323,8 @@
    "last_ok": "2026-10-07"
   },
   "Salesforce": {
-   "best": 108,
-   "last": 107,
+   "best": 111,
+   "last": 111,
    "last_ok": "2026-10-07"
   },
   "Samsara": {
@@ -43399,6 +43423,6 @@
    "last_ok": "2026-10-07"
   }
  },
- "updated": "2026-10-07T09:12:30Z",
+ "updated": "2026-10-07T10:31:44Z",
  "version": 1
 }
