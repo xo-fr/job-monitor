@@ -9289,6 +9289,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10560180/software-development-engineer-ii",
    "yoe": 3
   },
+  "amazon:9450bc7074da": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-08",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer, Under the Roof Labor Planning, UTR",
+   "url": "https://www.amazon.jobs/en/jobs/10537785/senior-software-development-engineer-under-the-roof-labor-planning-utr",
+   "yoe": 5
+  },
   "amazon:9be86d044545": {
    "company": "Amazon",
    "department": "Software Development",
@@ -41752,6 +41767,18 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4475598438"
   },
+  "salesforce:437b40a86607": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-08",
+   "location": "2 Locations",
+   "posted_at": "2026-10-08",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Software Engineering LMTS - Backend Distributed Systems",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering-LMTS_JR338174"
+  },
   "salesforce:503c2ce49162": {
    "company": "Salesforce",
    "first_seen": "2026-10-07",
@@ -52509,7 +52536,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 243,
+   "last": 241,
    "last_ok": "2026-10-08"
   },
   "Applied Materials": {
@@ -52569,7 +52596,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 261,
+   "last": 263,
    "last_ok": "2026-10-08"
   },
   "Citi": {
@@ -52589,7 +52616,7 @@
   },
   "Databricks": {
    "best": 896,
-   "last": 896,
+   "last": 893,
    "last_ok": "2026-10-08"
   },
   "Datadog": {
@@ -52694,7 +52721,7 @@
   },
   "Intel": {
    "best": 184,
-   "last": 174,
+   "last": 172,
    "last_ok": "2026-10-08"
   },
   "Komodo Health": {
@@ -52734,7 +52761,7 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 393,
+   "last": 392,
    "last_ok": "2026-10-08"
   },
   "Morgan Stanley": {
@@ -52778,13 +52805,13 @@
    "last_ok": "2026-10-08"
   },
   "Nvidia": {
-   "best": 152,
-   "last": 152,
+   "best": 153,
+   "last": 153,
    "last_ok": "2026-10-08"
   },
   "Okta": {
    "best": 376,
-   "last": 363,
+   "last": 366,
    "last_ok": "2026-10-08"
   },
   "PayPal": {
@@ -52824,7 +52851,7 @@
   },
   "Salesforce": {
    "best": 111,
-   "last": 110,
+   "last": 111,
    "last_ok": "2026-10-08"
   },
   "Samsara": {
@@ -52859,7 +52886,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 727,
+   "last": 728,
    "last_ok": "2026-10-08"
   },
   "Target": {
@@ -52923,6 +52950,6 @@
    "last_ok": "2026-10-08"
   }
  },
- "updated": "2026-10-08T14:03:17Z",
+ "updated": "2026-10-08T16:49:58Z",
  "version": 1
 }
