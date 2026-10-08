@@ -39459,6 +39459,30 @@
    "title": "Software Engineering PMTS - Cloud Security - Hyderabad",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS---Cloud-Security---Hyderabad_JR357893"
   },
+  "salesforce:ef056beca06d": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-08",
+   "location": "2 Locations",
+   "posted_at": "2026-10-08",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineering, SMTS (Full-Stack) - Java & React",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR338172-1"
+  },
+  "salesforce:f5fa330d62b2": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-08",
+   "location": "2 Locations",
+   "posted_at": "2026-10-08",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineering SMTS (Backend - Distributed Systems)",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-SMTS---MTS----Platform-Engineering--Backend--Kubernetes---Cloud-_JR347341"
+  },
   "salesforce:f69bf47f488a": {
    "company": "Salesforce",
    "first_seen": "2026-10-05",
@@ -49486,7 +49510,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 255,
+   "last": 258,
    "last_ok": "2026-10-08"
   },
   "Citi": {
@@ -49611,7 +49635,7 @@
   },
   "Intel": {
    "best": 184,
-   "last": 178,
+   "last": 180,
    "last_ok": "2026-10-08"
   },
   "Komodo Health": {
@@ -49701,7 +49725,7 @@
   },
   "Okta": {
    "best": 376,
-   "last": 370,
+   "last": 368,
    "last_ok": "2026-10-08"
   },
   "PayPal": {
@@ -49741,7 +49765,7 @@
   },
   "Salesforce": {
    "best": 111,
-   "last": 108,
+   "last": 111,
    "last_ok": "2026-10-08"
   },
   "Samsara": {
@@ -49776,7 +49800,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 724,
+   "last": 725,
    "last_ok": "2026-10-08"
   },
   "Target": {
@@ -49835,11 +49859,11 @@
    "last_ok": "2026-10-08"
   },
   "eBay": {
-   "best": 82,
-   "last": 82,
+   "best": 84,
+   "last": 84,
    "last_ok": "2026-10-08"
   }
  },
- "updated": "2026-10-08T06:36:50Z",
+ "updated": "2026-10-08T07:54:50Z",
  "version": 1
 }
