@@ -44383,6 +44383,18 @@
    "title": "Senior Software Engineer",
    "url": "https://www.okta.com/company/careers/opportunity/7783585?gh_jid=7783585"
   },
+  "okta:6e0d5d3d25ce": {
+   "company": "Okta",
+   "first_seen": "2026-10-10",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-08-27",
+   "role": "java",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Engineer (Design & DSA)",
+   "url": "https://www.okta.com/company/careers/opportunity/8159014?gh_jid=8159014"
+  },
   "okta:6f99d97ba1bc": {
    "company": "Okta",
    "first_seen": "2026-10-02",
@@ -61584,7 +61596,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 0,
+   "last": 64,
    "last_ok": "2026-10-10"
   },
   "Agoda": {
@@ -61659,7 +61671,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 0,
+   "last": 264,
    "last_ok": "2026-10-10"
   },
   "Citi": {
@@ -61704,7 +61716,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 132,
+   "last": 131,
    "last_ok": "2026-10-10"
   },
   "Experian": {
@@ -61739,7 +61751,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 102,
+   "last": 103,
    "last_ok": "2026-10-10"
   },
   "Groww": {
@@ -61784,7 +61796,7 @@
   },
   "Intel": {
    "best": 185,
-   "last": 0,
+   "last": 185,
    "last_ok": "2026-10-10"
   },
   "Komodo Health": {
@@ -61869,7 +61881,7 @@
   },
   "Nvidia": {
    "best": 153,
-   "last": 0,
+   "last": 151,
    "last_ok": "2026-10-10"
   },
   "Okta": {
@@ -62009,10 +62021,10 @@
   },
   "eBay": {
    "best": 89,
-   "last": 0,
+   "last": 89,
    "last_ok": "2026-10-10"
   }
  },
- "updated": "2026-10-10T06:20:00Z",
+ "updated": "2026-10-10T10:05:40Z",
  "version": 1
 }
