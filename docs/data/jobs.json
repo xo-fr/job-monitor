@@ -10997,6 +10997,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10565527/senior-software-development-engineer-infra-supply-chain-automation",
    "yoe": 5
   },
+  "amazon:306e5aa3b49a": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-10",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Fulfillment by Amazon (FBA)",
+   "url": "https://www.amazon.jobs/en/jobs/10575322/software-development-engineer-ii-fulfillment-by-amazon-fba",
+   "yoe": 2
+  },
   "amazon:367642cf513d": {
    "company": "Amazon",
    "first_seen": "2026-10-04",
@@ -11560,6 +11575,21 @@
    "tier": "mid",
    "title": "Software Development Engineer II, Amazon Now",
    "url": "https://www.amazon.jobs/en/jobs/10538207/software-development-engineer-ii-amazon-now",
+   "yoe": 2
+  },
+  "amazon:d91b0cfcad52": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-10",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-10",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, FBA Defect Prevention",
+   "url": "https://www.amazon.jobs/en/jobs/10575325/software-development-engineer-fba-defect-prevention",
    "yoe": 2
   },
   "amazon:da06765c5e4f": {
@@ -60946,7 +60976,7 @@
   "Adobe": {
    "best": 80,
    "last": 64,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Agoda": {
    "best": 320,
@@ -60961,7 +60991,7 @@
   "Amazon": {
    "best": 249,
    "last": 239,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Applied Materials": {
    "best": 132,
@@ -61021,7 +61051,7 @@
   "Cisco": {
    "best": 270,
    "last": 263,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Citi": {
    "best": 288,
@@ -61041,7 +61071,7 @@
   "Databricks": {
    "best": 896,
    "last": 892,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Datadog": {
    "best": 445,
@@ -61066,7 +61096,7 @@
   "Expedia": {
    "best": 137,
    "last": 132,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Experian": {
    "best": 100,
@@ -61101,7 +61131,7 @@
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Groww": {
    "best": 10,
@@ -61144,9 +61174,9 @@
    "last_ok": "2026-10-09"
   },
   "Intel": {
-   "best": 184,
-   "last": 183,
-   "last_ok": "2026-10-09"
+   "best": 185,
+   "last": 185,
+   "last_ok": "2026-10-10"
   },
   "Komodo Health": {
    "best": 29,
@@ -61185,8 +61215,8 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 391,
-   "last_ok": "2026-10-09"
+   "last": 392,
+   "last_ok": "2026-10-10"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -61231,12 +61261,12 @@
   "Nvidia": {
    "best": 153,
    "last": 151,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Okta": {
    "best": 379,
-   "last": 377,
-   "last_ok": "2026-10-09"
+   "last": 378,
+   "last_ok": "2026-10-10"
   },
   "PayPal": {
    "best": 164,
@@ -61276,7 +61306,7 @@
   "Salesforce": {
    "best": 112,
    "last": 110,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   },
   "Samsara": {
    "best": 248,
@@ -61310,8 +61340,8 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 730,
-   "last_ok": "2026-10-09"
+   "last": 729,
+   "last_ok": "2026-10-10"
   },
   "Target": {
    "best": 70,
@@ -61371,9 +61401,9 @@
   "eBay": {
    "best": 89,
    "last": 89,
-   "last_ok": "2026-10-09"
+   "last_ok": "2026-10-10"
   }
  },
- "updated": "2026-10-09T23:26:13Z",
+ "updated": "2026-10-10T02:38:11Z",
  "version": 1
 }
