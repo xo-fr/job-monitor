@@ -3578,6 +3578,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Custom-Software-Engineer_ATCI-R1-S2034128-1"
   },
+  "accenture:56eac8afb254": {
+   "company": "Accenture",
+   "first_seen": "2026-10-10",
+   "location": "Chennai",
+   "posted_at": "2026-10-10",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5694907-S2061205-1"
+  },
   "accenture:57116ec97c1e": {
    "company": "Accenture",
    "first_seen": "2026-10-02",
@@ -10225,6 +10237,19 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4476175355"
   },
+  "algodomain:588306a0483d": {
+   "company": "Algodomain",
+   "first_seen": "2026-10-10",
+   "location": "India",
+   "posted_at": "2026-10-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Backend Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4477232180"
+  },
   "algoworks-solutions:56e4cfea97bb": {
    "company": "Algoworks Solutions",
    "employment_type": "Full-time",
@@ -15496,6 +15521,19 @@
    "title": "Senior Software Engineer -Platform Tools",
    "url": "https://www.linkedin.com/jobs/view/4404565800"
   },
+  "blumetra-solutions:8996a0ab55a8": {
+   "company": "Blumetra Solutions",
+   "first_seen": "2026-10-10",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-09",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Full Stack Sr. Developer",
+   "url": "https://www.linkedin.com/jobs/view/4476293135"
+  },
   "bmc-software:1569e9bbe99a": {
    "company": "BMC Software",
    "first_seen": "2026-10-02",
@@ -20549,6 +20587,19 @@
    "tier": "mid",
    "title": "Advance Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4456713399"
+  },
+  "codal:7b3bdd281625": {
+   "company": "Codal",
+   "first_seen": "2026-10-10",
+   "location": "Ahmedabad, Gujarat, India",
+   "posted_at": "2026-10-10",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Full Stack",
+   "url": "https://www.linkedin.com/jobs/view/4478085342"
   },
   "codeguardian-tech-international-pvt-ltd:57105b639114": {
    "company": "Codeguardian Tech International Pvt Ltd.",
@@ -31896,6 +31947,19 @@
    "title": "SDE - III",
    "url": "https://www.linkedin.com/jobs/view/4477435221"
   },
+  "husky-technologies:d80882834e64": {
+   "company": "Husky Technologies",
+   "first_seen": "2026-10-10",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-10",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Developer - Azure Full Stack / Custom Business Applications - Husky (Guindy, Chennai)",
+   "url": "https://www.linkedin.com/jobs/view/4477223780"
+  },
   "hyper-lychee-labs:a73c42d65277": {
    "company": "Hyper Lychee Labs",
    "first_seen": "2026-10-07",
@@ -32709,6 +32773,20 @@
    "tier": "senior",
    "title": "Senior Software Engineer, Product Development",
    "url": "https://www.linkedin.com/jobs/view/4467834757"
+  },
+  "info-edge:20c3cdbe906f": {
+   "company": "Info Edge",
+   "first_seen": "2026-10-10",
+   "location": "Noida, India",
+   "posted_at": "2026-10-10",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-info-edge-noida-1-to-2-years-111026000200",
+   "workplace": "Work From Office"
   },
   "info-edge:a30bec5d65b1": {
    "company": "Info Edge",
@@ -63493,7 +63571,7 @@
   },
   "Agoda": {
    "best": 320,
-   "last": 319,
+   "last": 318,
    "last_ok": "2026-10-10"
   },
   "Airbnb": {
@@ -63533,7 +63611,7 @@
   },
   "BlackRock": {
    "best": 166,
-   "last": 165,
+   "last": 163,
    "last_ok": "2026-10-10"
   },
   "Boeing": {
@@ -63683,7 +63761,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 202,
+   "last": 182,
    "last_ok": "2026-10-10"
   },
   "Intel": {
@@ -63698,7 +63776,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 459,
+   "last": 270,
    "last_ok": "2026-10-10"
   },
   "Lowe's": {
@@ -63743,7 +63821,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 268,
+   "last": 275,
    "last_ok": "2026-10-10"
   },
   "Netskope": {
@@ -63823,7 +63901,7 @@
   },
   "Samsara": {
    "best": 248,
-   "last": 239,
+   "last": 240,
    "last_ok": "2026-10-10"
   },
   "Sarvam AI": {
@@ -63843,7 +63921,7 @@
   },
   "Snowflake": {
    "best": 361,
-   "last": 358,
+   "last": 359,
    "last_ok": "2026-10-10"
   },
   "State Street": {
@@ -63917,6 +63995,6 @@
    "last_ok": "2026-10-10"
   }
  },
- "updated": "2026-10-10T20:39:43Z",
+ "updated": "2026-10-10T23:47:23Z",
  "version": 1
 }
