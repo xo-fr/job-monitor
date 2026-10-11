@@ -63567,7 +63567,7 @@
   "Adobe": {
    "best": 80,
    "last": 64,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Agoda": {
    "best": 320,
@@ -63582,7 +63582,7 @@
   "Amazon": {
    "best": 249,
    "last": 239,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Applied Materials": {
    "best": 132,
@@ -63642,7 +63642,7 @@
   "Cisco": {
    "best": 270,
    "last": 263,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Citi": {
    "best": 288,
@@ -63662,7 +63662,7 @@
   "Databricks": {
    "best": 896,
    "last": 892,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Datadog": {
    "best": 445,
@@ -63687,7 +63687,7 @@
   "Expedia": {
    "best": 137,
    "last": 131,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Experian": {
    "best": 100,
@@ -63722,7 +63722,7 @@
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Groww": {
    "best": 10,
@@ -63767,7 +63767,7 @@
   "Intel": {
    "best": 185,
    "last": 185,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Komodo Health": {
    "best": 29,
@@ -63807,7 +63807,7 @@
   "MongoDB": {
    "best": 397,
    "last": 392,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -63852,12 +63852,12 @@
   "Nvidia": {
    "best": 153,
    "last": 151,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Okta": {
    "best": 379,
    "last": 378,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "PayPal": {
    "best": 164,
@@ -63897,7 +63897,7 @@
   "Salesforce": {
    "best": 112,
    "last": 108,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Samsara": {
    "best": 248,
@@ -63932,7 +63932,7 @@
   "Stripe": {
    "best": 733,
    "last": 728,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   },
   "Target": {
    "best": 70,
@@ -63992,9 +63992,9 @@
   "eBay": {
    "best": 89,
    "last": 88,
-   "last_ok": "2026-10-10"
+   "last_ok": "2026-10-11"
   }
  },
- "updated": "2026-10-10T23:47:23Z",
+ "updated": "2026-10-11T00:23:29Z",
  "version": 1
 }
