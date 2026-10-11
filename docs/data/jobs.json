@@ -11152,6 +11152,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10571784/software-development-engineer",
    "yoe": 2
   },
+  "amazon:12834f3cdb74": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-11",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Dev Engineer II, EU INTech Partner Growth Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10575408/software-dev-engineer-ii-eu-intech-partner-growth-experience",
+   "yoe": 2
+  },
   "amazon:149bee0f00ee": {
    "company": "Amazon",
    "department": "Software Development",
@@ -64428,7 +64443,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 131,
+   "last": 129,
    "last_ok": "2026-10-11"
   },
   "Experian": {
@@ -64548,7 +64563,7 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 392,
+   "last": 391,
    "last_ok": "2026-10-11"
   },
   "Morgan Stanley": {
@@ -64737,6 +64752,6 @@
    "last_ok": "2026-10-11"
   }
  },
- "updated": "2026-10-11T13:22:49Z",
+ "updated": "2026-10-11T15:54:43Z",
  "version": 1
 }
