@@ -19179,6 +19179,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2022840"
   },
+  "cisco:0588ec6252af": {
+   "company": "Cisco",
+   "first_seen": "2026-10-12",
+   "location": "2 Locations",
+   "posted_at": "2026-10-12",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Technical Leader – Java/Go, Microservice & Database  | 11-15 Years | Bangalore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Technical-Leader---Java-Go--Microservice---Database----11-15-Years---Bangalore_2023977"
+  },
   "cisco:068809ce51a9": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -19643,6 +19655,18 @@
    "title": "Software Engineer | Java/Golang/Python | 2 to 4 years | Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Java-Golang-Python---2-to-4-years---Bangalore_2027386"
   },
+  "cisco:89ddecf157be": {
+   "company": "Cisco",
+   "first_seen": "2026-10-12",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-engineer_2027739-1"
+  },
   "cisco:8c06336fad3f": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -19774,6 +19798,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026347"
+  },
+  "cisco:b70fe1865f04": {
+   "company": "Cisco",
+   "first_seen": "2026-10-12",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026650"
   },
   "cisco:bfa79b60272a": {
    "company": "Cisco",
@@ -19921,6 +19957,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2019628-1"
+  },
+  "cisco:f7b5854093da": {
+   "company": "Cisco",
+   "first_seen": "2026-10-12",
+   "location": "3 Locations",
+   "posted_at": "2026-10-12",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Fullstack Software Engineer– Java, Spring, Microservice & React/Javascript  | 4-8 Years | Bangalore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Fullstack-Software-Engineer--Java--Spring--Microservice---React-Javascript----4-8-Years---Bangalore_2024229-1"
   },
   "cisco:feb8a9d35c49": {
    "company": "Cisco",
@@ -25432,6 +25480,18 @@
    "tier": "mid",
    "title": "MTS-2 Software Engineer - Backend",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/MTS-2-Software-Engineer---Backend_R0076495"
+  },
+  "ebay:31d82f9c1775": {
+   "company": "eBay",
+   "first_seen": "2026-10-12",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer 3",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Software-Engineer-3_R0072742-1"
   },
   "ebay:34bf4ec44f2c": {
    "company": "eBay",
@@ -47601,6 +47661,18 @@
    "title": "Senior Software Engineer - IT Infrastructure",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---IT-Infrastructure_JR2027113"
   },
+  "nvidia:2364a9483655": {
+   "company": "Nvidia",
+   "first_seen": "2026-10-12",
+   "location": "India, Pune",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Solutions Engineer",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Senior-Software-Solutions-Engineer_JR2027697"
+  },
   "nvidia:2b1cdc608291": {
    "company": "Nvidia",
    "first_seen": "2026-10-02",
@@ -67031,7 +67103,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 64,
+   "last": 63,
    "last_ok": "2026-10-12"
   },
   "Agoda": {
@@ -67106,7 +67178,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 263,
+   "last": 261,
    "last_ok": "2026-10-12"
   },
   "Citi": {
@@ -67126,7 +67198,7 @@
   },
   "Databricks": {
    "best": 896,
-   "last": 889,
+   "last": 890,
    "last_ok": "2026-10-12"
   },
   "Datadog": {
@@ -67151,7 +67223,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 126,
+   "last": 124,
    "last_ok": "2026-10-12"
   },
   "Experian": {
@@ -67321,7 +67393,7 @@
   },
   "Okta": {
    "best": 379,
-   "last": 376,
+   "last": 373,
    "last_ok": "2026-10-12"
   },
   "PayPal": {
@@ -67361,7 +67433,7 @@
   },
   "Salesforce": {
    "best": 112,
-   "last": 107,
+   "last": 103,
    "last_ok": "2026-10-12"
   },
   "Samsara": {
@@ -67455,11 +67527,11 @@
    "last_ok": "2026-10-12"
   },
   "eBay": {
-   "best": 89,
-   "last": 89,
+   "best": 90,
+   "last": 90,
    "last_ok": "2026-10-12"
   }
  },
- "updated": "2026-10-12T06:27:31Z",
+ "updated": "2026-10-12T07:52:42Z",
  "version": 1
 }
