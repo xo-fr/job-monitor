@@ -12766,6 +12766,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10562899/software-development-engineer-ii-timehub-pay-extract",
    "yoe": 2
   },
+  "amazon:ae018c56268e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-12",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer, Payroll Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10576163/senior-software-development-engineer-payroll-tech",
+   "yoe": 4
+  },
   "amazon:b87d86a74a34": {
    "company": "Amazon",
    "department": "Software Development",
@@ -12965,6 +12980,21 @@
    "title": "Software Development Engineer, Amazon Fulfillment Technology (AFT), Platform Engineering and Services",
    "url": "https://www.amazon.jobs/en/jobs/10570198/software-development-engineer-amazon-fulfillment-technology-aft-platform-engineering-and-services",
    "yoe": 2
+  },
+  "amazon:e4e1ca141202": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-12",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer - Connectivity, Emerging Device Software",
+   "url": "https://www.amazon.jobs/en/jobs/10575929/software-development-engineer-connectivity-emerging-device-software",
+   "yoe": 3
   },
   "amazon:ee012cfc6fcf": {
    "company": "Amazon",
@@ -20213,6 +20243,18 @@
    "tier": "mid",
    "title": "Fullstack Software Engineer– Java, Spring, Microservice & React/Javascript  | 4-8 Years | Bangalore",
    "url": "https://www.linkedin.com/jobs/view/4478500654"
+  },
+  "cisco:1d9d60e8ba85": {
+   "company": "Cisco",
+   "first_seen": "2026-10-12",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027416-1"
   },
   "cisco:1f7ce009b494": {
    "company": "Cisco",
@@ -71128,7 +71170,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 236,
+   "last": 237,
    "last_ok": "2026-10-12"
   },
   "Applied Materials": {
@@ -71208,7 +71250,7 @@
   },
   "Databricks": {
    "best": 896,
-   "last": 891,
+   "last": 892,
    "last_ok": "2026-10-12"
   },
   "Datadog": {
@@ -71233,7 +71275,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 126,
+   "last": 124,
    "last_ok": "2026-10-12"
   },
   "Experian": {
@@ -71353,7 +71395,7 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 394,
+   "last": 396,
    "last_ok": "2026-10-12"
   },
   "Morgan Stanley": {
@@ -71403,7 +71445,7 @@
   },
   "Okta": {
    "best": 379,
-   "last": 376,
+   "last": 377,
    "last_ok": "2026-10-12"
   },
   "PayPal": {
@@ -71443,7 +71485,7 @@
   },
   "Salesforce": {
    "best": 112,
-   "last": 110,
+   "last": 107,
    "last_ok": "2026-10-12"
   },
   "Samsara": {
@@ -71478,7 +71520,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 724,
+   "last": 721,
    "last_ok": "2026-10-12"
   },
   "Target": {
@@ -71542,6 +71584,6 @@
    "last_ok": "2026-10-12"
   }
  },
- "updated": "2026-10-12T16:02:22Z",
+ "updated": "2026-10-12T19:15:54Z",
  "version": 1
 }
