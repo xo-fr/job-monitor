@@ -13414,6 +13414,21 @@
    "title": "Software Development Engineer-II (SDE 2), Worldwide Returns & ReCommerce - OpsFlow",
    "url": "https://www.linkedin.com/jobs/view/4477490656"
   },
+  "amazon:e1218c821020": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-13",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "SDE II, EE Experiences, Progressive Discovery and Monetization",
+   "url": "https://www.amazon.jobs/en/jobs/10576828/sde-ii-ee-experiences-progressive-discovery-and-monetization",
+   "yoe": 2
+  },
   "amazon:e458afcf1967": {
    "company": "Amazon",
    "department": "Software Development",
@@ -13443,6 +13458,21 @@
    "title": "Software Development Engineer - Connectivity, Emerging Device Software",
    "url": "https://www.amazon.jobs/en/jobs/10575929/software-development-engineer-connectivity-emerging-device-software",
    "yoe": 3
+  },
+  "amazon:ecb23fc82206": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-13",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "SDE II, EE Experiences, Progressive Discovery and Monetization",
+   "url": "https://www.amazon.jobs/en/jobs/10576822/sde-ii-ee-experiences-progressive-discovery-and-monetization",
+   "yoe": 2
   },
   "amazon:ee012cfc6fcf": {
    "company": "Amazon",
@@ -21779,6 +21809,18 @@
    "tier": "mid",
    "title": "Fullstack Software Engineer– Java, Spring, Microservice & React/Javascript  | 4-8 Years | Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Fullstack-Software-Engineer--Java--Spring--Microservice---React-Javascript----4-8-Years---Bangalore_2024229-1"
+  },
+  "cisco:f981b3c54b59": {
+   "company": "Cisco",
+   "first_seen": "2026-10-13",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027309-1"
   },
   "cisco:feb8a9d35c49": {
    "company": "Cisco",
@@ -73481,7 +73523,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 60,
+   "last": 58,
    "last_ok": "2026-10-13"
   },
   "Agoda": {
@@ -73601,7 +73643,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 128,
+   "last": 127,
    "last_ok": "2026-10-13"
   },
   "Experian": {
@@ -73681,7 +73723,7 @@
   },
   "Intel": {
    "best": 189,
-   "last": 186,
+   "last": 188,
    "last_ok": "2026-10-13"
   },
   "Komodo Health": {
@@ -73721,7 +73763,7 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 392,
+   "last": 393,
    "last_ok": "2026-10-13"
   },
   "Morgan Stanley": {
@@ -73765,13 +73807,13 @@
    "last_ok": "2026-10-13"
   },
   "Nvidia": {
-   "best": 153,
-   "last": 151,
+   "best": 156,
+   "last": 156,
    "last_ok": "2026-10-13"
   },
   "Okta": {
    "best": 380,
-   "last": 376,
+   "last": 378,
    "last_ok": "2026-10-13"
   },
   "PayPal": {
@@ -73811,7 +73853,7 @@
   },
   "Salesforce": {
    "best": 112,
-   "last": 109,
+   "last": 110,
    "last_ok": "2026-10-13"
   },
   "Samsara": {
@@ -73846,7 +73888,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 721,
+   "last": 720,
    "last_ok": "2026-10-13"
   },
   "Target": {
@@ -73906,10 +73948,10 @@
   },
   "eBay": {
    "best": 90,
-   "last": 89,
+   "last": 86,
    "last_ok": "2026-10-13"
   }
  },
- "updated": "2026-10-13T07:03:11Z",
+ "updated": "2026-10-13T10:58:00Z",
  "version": 1
 }
