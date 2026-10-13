@@ -13396,6 +13396,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10576163/senior-software-development-engineer-payroll-tech",
    "yoe": 4
   },
+  "amazon:afa1e578cb2c": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-13",
+   "location": "Gurugram, Haryana, IND",
+   "posted_at": "2026-10-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Dev Engineer II, Amazon India CFX team ",
+   "url": "https://www.amazon.jobs/en/jobs/10578008/software-dev-engineer-ii-amazon-india-cfx-team",
+   "yoe": 4
+  },
   "amazon:b87d86a74a34": {
    "company": "Amazon",
    "department": "Software Development",
@@ -77999,7 +78014,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 237,
+   "last": 239,
    "last_ok": "2026-10-13"
   },
   "Applied Materials": {
@@ -78079,7 +78094,7 @@
   },
   "Databricks": {
    "best": 897,
-   "last": 895,
+   "last": 896,
    "last_ok": "2026-10-13"
   },
   "Datadog": {
@@ -78104,7 +78119,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 131,
+   "last": 132,
    "last_ok": "2026-10-13"
   },
   "Experian": {
@@ -78349,7 +78364,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 724,
+   "last": 725,
    "last_ok": "2026-10-13"
   },
   "Target": {
@@ -78413,6 +78428,6 @@
    "last_ok": "2026-10-13"
   }
  },
- "updated": "2026-10-13T21:29:12Z",
+ "updated": "2026-10-13T23:23:47Z",
  "version": 1
 }
