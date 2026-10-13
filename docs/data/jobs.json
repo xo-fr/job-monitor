@@ -76837,7 +76837,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 239,
+   "last": 238,
    "last_ok": "2026-10-13"
   },
   "Applied Materials": {
@@ -76897,7 +76897,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 266,
+   "last": 267,
    "last_ok": "2026-10-13"
   },
   "Citi": {
@@ -76942,7 +76942,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 130,
+   "last": 131,
    "last_ok": "2026-10-13"
   },
   "Experian": {
@@ -77062,7 +77062,7 @@
   },
   "MongoDB": {
    "best": 397,
-   "last": 392,
+   "last": 393,
    "last_ok": "2026-10-13"
   },
   "Morgan Stanley": {
@@ -77112,7 +77112,7 @@
   },
   "Okta": {
    "best": 380,
-   "last": 379,
+   "last": 378,
    "last_ok": "2026-10-13"
   },
   "PayPal": {
@@ -77251,6 +77251,6 @@
    "last_ok": "2026-10-13"
   }
  },
- "updated": "2026-10-13T16:18:56Z",
+ "updated": "2026-10-13T18:27:54Z",
  "version": 1
 }
