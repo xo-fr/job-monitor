@@ -12891,6 +12891,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii",
    "yoe": 2
   },
+  "amazon:48586f5b4e52": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-14",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-14",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, SW-Device OS",
+   "url": "https://www.amazon.jobs/en/jobs/10578193/software-development-engineer-sw-device-os",
+   "yoe": 2
+  },
   "amazon:4938f1c74a04": {
    "company": "Amazon",
    "department": "Software Development",
@@ -78892,6 +78907,6 @@
    "last_ok": "2026-10-14"
   }
  },
- "updated": "2026-10-14T01:23:09Z",
+ "updated": "2026-10-14T02:06:28Z",
  "version": 1
 }
