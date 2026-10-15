@@ -23728,6 +23728,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2019631-1"
   },
+  "cisco:cdf372d132b6": {
+   "company": "Cisco",
+   "first_seen": "2026-10-15",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-15",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026383"
+  },
   "cisco:d4ac57240231": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -23838,6 +23850,18 @@
    "tier": "mid",
    "title": "Fullstack Software Engineer– Java, Spring, Microservice & React/Javascript  | 4-8 Years | Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Fullstack-Software-Engineer--Java--Spring--Microservice---React-Javascript----4-8-Years---Bangalore_2024229-1"
+  },
+  "cisco:f9461c30fbeb": {
+   "company": "Cisco",
+   "first_seen": "2026-10-15",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-15",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer- Java |8 to 14yrs| Bangalore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer--Java--8-to-14yrs--Bangalore_2026382"
   },
   "cisco:f981b3c54b59": {
    "company": "Cisco",
@@ -84854,7 +84878,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 264,
+   "last": 263,
    "last_ok": "2026-10-15"
   },
   "Citi": {
@@ -84874,7 +84898,7 @@
   },
   "Databricks": {
    "best": 897,
-   "last": 893,
+   "last": 891,
    "last_ok": "2026-10-15"
   },
   "Datadog": {
@@ -85064,12 +85088,12 @@
   },
   "Nvidia": {
    "best": 156,
-   "last": 156,
+   "last": 155,
    "last_ok": "2026-10-15"
   },
   "Okta": {
    "best": 380,
-   "last": 373,
+   "last": 372,
    "last_ok": "2026-10-15"
   },
   "PayPal": {
@@ -85109,7 +85133,7 @@
   },
   "Salesforce": {
    "best": 112,
-   "last": 107,
+   "last": 106,
    "last_ok": "2026-10-15"
   },
   "Samsara": {
@@ -85208,6 +85232,6 @@
    "last_ok": "2026-10-15"
   }
  },
- "updated": "2026-10-15T05:04:11Z",
+ "updated": "2026-10-15T06:19:19Z",
  "version": 1
 }
