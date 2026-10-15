@@ -14563,6 +14563,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10567650/software-development-engineer-ii-infrastructure-supply-chain-automation-infrastructure-supply-chain-automation",
    "yoe": 2
   },
+  "amazon:cc4a5ad4802f": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-15",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-15",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer, Amazon Now ",
+   "url": "https://www.amazon.jobs/en/jobs/10579742/sr-software-engineer-amazon-now",
+   "yoe": 5
+  },
   "amazon:cd4f253f8df1": {
    "company": "Amazon",
    "department": "Software Development",
@@ -87194,7 +87209,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 262,
+   "last": 263,
    "last_ok": "2026-10-15"
   },
   "Citi": {
@@ -87239,7 +87254,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 129,
+   "last": 130,
    "last_ok": "2026-10-15"
   },
   "Experian": {
@@ -87409,7 +87424,7 @@
   },
   "Okta": {
    "best": 380,
-   "last": 374,
+   "last": 375,
    "last_ok": "2026-10-15"
   },
   "PayPal": {
@@ -87484,7 +87499,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 726,
+   "last": 727,
    "last_ok": "2026-10-15"
   },
   "Target": {
@@ -87548,6 +87563,6 @@
    "last_ok": "2026-10-15"
   }
  },
- "updated": "2026-10-15T12:02:07Z",
+ "updated": "2026-10-15T12:48:43Z",
  "version": 1
 }
