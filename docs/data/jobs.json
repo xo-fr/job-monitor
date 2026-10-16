@@ -94513,7 +94513,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 51,
+   "last": 50,
    "last_ok": "2026-10-16"
   },
   "Agoda": {
@@ -94528,7 +94528,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 243,
+   "last": 242,
    "last_ok": "2026-10-16"
   },
   "Applied Materials": {
@@ -94633,7 +94633,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 134,
+   "last": 133,
    "last_ok": "2026-10-16"
   },
   "Experian": {
@@ -94713,7 +94713,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 188,
+   "last": 187,
    "last_ok": "2026-10-16"
   },
   "Komodo Health": {
@@ -94803,7 +94803,7 @@
   },
   "Okta": {
    "best": 383,
-   "last": 375,
+   "last": 381,
    "last_ok": "2026-10-16"
   },
   "PayPal": {
@@ -94843,7 +94843,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 113,
+   "last": 110,
    "last_ok": "2026-10-16"
   },
   "Samsara": {
@@ -94878,7 +94878,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 731,
+   "last": 730,
    "last_ok": "2026-10-16"
   },
   "Target": {
@@ -94942,6 +94942,6 @@
    "last_ok": "2026-10-16"
   }
  },
- "updated": "2026-10-16T18:21:17Z",
+ "updated": "2026-10-16T18:57:03Z",
  "version": 1
 }
