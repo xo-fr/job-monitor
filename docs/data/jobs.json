@@ -36789,6 +36789,18 @@
    "title": "Software Development Engineer III",
    "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-III_R-109951"
   },
+  "expedia:f4aa4ff68635": {
+   "company": "Expedia",
+   "first_seen": "2026-10-16",
+   "location": "2 Locations",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Bangalore/Senior-Software-Development-Engineer_R-110243"
+  },
   "expedia:f79ca3e2551d": {
    "company": "Expedia",
    "first_seen": "2026-10-06",
@@ -91542,7 +91554,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 266,
+   "last": 263,
    "last_ok": "2026-10-16"
   },
   "Citi": {
@@ -91587,7 +91599,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 124,
+   "last": 127,
    "last_ok": "2026-10-16"
   },
   "Experian": {
@@ -91667,7 +91679,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 186,
+   "last": 187,
    "last_ok": "2026-10-16"
   },
   "Komodo Health": {
@@ -91752,7 +91764,7 @@
   },
   "Nvidia": {
    "best": 156,
-   "last": 156,
+   "last": 155,
    "last_ok": "2026-10-16"
   },
   "Okta": {
@@ -91797,7 +91809,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 110,
+   "last": 111,
    "last_ok": "2026-10-16"
   },
   "Samsara": {
@@ -91896,6 +91908,6 @@
    "last_ok": "2026-10-16"
   }
  },
- "updated": "2026-10-16T07:30:13Z",
+ "updated": "2026-10-16T08:27:11Z",
  "version": 1
 }
