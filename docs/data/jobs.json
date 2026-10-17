@@ -95150,7 +95150,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 240,
+   "last": 241,
    "last_ok": "2026-10-17"
   },
   "Applied Materials": {
@@ -95230,7 +95230,7 @@
   },
   "Databricks": {
    "best": 899,
-   "last": 897,
+   "last": 898,
    "last_ok": "2026-10-17"
   },
   "Datadog": {
@@ -95564,6 +95564,6 @@
    "last_ok": "2026-10-17"
   }
  },
- "updated": "2026-10-17T00:46:15Z",
+ "updated": "2026-10-17T01:27:57Z",
  "version": 1
 }
