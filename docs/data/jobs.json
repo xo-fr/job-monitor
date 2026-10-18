@@ -21924,6 +21924,19 @@
    "title": "Java API Developer",
    "url": "https://www.linkedin.com/jobs/view/4463896624"
   },
+  "birlasoft:3d815df0dfaf": {
+   "company": "Birlasoft",
+   "first_seen": "2026-10-18",
+   "location": "Greater Hyderabad Area",
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "JBOSS FUSE Developer",
+   "url": "https://www.linkedin.com/jobs/view/4470095523"
+  },
   "birlasoft:3eb2ae27bee1": {
    "company": "Birlasoft",
    "first_seen": "2026-10-02",
@@ -54766,6 +54779,19 @@
    "title": "Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4479678370"
   },
+  "investcloud-inc:04b1c26514cb": {
+   "company": "InvestCloud, Inc.",
+   "first_seen": "2026-10-18",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-17",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4441457446"
+  },
   "investcloud-inc:5084dd44e0ca": {
    "company": "InvestCloud, Inc.",
    "first_seen": "2026-10-04",
@@ -62308,6 +62334,19 @@
    "title": "Full Stack Java Developer",
    "url": "https://in.indeed.com/viewjob?jk=cdd7881be39a1e11"
   },
+  "micron-technology:3116fc971dad": {
+   "company": "Micron Technology",
+   "first_seen": "2026-10-18",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-16",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4461645752"
+  },
   "microsoft:0887ebf4d246": {
    "company": "Microsoft",
    "first_seen": "2026-10-03",
@@ -68839,6 +68878,19 @@
    "title": "Java Software Developer",
    "url": "https://www.linkedin.com/jobs/view/4475215819"
   },
+  "opentext:8bcab86d0ff7": {
+   "company": "OpenText",
+   "first_seen": "2026-10-18",
+   "location": "TS, India",
+   "posted_at": "2026-10-17",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer",
+   "url": "https://careers.opentext.com/us/en/job/54042"
+  },
   "opentext:90929afaae4e": {
    "company": "OpenText",
    "first_seen": "2026-10-02",
@@ -73321,6 +73373,19 @@
    "tier": "lead",
    "title": "\"Java Backend\" and \"Cloud Platform\" Lead",
    "url": "https://www.linkedin.com/jobs/view/4449738727"
+  },
+  "qualcomm:ce2d4b317d79": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-18",
+   "location": "KA, India",
+   "posted_at": "2026-10-16",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "QNX BSP Platform Engineer_Customer Engineering",
+   "url": "https://app.eightfold.ai/careers/job/446721608879?domain=qualcomm.com"
   },
   "qualcomm:ea830e437fa8": {
    "company": "Qualcomm",
@@ -93193,6 +93258,19 @@
    "title": "Senior Backend Engineer",
    "url": "https://www.linkedin.com/jobs/view/4474905194"
   },
+  "vericence:b89ebb429828": {
+   "company": "Vericence",
+   "first_seen": "2026-10-18",
+   "location": "Greater Kolkata Area",
+   "posted_at": "2026-10-16",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4480554988"
+  },
   "verifone:37cffbc51fd3": {
    "company": "VeriFone",
    "first_seen": "2026-10-07",
@@ -94662,6 +94740,20 @@
    "title": "Full Stack Developer (React, Java/Python)",
    "url": "https://in.indeed.com/viewjob?jk=245a01dfd65c6f63",
    "workplace": "Remote"
+  },
+  "vltronics:601275121622": {
+   "company": "VLtronics",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-18",
+   "location": "DL, India",
+   "posted_at": "2026-10-18",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://vltronics.com/jobs/full-stack-developer/"
   },
   "vmultiply-solutions:11e186ad30d1": {
    "company": "VMultiply Solutions",
@@ -98278,7 +98370,7 @@
   "Accenture": {
    "best": 384,
    "last": 384,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Adobe": {
    "best": 80,
@@ -98288,12 +98380,12 @@
   "Agoda": {
    "best": 329,
    "last": 324,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Airbnb": {
    "best": 173,
    "last": 173,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Amazon": {
    "best": 249,
@@ -98303,77 +98395,77 @@
   "Applied Materials": {
    "best": 134,
    "last": 131,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Athenahealth": {
    "best": 40,
    "last": 38,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Atlan": {
    "best": 7,
    "last": 7,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Autodesk": {
    "best": 37,
    "last": 31,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Barclays": {
    "best": 240,
    "last": 220,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "BlackRock": {
    "best": 166,
-   "last": 159,
-   "last_ok": "2026-10-17"
+   "last": 158,
+   "last_ok": "2026-10-18"
   },
   "Boeing": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Broadridge": {
    "best": 42,
    "last": 36,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "CRED": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Capital One": {
    "best": 254,
    "last": 253,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Ciena": {
    "best": 7,
    "last": 5,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Cisco": {
    "best": 270,
-   "last": 266,
+   "last": 265,
    "last_ok": "2026-10-18"
   },
   "Citi": {
    "best": 292,
    "last": 291,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Cloudflare": {
    "best": 448,
    "last": 435,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Coinbase": {
    "best": 230,
    "last": 226,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Databricks": {
    "best": 899,
@@ -98383,22 +98475,22 @@
   "Datadog": {
    "best": 445,
    "last": 433,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Deutsche Bank": {
    "best": 162,
    "last": 151,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Druva": {
    "best": 38,
    "last": 34,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Elastic": {
    "best": 422,
    "last": 380,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Expedia": {
    "best": 137,
@@ -98408,77 +98500,77 @@
   "Experian": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Fidelity": {
    "best": 18,
    "last": 12,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Fivetran": {
    "best": 201,
    "last": 180,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Flexport": {
    "best": 212,
    "last": 210,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Freshworks": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "GitLab": {
    "best": 232,
    "last": 232,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Google": {
    "best": 105,
-   "last": 102,
+   "last": 104,
    "last_ok": "2026-10-18"
   },
   "Groww": {
    "best": 11,
    "last": 10,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "HP": {
    "best": 95,
    "last": 74,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "HackerRank": {
    "best": 33,
    "last": 31,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Harvey": {
    "best": 351,
    "last": 345,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Hevo Data": {
    "best": 55,
    "last": 54,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "HighRadius": {
    "best": 80,
    "last": 75,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "InMobi": {
    "best": 79,
    "last": 79,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 197,
-   "last_ok": "2026-10-17"
+   "last": 180,
+   "last_ok": "2026-10-18"
   },
   "Intel": {
    "best": 190,
@@ -98488,37 +98580,37 @@
   "Komodo Health": {
    "best": 30,
    "last": 24,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 341,
-   "last_ok": "2026-10-17"
+   "last": 285,
+   "last_ok": "2026-10-18"
   },
   "Lowe's": {
    "best": 166,
    "last": 164,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Mastercard": {
    "best": 267,
    "last": 262,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Meesho": {
    "best": 63,
    "last": 59,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Mindtickle": {
    "best": 21,
    "last": 20,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Mixpanel": {
    "best": 66,
    "last": 47,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "MongoDB": {
    "best": 405,
@@ -98528,42 +98620,42 @@
   "Morgan Stanley": {
    "best": 102,
    "last": 98,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Motorola Solutions": {
    "best": 7,
    "last": 6,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 304,
-   "last_ok": "2026-10-17"
+   "last": 316,
+   "last_ok": "2026-10-18"
   },
   "Netskope": {
    "best": 154,
    "last": 131,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "New Relic": {
    "best": 56,
    "last": 56,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "NielsenIQ": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Nike": {
    "best": 180,
    "last": 172,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Notion": {
    "best": 138,
    "last": 128,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Nvidia": {
    "best": 156,
@@ -98578,37 +98670,37 @@
   "PayPal": {
    "best": 170,
    "last": 167,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Paytm": {
    "best": 183,
    "last": 182,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "PubMatic": {
    "best": 84,
    "last": 83,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Red Hat": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Roblox": {
    "best": 267,
    "last": 263,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Rubrik": {
    "best": 144,
    "last": 144,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Sabre": {
    "best": 45,
    "last": 41,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Salesforce": {
    "best": 113,
@@ -98617,33 +98709,33 @@
   },
   "Samsara": {
    "best": 265,
-   "last": 262,
-   "last_ok": "2026-10-17"
+   "last": 261,
+   "last_ok": "2026-10-18"
   },
   "Sarvam AI": {
    "best": 60,
    "last": 42,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "ServiceNow": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Sigmoid": {
    "best": 37,
    "last": 35,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Snowflake": {
    "best": 361,
    "last": 359,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "State Street": {
    "best": 161,
    "last": 141,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Stripe": {
    "best": 733,
@@ -98653,57 +98745,57 @@
   "Target": {
    "best": 70,
    "last": 63,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Thomson Reuters": {
    "best": 8,
    "last": 5,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Toast": {
    "best": 331,
    "last": 317,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Twilio": {
    "best": 148,
    "last": 133,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Verizon": {
    "best": 147,
    "last": 142,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Waymo": {
    "best": 374,
    "last": 362,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Wells Fargo": {
    "best": 105,
    "last": 91,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Workday": {
    "best": 29,
    "last": 28,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Yugabyte": {
    "best": 16,
    "last": 16,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Zeta": {
    "best": 26,
    "last": 24,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Zscaler": {
    "best": 380,
    "last": 365,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "eBay": {
    "best": 90,
@@ -98711,6 +98803,6 @@
    "last_ok": "2026-10-18"
   }
  },
- "updated": "2026-10-18T01:26:25Z",
+ "updated": "2026-10-18T05:01:15Z",
  "version": 1
 }
