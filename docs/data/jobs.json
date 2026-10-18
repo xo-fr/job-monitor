@@ -16493,6 +16493,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10575929/software-development-engineer-connectivity-emerging-device-software",
    "yoe": 3
   },
+  "amazon:eb1dbf4fd161": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-18",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-18",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Customer Experience and Business Trends",
+   "url": "https://www.amazon.jobs/en/jobs/10582077/software-development-engineer-customer-experience-and-business-trends",
+   "yoe": 2
+  },
   "amazon:ecb23fc82206": {
    "company": "Amazon",
    "department": "Software Development",
@@ -98268,7 +98283,7 @@
   "Adobe": {
    "best": 80,
    "last": 50,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Agoda": {
    "best": 329,
@@ -98282,8 +98297,8 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 241,
-   "last_ok": "2026-10-17"
+   "last": 242,
+   "last_ok": "2026-10-18"
   },
   "Applied Materials": {
    "best": 134,
@@ -98343,7 +98358,7 @@
   "Cisco": {
    "best": 270,
    "last": 266,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Citi": {
    "best": 292,
@@ -98363,7 +98378,7 @@
   "Databricks": {
    "best": 899,
    "last": 898,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Datadog": {
    "best": 445,
@@ -98388,7 +98403,7 @@
   "Expedia": {
    "best": 137,
    "last": 133,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Experian": {
    "best": 100,
@@ -98422,8 +98437,8 @@
   },
   "Google": {
    "best": 105,
-   "last": 104,
-   "last_ok": "2026-10-17"
+   "last": 102,
+   "last_ok": "2026-10-18"
   },
   "Groww": {
    "best": 11,
@@ -98468,7 +98483,7 @@
   "Intel": {
    "best": 190,
    "last": 187,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Komodo Health": {
    "best": 30,
@@ -98508,7 +98523,7 @@
   "MongoDB": {
    "best": 405,
    "last": 401,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -98553,12 +98568,12 @@
   "Nvidia": {
    "best": 156,
    "last": 155,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Okta": {
    "best": 393,
    "last": 393,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "PayPal": {
    "best": 170,
@@ -98598,7 +98613,7 @@
   "Salesforce": {
    "best": 113,
    "last": 110,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Samsara": {
    "best": 265,
@@ -98633,7 +98648,7 @@
   "Stripe": {
    "best": 733,
    "last": 732,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   },
   "Target": {
    "best": 70,
@@ -98693,9 +98708,9 @@
   "eBay": {
    "best": 90,
    "last": 87,
-   "last_ok": "2026-10-17"
+   "last_ok": "2026-10-18"
   }
  },
- "updated": "2026-10-17T23:20:21Z",
+ "updated": "2026-10-18T01:26:25Z",
  "version": 1
 }
