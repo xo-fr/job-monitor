@@ -17376,6 +17376,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10578008/software-dev-engineer-ii-amazon-india-cfx-team",
    "yoe": 4
   },
+  "amazon:b0a8176595f6": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-19",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-19",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, CAM",
+   "url": "https://www.amazon.jobs/en/jobs/10582579/software-development-engineer-cam",
+   "yoe": 2
+  },
   "amazon:b87d86a74a34": {
    "company": "Amazon",
    "department": "Software Development",
@@ -103421,7 +103436,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 257,
+   "last": 261,
    "last_ok": "2026-10-19"
   },
   "Citi": {
@@ -103440,8 +103455,8 @@
    "last_ok": "2026-10-19"
   },
   "Databricks": {
-   "best": 899,
-   "last": 897,
+   "best": 901,
+   "last": 901,
    "last_ok": "2026-10-19"
   },
   "Datadog": {
@@ -103546,7 +103561,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 185,
+   "last": 184,
    "last_ok": "2026-10-19"
   },
   "Komodo Health": {
@@ -103586,7 +103601,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 400,
+   "last": 399,
    "last_ok": "2026-10-19"
   },
   "Morgan Stanley": {
@@ -103631,7 +103646,7 @@
   },
   "Nvidia": {
    "best": 156,
-   "last": 154,
+   "last": 153,
    "last_ok": "2026-10-19"
   },
   "Okta": {
@@ -103711,7 +103726,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 724,
+   "last": 723,
    "last_ok": "2026-10-19"
   },
   "Target": {
@@ -103775,6 +103790,6 @@
    "last_ok": "2026-10-19"
   }
  },
- "updated": "2026-10-19T13:53:02Z",
+ "updated": "2026-10-19T14:55:46Z",
  "version": 1
 }
