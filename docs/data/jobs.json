@@ -27754,6 +27754,18 @@
    "title": "Software Engineer - Backend,Java/Go, Distributed Systems, Cloud- 4+ Years",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Full-Stack-Java--Microservices--Cloud--8--Years_2019456"
   },
+  "cisco:29902b32a9fa": {
+   "company": "Cisco",
+   "first_seen": "2026-10-19",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-19",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026514-1"
+  },
   "cisco:29d3e1891a56": {
    "company": "Cisco",
    "first_seen": "2026-10-14",
@@ -101229,7 +101241,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 266,
+   "last": 262,
    "last_ok": "2026-10-19"
   },
   "Citi": {
@@ -101354,7 +101366,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 186,
+   "last": 185,
    "last_ok": "2026-10-19"
   },
   "Komodo Health": {
@@ -101444,7 +101456,7 @@
   },
   "Okta": {
    "best": 393,
-   "last": 387,
+   "last": 385,
    "last_ok": "2026-10-19"
   },
   "PayPal": {
@@ -101519,7 +101531,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 730,
+   "last": 729,
    "last_ok": "2026-10-19"
   },
   "Target": {
@@ -101583,6 +101595,6 @@
    "last_ok": "2026-10-19"
   }
  },
- "updated": "2026-10-19T05:10:42Z",
+ "updated": "2026-10-19T06:40:23Z",
  "version": 1
 }
