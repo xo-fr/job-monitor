@@ -104723,7 +104723,7 @@
   "Adobe": {
    "best": 80,
    "last": 48,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Agoda": {
    "best": 329,
@@ -104738,7 +104738,7 @@
   "Amazon": {
    "best": 249,
    "last": 235,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Applied Materials": {
    "best": 134,
@@ -104798,7 +104798,7 @@
   "Cisco": {
    "best": 270,
    "last": 264,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Citi": {
    "best": 292,
@@ -104818,7 +104818,7 @@
   "Databricks": {
    "best": 901,
    "last": 899,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Datadog": {
    "best": 445,
@@ -104843,7 +104843,7 @@
   "Expedia": {
    "best": 137,
    "last": 129,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Experian": {
    "best": 100,
@@ -104878,7 +104878,7 @@
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Groww": {
    "best": 11,
@@ -104922,8 +104922,8 @@
   },
   "Intel": {
    "best": 190,
-   "last": 183,
-   "last_ok": "2026-10-19"
+   "last": 184,
+   "last_ok": "2026-10-20"
   },
   "Komodo Health": {
    "best": 30,
@@ -104963,7 +104963,7 @@
   "MongoDB": {
    "best": 405,
    "last": 396,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -105008,12 +105008,12 @@
   "Nvidia": {
    "best": 156,
    "last": 152,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Okta": {
    "best": 393,
    "last": 389,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "PayPal": {
    "best": 170,
@@ -105088,7 +105088,7 @@
   "Stripe": {
    "best": 733,
    "last": 726,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   },
   "Target": {
    "best": 70,
@@ -105148,9 +105148,9 @@
   "eBay": {
    "best": 90,
    "last": 87,
-   "last_ok": "2026-10-19"
+   "last_ok": "2026-10-20"
   }
  },
- "updated": "2026-10-19T23:57:35Z",
+ "updated": "2026-10-20T00:33:51Z",
  "version": 1
 }
