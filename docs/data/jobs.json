@@ -84562,6 +84562,18 @@
    "title": "Software Engineering SMTS (Backend - Distributed Systems)",
    "url": "https://www.linkedin.com/jobs/view/4479291013"
   },
+  "salesforce:c830950a6ddd": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-21",
+   "location": "India - Bangalore",
+   "posted_at": "2026-10-21",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering - Quality Engineering",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering---Quality-Engineering_JR339837-1"
+  },
   "salesforce:d96c025bdd50": {
    "company": "Salesforce",
    "first_seen": "2026-10-15",
@@ -108562,7 +108574,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 48,
+   "last": 47,
    "last_ok": "2026-10-21"
   },
   "Agoda": {
@@ -108637,7 +108649,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 268,
+   "last": 267,
    "last_ok": "2026-10-21"
   },
   "Citi": {
@@ -108682,7 +108694,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 129,
+   "last": 130,
    "last_ok": "2026-10-21"
   },
   "Experian": {
@@ -108762,7 +108774,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 184,
+   "last": 185,
    "last_ok": "2026-10-21"
   },
   "Komodo Health": {
@@ -108802,7 +108814,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 396,
+   "last": 397,
    "last_ok": "2026-10-21"
   },
   "Morgan Stanley": {
@@ -108991,6 +109003,6 @@
    "last_ok": "2026-10-21"
   }
  },
- "updated": "2026-10-21T08:02:38Z",
+ "updated": "2026-10-21T08:49:59Z",
  "version": 1
 }
