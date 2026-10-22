@@ -30887,6 +30887,18 @@
    "title": "Software Engineer | Java/Golang/Python/ C/C++ | 2 to 4 years | Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027391"
   },
+  "cisco:f2d5cd9e6bd5": {
+   "company": "Cisco",
+   "first_seen": "2026-10-22",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026386-1"
+  },
   "cisco:f62f8fecbd53": {
    "company": "Cisco",
    "first_seen": "2026-10-08",
@@ -44081,6 +44093,18 @@
    "tier": "senior",
    "title": "Software Development Engineer III",
    "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-III_R-107910-2"
+  },
+  "expedia:4063e1744476": {
+   "company": "Expedia",
+   "first_seen": "2026-10-22",
+   "location": "India - Gurgaon",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-II_R-110421"
   },
   "expedia:437c618020d8": {
    "company": "Expedia",
@@ -111970,7 +111994,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 263,
+   "last": 262,
    "last_ok": "2026-10-22"
   },
   "Citi": {
@@ -112095,7 +112119,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 186,
+   "last": 187,
    "last_ok": "2026-10-22"
   },
   "Komodo Health": {
@@ -112225,7 +112249,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 108,
+   "last": 109,
    "last_ok": "2026-10-22"
   },
   "Samsara": {
@@ -112320,10 +112344,10 @@
   },
   "eBay": {
    "best": 90,
-   "last": 82,
+   "last": 81,
    "last_ok": "2026-10-22"
   }
  },
- "updated": "2026-10-22T05:20:39Z",
+ "updated": "2026-10-22T06:29:28Z",
  "version": 1
 }
