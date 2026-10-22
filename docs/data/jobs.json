@@ -116087,7 +116087,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 222,
+   "last": 221,
    "last_ok": "2026-10-22"
   },
   "Applied Materials": {
@@ -116167,7 +116167,7 @@
   },
   "Databricks": {
    "best": 903,
-   "last": 903,
+   "last": 902,
    "last_ok": "2026-10-22"
   },
   "Datadog": {
@@ -116192,7 +116192,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 129,
+   "last": 131,
    "last_ok": "2026-10-22"
   },
   "Experian": {
@@ -116272,7 +116272,7 @@
   },
   "Intel": {
    "best": 190,
-   "last": 188,
+   "last": 187,
    "last_ok": "2026-10-22"
   },
   "Komodo Health": {
@@ -116312,7 +116312,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 386,
+   "last": 388,
    "last_ok": "2026-10-22"
   },
   "Morgan Stanley": {
@@ -116357,12 +116357,12 @@
   },
   "Nvidia": {
    "best": 156,
-   "last": 152,
+   "last": 151,
    "last_ok": "2026-10-22"
   },
   "Okta": {
    "best": 400,
-   "last": 396,
+   "last": 397,
    "last_ok": "2026-10-22"
   },
   "PayPal": {
@@ -116437,7 +116437,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 725,
+   "last": 724,
    "last_ok": "2026-10-22"
   },
   "Target": {
@@ -116501,6 +116501,6 @@
    "last_ok": "2026-10-22"
   }
  },
- "updated": "2026-10-22T17:38:13Z",
+ "updated": "2026-10-22T18:08:19Z",
  "version": 1
 }
