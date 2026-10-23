@@ -22113,6 +22113,19 @@
    "url": "https://www.naukri.com/job-listings-fullstack-software-developer-ather-energy-bengaluru-3-to-5-years-131026012109",
    "workplace": "Work From Office"
   },
+  "atishay-limited:a7883f4353db": {
+   "company": "Atishay Limited",
+   "first_seen": "2026-10-23",
+   "location": "Thiruvananthapuram, Kerala, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4480063715"
+  },
   "atlan:00ce0dc33ad5": {
    "company": "Atlan",
    "department": "Engineering",
@@ -29700,6 +29713,20 @@
    "tier": "senior",
    "title": "Senior Software Engineer- Back End",
    "url": "https://careers.caterpillar.com/en/jobs/r0000367105/senior-software-engineer-back-end/"
+  },
+  "caterpillar:be6e779c71f1": {
+   "company": "Caterpillar",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://careers.caterpillar.com/en/jobs/r0000367108/software-engineer/"
   },
   "caterpillar:c077f24c5bb0": {
    "company": "Caterpillar",
@@ -71165,6 +71192,19 @@
    "title": "Software Engineer - Java [T500-29898]",
    "url": "https://www.linkedin.com/jobs/view/4475582298"
   },
+  "marriott-tech-accelerator:befa2a118a73": {
+   "company": "Marriott Tech Accelerator",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineering I - AEM [T500-30320]",
+   "url": "https://www.linkedin.com/jobs/view/4482480718"
+  },
   "marsh:ecf569fe6c26": {
    "company": "Marsh",
    "employment_type": "Full-time",
@@ -100538,6 +100578,19 @@
    "url": "https://www.naukri.com/job-listings-senior-java-developer-spring-boot-aws-tata-consultancy-services-kolkata-pune-chennai-7-to-9-years-221026034731",
    "workplace": "Work From Office"
   },
+  "tata-consultancy-services:af7b07db7240": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-22",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481628413"
+  },
   "tata-consultancy-services:b2cb43d8713e": {
    "company": "Tata Consultancy Services",
    "first_seen": "2026-10-09",
@@ -109476,6 +109529,19 @@
    "url": "https://www.naukri.com/job-listings-lead-ii-software-engineering-java-developer-ust-thiruvananthapuram-7-to-9-years-071026500182",
    "workplace": "Work From Office"
   },
+  "ust:dad9fb184802": {
+   "company": "UST",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead II - Software Engineering",
+   "url": "https://usource.ripplehire.com/candidate/?token=r2ZWImfBFNHRZ5aLoBmy&lang=en&source=INDEED&ref=INDEED#detail/job/66894"
+  },
   "ust:dae2a46dac47": {
    "company": "UST",
    "first_seen": "2026-10-18",
@@ -112401,6 +112467,19 @@
    "tier": "mid",
    "title": "Java developer",
    "url": "https://www.linkedin.com/jobs/view/4480803613"
+  },
+  "vysystems:c5158a773a35": {
+   "company": "VySystems",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-22",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "java python",
+   "url": "https://www.linkedin.com/jobs/view/4482488594"
   },
   "waferwire-cloud-technologies:ede5db976ac6": {
    "company": "Waferwire Cloud Technologies",
@@ -116446,440 +116525,440 @@
  "sources": {
   "Accenture": {
    "best": 384,
-   "last": 100,
+   "last": 0,
    "last_ok": "2026-10-22"
   },
   "Adobe": {
    "best": 80,
    "last": 44,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Agoda": {
    "best": 329,
    "last": 314,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Airbnb": {
    "best": 194,
-   "last": 190,
-   "last_ok": "2026-10-22"
+   "last": 192,
+   "last_ok": "2026-10-23"
   },
   "Amazon": {
    "best": 249,
-   "last": 220,
-   "last_ok": "2026-10-22"
+   "last": 219,
+   "last_ok": "2026-10-23"
   },
   "Applied Materials": {
    "best": 134,
    "last": 131,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Athenahealth": {
    "best": 40,
    "last": 37,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Atlan": {
    "best": 7,
    "last": 5,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Autodesk": {
    "best": 37,
    "last": 23,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Barclays": {
    "best": 240,
    "last": 226,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "BlackRock": {
    "best": 166,
    "last": 159,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Boeing": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Broadridge": {
    "best": 42,
    "last": 25,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "CRED": {
    "best": 9,
    "last": 8,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Capital One": {
    "best": 255,
    "last": 255,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Ciena": {
    "best": 9,
    "last": 9,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Cisco": {
    "best": 270,
-   "last": 264,
-   "last_ok": "2026-10-22"
+   "last": 265,
+   "last_ok": "2026-10-23"
   },
   "Citi": {
    "best": 292,
    "last": 274,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Cloudflare": {
    "best": 448,
-   "last": 442,
-   "last_ok": "2026-10-22"
+   "last": 446,
+   "last_ok": "2026-10-23"
   },
   "Coinbase": {
    "best": 230,
    "last": 223,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Databricks": {
    "best": 903,
    "last": 901,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Datadog": {
    "best": 445,
-   "last": 439,
-   "last_ok": "2026-10-22"
+   "last": 441,
+   "last_ok": "2026-10-23"
   },
   "Deutsche Bank": {
    "best": 162,
    "last": 150,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Druva": {
    "best": 38,
    "last": 32,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Elastic": {
    "best": 422,
    "last": 392,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Expedia": {
    "best": 137,
    "last": 131,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Experian": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Fidelity": {
    "best": 18,
    "last": 10,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Fivetran": {
    "best": 201,
-   "last": 168,
-   "last_ok": "2026-10-22"
+   "last": 170,
+   "last_ok": "2026-10-23"
   },
   "Flexport": {
    "best": 212,
    "last": 193,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Freshworks": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "GitLab": {
    "best": 233,
-   "last": 233,
-   "last_ok": "2026-10-22"
+   "last": 232,
+   "last_ok": "2026-10-23"
   },
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Groww": {
    "best": 11,
    "last": 10,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "HP": {
    "best": 95,
    "last": 70,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "HackerRank": {
    "best": 33,
    "last": 30,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Harvey": {
    "best": 351,
    "last": 347,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Hevo Data": {
    "best": 55,
    "last": 53,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "HighRadius": {
    "best": 80,
    "last": 70,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "InMobi": {
    "best": 82,
    "last": 80,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 231,
-   "last_ok": "2026-10-22"
+   "last": 228,
+   "last_ok": "2026-10-23"
   },
   "Intel": {
    "best": 191,
    "last": 191,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Komodo Health": {
    "best": 30,
    "last": 23,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 473,
-   "last_ok": "2026-10-22"
+   "last": 477,
+   "last_ok": "2026-10-23"
   },
   "Lowe's": {
    "best": 166,
    "last": 163,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Mastercard": {
    "best": 273,
-   "last": 267,
-   "last_ok": "2026-10-22"
+   "last": 266,
+   "last_ok": "2026-10-23"
   },
   "Meesho": {
    "best": 63,
    "last": 59,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Mindtickle": {
    "best": 21,
    "last": 21,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Mixpanel": {
    "best": 66,
    "last": 46,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "MongoDB": {
    "best": 405,
-   "last": 389,
-   "last_ok": "2026-10-22"
+   "last": 387,
+   "last_ok": "2026-10-23"
   },
   "Morgan Stanley": {
    "best": 102,
    "last": 95,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Motorola Solutions": {
    "best": 7,
    "last": 6,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 338,
-   "last_ok": "2026-10-22"
+   "last": 295,
+   "last_ok": "2026-10-23"
   },
   "Netskope": {
    "best": 154,
    "last": 126,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "New Relic": {
    "best": 59,
-   "last": 59,
-   "last_ok": "2026-10-22"
+   "last": 56,
+   "last_ok": "2026-10-23"
   },
   "NielsenIQ": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Nike": {
    "best": 180,
    "last": 164,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Notion": {
-   "best": 138,
-   "last": 138,
-   "last_ok": "2026-10-22"
+   "best": 139,
+   "last": 139,
+   "last_ok": "2026-10-23"
   },
   "Nvidia": {
    "best": 156,
    "last": 152,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Okta": {
    "best": 400,
-   "last": 396,
-   "last_ok": "2026-10-22"
+   "last": 395,
+   "last_ok": "2026-10-23"
   },
   "PayPal": {
    "best": 170,
    "last": 164,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Paytm": {
    "best": 196,
    "last": 196,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "PubMatic": {
    "best": 86,
    "last": 84,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Red Hat": {
    "best": 9,
    "last": 9,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Roblox": {
    "best": 268,
-   "last": 266,
-   "last_ok": "2026-10-22"
+   "last": 265,
+   "last_ok": "2026-10-23"
   },
   "Rubrik": {
    "best": 148,
    "last": 148,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Sabre": {
    "best": 45,
    "last": 39,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Salesforce": {
    "best": 113,
    "last": 108,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Samsara": {
    "best": 286,
    "last": 279,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Sarvam AI": {
    "best": 60,
    "last": 42,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "ServiceNow": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Sigmoid": {
    "best": 38,
    "last": 38,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Snowflake": {
    "best": 362,
    "last": 352,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "State Street": {
    "best": 161,
    "last": 146,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Stripe": {
    "best": 733,
-   "last": 727,
-   "last_ok": "2026-10-22"
+   "last": 728,
+   "last_ok": "2026-10-23"
   },
   "Target": {
    "best": 70,
    "last": 58,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Thomson Reuters": {
    "best": 8,
    "last": 6,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Toast": {
    "best": 331,
-   "last": 317,
-   "last_ok": "2026-10-22"
+   "last": 315,
+   "last_ok": "2026-10-23"
   },
   "Twilio": {
    "best": 148,
-   "last": 132,
-   "last_ok": "2026-10-22"
+   "last": 131,
+   "last_ok": "2026-10-23"
   },
   "Verizon": {
-   "best": 149,
-   "last": 149,
-   "last_ok": "2026-10-22"
+   "best": 150,
+   "last": 150,
+   "last_ok": "2026-10-23"
   },
   "Waymo": {
    "best": 374,
-   "last": 364,
-   "last_ok": "2026-10-22"
+   "last": 365,
+   "last_ok": "2026-10-23"
   },
   "Wells Fargo": {
    "best": 105,
    "last": 86,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Workday": {
    "best": 29,
    "last": 27,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Yugabyte": {
    "best": 16,
    "last": 14,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Zeta": {
    "best": 27,
    "last": 27,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   },
   "Zscaler": {
    "best": 380,
-   "last": 356,
-   "last_ok": "2026-10-22"
+   "last": 353,
+   "last_ok": "2026-10-23"
   },
   "eBay": {
    "best": 90,
    "last": 84,
-   "last_ok": "2026-10-22"
+   "last_ok": "2026-10-23"
   }
  },
- "updated": "2026-10-22T22:39:14Z",
+ "updated": "2026-10-23T00:58:37Z",
  "version": 1
 }
