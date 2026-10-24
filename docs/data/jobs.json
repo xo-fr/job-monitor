@@ -42921,6 +42921,20 @@
    "title": "Senior Associate, Application Developer, Institutional Banking Group Technology",
    "url": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Skyview-SEZ/Senior-Associate--Application-Developer--Institutional-Banking-Group-Technology_WD88792-1"
   },
+  "dbs-bank:47585d420846": {
+   "company": "DBS Bank",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-24",
+   "location": "TS, India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Associate/Senior Associate, Finacle Developer, Core Banking Technology",
+   "url": "https://dbs.wd3.myworkdayjobs.com/en-US/DBS_Careers/job/Hyderabad---DTI-Waverock-SEZ/Associate-Senior-Associate--Finacle-Developer--Core-Banking-Technology_WD90014"
+  },
   "dbs-bank:4cf5d7fca02c": {
    "company": "DBS Bank",
    "first_seen": "2026-10-15",
@@ -47391,6 +47405,19 @@
    "tier": "mid",
    "title": "Software Engineer - Fullstack",
    "url": "https://www.linkedin.com/jobs/view/4482719590"
+  },
+  "engradar:8129c8688583": {
+   "company": "EngRadar",
+   "first_seen": "2026-10-24",
+   "location": "Pune/Pimpri-Chinchwad Area",
+   "posted_at": "2026-10-24",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4483340277"
   },
   "engradar:8fbeecbf360c": {
    "company": "EngRadar",
@@ -75046,6 +75073,19 @@
    "title": "Senior Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4431927102"
   },
+  "lseg:745c42bedfc8": {
+   "company": "LSEG",
+   "first_seen": "2026-10-24",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4434662234"
+  },
   "lseg:b69cb8a7a46b": {
    "company": "LSEG",
    "first_seen": "2026-10-17",
@@ -76649,6 +76689,21 @@
    "tier": "mid",
    "title": "Java J2EE / Microservices – Migration & Backend Development",
    "url": "http://in.indeed.com/job/java-j2ee-microservices-migration-backend-development-7a1b044e54675ae2"
+  },
+  "maple-ai-technologies:3b3d69d4bca9": {
+   "comp": "₹2.16L - ₹2.4L / yr",
+   "company": "Maple AI Technologies",
+   "first_seen": "2026-10-24",
+   "location": "Gurugram(Sector 77), India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-maple-ai-technologies-gurugram-0-to-1-years-241026010728",
+   "workplace": "Work From Office"
   },
   "marketengine-ai:d7b696197054": {
    "company": "MarketEngine.ai",
@@ -91944,6 +91999,20 @@
    "url": "https://www.naukri.com/job-listings-lead-software-engineer-principal-global-services-pvt-ltd-pune-4-to-7-years-151026032621",
    "workplace": "Work From Office"
   },
+  "principal-global-services:d20dc0818b32": {
+   "company": "Principal Global Services",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-24",
+   "location": "MH, India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://careers.principal.com/in/jobs/53358/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f"
+  },
   "prm-digital:833247375539": {
    "comp": "₹15,000 - ₹30,000 / month",
    "company": "PRM Digital",
@@ -98698,6 +98767,19 @@
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4479977632"
   },
+  "scoutit:ac72c4976d04": {
+   "company": "Scoutit",
+   "first_seen": "2026-10-24",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482634010"
+  },
   "scribe:04e5b7e8732c": {
    "company": "Scribe",
    "first_seen": "2026-10-07",
@@ -101127,6 +101209,19 @@
    "tier": "senior",
    "title": "Senior Java + Golang Developer",
    "url": "https://www.linkedin.com/jobs/view/4475193339"
+  },
+  "snapmint:68de9374854c": {
+   "company": "Snapmint",
+   "first_seen": "2026-10-24",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Shopify Developer",
+   "url": "https://www.linkedin.com/jobs/view/4482829584"
   },
   "snow-planet:f1e797352ba6": {
    "company": "Snow Planet",
@@ -106975,6 +107070,20 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-tata-consultancy-services-hyderabad-chennai-bengaluru-7-to-12-years-051026016782",
    "workplace": "Work From Office"
   },
+  "tata-consultancy-services:4141261122bd": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-24",
+   "location": "Mumbai, Navi Mumbai, Mumbai (All Areas), India",
+   "posted_at": "2026-10-24",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Core Java Developer",
+   "url": "https://www.naukri.com/job-listings-core-java-developer-tata-consultancy-services-mumbai-navi-mumbai-mumbai-all-areas-4-to-7-years-241026010714",
+   "workplace": "Work From Office"
+  },
   "tata-consultancy-services:419d0b5ef086": {
    "company": "Tata Consultancy Services",
    "first_seen": "2026-10-06",
@@ -107851,6 +107960,19 @@
    "tier": "mid",
    "title": "Full Stack Engineer_ walk in _ indore",
    "url": "https://www.linkedin.com/jobs/view/4480872665"
+  },
+  "tata-consultancy-services:a9c0540a51f0": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-24",
+   "location": "Mumbai Metropolitan Region",
+   "posted_at": "2026-10-24",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Core Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4482649588"
   },
   "tata-consultancy-services:ae89cc458f6e": {
    "company": "Tata Consultancy Services",
@@ -112533,6 +112655,19 @@
    "tier": "mid",
    "title": "Software engineer",
    "url": "https://www.linkedin.com/jobs/view/4474908231"
+  },
+  "teradata:6ea1d4a20b80": {
+   "company": "Teradata",
+   "first_seen": "2026-10-24",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482639900"
   },
   "teradata:d3e79c0af2cc": {
    "company": "Teradata",
@@ -118541,6 +118676,19 @@
    "title": "Java Fullstack Developer",
    "url": "https://www.linkedin.com/jobs/view/4481320175"
   },
+  "viraaj-hr-solutions-private-limited:56a104b8e4bb": {
+   "company": "Viraaj HR Solutions Private Limited",
+   "first_seen": "2026-10-24",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481650842"
+  },
   "viraaj-hr-solutions-private-limited:5973c81284c1": {
    "company": "Viraaj HR Solutions Private Limited",
    "first_seen": "2026-10-22",
@@ -120075,6 +120223,19 @@
    "tier": "mid",
    "title": "Java Back End Developer",
    "url": "https://www.linkedin.com/jobs/view/4435804867"
+  },
+  "vontier:42fe041ffe29": {
+   "company": "Vontier",
+   "first_seen": "2026-10-24",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Engineer – Software Engineering",
+   "url": "https://www.linkedin.com/jobs/view/4482840939"
   },
   "vontier:62f117155724": {
    "company": "Vontier",
@@ -124663,7 +124824,7 @@
   },
   "Citi": {
    "best": 292,
-   "last": 263,
+   "last": 261,
    "last_ok": "2026-10-24"
   },
   "Cloudflare": {
@@ -124703,7 +124864,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 131,
+   "last": 130,
    "last_ok": "2026-10-24"
   },
   "Experian": {
@@ -124793,7 +124954,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 444,
+   "last": 432,
    "last_ok": "2026-10-24"
   },
   "Lowe's": {
@@ -124828,7 +124989,7 @@
   },
   "Morgan Stanley": {
    "best": 102,
-   "last": 93,
+   "last": 92,
    "last_ok": "2026-10-24"
   },
   "Motorola Solutions": {
@@ -124838,7 +124999,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 315,
+   "last": 314,
    "last_ok": "2026-10-24"
   },
   "Netskope": {
@@ -124918,7 +125079,7 @@
   },
   "Samsara": {
    "best": 286,
-   "last": 284,
+   "last": 283,
    "last_ok": "2026-10-24"
   },
   "Sarvam AI": {
@@ -124943,7 +125104,7 @@
   },
   "State Street": {
    "best": 161,
-   "last": 147,
+   "last": 146,
    "last_ok": "2026-10-24"
   },
   "Stripe": {
@@ -124983,7 +125144,7 @@
   },
   "Wells Fargo": {
    "best": 105,
-   "last": 91,
+   "last": 89,
    "last_ok": "2026-10-24"
   },
   "Workday": {
@@ -125012,6 +125173,6 @@
    "last_ok": "2026-10-24"
   }
  },
- "updated": "2026-10-24T18:19:01Z",
+ "updated": "2026-10-24T19:03:51Z",
  "version": 1
 }
