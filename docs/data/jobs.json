@@ -123118,7 +123118,7 @@
   "Adobe": {
    "best": 80,
    "last": 44,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Agoda": {
    "best": 329,
@@ -123133,7 +123133,7 @@
   "Amazon": {
    "best": 249,
    "last": 227,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Applied Materials": {
    "best": 134,
@@ -123193,7 +123193,7 @@
   "Cisco": {
    "best": 270,
    "last": 262,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Citi": {
    "best": 292,
@@ -123213,7 +123213,7 @@
   "Databricks": {
    "best": 903,
    "last": 895,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Datadog": {
    "best": 445,
@@ -123238,7 +123238,7 @@
   "Expedia": {
    "best": 137,
    "last": 131,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Experian": {
    "best": 100,
@@ -123273,7 +123273,7 @@
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Groww": {
    "best": 11,
@@ -123318,7 +123318,7 @@
   "Intel": {
    "best": 195,
    "last": 195,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Komodo Health": {
    "best": 30,
@@ -123358,7 +123358,7 @@
   "MongoDB": {
    "best": 405,
    "last": 383,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -123403,12 +123403,12 @@
   "Nvidia": {
    "best": 161,
    "last": 161,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Okta": {
    "best": 400,
-   "last": 389,
-   "last_ok": "2026-10-23"
+   "last": 390,
+   "last_ok": "2026-10-24"
   },
   "PayPal": {
    "best": 170,
@@ -123448,7 +123448,7 @@
   "Salesforce": {
    "best": 113,
    "last": 108,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   },
   "Samsara": {
    "best": 286,
@@ -123482,8 +123482,8 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 721,
-   "last_ok": "2026-10-23"
+   "last": 720,
+   "last_ok": "2026-10-24"
   },
   "Target": {
    "best": 70,
@@ -123543,9 +123543,9 @@
   "eBay": {
    "best": 90,
    "last": 85,
-   "last_ok": "2026-10-23"
+   "last_ok": "2026-10-24"
   }
  },
- "updated": "2026-10-23T23:24:01Z",
+ "updated": "2026-10-24T01:53:14Z",
  "version": 1
 }
