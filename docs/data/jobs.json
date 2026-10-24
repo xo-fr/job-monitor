@@ -17598,6 +17598,19 @@
    "url": "https://www.naukri.com/job-listings-software-engineer-aionos-hyderabad-5-to-7-years-011026010771",
    "workplace": "Work From Office"
   },
+  "aiotlogy-services-pvt-ltd:54cc3705baea": {
+   "company": "Aiotlogy Services pvt ltd.",
+   "first_seen": "2026-10-24",
+   "location": "India",
+   "posted_at": "2026-10-24",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481676908"
+  },
   "air-arabia:102351378be9": {
    "company": "Air Arabia",
    "first_seen": "2026-10-08",
@@ -41552,6 +41565,21 @@
    "url": "http://in.indeed.com/job/full-stack-developer-7cc6d47e6c5d03a8",
    "workplace": "Remote"
   },
+  "cp-career-solution:14a681bdfc6d": {
+   "comp": "₹35,000 - ₹70,000 / month",
+   "company": "Cp career solution",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-24",
+   "location": "TN, India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "IT Developer",
+   "url": "https://in.indeed.com/viewjob?jk=0bc016488271e4fe"
+  },
   "crashplan:c037ddd1e3d3": {
    "company": "CrashPlan",
    "first_seen": "2026-10-12",
@@ -48565,6 +48593,20 @@
    "title": "Senior Software Engineer",
    "url": "https://www.naukri.com/job-listings-senior-software-engineer-epam-systems-hyderabad-pune-bengaluru-5-to-10-years-061026015067",
    "workplace": "Work From Office"
+  },
+  "epam-systems:a3c645369b8e": {
+   "company": "Epam Systems",
+   "first_seen": "2026-10-24",
+   "location": "Hyderabad, Pune, Bengaluru, India",
+   "posted_at": "2026-10-24",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Hiring Java React Fullstack Developer",
+   "url": "https://www.naukri.com/job-listings-hiring-java-react-fullstack-developer-epam-systems-hyderabad-pune-bengaluru-5-to-9-years-251026000053",
+   "workplace": "Hybrid"
   },
   "epam-systems:a6165bd9f170": {
    "company": "Epam Systems",
@@ -59185,6 +59227,20 @@
    "tier": "mid",
    "title": "Java Developer",
    "url": "https://in.indeed.com/viewjob?jk=3a6a82a2bb363de3"
+  },
+  "hiringtag:381fbd466f88": {
+   "company": "HiringTag",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-24",
+   "location": "RJ, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://in.indeed.com/viewjob?jk=f1364023148495bc"
   },
   "hiringtag:7561d63d01de": {
    "company": "HiringTag",
@@ -76526,6 +76582,19 @@
    "title": "Full Stack Developer",
    "url": "https://in.indeed.com/viewjob?jk=6704da96da36bea7"
   },
+  "magnet-hr-tech-digital:8d866713f8a4": {
+   "company": "Magnet HR Tech Digital",
+   "first_seen": "2026-10-24",
+   "location": "Gurugram, Haryana, India",
+   "posted_at": "2026-10-24",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Developer - CFAPI (Cloud Files API)",
+   "url": "https://www.linkedin.com/jobs/view/4482663466"
+  },
   "mahindra-mahindra-ltd:3943e91c7b17": {
    "company": "Mahindra & Mahindra Ltd",
    "first_seen": "2026-10-13",
@@ -79126,6 +79195,19 @@
    "tier": "mid",
    "title": "Java Backend Developer",
    "url": "https://in.indeed.com/viewjob?jk=4a15e8efb9add451"
+  },
+  "metasys-technologies:6257b5171994": {
+   "company": "Metasys Technologies",
+   "first_seen": "2026-10-24",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "JAVA Fullstack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481651469"
   },
   "metasys-technologies:c307252ba062": {
    "company": "Metasys Technologies",
@@ -102144,6 +102226,19 @@
    "title": "Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4478856769"
   },
+  "sosuv:0647012fc414": {
+   "company": "Sosuv",
+   "first_seen": "2026-10-24",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-24",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481060903"
+  },
   "soti:3639baf96169": {
    "company": "SOTI",
    "first_seen": "2026-10-02",
@@ -124824,7 +124919,7 @@
   },
   "Citi": {
    "best": 292,
-   "last": 261,
+   "last": 260,
    "last_ok": "2026-10-24"
   },
   "Cloudflare": {
@@ -124939,7 +125034,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 215,
+   "last": 206,
    "last_ok": "2026-10-24"
   },
   "Intel": {
@@ -124954,17 +125049,17 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 432,
+   "last": 434,
    "last_ok": "2026-10-24"
   },
   "Lowe's": {
    "best": 166,
-   "last": 157,
+   "last": 158,
    "last_ok": "2026-10-24"
   },
   "Mastercard": {
    "best": 273,
-   "last": 266,
+   "last": 264,
    "last_ok": "2026-10-24"
   },
   "Meesho": {
@@ -124999,7 +125094,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 314,
+   "last": 315,
    "last_ok": "2026-10-24"
   },
   "Netskope": {
@@ -125104,7 +125199,7 @@
   },
   "State Street": {
    "best": 161,
-   "last": 146,
+   "last": 147,
    "last_ok": "2026-10-24"
   },
   "Stripe": {
@@ -125173,6 +125268,6 @@
    "last_ok": "2026-10-24"
   }
  },
- "updated": "2026-10-24T21:48:15Z",
+ "updated": "2026-10-24T22:47:55Z",
  "version": 1
 }
