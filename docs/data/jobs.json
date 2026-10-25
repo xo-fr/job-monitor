@@ -21026,6 +21026,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10582579/software-development-engineer-cam",
    "yoe": 2
   },
+  "amazon:b355cffa1fc1": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-25",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Dev Engineer, Advertising Core Infra",
+   "url": "https://www.amazon.jobs/en/jobs/10588063/sr-software-dev-engineer-advertising-core-infra",
+   "yoe": 5
+  },
   "amazon:b3b6c5ce41ec": {
    "company": "Amazon",
    "department": "Software Development",
@@ -126289,6 +126304,6 @@
    "last_ok": "2026-10-25"
   }
  },
- "updated": "2026-10-25T16:49:46Z",
+ "updated": "2026-10-25T17:11:28Z",
  "version": 1
 }
