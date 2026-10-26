@@ -16771,6 +16771,19 @@
    "url": "https://www.naukri.com/job-listings-senior-software-engineer-aditi-consulting-pune-4-to-7-years-221026033428",
    "workplace": "Work From Office"
   },
+  "aditi-consulting:a0dca9b43ca2": {
+   "company": "Aditi Consulting",
+   "first_seen": "2026-10-26",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-25",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4479517846"
+  },
   "aditi-consulting:bab8bb8f9dba": {
    "company": "Aditi Consulting",
    "first_seen": "2026-10-04",
@@ -19519,6 +19532,20 @@
    "title": "Software Dev Engineer II, Amazon Leo",
    "url": "https://www.amazon.jobs/jobs/10503919/software-dev-engineer-ii-amazon-leo?cmpid=DA_INAD200785B"
   },
+  "amazon-com:a2ba08edb6e2": {
+   "company": "Amazon.com",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-26",
+   "location": "KA, India",
+   "posted_at": "2026-10-25",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Dev Engineer, Advertising Core Infra",
+   "url": "https://www.amazon.jobs/jobs/10588063/sr-software-dev-engineer-advertising-core-infra?cmpid=DA_INAD200785B"
+  },
   "amazon-com:ab378c2d6cc2": {
    "company": "Amazon.com",
    "employment_type": "Full-time",
@@ -22055,6 +22082,32 @@
    "title": "Senior Software Engineer – Java/Spark",
    "url": "https://www.linkedin.com/jobs/view/4475521991"
   },
+  "anchora:a50d4f251ce8": {
+   "company": "Anchora",
+   "first_seen": "2026-10-26",
+   "location": "India",
+   "posted_at": "2026-10-25",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer - AEM",
+   "url": "https://www.linkedin.com/jobs/view/4482909364"
+  },
+  "anchora:c7f87ab06dd6": {
+   "company": "Anchora",
+   "first_seen": "2026-10-26",
+   "location": "India",
+   "posted_at": "2026-10-25",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full Stack Engineer - AEM",
+   "url": "https://www.linkedin.com/jobs/view/4482906460"
+  },
   "ancit-consulting:ca75edb7ee05": {
    "company": "Ancit Consulting",
    "first_seen": "2026-10-16",
@@ -22194,6 +22247,19 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://in.indeed.com/viewjob?jk=79d75184060cbdbf"
+  },
+  "ansira:ce50725f1f70": {
+   "company": "Ansira",
+   "first_seen": "2026-10-26",
+   "location": "Greater Bengaluru Area",
+   "posted_at": "2026-10-25",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4481416105"
   },
   "ansr:1e0042008d39": {
    "company": "ANSR",
@@ -30474,6 +30540,19 @@
    "title": "Java Developer",
    "url": "https://www.naukri.com/job-listings-java-developer-bright-academy-marathalli-hyderabad-bengaluru-5-to-10-years-101026014813",
    "workplace": "Hybrid"
+  },
+  "brightchamps:39245447210b": {
+   "company": "BrightCHAMPS",
+   "first_seen": "2026-10-26",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-25",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full-Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482676772"
   },
   "brigosha-technologies:45787b56cd50": {
    "company": "Brigosha Technologies",
@@ -49848,6 +49927,19 @@
    "tier": "senior",
    "title": "Senior Software Engineer - C",
    "url": "https://jobs.ericsson.com/careers/job/563121777445305?domain=ericsson.com"
+  },
+  "ericsson:742bc3b5aebc": {
+   "company": "Ericsson",
+   "first_seen": "2026-10-26",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-25",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - C",
+   "url": "https://www.linkedin.com/jobs/view/4482699603"
   },
   "eroute-technologies:47d17c11beeb": {
    "company": "Eroute Technologies",
@@ -72379,6 +72471,19 @@
    "tier": "senior",
    "title": "Software Engineer III - Java Backend, AWS, Kafka",
    "url": "https://www.linkedin.com/jobs/view/4473055911"
+  },
+  "jpmorganchase:984888d89a53": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-10-26",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-24",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer II",
+   "url": "https://www.linkedin.com/jobs/view/4483308066"
   },
   "jpmorganchase:9bf03f1df481": {
    "company": "JPMorganChase",
@@ -118554,6 +118659,19 @@
    "title": "Developer III - Mulesoft Developer",
    "url": "https://usource.ripplehire.com/candidate/?token=vcqV7AFlQvFBWNJ3SMr2&lang=en&source=INDEED&ref=INDEED#detail/job/66442"
   },
+  "ust:bec76d5bf614": {
+   "company": "UST",
+   "first_seen": "2026-10-26",
+   "location": "KA, India",
+   "posted_at": "2026-10-25",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead I - Java & React.js Full-Stack Cloud Engineer",
+   "url": "https://usource.ripplehire.com/candidate/?token=89XcWFCc90RWszxT8ZHv&lang=en&source=INDEED&ref=INDEED#detail/job/67173"
+  },
   "ust:c6cc22ac95fc": {
    "company": "UST",
    "first_seen": "2026-10-02",
@@ -123511,6 +123629,19 @@
    "url": "https://www.naukri.com/job-listings-5g-nr-vran-layer-3-rrc-developer-wipro-bengaluru-3-to-6-years-231026034026",
    "workplace": "Hybrid"
   },
+  "wipro:d8d6966e1400": {
+   "company": "Wipro",
+   "first_seen": "2026-10-26",
+   "location": "Mumbai Metropolitan Region",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "DEVELOPER L3",
+   "url": "https://www.linkedin.com/jobs/view/4483501879"
+  },
   "wipro:e184b7eb19ee": {
    "company": "Wipro",
    "first_seen": "2026-10-04",
@@ -123523,6 +123654,19 @@
    "tier": "mid",
    "title": "DEVELOPER L4",
    "url": "https://www.linkedin.com/jobs/view/4475359343"
+  },
+  "wipro:ef57b22d7ea5": {
+   "company": "Wipro",
+   "first_seen": "2026-10-26",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "DEVELOPER L4",
+   "url": "https://www.linkedin.com/jobs/view/4483501878"
   },
   "wipro:f1956d5755df": {
    "company": "Wipro",
@@ -126155,439 +126299,439 @@
   "Accenture": {
    "best": 385,
    "last": 385,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Adobe": {
    "best": 80,
    "last": 44,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Agoda": {
    "best": 329,
    "last": 314,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Airbnb": {
    "best": 196,
    "last": 190,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Amazon": {
    "best": 249,
    "last": 229,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Applied Materials": {
    "best": 134,
    "last": 130,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Athenahealth": {
    "best": 40,
    "last": 37,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Atlan": {
    "best": 7,
    "last": 6,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Autodesk": {
    "best": 37,
    "last": 24,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Barclays": {
    "best": 240,
-   "last": 229,
-   "last_ok": "2026-10-25"
+   "last": 228,
+   "last_ok": "2026-10-26"
   },
   "BlackRock": {
    "best": 166,
-   "last": 156,
-   "last_ok": "2026-10-25"
+   "last": 155,
+   "last_ok": "2026-10-26"
   },
   "Boeing": {
    "best": 8,
    "last": 3,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Broadridge": {
    "best": 42,
    "last": 27,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "CRED": {
    "best": 9,
    "last": 8,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Capital One": {
    "best": 264,
-   "last": 258,
-   "last_ok": "2026-10-25"
+   "last": 248,
+   "last_ok": "2026-10-26"
   },
   "Ciena": {
    "best": 11,
    "last": 11,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Cisco": {
    "best": 270,
-   "last": 260,
-   "last_ok": "2026-10-25"
+   "last": 261,
+   "last_ok": "2026-10-26"
   },
   "Citi": {
    "best": 292,
    "last": 258,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Cloudflare": {
    "best": 454,
    "last": 454,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Coinbase": {
    "best": 230,
    "last": 227,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Databricks": {
    "best": 903,
    "last": 895,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Datadog": {
    "best": 445,
    "last": 433,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Deutsche Bank": {
    "best": 162,
    "last": 149,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Druva": {
    "best": 38,
    "last": 31,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Elastic": {
    "best": 422,
    "last": 402,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Expedia": {
    "best": 137,
-   "last": 128,
-   "last_ok": "2026-10-25"
+   "last": 129,
+   "last_ok": "2026-10-26"
   },
   "Experian": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Fidelity": {
    "best": 18,
    "last": 9,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Fivetran": {
    "best": 201,
    "last": 171,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Flexport": {
    "best": 212,
    "last": 190,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Freshworks": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "GitLab": {
    "best": 239,
    "last": 239,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Groww": {
    "best": 11,
    "last": 10,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "HP": {
    "best": 95,
    "last": 72,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "HackerRank": {
    "best": 33,
    "last": 30,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Harvey": {
    "best": 358,
    "last": 358,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Hevo Data": {
    "best": 55,
    "last": 53,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "HighRadius": {
    "best": 80,
    "last": 69,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "InMobi": {
    "best": 82,
    "last": 82,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 96,
-   "last_ok": "2026-10-25"
+   "last": 89,
+   "last_ok": "2026-10-26"
   },
   "Intel": {
    "best": 195,
    "last": 194,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Komodo Health": {
    "best": 30,
    "last": 24,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 359,
-   "last_ok": "2026-10-25"
+   "last": 351,
+   "last_ok": "2026-10-26"
   },
   "Lowe's": {
    "best": 166,
    "last": 157,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Mastercard": {
    "best": 273,
-   "last": 266,
-   "last_ok": "2026-10-25"
+   "last": 264,
+   "last_ok": "2026-10-26"
   },
   "Meesho": {
    "best": 63,
    "last": 58,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Mindtickle": {
    "best": 21,
    "last": 21,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Mixpanel": {
    "best": 66,
    "last": 46,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "MongoDB": {
    "best": 405,
    "last": 381,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Morgan Stanley": {
    "best": 102,
    "last": 92,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Motorola Solutions": {
    "best": 7,
    "last": 6,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 206,
-   "last_ok": "2026-10-25"
+   "last": 208,
+   "last_ok": "2026-10-26"
   },
   "Netskope": {
    "best": 154,
    "last": 128,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "New Relic": {
    "best": 59,
    "last": 55,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "NielsenIQ": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Nike": {
    "best": 180,
    "last": 161,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Notion": {
    "best": 140,
    "last": 140,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Nvidia": {
    "best": 161,
    "last": 161,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Okta": {
    "best": 400,
    "last": 390,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "PayPal": {
    "best": 170,
    "last": 167,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Paytm": {
    "best": 197,
    "last": 196,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "PubMatic": {
    "best": 86,
    "last": 85,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Red Hat": {
    "best": 9,
    "last": 9,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Roblox": {
    "best": 269,
    "last": 269,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Rubrik": {
    "best": 150,
    "last": 148,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Sabre": {
    "best": 45,
    "last": 39,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Salesforce": {
    "best": 113,
    "last": 104,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Samsara": {
    "best": 287,
    "last": 287,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Sarvam AI": {
    "best": 60,
    "last": 44,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "ServiceNow": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Sigmoid": {
    "best": 39,
    "last": 39,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Snowflake": {
    "best": 362,
    "last": 355,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "State Street": {
    "best": 161,
    "last": 143,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Stripe": {
    "best": 733,
    "last": 718,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Target": {
    "best": 70,
    "last": 57,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Thomson Reuters": {
    "best": 8,
    "last": 6,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Toast": {
    "best": 331,
    "last": 321,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Twilio": {
    "best": 148,
    "last": 133,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Verizon": {
    "best": 150,
    "last": 137,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Waymo": {
    "best": 374,
    "last": 366,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Wells Fargo": {
    "best": 105,
    "last": 80,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Workday": {
    "best": 29,
    "last": 25,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Yugabyte": {
    "best": 16,
    "last": 14,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Zeta": {
    "best": 27,
    "last": 27,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "Zscaler": {
    "best": 380,
    "last": 352,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   },
   "eBay": {
    "best": 90,
    "last": 85,
-   "last_ok": "2026-10-25"
+   "last_ok": "2026-10-26"
   }
  },
- "updated": "2026-10-25T23:29:34Z",
+ "updated": "2026-10-26T00:42:32Z",
  "version": 1
 }
