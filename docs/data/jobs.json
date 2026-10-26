@@ -35260,6 +35260,18 @@
    "title": "Software Engineer - Go, Java Dockers, Kubernetes, AWS",
    "url": "https://www.linkedin.com/jobs/view/4478784453"
   },
+  "cisco:3619c648d920": {
+   "company": "Cisco",
+   "first_seen": "2026-10-26",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-26",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering Technical Leader",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader_2029656"
+  },
   "cisco:370342d2c898": {
    "company": "Cisco",
    "first_seen": "2026-10-15",
@@ -128018,7 +128030,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 43,
+   "last": 40,
    "last_ok": "2026-10-26"
   },
   "Agoda": {
@@ -128093,7 +128105,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 260,
+   "last": 261,
    "last_ok": "2026-10-26"
   },
   "Citi": {
@@ -128113,7 +128125,7 @@
   },
   "Databricks": {
    "best": 903,
-   "last": 893,
+   "last": 892,
    "last_ok": "2026-10-26"
   },
   "Datadog": {
@@ -128138,7 +128150,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 119,
+   "last": 120,
    "last_ok": "2026-10-26"
   },
   "Experian": {
@@ -128443,10 +128455,10 @@
   },
   "eBay": {
    "best": 90,
-   "last": 86,
+   "last": 89,
    "last_ok": "2026-10-26"
   }
  },
- "updated": "2026-10-26T08:09:59Z",
+ "updated": "2026-10-26T09:18:09Z",
  "version": 1
 }
