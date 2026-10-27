@@ -36322,6 +36322,18 @@
    "title": "Software Engineer | Java/Golang/Python | 2 to 4 years | Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Java-Golang-Python---2-to-4-years---Bangalore_2027382"
   },
+  "cisco:116f294dc882": {
+   "company": "Cisco",
+   "first_seen": "2026-10-27",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026410-1"
+  },
   "cisco:13d5dafa43e7": {
    "company": "Cisco",
    "first_seen": "2026-10-12",
@@ -133431,7 +133443,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 237,
+   "last": 238,
    "last_ok": "2026-10-27"
   },
   "Applied Materials": {
@@ -133491,7 +133503,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 256,
+   "last": 254,
    "last_ok": "2026-10-27"
   },
   "Citi": {
@@ -133511,7 +133523,7 @@
   },
   "Databricks": {
    "best": 903,
-   "last": 899,
+   "last": 898,
    "last_ok": "2026-10-27"
   },
   "Datadog": {
@@ -133616,7 +133628,7 @@
   },
   "Intel": {
    "best": 196,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-10-27"
   },
   "Komodo Health": {
@@ -133706,7 +133718,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 390,
+   "last": 389,
    "last_ok": "2026-10-27"
   },
   "PayPal": {
@@ -133845,6 +133857,6 @@
    "last_ok": "2026-10-27"
   }
  },
- "updated": "2026-10-27T08:17:15Z",
+ "updated": "2026-10-27T09:17:43Z",
  "version": 1
 }
