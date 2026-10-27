@@ -36536,6 +36536,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027586-1"
   },
+  "cisco:0872f81d9c69": {
+   "company": "Cisco",
+   "first_seen": "2026-10-27",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2028348-1"
+  },
   "cisco:0ce63adc56cd": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -86617,6 +86629,18 @@
    "title": "Software Engineer 3",
    "url": "https://www.mongodb.com/careers/job/?gh_jid=7993984"
   },
+  "mongodb:c56ae4a93f66": {
+   "company": "MongoDB",
+   "first_seen": "2026-10-27",
+   "location": "Gurugram",
+   "posted_at": "2026-10-27",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8323897"
+  },
   "mongodb:d3565e21712f": {
    "company": "MongoDB",
    "first_seen": "2026-10-02",
@@ -135068,7 +135092,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 239,
+   "last": 238,
    "last_ok": "2026-10-27"
   },
   "Applied Materials": {
@@ -135128,7 +135152,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 250,
+   "last": 256,
    "last_ok": "2026-10-27"
   },
   "Citi": {
@@ -135173,7 +135197,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 123,
+   "last": 121,
    "last_ok": "2026-10-27"
   },
   "Experian": {
@@ -135252,8 +135276,8 @@
    "last_ok": "2026-10-27"
   },
   "Intel": {
-   "best": 196,
-   "last": 196,
+   "best": 197,
+   "last": 197,
    "last_ok": "2026-10-27"
   },
   "Komodo Health": {
@@ -135338,12 +135362,12 @@
   },
   "Nvidia": {
    "best": 161,
-   "last": 161,
+   "last": 160,
    "last_ok": "2026-10-27"
   },
   "Okta": {
    "best": 400,
-   "last": 391,
+   "last": 393,
    "last_ok": "2026-10-27"
   },
   "PayPal": {
@@ -135383,7 +135407,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 107,
+   "last": 103,
    "last_ok": "2026-10-27"
   },
   "Samsara": {
@@ -135418,7 +135442,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 711,
+   "last": 714,
    "last_ok": "2026-10-27"
   },
   "Target": {
@@ -135482,6 +135506,6 @@
    "last_ok": "2026-10-27"
   }
  },
- "updated": "2026-10-27T15:30:43Z",
+ "updated": "2026-10-27T20:14:09Z",
  "version": 1
 }
