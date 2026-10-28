@@ -21298,6 +21298,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10555781/software-development-engineer-ii",
    "yoe": 2
   },
+  "amazon:402314c08eb3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-28",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Dev Engineer II, Amazon Now (Tez)",
+   "url": "https://www.amazon.jobs/en/jobs/10590988/software-dev-engineer-ii-amazon-now-tez",
+   "yoe": 2
+  },
   "amazon:46209bb4e01e": {
    "company": "Amazon",
    "department": "Software Development",
@@ -21562,6 +21577,21 @@
    "tier": "mid",
    "title": "Software Development Engineer - II",
    "url": "https://www.amazon.jobs/en/jobs/10576700/software-development-engineer-ii",
+   "yoe": 2
+  },
+  "amazon:62c6b44c9720": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-28",
+   "location": "Gurugram, Haryana, IND",
+   "posted_at": "2026-09-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Relay Yard Automation, Relay Yard Automation",
+   "url": "https://www.amazon.jobs/en/jobs/10557433/software-development-engineer-ii-relay-yard-automation-relay-yard-automation",
    "yoe": 2
   },
   "amazon:6380b14d7f5f": {
@@ -37379,6 +37409,18 @@
    "title": "Technical Leader – Java/Go, Microservice & Database  | 11-15 Years | Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Technical-Leader---Java-Go--Microservice---Database----11-15-Years---Bangalore_2023977"
   },
+  "cisco:05ab6a60c3be": {
+   "company": "Cisco",
+   "first_seen": "2026-10-28",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2023169-2"
+  },
   "cisco:068809ce51a9": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -38018,6 +38060,18 @@
    "tier": "mid",
    "title": "Software Development Engineer – Routing Platforms",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Development-Engineer---Routing--C--Linux_2011886"
+  },
+  "cisco:6683b5c19932": {
+   "company": "Cisco",
+   "first_seen": "2026-10-28",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-28",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer (Java/ Go, AWS | 8-12 years)",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer--Java--Go--AWS---8-12-years-_2029922"
   },
   "cisco:67b414742125": {
    "company": "Cisco",
@@ -138382,7 +138436,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 239,
+   "last": 238,
    "last_ok": "2026-10-28"
   },
   "Applied Materials": {
@@ -138442,7 +138496,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 256,
+   "last": 251,
    "last_ok": "2026-10-28"
   },
   "Citi": {
@@ -138462,7 +138516,7 @@
   },
   "Databricks": {
    "best": 903,
-   "last": 894,
+   "last": 893,
    "last_ok": "2026-10-28"
   },
   "Datadog": {
@@ -138487,7 +138541,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 118,
+   "last": 117,
    "last_ok": "2026-10-28"
   },
   "Experian": {
@@ -138607,7 +138661,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 363,
+   "last": 365,
    "last_ok": "2026-10-28"
   },
   "Morgan Stanley": {
@@ -138657,7 +138711,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 385,
+   "last": 384,
    "last_ok": "2026-10-28"
   },
   "PayPal": {
@@ -138697,7 +138751,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 102,
+   "last": 105,
    "last_ok": "2026-10-28"
   },
   "Samsara": {
@@ -138732,7 +138786,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 714,
+   "last": 715,
    "last_ok": "2026-10-28"
   },
   "Target": {
@@ -138791,11 +138845,11 @@
    "last_ok": "2026-10-28"
   },
   "eBay": {
-   "best": 90,
-   "last": 89,
+   "best": 92,
+   "last": 92,
    "last_ok": "2026-10-28"
   }
  },
- "updated": "2026-10-28T09:00:18Z",
+ "updated": "2026-10-28T14:21:49Z",
  "version": 1
 }
