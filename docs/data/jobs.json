@@ -22127,6 +22127,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10584599/software-development-engineer-ww-returns-and-recommerce",
    "yoe": 2
   },
+  "amazon:bde9933b8286": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-28",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Dev Engineer, Alexa LLM Inference, Capacity, & Efficiency",
+   "url": "https://www.amazon.jobs/en/jobs/10586506/sr-software-dev-engineer-alexa-llm-inference-capacity-efficiency",
+   "yoe": 5
+  },
   "amazon:c6f4b3f43d08": {
    "company": "Amazon",
    "department": "Software Development",
@@ -22503,6 +22518,21 @@
    "tier": "mid",
    "title": "SDE II, EE Experiences, Progressive Discovery and Monetization",
    "url": "https://www.amazon.jobs/en/jobs/10576822/sde-ii-ee-experiences-progressive-discovery-and-monetization",
+   "yoe": 2
+  },
+  "amazon:ed1bc0cfe8af": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-28",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-28",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Amazon Regulatory and Trade Services (ARTS Tech)",
+   "url": "https://www.amazon.jobs/en/jobs/10590891/software-development-engineer-amazon-regulatory-and-trade-services-arts-tech",
    "yoe": 2
   },
   "amazon:ee012cfc6fcf": {
@@ -36858,6 +36888,18 @@
    "title": "Power Bi Developer",
    "url": "https://www.naukri.com/job-listings-power-bi-developer-cirruslabs-hyderabad-mangaluru-bengaluru-5-to-9-years-271026018963",
    "workplace": "Hybrid"
+  },
+  "cisco:011681b67ebc": {
+   "company": "Cisco",
+   "first_seen": "2026-10-28",
+   "location": "Gurgaon, India",
+   "posted_at": "2026-10-28",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer -  Private 5G Platform",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Gurgaon-India/Software-Engineer----Private-5G-Platform_2025404"
   },
   "cisco:03e02ecb0f5f": {
    "company": "Cisco",
@@ -136793,7 +136835,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 252,
+   "last": 257,
    "last_ok": "2026-10-28"
   },
   "Citi": {
@@ -136813,7 +136855,7 @@
   },
   "Databricks": {
    "best": 903,
-   "last": 898,
+   "last": 893,
    "last_ok": "2026-10-28"
   },
   "Datadog": {
@@ -136838,7 +136880,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 119,
+   "last": 117,
    "last_ok": "2026-10-28"
   },
   "Experian": {
@@ -136918,7 +136960,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 198,
+   "last": 195,
    "last_ok": "2026-10-28"
   },
   "Komodo Health": {
@@ -137008,7 +137050,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 387,
+   "last": 385,
    "last_ok": "2026-10-28"
   },
   "PayPal": {
@@ -137083,7 +137125,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 713,
+   "last": 714,
    "last_ok": "2026-10-28"
   },
   "Target": {
@@ -137147,6 +137189,6 @@
    "last_ok": "2026-10-28"
   }
  },
- "updated": "2026-10-28T01:41:55Z",
+ "updated": "2026-10-28T07:15:08Z",
  "version": 1
 }
