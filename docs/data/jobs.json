@@ -23169,6 +23169,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10570043/software-development-engineer-ii-int-l-technologyeuregionalfund",
    "yoe": 2
   },
+  "amazon:7d21c7c68e36": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Chennai, Tamil Nadu, IND",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Alexa Connections",
+   "url": "https://www.amazon.jobs/en/jobs/10592247/software-development-engineer-alexa-connections",
+   "yoe": 2
+  },
   "amazon:7dcfa6e1ed4b": {
    "company": "Amazon",
    "department": "Software Development",
@@ -24109,6 +24124,21 @@
    "title": "Sr. Software Development Engineer, PCT Partner Connection Technology",
    "url": "https://www.amazon.jobs/en/jobs/10587573/sr-software-development-engineer-pct-partner-connection-technology",
    "yoe": 5
+  },
+  "amazon:ffa7f10e556e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-29",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, AFT Sortation, AFT Mansort",
+   "url": "https://www.amazon.jobs/en/jobs/10592289/software-development-engineer-ii-aft-sortation-aft-mansort",
+   "yoe": 2
   },
   "amazure-technologies-pvt-ltd:748b0a62e8cc": {
    "company": "Amazure Technologies Pvt Ltd",
@@ -64696,6 +64726,17 @@
    "title": "Software Engineer, EngProd, Google One and Google Photos",
    "url": "https://www.google.com/about/careers/applications/jobs/results/128780495415583430-software-engineer-engprod-google-one-and-google-photos"
   },
+  "google:0ad36cdb22df": {
+   "company": "Google",
+   "first_seen": "2026-10-29",
+   "location": "Hyderabad, Telangana, India",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer, Full Stack",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/126573622838862534-software-engineer-full-stack"
+  },
   "google:0e20ccad7d6b": {
    "company": "Google",
    "first_seen": "2026-10-02",
@@ -100610,6 +100651,18 @@
    "tier": "senior",
    "title": "Senior Fullstack Engineer (Java + React.js)",
    "url": "https://www.okta.com/company/careers/opportunity/8185311?gh_jid=8185311"
+  },
+  "okta:36338aee9363": {
+   "company": "Okta",
+   "first_seen": "2026-10-29",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8263823?gh_jid=8263823"
   },
   "okta:3a6d7c888d02": {
    "company": "Okta",
@@ -145169,7 +145222,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 236,
+   "last": 238,
    "last_ok": "2026-10-29"
   },
   "Applied Materials": {
@@ -145229,7 +145282,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 247,
+   "last": 249,
    "last_ok": "2026-10-29"
   },
   "Citi": {
@@ -145274,7 +145327,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 124,
+   "last": 128,
    "last_ok": "2026-10-29"
   },
   "Experian": {
@@ -145354,7 +145407,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-10-29"
   },
   "Komodo Health": {
@@ -145394,7 +145447,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 368,
+   "last": 369,
    "last_ok": "2026-10-29"
   },
   "Morgan Stanley": {
@@ -145519,7 +145572,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 725,
+   "last": 728,
    "last_ok": "2026-10-29"
   },
   "Target": {
@@ -145583,6 +145636,6 @@
    "last_ok": "2026-10-29"
   }
  },
- "updated": "2026-10-29T13:39:52Z",
+ "updated": "2026-10-29T16:23:17Z",
  "version": 1
 }
