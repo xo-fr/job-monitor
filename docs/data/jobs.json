@@ -40241,6 +40241,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026347"
   },
+  "cisco:b15e171eb967": {
+   "company": "Cisco",
+   "first_seen": "2026-10-29",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2015025"
+  },
   "cisco:b2bbb9a51164": {
    "company": "Cisco",
    "first_seen": "2026-10-29",
@@ -40252,6 +40264,18 @@
    "tier": "mid",
    "title": "Leader, Software Engineering",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Leader--Software-Engineering_2029533"
+  },
+  "cisco:b5d43a24a4d4": {
+   "company": "Cisco",
+   "first_seen": "2026-10-29",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-29",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering Technical Leader (GO/Java | 10-15 yrs)",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader--GO-Java---10-15-yrs-_2029920"
   },
   "cisco:b70fe1865f04": {
    "company": "Cisco",
@@ -111984,6 +112008,18 @@
    "title": "Software Engineering PMTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-PMTS_JR359744"
   },
+  "salesforce:f77c3a20e797": {
+   "company": "Salesforce",
+   "first_seen": "2026-10-29",
+   "location": "2 Locations",
+   "posted_at": "2026-10-29",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering AMTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering-AMTS_JR307116"
+  },
   "salesforce:f9c6287dff14": {
    "company": "Salesforce",
    "first_seen": "2026-10-05",
@@ -142931,7 +142967,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 237,
+   "last": 238,
    "last_ok": "2026-10-29"
   },
   "Applied Materials": {
@@ -143116,7 +143152,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 194,
+   "last": 193,
    "last_ok": "2026-10-29"
   },
   "Komodo Health": {
@@ -143206,7 +143242,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 381,
+   "last": 383,
    "last_ok": "2026-10-29"
   },
   "PayPal": {
@@ -143281,7 +143317,7 @@
   },
   "Stripe": {
    "best": 733,
-   "last": 722,
+   "last": 723,
    "last_ok": "2026-10-29"
   },
   "Target": {
@@ -143345,6 +143381,6 @@
    "last_ok": "2026-10-29"
   }
  },
- "updated": "2026-10-29T06:22:09Z",
+ "updated": "2026-10-29T07:35:52Z",
  "version": 1
 }
