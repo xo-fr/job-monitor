@@ -41687,6 +41687,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026305-1"
   },
+  "cisco:c8328118ef7d": {
+   "company": "Cisco",
+   "first_seen": "2026-10-30",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026640-2"
+  },
   "cisco:ccd8d751bef3": {
    "company": "Cisco",
    "first_seen": "2026-10-07",
@@ -41811,6 +41823,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2024078-1"
+  },
+  "cisco:e861105b6204": {
+   "company": "Cisco",
+   "first_seen": "2026-10-30",
+   "location": "Bangalore, India",
+   "posted_at": "2026-10-30",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027017"
   },
   "cisco:eb888ce7c77c": {
    "company": "Cisco",
@@ -148013,7 +148037,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 249,
+   "last": 254,
    "last_ok": "2026-10-30"
   },
   "Citi": {
@@ -148033,7 +148057,7 @@
   },
   "Databricks": {
    "best": 909,
-   "last": 901,
+   "last": 903,
    "last_ok": "2026-10-30"
   },
   "Datadog": {
@@ -148058,7 +148082,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 119,
+   "last": 115,
    "last_ok": "2026-10-30"
   },
   "Experian": {
@@ -148138,7 +148162,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 189,
+   "last": 188,
    "last_ok": "2026-10-30"
   },
   "Komodo Health": {
@@ -148178,7 +148202,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 368,
+   "last": 369,
    "last_ok": "2026-10-30"
   },
   "Morgan Stanley": {
@@ -148223,7 +148247,7 @@
   },
   "Nvidia": {
    "best": 161,
-   "last": 160,
+   "last": 158,
    "last_ok": "2026-10-30"
   },
   "Okta": {
@@ -148268,7 +148292,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 90,
+   "last": 96,
    "last_ok": "2026-10-30"
   },
   "Samsara": {
@@ -148302,8 +148326,8 @@
    "last_ok": "2026-10-30"
   },
   "Stripe": {
-   "best": 738,
-   "last": 738,
+   "best": 740,
+   "last": 740,
    "last_ok": "2026-10-30"
   },
   "Target": {
@@ -148362,11 +148386,11 @@
    "last_ok": "2026-10-30"
   },
   "eBay": {
-   "best": 97,
-   "last": 97,
+   "best": 99,
+   "last": 99,
    "last_ok": "2026-10-30"
   }
  },
- "updated": "2026-10-30T06:20:18Z",
+ "updated": "2026-10-30T10:23:33Z",
  "version": 1
 }
