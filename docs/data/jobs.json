@@ -152900,7 +152900,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 0,
+   "last": 38,
    "last_ok": "2026-10-31"
   },
   "Agoda": {
@@ -152915,7 +152915,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 237,
+   "last": 235,
    "last_ok": "2026-10-31"
   },
   "Applied Materials": {
@@ -152975,7 +152975,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 0,
+   "last": 265,
    "last_ok": "2026-10-31"
   },
   "Citi": {
@@ -153100,7 +153100,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 0,
+   "last": 188,
    "last_ok": "2026-10-31"
   },
   "Komodo Health": {
@@ -153185,7 +153185,7 @@
   },
   "Nvidia": {
    "best": 161,
-   "last": 0,
+   "last": 157,
    "last_ok": "2026-10-31"
   },
   "Okta": {
@@ -153230,7 +153230,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 92,
+   "last": 93,
    "last_ok": "2026-10-31"
   },
   "Samsara": {
@@ -153325,10 +153325,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 0,
+   "last": 91,
    "last_ok": "2026-10-31"
   }
  },
- "updated": "2026-10-31T06:16:25Z",
+ "updated": "2026-10-31T09:54:32Z",
  "version": 1
 }
