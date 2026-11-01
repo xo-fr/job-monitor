@@ -153909,7 +153909,7 @@
   "Adobe": {
    "best": 80,
    "last": 38,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Agoda": {
    "best": 329,
@@ -153924,7 +153924,7 @@
   "Amazon": {
    "best": 249,
    "last": 235,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Applied Materials": {
    "best": 134,
@@ -153984,7 +153984,7 @@
   "Cisco": {
    "best": 270,
    "last": 265,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Citi": {
    "best": 292,
@@ -154004,7 +154004,7 @@
   "Databricks": {
    "best": 909,
    "last": 901,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Datadog": {
    "best": 445,
@@ -154028,8 +154028,8 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 112,
-   "last_ok": "2026-10-31"
+   "last": 113,
+   "last_ok": "2026-11-01"
   },
   "Experian": {
    "best": 100,
@@ -154064,7 +154064,7 @@
   "Google": {
    "best": 105,
    "last": 104,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Groww": {
    "best": 11,
@@ -154109,7 +154109,7 @@
   "Intel": {
    "best": 198,
    "last": 190,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Komodo Health": {
    "best": 30,
@@ -154149,7 +154149,7 @@
   "MongoDB": {
    "best": 405,
    "last": 366,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -154194,12 +154194,12 @@
   "Nvidia": {
    "best": 161,
    "last": 157,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Okta": {
    "best": 400,
    "last": 387,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "PayPal": {
    "best": 170,
@@ -154239,7 +154239,7 @@
   "Salesforce": {
    "best": 113,
    "last": 91,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Samsara": {
    "best": 328,
@@ -154274,7 +154274,7 @@
   "Stripe": {
    "best": 748,
    "last": 745,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   },
   "Target": {
    "best": 76,
@@ -154334,9 +154334,9 @@
   "eBay": {
    "best": 101,
    "last": 91,
-   "last_ok": "2026-10-31"
+   "last_ok": "2026-11-01"
   }
  },
- "updated": "2026-10-31T23:41:19Z",
+ "updated": "2026-11-01T00:19:54Z",
  "version": 1
 }
