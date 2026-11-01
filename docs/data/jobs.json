@@ -4336,6 +4336,18 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5487677-S2003825"
   },
+  "accenture:262812db9313": {
+   "company": "Accenture",
+   "first_seen": "2026-11-01",
+   "location": "Gurugram",
+   "posted_at": "2026-11-01",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Gurugram/Custom-Software-Engineer_ATCI-5608135-S2026473-1"
+  },
   "accenture:2659df806e39": {
    "company": "Accenture",
    "first_seen": "2026-10-07",
@@ -28657,6 +28669,20 @@
    "url": "https://www.naukri.com/job-listings-software-developer-video-management-systems-vms-video-analytics-arvind-group-pune-4-to-9-years-301026030316",
    "workplace": "Work From Office"
   },
+  "ascendion-engineering:0222aa68f936": {
+   "company": "Ascendion Engineering",
+   "first_seen": "2026-11-01",
+   "location": "Hyderabad, Chennai, Bengaluru, India",
+   "posted_at": "2026-11-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Edifecs Development Engineer",
+   "url": "https://www.naukri.com/job-listings-java-edifecs-development-engineer-ascendion-india-pvt-ltd-hyderabad-chennai-bengaluru-10-to-15-years-021126000373",
+   "workplace": "Work From Office"
+  },
   "ascendion-engineering:0e3d1647d0e5": {
    "company": "Ascendion Engineering",
    "first_seen": "2026-10-27",
@@ -51855,6 +51881,21 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4481435550"
   },
+  "credsolve-technologies:f2fb273e345a": {
+   "comp": "₹12L - ₹14.4L / yr",
+   "company": "Credsolve Technologies",
+   "first_seen": "2026-11-01",
+   "location": "Noida, India",
+   "posted_at": "2026-11-01",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Backend Developer (FinTech / LMS, LOS)",
+   "url": "https://www.naukri.com/job-listings-senior-backend-developer-fintech-lms-los-moneycash-noida-8-to-13-years-021126000050",
+   "workplace": "Work From Office"
+  },
   "credsolve:c4b2fa1f1391": {
    "comp": "₹12L - ₹14.4L / yr",
    "company": "Credsolve",
@@ -55461,6 +55502,21 @@
    "title": "Technical lead/Senior developer role - AVP",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebSite/job/Pune---Margarpatta/IT-Application-Owner---AVP_R0391072"
   },
+  "deveda-vedic-pandit-puja-services:656c18a7a000": {
+   "comp": "₹8.4L - ₹12L / yr",
+   "company": "Deveda Vedic Pandit & Puja Services",
+   "first_seen": "2026-11-01",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-01",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Back End Developer",
+   "url": "https://www.naukri.com/job-listings-back-end-developer-deveda-vedic-pandit-puja-services-bengaluru-0-to-3-years-021126000342",
+   "workplace": "Work From Office"
+  },
   "developer-bazaar-technologies:3aa8b6a083f7": {
    "company": "Developer Bazaar Technologies",
    "employment_type": "Full-time",
@@ -55927,6 +55983,20 @@
    "tier": "senior",
    "title": "Senior Software Engineer",
    "url": "https://in.indeed.com/viewjob?jk=6af4a47a368f3c6c"
+  },
+  "digitalxnode:25dc70e599fa": {
+   "company": "DigitalXNode",
+   "first_seen": "2026-11-01",
+   "location": "Navi Mumbai, Maharashtra, India",
+   "posted_at": "2026-10-30",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java AWS Developer | Remote | Jobs In India",
+   "url": "https://www.linkedin.com/jobs/view/4485627696",
+   "workplace": "Remote"
   },
   "digitalxnode:8c9664d14797": {
    "company": "DigitalXNode",
@@ -59474,6 +59544,21 @@
    "tier": "senior",
    "title": "Senior Software Engineer - Java with Spring Boot",
    "url": "https://careers.epam.com/en/vacancy/blt3rgho41nx6j2tuvw_en?city=Coimbatore&state=Tamil%20Nadu&country=India&utm_source=indeed&utm_medium=xml-job-feed&utm_campaign=ta"
+  },
+  "epam-systems:299232852dcf": {
+   "comp": "₹25L - ₹40L / yr",
+   "company": "Epam Systems",
+   "first_seen": "2026-11-01",
+   "location": "Hyderabad, Pune, Bengaluru, India",
+   "posted_at": "2026-11-01",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Fullstack Developer",
+   "url": "https://www.naukri.com/job-listings-fullstack-developer-epam-systems-hyderabad-pune-bengaluru-7-to-12-years-011126004726",
+   "workplace": "Work From Office"
   },
   "epam-systems:29e6619f8969": {
    "company": "Epam Systems",
@@ -110317,6 +110402,20 @@
    "title": "Senior Software Consultant",
    "url": "https://www.linkedin.com/jobs/view/4472028356"
   },
+  "parkar-global-technologies:424201708089": {
+   "company": "Parkar Global Technologies",
+   "first_seen": "2026-11-01",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-11-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-parkar-global-technologies-hyderabad-5-to-10-years-011126004595",
+   "workplace": "Hybrid"
+  },
   "paroksya:8fe4cced7e1c": {
    "comp": "₹15,000 - ₹22,000 / month",
    "company": "Paroksya",
@@ -110514,6 +110613,19 @@
    "tier": "mid",
    "title": "Cloud Platform Software Engineer",
    "url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Bangalore-Karnataka-India/Software-Engineer_R0137893"
+  },
+  "paypal:38614cc0497f": {
+   "company": "PayPal",
+   "first_seen": "2026-11-01",
+   "location": "TN, India",
+   "posted_at": "2026-11-01",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Backend (Java)",
+   "url": "https://paypal.eightfold.ai/careers/job/274922788515"
   },
   "paypal:43dff5dc6671": {
    "company": "PayPal",
@@ -142841,6 +142953,32 @@
    "title": "Software Engineering Technical Lead, Bangalore",
    "url": "https://www.linkedin.com/jobs/view/4442631596"
   },
+  "trintech:7901f3dbb6f0": {
+   "company": "Trintech",
+   "first_seen": "2026-11-01",
+   "location": "Noida, Uttar Pradesh, India",
+   "posted_at": "2026-10-31",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer (Smalltalk)",
+   "url": "https://www.linkedin.com/jobs/view/4467839198"
+  },
+  "trintech:7fce4b58d186": {
+   "company": "Trintech",
+   "first_seen": "2026-11-01",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-31",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer (Smalltalk)",
+   "url": "https://www.linkedin.com/jobs/view/4467837511"
+  },
   "trintech:96ffa8cd8089": {
    "company": "Trintech",
    "first_seen": "2026-10-12",
@@ -151907,6 +152045,21 @@
    "title": "Sr Software Application Engineer",
    "url": "https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/INDPune/Sr-Software-Application-Engineer_JR-0109519-1"
   },
+  "workplace:b08faf496759": {
+   "comp": "₹3.84L - ₹16.5L / yr",
+   "company": "workplace",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-01",
+   "location": "UP, India",
+   "posted_at": "2026-11-01",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack ERP Developer",
+   "url": "https://in.indeed.com/viewjob?jk=0d12b02565d449e3"
+  },
   "worktual-innovations:71c50a590993": {
    "company": "Worktual Innovations",
    "first_seen": "2026-11-01",
@@ -154536,7 +154689,7 @@
   },
   "Agoda": {
    "best": 329,
-   "last": 312,
+   "last": 311,
    "last_ok": "2026-11-01"
   },
   "Airbnb": {
@@ -154571,12 +154724,12 @@
   },
   "Barclays": {
    "best": 240,
-   "last": 222,
+   "last": 220,
    "last_ok": "2026-11-01"
   },
   "BlackRock": {
    "best": 166,
-   "last": 142,
+   "last": 141,
    "last_ok": "2026-11-01"
   },
   "Boeing": {
@@ -154586,7 +154739,7 @@
   },
   "Broadridge": {
    "best": 42,
-   "last": 26,
+   "last": 25,
    "last_ok": "2026-11-01"
   },
   "CRED": {
@@ -154611,7 +154764,7 @@
   },
   "Citi": {
    "best": 292,
-   "last": 270,
+   "last": 267,
    "last_ok": "2026-11-01"
   },
   "Cloudflare": {
@@ -154726,7 +154879,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 95,
+   "last": 67,
    "last_ok": "2026-11-01"
   },
   "Intel": {
@@ -154741,7 +154894,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 210,
+   "last": 125,
    "last_ok": "2026-11-01"
   },
   "Lowe's": {
@@ -154776,7 +154929,7 @@
   },
   "Morgan Stanley": {
    "best": 102,
-   "last": 88,
+   "last": 87,
    "last_ok": "2026-11-01"
   },
   "Motorola Solutions": {
@@ -154786,7 +154939,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 185,
+   "last": 180,
    "last_ok": "2026-11-01"
   },
   "Netskope": {
@@ -154861,12 +155014,12 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 93,
+   "last": 88,
    "last_ok": "2026-11-01"
   },
   "Samsara": {
-   "best": 338,
-   "last": 338,
+   "best": 340,
+   "last": 340,
    "last_ok": "2026-11-01"
   },
   "Sarvam AI": {
@@ -154891,12 +155044,12 @@
   },
   "State Street": {
    "best": 161,
-   "last": 116,
+   "last": 114,
    "last_ok": "2026-11-01"
   },
   "Stripe": {
    "best": 748,
-   "last": 746,
+   "last": 745,
    "last_ok": "2026-11-01"
   },
   "Target": {
@@ -154911,7 +155064,7 @@
   },
   "Toast": {
    "best": 342,
-   "last": 329,
+   "last": 330,
    "last_ok": "2026-11-01"
   },
   "Twilio": {
@@ -154931,7 +155084,7 @@
   },
   "Wells Fargo": {
    "best": 123,
-   "last": 80,
+   "last": 61,
    "last_ok": "2026-11-01"
   },
   "Workday": {
@@ -154960,6 +155113,6 @@
    "last_ok": "2026-11-01"
   }
  },
- "updated": "2026-11-01T16:15:54Z",
+ "updated": "2026-11-01T20:44:52Z",
  "version": 1
 }
