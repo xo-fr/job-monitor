@@ -25173,6 +25173,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10590988/software-dev-engineer-ii-amazon-now-tez",
    "yoe": 2
   },
+  "amazon:42de41560593": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-02",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, AFT Flow, AFT OB&Flow",
+   "url": "https://www.amazon.jobs/en/jobs/10594535/software-development-engineer-ii-aft-flow-aft-ob-flow",
+   "yoe": 2
+  },
   "amazon:46209bb4e01e": {
    "company": "Amazon",
    "department": "Software Development",
@@ -44004,6 +44019,18 @@
    "title": "Software Engineer - Go, Java Dockers, Kubernetes, AWS",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Go--Java-Dockers--Kubernetes--AWS_2022884-1"
   },
+  "cisco:3cfdfcfff32e": {
+   "company": "Cisco",
+   "first_seen": "2026-11-02",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Senior-Software-Engineer_2027582-1"
+  },
   "cisco:400854ff86ca": {
    "company": "Cisco",
    "first_seen": "2026-10-09",
@@ -44039,6 +44066,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026818-1"
+  },
+  "cisco:49625bad10a7": {
+   "company": "Cisco",
+   "first_seen": "2026-11-02",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2023748"
   },
   "cisco:498ca364e0e0": {
    "company": "Cisco",
@@ -44679,6 +44718,18 @@
    "tier": "mid",
    "title": "Software Engineer | Solution Validation, Benchmarking & Release Engineer | 8+ years",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Solution-Validation--Benchmarking---Release-Engineer---8--years_2027373"
+  },
+  "cisco:a8cc7b15476e": {
+   "company": "Cisco",
+   "first_seen": "2026-11-02",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2023746"
   },
   "cisco:a96171452482": {
    "company": "Cisco",
@@ -63703,6 +63754,18 @@
    "url": "https://www.naukri.com/job-listings-software-development-engineer-iii-back-end-expedia-group-gurugram-6-to-11-years-011026502667",
    "workplace": "Work From Office"
   },
+  "expedia:1680eac4ca63": {
+   "company": "Expedia",
+   "first_seen": "2026-11-02",
+   "location": "India - Bangalore",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Bangalore/Software-Development-Engineer-II_R-108740"
+  },
   "expedia:217c997aa383": {
    "company": "Expedia",
    "first_seen": "2026-10-07",
@@ -70738,6 +70801,17 @@
    "title": "Software Engineer, Search",
    "url": "https://www.google.com/about/careers/applications/jobs/results/122710813273137862-software-engineer-search"
   },
+  "google:58f8cefe0f33": {
+   "company": "Google",
+   "first_seen": "2026-11-02",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "platform",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer, Infrastructure, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/117123006865515206-senior-software-engineer-infrastructure-google-cloud"
+  },
   "google:5f350a015edb": {
    "company": "Google",
    "first_seen": "2026-10-03",
@@ -70784,6 +70858,17 @@
    "tier": "senior",
    "title": "Senior Software Engineer, Google One",
    "url": "https://www.google.com/about/careers/applications/jobs/results/88945216790110918-senior-software-engineer-google-one"
+  },
+  "google:95f02cce6e73": {
+   "company": "Google",
+   "first_seen": "2026-11-02",
+   "location": "Hyderabad, Telangana, India",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer, Security, Privacy, Detection",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/118745886028112582-software-engineer-security-privacy-detection"
   },
   "google:96817ffba8a5": {
    "company": "Google",
@@ -157274,7 +157359,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 233,
+   "last": 230,
    "last_ok": "2026-11-02"
   },
   "Applied Materials": {
@@ -157334,7 +157419,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 262,
+   "last": 263,
    "last_ok": "2026-11-02"
   },
   "Citi": {
@@ -157353,8 +157438,8 @@
    "last_ok": "2026-11-02"
   },
   "Databricks": {
-   "best": 910,
-   "last": 910,
+   "best": 912,
+   "last": 912,
    "last_ok": "2026-11-02"
   },
   "Datadog": {
@@ -157379,7 +157464,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 109,
+   "last": 115,
    "last_ok": "2026-11-02"
   },
   "Experian": {
@@ -157414,7 +157499,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 103,
+   "last": 101,
    "last_ok": "2026-11-02"
   },
   "Groww": {
@@ -157459,7 +157544,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 192,
+   "last": 190,
    "last_ok": "2026-11-02"
   },
   "Komodo Health": {
@@ -157499,7 +157584,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 364,
+   "last": 358,
    "last_ok": "2026-11-02"
   },
   "Morgan Stanley": {
@@ -157543,13 +157628,13 @@
    "last_ok": "2026-11-02"
   },
   "Nvidia": {
-   "best": 161,
-   "last": 157,
+   "best": 165,
+   "last": 165,
    "last_ok": "2026-11-02"
   },
   "Okta": {
    "best": 400,
-   "last": 389,
+   "last": 394,
    "last_ok": "2026-11-02"
   },
   "PayPal": {
@@ -157589,7 +157674,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 84,
+   "last": 83,
    "last_ok": "2026-11-02"
   },
   "Samsara": {
@@ -157624,7 +157709,7 @@
   },
   "Stripe": {
    "best": 748,
-   "last": 748,
+   "last": 739,
    "last_ok": "2026-11-02"
   },
   "Target": {
@@ -157688,6 +157773,6 @@
    "last_ok": "2026-11-02"
   }
  },
- "updated": "2026-11-02T09:55:23Z",
+ "updated": "2026-11-02T19:42:24Z",
  "version": 1
 }
