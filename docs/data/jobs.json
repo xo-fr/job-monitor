@@ -24841,6 +24841,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10570061/software-development-engineer-ii-eu-intech-partner-growth-experience",
    "yoe": 2
   },
+  "amazon:75e21d1178e3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-02",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II , Amazon Pay",
+   "url": "https://www.amazon.jobs/en/jobs/10594189/software-development-engineer-ii-amazon-pay",
+   "yoe": 2
+  },
   "amazon:78c42225b1ed": {
    "company": "Amazon",
    "first_seen": "2026-10-24",
@@ -24928,6 +24943,21 @@
    "title": "Software Dev Engineer II, Emerging Device Software",
    "url": "https://www.amazon.jobs/en/jobs/10562263/software-dev-engineer-ii-emerging-device-software",
    "yoe": 3
+  },
+  "amazon:82a92b0b9152": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-02",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-09-12",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Amazon Now",
+   "url": "https://www.amazon.jobs/en/jobs/10538206/software-development-engineer-ii-amazon-now",
+   "yoe": 2
   },
   "amazon:8407ff910589": {
    "company": "Amazon",
@@ -43542,6 +43572,18 @@
    "tier": "mid",
    "title": "Technical Systems Engineer (Full-Stack) - Splunk",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Pune-India/Technical-Systems-Engineer--Full-Stack----Splunk_2020546-1"
+  },
+  "cisco:97813247420f": {
+   "company": "Cisco",
+   "first_seen": "2026-11-02",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027270-1"
   },
   "cisco:9b056cb0fc4c": {
    "company": "Cisco",
@@ -154919,7 +154961,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 235,
+   "last": 233,
    "last_ok": "2026-11-02"
   },
   "Applied Materials": {
@@ -154979,7 +155021,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 264,
+   "last": 263,
    "last_ok": "2026-11-02"
   },
   "Citi": {
@@ -154998,8 +155040,8 @@
    "last_ok": "2026-11-02"
   },
   "Databricks": {
-   "best": 909,
-   "last": 909,
+   "best": 910,
+   "last": 910,
    "last_ok": "2026-11-02"
   },
   "Datadog": {
@@ -155024,7 +155066,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 111,
+   "last": 109,
    "last_ok": "2026-11-02"
   },
   "Experian": {
@@ -155059,7 +155101,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 104,
+   "last": 103,
    "last_ok": "2026-11-02"
   },
   "Groww": {
@@ -155104,7 +155146,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-11-02"
   },
   "Komodo Health": {
@@ -155144,7 +155186,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 366,
+   "last": 364,
    "last_ok": "2026-11-02"
   },
   "Morgan Stanley": {
@@ -155194,7 +155236,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 386,
+   "last": 388,
    "last_ok": "2026-11-02"
   },
   "PayPal": {
@@ -155234,7 +155276,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 88,
+   "last": 87,
    "last_ok": "2026-11-02"
   },
   "Samsara": {
@@ -155333,6 +155375,6 @@
    "last_ok": "2026-11-02"
   }
  },
- "updated": "2026-11-02T01:45:33Z",
+ "updated": "2026-11-02T08:06:17Z",
  "version": 1
 }
