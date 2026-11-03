@@ -73032,6 +73032,17 @@
    "title": "Software Engineer III, Full Stack, Cloud",
    "url": "https://careers.google.com/jobs/results/131572375555580614-software-engineer-iii/"
   },
+  "google:c7c09f3c9935": {
+   "company": "Google",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "platform",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer III, Infrastructure, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/76889161985860294-software-engineer-iii-infrastructure-google-cloud"
+  },
   "google:c7cce380efc6": {
    "company": "Google",
    "first_seen": "2026-10-02",
@@ -162510,7 +162521,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 227,
+   "last": 228,
    "last_ok": "2026-11-03"
   },
   "Applied Materials": {
@@ -162570,7 +162581,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 264,
+   "last": 259,
    "last_ok": "2026-11-03"
   },
   "Citi": {
@@ -162590,7 +162601,7 @@
   },
   "Databricks": {
    "best": 914,
-   "last": 912,
+   "last": 910,
    "last_ok": "2026-11-03"
   },
   "Datadog": {
@@ -162615,7 +162626,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 114,
+   "last": 112,
    "last_ok": "2026-11-03"
   },
   "Experian": {
@@ -162735,7 +162746,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 357,
+   "last": 358,
    "last_ok": "2026-11-03"
   },
   "Morgan Stanley": {
@@ -162785,7 +162796,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 395,
+   "last": 391,
    "last_ok": "2026-11-03"
   },
   "PayPal": {
@@ -162825,7 +162836,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 94,
+   "last": 86,
    "last_ok": "2026-11-03"
   },
   "Samsara": {
@@ -162860,7 +162871,7 @@
   },
   "Stripe": {
    "best": 748,
-   "last": 737,
+   "last": 740,
    "last_ok": "2026-11-03"
   },
   "Target": {
@@ -162920,10 +162931,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 86,
+   "last": 88,
    "last_ok": "2026-11-03"
   }
  },
- "updated": "2026-11-03T12:20:26Z",
+ "updated": "2026-11-03T18:37:54Z",
  "version": 1
 }
