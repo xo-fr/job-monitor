@@ -26663,6 +26663,21 @@
    "title": "Senior Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4478335023"
   },
+  "amazon:ce519de3518d": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-03",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer , AWS & Ads Performance Benchmarks",
+   "url": "https://www.amazon.jobs/en/jobs/10595059/software-development-engineer-aws-ads-performance-benchmarks",
+   "yoe": 2
+  },
   "amazon:d285f6c63344": {
    "company": "Amazon",
    "department": "Software Development",
@@ -45672,6 +45687,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027309-1"
+  },
+  "cisco:fdf64e070b32": {
+   "company": "Cisco",
+   "first_seen": "2026-11-03",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-03",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2022835-1"
   },
   "cisco:feb8a9d35c49": {
    "company": "Cisco",
@@ -160155,7 +160182,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 38,
+   "last": 36,
    "last_ok": "2026-11-03"
   },
   "Agoda": {
@@ -160250,7 +160277,7 @@
   },
   "Databricks": {
    "best": 914,
-   "last": 910,
+   "last": 911,
    "last_ok": "2026-11-03"
   },
   "Datadog": {
@@ -160275,7 +160302,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 113,
+   "last": 114,
    "last_ok": "2026-11-03"
   },
   "Experian": {
@@ -160310,7 +160337,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 101,
+   "last": 102,
    "last_ok": "2026-11-03"
   },
   "Groww": {
@@ -160355,7 +160382,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-11-03"
   },
   "Komodo Health": {
@@ -160395,7 +160422,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 358,
+   "last": 359,
    "last_ok": "2026-11-03"
   },
   "Morgan Stanley": {
@@ -160439,13 +160466,13 @@
    "last_ok": "2026-11-03"
   },
   "Nvidia": {
-   "best": 166,
-   "last": 166,
+   "best": 168,
+   "last": 168,
    "last_ok": "2026-11-03"
   },
   "Okta": {
    "best": 400,
-   "last": 396,
+   "last": 395,
    "last_ok": "2026-11-03"
   },
   "PayPal": {
@@ -160485,7 +160512,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 83,
+   "last": 93,
    "last_ok": "2026-11-03"
   },
   "Samsara": {
@@ -160520,7 +160547,7 @@
   },
   "Stripe": {
    "best": 748,
-   "last": 740,
+   "last": 738,
    "last_ok": "2026-11-03"
   },
   "Target": {
@@ -160584,6 +160611,6 @@
    "last_ok": "2026-11-03"
   }
  },
- "updated": "2026-11-03T03:02:13Z",
+ "updated": "2026-11-03T11:15:41Z",
  "version": 1
 }
