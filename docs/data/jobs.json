@@ -25452,6 +25452,21 @@
    "title": "Software Development Engineer II, Amazon Now (Tez)",
    "url": "https://www.linkedin.com/jobs/view/4467073955"
   },
+  "amazon:07dcf1d4d300": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-04",
+   "role": "platform",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Sports Data Platform - Prime Video Sports",
+   "url": "https://www.amazon.jobs/en/jobs/10589830/software-development-engineer-sports-data-platform-prime-video-sports",
+   "yoe": 2
+  },
   "amazon:0bb3d0b470b7": {
    "company": "Amazon",
    "first_seen": "2026-10-03",
@@ -25665,6 +25680,21 @@
    "title": "Software Dev Engineer 2",
    "url": "https://www.linkedin.com/jobs/view/4465827463"
   },
+  "amazon:268e982ed412": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Alexa Connectivity Devices",
+   "url": "https://www.amazon.jobs/en/jobs/10596462/software-development-engineer-ii-alexa-connectivity-devices",
+   "yoe": 2
+  },
   "amazon:29fdd91a0feb": {
    "company": "Amazon",
    "department": "Software Development",
@@ -25863,6 +25893,21 @@
    "tier": "mid",
    "title": "Software Dev Engineer II, Amazon Now (Tez)",
    "url": "https://www.amazon.jobs/en/jobs/10590988/software-dev-engineer-ii-amazon-now-tez",
+   "yoe": 2
+  },
+  "amazon:428f840301f8": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Alexa Connectivity Devices",
+   "url": "https://www.amazon.jobs/en/jobs/10596460/software-development-engineer-ii-alexa-connectivity-devices",
    "yoe": 2
   },
   "amazon:42de41560593": {
@@ -26365,6 +26410,21 @@
    "title": "Software Development Engineer II, Unified Auth SDK",
    "url": "https://www.amazon.jobs/en/jobs/10562604/software-development-engineer-ii-unified-auth-sdk",
    "yoe": 2
+  },
+  "amazon:74645b362887": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Alexa Connectivity Devices",
+   "url": "https://www.amazon.jobs/en/jobs/10596459/software-development-engineer-alexa-connectivity-devices",
+   "yoe": 5
   },
   "amazon:749e47d1f286": {
    "company": "Amazon",
@@ -27408,6 +27468,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10530717/software-dev-engineer-ii-paragon-workbench",
    "yoe": 2
   },
+  "amazon:f62164b631d3": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Alexa Connectivity Devices",
+   "url": "https://www.amazon.jobs/en/jobs/10596464/software-development-engineer-ii-alexa-connectivity-devices",
+   "yoe": 2
+  },
   "amazon:f6bb1256511f": {
    "company": "Amazon",
    "department": "Software Development",
@@ -27452,6 +27527,21 @@
    "title": "Sr. Software Development Engineer, PCT Partner Connection Technology",
    "url": "https://www.amazon.jobs/en/jobs/10587573/sr-software-development-engineer-pct-partner-connection-technology",
    "yoe": 5
+  },
+  "amazon:fe0eab2ddd73": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Alexa Connectivity Devices",
+   "url": "https://www.amazon.jobs/en/jobs/10596461/software-development-engineer-ii-alexa-connectivity-devices",
+   "yoe": 2
   },
   "amazon:feaf9eab9cdb": {
    "company": "Amazon",
@@ -46528,6 +46618,18 @@
    "tier": "mid",
    "title": "Software Engineer, Backend - Bangalore | 4-8 Yrs",
    "url": "https://www.linkedin.com/jobs/view/4484096921"
+  },
+  "cisco:f61707b3a8c0": {
+   "company": "Cisco",
+   "first_seen": "2026-11-04",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-04",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer | Java/Golang/Python/C or C++ | 2 to 4 years | Bangalore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Java-Golang-Python-C-or-C-----2-to-4-years---Bangalore_2027378"
   },
   "cisco:f62f8fecbd53": {
    "company": "Cisco",
@@ -73764,6 +73866,17 @@
    "title": "Senior Software Engineer, Full Stack, Core",
    "url": "https://www.linkedin.com/jobs/view/4456025485"
   },
+  "google:5f6a6f4db8be": {
+   "company": "Google",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer, Core",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/114874935083442886-senior-software-engineer-core"
+  },
   "google:62909910c174": {
    "company": "Google",
    "first_seen": "2026-11-04",
@@ -73786,6 +73899,17 @@
    "tier": "senior",
    "title": "Senior Software Engineer, Search",
    "url": "https://www.google.com/about/careers/applications/jobs/results/138472965292335814-senior-software-engineer-search"
+  },
+  "google:6c491db50d77": {
+   "company": "Google",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer, Full Stack, Search",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/140357903763546822-senior-software-engineer-full-stack-search"
   },
   "google:6f4004841415": {
    "company": "Google",
@@ -73832,6 +73956,17 @@
    "tier": "mid",
    "title": "Software Engineer II, Corp Eng",
    "url": "https://www.linkedin.com/jobs/view/4458978680"
+  },
+  "google:9d53529207d2": {
+   "company": "Google",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "fullstack",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer, Full Stack, YouTube Creator Support",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/127481196673147590-senior-software-engineer-full-stack-youtube-creator-support"
   },
   "google:9de8c55df1ab": {
    "company": "Google",
@@ -164353,7 +164488,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 38,
+   "last": 39,
    "last_ok": "2026-11-04"
   },
   "Agoda": {
@@ -164368,7 +164503,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 221,
+   "last": 224,
    "last_ok": "2026-11-04"
   },
   "Applied Materials": {
@@ -164428,7 +164563,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 265,
+   "last": 267,
    "last_ok": "2026-11-04"
   },
   "Citi": {
@@ -164447,8 +164582,8 @@
    "last_ok": "2026-11-04"
   },
   "Databricks": {
-   "best": 917,
-   "last": 917,
+   "best": 926,
+   "last": 926,
    "last_ok": "2026-11-04"
   },
   "Datadog": {
@@ -164473,7 +164608,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 114,
+   "last": 115,
    "last_ok": "2026-11-04"
   },
   "Experian": {
@@ -164508,7 +164643,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 103,
+   "last": 104,
    "last_ok": "2026-11-04"
   },
   "Groww": {
@@ -164553,7 +164688,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 192,
+   "last": 194,
    "last_ok": "2026-11-04"
   },
   "Komodo Health": {
@@ -164593,7 +164728,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 360,
+   "last": 361,
    "last_ok": "2026-11-04"
   },
   "Morgan Stanley": {
@@ -164638,7 +164773,7 @@
   },
   "Nvidia": {
    "best": 168,
-   "last": 167,
+   "last": 168,
    "last_ok": "2026-11-04"
   },
   "Okta": {
@@ -164683,7 +164818,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 88,
+   "last": 94,
    "last_ok": "2026-11-04"
   },
   "Samsara": {
@@ -164717,8 +164852,8 @@
    "last_ok": "2026-11-04"
   },
   "Stripe": {
-   "best": 748,
-   "last": 747,
+   "best": 755,
+   "last": 755,
    "last_ok": "2026-11-04"
   },
   "Target": {
@@ -164778,10 +164913,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 87,
+   "last": 90,
    "last_ok": "2026-11-04"
   }
  },
- "updated": "2026-11-04T07:54:47Z",
+ "updated": "2026-11-04T17:26:30Z",
  "version": 1
 }
