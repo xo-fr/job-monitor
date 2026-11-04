@@ -167747,7 +167747,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 39,
+   "last": 38,
    "last_ok": "2026-11-04"
   },
   "Agoda": {
@@ -167762,7 +167762,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 224,
+   "last": 225,
    "last_ok": "2026-11-04"
   },
   "Applied Materials": {
@@ -167822,7 +167822,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 265,
+   "last": 263,
    "last_ok": "2026-11-04"
   },
   "Citi": {
@@ -167841,8 +167841,8 @@
    "last_ok": "2026-11-04"
   },
   "Databricks": {
-   "best": 926,
-   "last": 925,
+   "best": 927,
+   "last": 927,
    "last_ok": "2026-11-04"
   },
   "Datadog": {
@@ -167947,7 +167947,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 194,
+   "last": 193,
    "last_ok": "2026-11-04"
   },
   "Komodo Health": {
@@ -167987,7 +167987,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 360,
+   "last": 362,
    "last_ok": "2026-11-04"
   },
   "Morgan Stanley": {
@@ -168032,7 +168032,7 @@
   },
   "Nvidia": {
    "best": 168,
-   "last": 168,
+   "last": 166,
    "last_ok": "2026-11-04"
   },
   "Okta": {
@@ -168077,7 +168077,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 94,
+   "last": 92,
    "last_ok": "2026-11-04"
   },
   "Samsara": {
@@ -168111,8 +168111,8 @@
    "last_ok": "2026-11-04"
   },
   "Stripe": {
-   "best": 755,
-   "last": 753,
+   "best": 758,
+   "last": 758,
    "last_ok": "2026-11-04"
   },
   "Target": {
@@ -168176,6 +168176,6 @@
    "last_ok": "2026-11-04"
   }
  },
- "updated": "2026-11-04T18:19:22Z",
+ "updated": "2026-11-04T22:48:52Z",
  "version": 1
 }
