@@ -46406,6 +46406,18 @@
    "title": "IT Software Engineer",
    "url": "https://careers.cisco.com/global/en/job/2026189"
   },
+  "cisco:e5248180789c": {
+   "company": "Cisco",
+   "first_seen": "2026-11-04",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027387"
+  },
   "cisco:e6ae724e0418": {
    "company": "Cisco",
    "first_seen": "2026-10-06",
@@ -164341,7 +164353,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 37,
+   "last": 38,
    "last_ok": "2026-11-04"
   },
   "Agoda": {
@@ -164416,7 +164428,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 264,
+   "last": 265,
    "last_ok": "2026-11-04"
   },
   "Citi": {
@@ -164435,8 +164447,8 @@
    "last_ok": "2026-11-04"
   },
   "Databricks": {
-   "best": 914,
-   "last": 914,
+   "best": 917,
+   "last": 917,
    "last_ok": "2026-11-04"
   },
   "Datadog": {
@@ -164461,7 +164473,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 113,
+   "last": 114,
    "last_ok": "2026-11-04"
   },
   "Experian": {
@@ -164541,7 +164553,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-11-04"
   },
   "Komodo Health": {
@@ -164581,7 +164593,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 361,
+   "last": 360,
    "last_ok": "2026-11-04"
   },
   "Morgan Stanley": {
@@ -164626,12 +164638,12 @@
   },
   "Nvidia": {
    "best": 168,
-   "last": 168,
+   "last": 167,
    "last_ok": "2026-11-04"
   },
   "Okta": {
    "best": 400,
-   "last": 393,
+   "last": 389,
    "last_ok": "2026-11-04"
   },
   "PayPal": {
@@ -164671,7 +164683,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 86,
+   "last": 88,
    "last_ok": "2026-11-04"
   },
   "Samsara": {
@@ -164706,7 +164718,7 @@
   },
   "Stripe": {
    "best": 748,
-   "last": 745,
+   "last": 747,
    "last_ok": "2026-11-04"
   },
   "Target": {
@@ -164766,10 +164778,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 88,
+   "last": 87,
    "last_ok": "2026-11-04"
   }
  },
- "updated": "2026-11-04T00:55:29Z",
+ "updated": "2026-11-04T07:54:47Z",
  "version": 1
 }
