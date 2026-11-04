@@ -73670,6 +73670,17 @@
    "title": "Senior Software Engineer, Full Stack, Core",
    "url": "https://www.linkedin.com/jobs/view/4456025485"
   },
+  "google:62909910c174": {
+   "company": "Google",
+   "first_seen": "2026-11-04",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer III, Core Systems",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/76723548046926534-software-engineer-iii-core-systems"
+  },
   "google:62c0a83c6d4b": {
    "company": "Google",
    "first_seen": "2026-10-02",
@@ -164048,7 +164059,7 @@
   "Adobe": {
    "best": 80,
    "last": 37,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Agoda": {
    "best": 329,
@@ -164062,8 +164073,8 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 224,
-   "last_ok": "2026-11-03"
+   "last": 221,
+   "last_ok": "2026-11-04"
   },
   "Applied Materials": {
    "best": 134,
@@ -164123,7 +164134,7 @@
   "Cisco": {
    "best": 270,
    "last": 264,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Citi": {
    "best": 292,
@@ -164143,7 +164154,7 @@
   "Databricks": {
    "best": 914,
    "last": 914,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Datadog": {
    "best": 445,
@@ -164168,7 +164179,7 @@
   "Expedia": {
    "best": 137,
    "last": 113,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Experian": {
    "best": 100,
@@ -164202,8 +164213,8 @@
   },
   "Google": {
    "best": 105,
-   "last": 102,
-   "last_ok": "2026-11-03"
+   "last": 103,
+   "last_ok": "2026-11-04"
   },
   "Groww": {
    "best": 11,
@@ -164248,7 +164259,7 @@
   "Intel": {
    "best": 198,
    "last": 193,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Komodo Health": {
    "best": 30,
@@ -164287,8 +164298,8 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 359,
-   "last_ok": "2026-11-03"
+   "last": 361,
+   "last_ok": "2026-11-04"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -164333,12 +164344,12 @@
   "Nvidia": {
    "best": 168,
    "last": 168,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Okta": {
    "best": 400,
-   "last": 392,
-   "last_ok": "2026-11-03"
+   "last": 393,
+   "last_ok": "2026-11-04"
   },
   "PayPal": {
    "best": 170,
@@ -164378,7 +164389,7 @@
   "Salesforce": {
    "best": 113,
    "last": 86,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   },
   "Samsara": {
    "best": 340,
@@ -164412,8 +164423,8 @@
   },
   "Stripe": {
    "best": 748,
-   "last": 741,
-   "last_ok": "2026-11-03"
+   "last": 745,
+   "last_ok": "2026-11-04"
   },
   "Target": {
    "best": 76,
@@ -164473,9 +164484,9 @@
   "eBay": {
    "best": 101,
    "last": 88,
-   "last_ok": "2026-11-03"
+   "last_ok": "2026-11-04"
   }
  },
- "updated": "2026-11-03T19:51:00Z",
+ "updated": "2026-11-04T00:09:46Z",
  "version": 1
 }
