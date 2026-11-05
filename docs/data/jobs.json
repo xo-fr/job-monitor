@@ -47029,6 +47029,18 @@
    "title": "Technical Systems Engineer (Full-Stack) - Splunk",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Pune-India/Technical-Systems-Engineer--Full-Stack----Splunk_2020546-1"
   },
+  "cisco:96587e9fd77d": {
+   "company": "Cisco",
+   "first_seen": "2026-11-05",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-05",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027381-1"
+  },
   "cisco:97813247420f": {
    "company": "Cisco",
    "first_seen": "2026-11-02",
@@ -116789,6 +116801,18 @@
    "title": "Senior Software Engineer (NetSuite Developer)",
    "url": "https://www.okta.com/company/careers/opportunity/8154916?gh_jid=8154916"
   },
+  "okta:e40fb68cf5ab": {
+   "company": "Okta",
+   "first_seen": "2026-11-05",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-04",
+   "role": "software",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.okta.com/company/careers/opportunity/8239282?gh_jid=8239282"
+  },
   "okta:eb5fc041ef3d": {
    "company": "Okta",
    "first_seen": "2026-10-02",
@@ -168306,7 +168330,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 224,
+   "last": 226,
    "last_ok": "2026-11-05"
   },
   "Applied Materials": {
@@ -168366,7 +168390,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 264,
+   "last": 262,
    "last_ok": "2026-11-05"
   },
   "Citi": {
@@ -168386,7 +168410,7 @@
   },
   "Databricks": {
    "best": 928,
-   "last": 928,
+   "last": 926,
    "last_ok": "2026-11-05"
   },
   "Datadog": {
@@ -168491,7 +168515,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 193,
+   "last": 192,
    "last_ok": "2026-11-05"
   },
   "Komodo Health": {
@@ -168531,7 +168555,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 362,
+   "last": 361,
    "last_ok": "2026-11-05"
   },
   "Morgan Stanley": {
@@ -168576,12 +168600,12 @@
   },
   "Nvidia": {
    "best": 168,
-   "last": 166,
+   "last": 167,
    "last_ok": "2026-11-05"
   },
   "Okta": {
    "best": 400,
-   "last": 389,
+   "last": 390,
    "last_ok": "2026-11-05"
   },
   "PayPal": {
@@ -168655,8 +168679,8 @@
    "last_ok": "2026-11-05"
   },
   "Stripe": {
-   "best": 758,
-   "last": 757,
+   "best": 759,
+   "last": 759,
    "last_ok": "2026-11-05"
   },
   "Target": {
@@ -168720,6 +168744,6 @@
    "last_ok": "2026-11-05"
   }
  },
- "updated": "2026-11-05T00:01:13Z",
+ "updated": "2026-11-05T03:40:28Z",
  "version": 1
 }
