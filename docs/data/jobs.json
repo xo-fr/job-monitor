@@ -46971,6 +46971,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2021804"
   },
+  "cisco:0dc0a2e988a4": {
+   "company": "Cisco",
+   "first_seen": "2026-11-05",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-05",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Cloud Engineer - Java | AWS | PostgreSQL | CI/CD (Jenkins, GitHub) | Ansible (4 to 7 Years)",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Cloud-Engineer---Java---AWS---PostgreSQL---CI-CD--Jenkins--GitHub----Ansible--4-to-7-Years-_2028840"
+  },
   "cisco:0de11713ee75": {
    "company": "Cisco",
    "first_seen": "2026-10-09",
@@ -69179,6 +69191,18 @@
    "title": "Software Development Engineer II - (Full stack-JAVA/React.JS)",
    "url": "https://www.naukri.com/job-listings-software-development-engineer-ii-full-stack-java-react-js-expedia-group-gurugram-2-to-7-years-011026502670",
    "workplace": "Work From Office"
+  },
+  "expedia:c395fa631ad0": {
+   "company": "Expedia",
+   "first_seen": "2026-11-05",
+   "location": "India - Gurgaon",
+   "posted_at": "2026-11-05",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-II_R-110899"
   },
   "expedia:c719ece6ab22": {
    "company": "Expedia",
@@ -170032,7 +170056,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 226,
+   "last": 225,
    "last_ok": "2026-11-05"
   },
   "Applied Materials": {
@@ -170092,7 +170116,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 265,
+   "last": 262,
    "last_ok": "2026-11-05"
   },
   "Citi": {
@@ -170217,7 +170241,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 194,
+   "last": 192,
    "last_ok": "2026-11-05"
   },
   "Komodo Health": {
@@ -170257,7 +170281,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 360,
+   "last": 363,
    "last_ok": "2026-11-05"
   },
   "Morgan Stanley": {
@@ -170302,7 +170326,7 @@
   },
   "Nvidia": {
    "best": 169,
-   "last": 169,
+   "last": 168,
    "last_ok": "2026-11-05"
   },
   "Okta": {
@@ -170347,7 +170371,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 92,
+   "last": 97,
    "last_ok": "2026-11-05"
   },
   "Samsara": {
@@ -170382,7 +170406,7 @@
   },
   "Stripe": {
    "best": 762,
-   "last": 762,
+   "last": 761,
    "last_ok": "2026-11-05"
   },
   "Target": {
@@ -170446,6 +170470,6 @@
    "last_ok": "2026-11-05"
   }
  },
- "updated": "2026-11-05T07:19:22Z",
+ "updated": "2026-11-05T13:27:17Z",
  "version": 1
 }
