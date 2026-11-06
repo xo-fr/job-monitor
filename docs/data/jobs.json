@@ -48789,6 +48789,18 @@
    "title": "Cloud Engineer - 8+yrs - Cloud-native SaaS applications, Java, Python, Kafka/Flink/Spark/Ice berg",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Cloud-Engineer---8-yrs---Cloud-native-SaaS-applications--Java--Python--Kafka-Flink-Spark-Ice-berg_2021180"
   },
+  "cisco:7fc693f375b8": {
+   "company": "Cisco",
+   "first_seen": "2026-11-06",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-06",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027198"
+  },
   "cisco:815adcde107e": {
    "company": "Cisco",
    "first_seen": "2026-10-02",
@@ -174245,7 +174257,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 38,
+   "last": 37,
    "last_ok": "2026-11-06"
   },
   "Agoda": {
@@ -174340,7 +174352,7 @@
   },
   "Databricks": {
    "best": 928,
-   "last": 921,
+   "last": 922,
    "last_ok": "2026-11-06"
   },
   "Datadog": {
@@ -174365,7 +174377,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 115,
+   "last": 114,
    "last_ok": "2026-11-06"
   },
   "Experian": {
@@ -174445,7 +174457,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 191,
+   "last": 190,
    "last_ok": "2026-11-06"
   },
   "Komodo Health": {
@@ -174530,12 +174542,12 @@
   },
   "Nvidia": {
    "best": 169,
-   "last": 168,
+   "last": 169,
    "last_ok": "2026-11-06"
   },
   "Okta": {
    "best": 400,
-   "last": 383,
+   "last": 382,
    "last_ok": "2026-11-06"
   },
   "PayPal": {
@@ -174575,7 +174587,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 89,
+   "last": 91,
    "last_ok": "2026-11-06"
   },
   "Samsara": {
@@ -174610,7 +174622,7 @@
   },
   "Stripe": {
    "best": 768,
-   "last": 768,
+   "last": 765,
    "last_ok": "2026-11-06"
   },
   "Target": {
@@ -174674,6 +174686,6 @@
    "last_ok": "2026-11-06"
   }
  },
- "updated": "2026-11-06T07:19:14Z",
+ "updated": "2026-11-06T11:24:12Z",
  "version": 1
 }
