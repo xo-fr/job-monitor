@@ -26999,6 +26999,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10575322/software-development-engineer-ii-fulfillment-by-amazon-fba",
    "yoe": 2
   },
+  "amazon:3657f4c8823e": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-06",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-06",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, Last Mile",
+   "url": "https://www.amazon.jobs/en/jobs/10598377/software-development-engineer-ii-last-mile",
+   "yoe": 2
+  },
   "amazon:366ab0911ece": {
    "company": "Amazon",
    "first_seen": "2026-11-01",
@@ -173013,7 +173028,7 @@
   "Adobe": {
    "best": 80,
    "last": 38,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Agoda": {
    "best": 329,
@@ -173028,7 +173043,7 @@
   "Amazon": {
    "best": 249,
    "last": 225,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Applied Materials": {
    "best": 134,
@@ -173087,8 +173102,8 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 262,
-   "last_ok": "2026-11-05"
+   "last": 263,
+   "last_ok": "2026-11-06"
   },
   "Citi": {
    "best": 292,
@@ -173108,7 +173123,7 @@
   "Databricks": {
    "best": 928,
    "last": 923,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Datadog": {
    "best": 445,
@@ -173133,7 +173148,7 @@
   "Expedia": {
    "best": 137,
    "last": 116,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Experian": {
    "best": 100,
@@ -173168,7 +173183,7 @@
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Groww": {
    "best": 11,
@@ -173213,7 +173228,7 @@
   "Intel": {
    "best": 198,
    "last": 190,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Komodo Health": {
    "best": 30,
@@ -173253,7 +173268,7 @@
   "MongoDB": {
    "best": 405,
    "last": 368,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -173297,13 +173312,13 @@
   },
   "Nvidia": {
    "best": 169,
-   "last": 168,
-   "last_ok": "2026-11-05"
+   "last": 169,
+   "last_ok": "2026-11-06"
   },
   "Okta": {
    "best": 400,
    "last": 385,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   },
   "PayPal": {
    "best": 170,
@@ -173342,8 +173357,8 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 90,
-   "last_ok": "2026-11-05"
+   "last": 89,
+   "last_ok": "2026-11-06"
   },
   "Samsara": {
    "best": 340,
@@ -173376,9 +173391,9 @@
    "last_ok": "2026-11-05"
   },
   "Stripe": {
-   "best": 766,
-   "last": 766,
-   "last_ok": "2026-11-05"
+   "best": 768,
+   "last": 768,
+   "last_ok": "2026-11-06"
   },
   "Target": {
    "best": 76,
@@ -173438,9 +173453,9 @@
   "eBay": {
    "best": 101,
    "last": 91,
-   "last_ok": "2026-11-05"
+   "last_ok": "2026-11-06"
   }
  },
- "updated": "2026-11-05T23:55:10Z",
+ "updated": "2026-11-06T01:44:55Z",
  "version": 1
 }
