@@ -56658,6 +56658,20 @@
    "url": "https://www.naukri.com/job-listings-amazon-connect-developer-cognizant-hyderabad-chennai-bengaluru-4-to-9-years-171026012716",
    "workplace": "Hybrid"
   },
+  "cognizant:0aa9570d1945": {
+   "company": "Cognizant",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-07",
+   "location": "TN, India",
+   "posted_at": "2026-11-07",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java / Perl Developer",
+   "url": "https://careers.cognizant.com/global-en/jobs/00070589513/senior-java-perl-developer/"
+  },
   "cognizant:0b2d9f4a693e": {
    "company": "Cognizant",
    "first_seen": "2026-10-07",
@@ -57742,6 +57756,20 @@
    "tier": "senior",
    "title": "Sr. Software Engineer",
    "url": "https://www.naukri.com/job-listings-sr-software-engineer-cognizant-chennai-8-to-12-years-281026010548",
+   "workplace": "Work From Office"
+  },
+  "cognizant:d510a3258333": {
+   "company": "Cognizant",
+   "first_seen": "2026-11-07",
+   "location": "Chennai, India",
+   "posted_at": "2026-11-07",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java / Perl Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-perl-developer-cognizant-chennai-9-to-12-years-071126009899",
    "workplace": "Work From Office"
   },
   "cognizant:d561535d29fb": {
@@ -140498,6 +140526,21 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4475598438"
   },
+  "sainik-zone:72e532bab3ec": {
+   "comp": "₹24L - ₹24L / yr",
+   "company": "Sainik Zone",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-07",
+   "location": "KA, India",
+   "posted_at": "2026-11-07",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "SDE – Backend– Own360 Platform",
+   "url": "https://in.indeed.com/viewjob?jk=a650d12bcd8d52fb"
+  },
   "saisystems-technology:469f0aa7ed1d": {
    "company": "Saisystems Technology",
    "first_seen": "2026-10-27",
@@ -164092,6 +164135,21 @@
    "title": "Lead Application Developer",
    "url": "https://careers.tranetechnologies.com/global/fr/job/JR-14597"
   },
+  "tranetech-software-solution:65b78f130ced": {
+   "comp": "₹40,000 - ₹55,000 / month",
+   "company": "Tranetech Software Solution",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-07",
+   "location": "KL, India",
+   "posted_at": "2026-11-06",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full Stack Developer",
+   "url": "https://in.indeed.com/viewjob?jk=b787851ef8131759"
+  },
   "transaction-analysts:0830101c828d": {
    "company": "Transaction Analysts",
    "first_seen": "2026-10-05",
@@ -165729,6 +165787,19 @@
    "title": "Software Developer",
    "url": "https://www.naukri.com/job-listings-software-developer-uch-logistics-chandigarh-3-to-7-years-061026029580",
    "workplace": "Remote"
+  },
+  "udaan:df8813f2a33d": {
+   "company": "Udaan",
+   "first_seen": "2026-11-07",
+   "location": "India",
+   "posted_at": "2026-11-07",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4487603673"
   },
   "udemy:95a3df12df7d": {
    "company": "Udemy",
@@ -178420,7 +178491,7 @@
  "sources": {
   "Accenture": {
    "best": 396,
-   "last": 388,
+   "last": 387,
    "last_ok": "2026-11-07"
   },
   "Adobe": {
@@ -178465,7 +178536,7 @@
   },
   "Barclays": {
    "best": 240,
-   "last": 229,
+   "last": 230,
    "last_ok": "2026-11-07"
   },
   "BlackRock": {
@@ -178475,7 +178546,7 @@
   },
   "Boeing": {
    "best": 8,
-   "last": 3,
+   "last": 2,
    "last_ok": "2026-11-07"
   },
   "Broadridge": {
@@ -178505,7 +178576,7 @@
   },
   "Citi": {
    "best": 292,
-   "last": 273,
+   "last": 275,
    "last_ok": "2026-11-07"
   },
   "Cloudflare": {
@@ -178530,7 +178601,7 @@
   },
   "Deutsche Bank": {
    "best": 162,
-   "last": 144,
+   "last": 143,
    "last_ok": "2026-11-07"
   },
   "Druva": {
@@ -178600,7 +178671,7 @@
   },
   "Harvey": {
    "best": 386,
-   "last": 371,
+   "last": 370,
    "last_ok": "2026-11-07"
   },
   "Hevo Data": {
@@ -178620,7 +178691,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 179,
+   "last": 162,
    "last_ok": "2026-11-07"
   },
   "Intel": {
@@ -178635,7 +178706,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 128,
+   "last": 96,
    "last_ok": "2026-11-07"
   },
   "Lowe's": {
@@ -178645,7 +178716,7 @@
   },
   "Mastercard": {
    "best": 273,
-   "last": 255,
+   "last": 254,
    "last_ok": "2026-11-07"
   },
   "Meesho": {
@@ -178680,7 +178751,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 295,
+   "last": 298,
    "last_ok": "2026-11-07"
   },
   "Netskope": {
@@ -178760,7 +178831,7 @@
   },
   "Samsara": {
    "best": 340,
-   "last": 315,
+   "last": 316,
    "last_ok": "2026-11-07"
   },
   "Sarvam AI": {
@@ -178780,12 +178851,12 @@
   },
   "Snowflake": {
    "best": 374,
-   "last": 371,
+   "last": 372,
    "last_ok": "2026-11-07"
   },
   "State Street": {
    "best": 161,
-   "last": 142,
+   "last": 140,
    "last_ok": "2026-11-07"
   },
   "Stripe": {
@@ -178825,7 +178896,7 @@
   },
   "Wells Fargo": {
    "best": 123,
-   "last": 101,
+   "last": 93,
    "last_ok": "2026-11-07"
   },
   "Workday": {
@@ -178854,6 +178925,6 @@
    "last_ok": "2026-11-07"
   }
  },
- "updated": "2026-11-07T21:02:39Z",
+ "updated": "2026-11-07T22:14:38Z",
  "version": 1
 }
