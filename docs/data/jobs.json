@@ -887,6 +887,19 @@
    "url": "https://www.naukri.com/job-listings-senior-backend-developer-aasma-technocrats-opc-mangaluru-mysuru-bengaluru-4-to-8-years-220926049414",
    "workplace": "Hybrid"
   },
+  "aasma-technology-solutions:d28de66f75ce": {
+   "company": "Aasma Technology Solutions",
+   "first_seen": "2026-11-08",
+   "location": "India",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4486218618"
+  },
   "ab-inbev-gcc-india:8a24b4bbd648": {
    "company": "AB InBev GCC India",
    "first_seen": "2026-10-22",
@@ -17053,6 +17066,18 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5730305-S2066097-1"
+  },
+  "accenture:ba2c78ed20b8": {
+   "company": "Accenture",
+   "first_seen": "2026-11-08",
+   "location": "Hyderabad",
+   "posted_at": "2026-10-09",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5311225-S1942711-1"
   },
   "accenture:ba377de65ada": {
    "company": "Accenture",
@@ -71174,6 +71199,19 @@
    "title": "Lead Software Developer - Java with AWS Cloud",
    "url": "https://careers.epam.com/en/vacancy/bltrrlxp2gb5ww736vg_en?city=Gurgaon&state=HAR&country=India&utm_source=indeed&utm_medium=xml-job-feed&utm_campaign=ta"
   },
+  "epic-for-kids:f1e830e8bb50": {
+   "company": "Epic for Kids",
+   "first_seen": "2026-11-08",
+   "location": "India",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer, Full-Stack",
+   "url": "https://www.linkedin.com/jobs/view/4454340569"
+  },
   "epicor:472067fc725d": {
    "company": "Epicor",
    "first_seen": "2026-10-05",
@@ -76071,6 +76109,19 @@
    "url": "https://www.flexday.ai/careers/senior-software-engineer",
    "workplace": "Remote"
   },
+  "flexiple:0d663db938ea": {
+   "company": "Flexiple",
+   "first_seen": "2026-11-08",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-08",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Platform Developer",
+   "url": "https://www.linkedin.com/jobs/view/4488787823"
+  },
   "flexiple:13642cd87178": {
    "company": "Flexiple",
    "first_seen": "2026-10-03",
@@ -76083,6 +76134,19 @@
    "tier": "mid",
    "title": "Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4475068711"
+  },
+  "flexiple:283c21f83fbc": {
+   "company": "Flexiple",
+   "first_seen": "2026-11-08",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-08",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Backend Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4488798551"
   },
   "flexiple:44ec48ea2fb0": {
    "company": "Flexiple",
@@ -81714,6 +81778,19 @@
    "title": "Back End Developer",
    "url": "https://www.linkedin.com/jobs/view/4472384897"
   },
+  "greathr-solutions:43b505b93c3d": {
+   "company": "GreatHR Solutions",
+   "first_seen": "2026-11-08",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-08",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "BACKEND DEVELOPER",
+   "url": "https://www.linkedin.com/jobs/view/4487643934"
+  },
   "greedygame-media:bf93023521af": {
    "company": "GreedyGame Media",
    "employment_type": "Full-time",
@@ -85752,6 +85829,19 @@
    "tier": "mid",
    "title": "Backend Developer",
    "url": "https://www.linkedin.com/jobs/view/4486657037"
+  },
+  "hijob-work:2b75851256fa": {
+   "company": "HiJob.work",
+   "first_seen": "2026-11-08",
+   "location": "India",
+   "posted_at": "2026-11-07",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full-Stack Web Developer",
+   "url": "https://www.linkedin.com/jobs/view/4486642810"
   },
   "hilti:b60add00da6b": {
    "company": "Hilti",
@@ -102413,6 +102503,19 @@
    "tier": "lead",
    "title": "Lead Software Engineer-Kubernetes | Infrastructure As Code | Terraform | Ephemeral Environments",
    "url": "https://JPMorganChase.contacthr.com/153955676"
+  },
+  "jpmorganchase:62afd0dd07d5": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-11-08",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-07",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer Java / python",
+   "url": "https://www.linkedin.com/jobs/view/4477875270"
   },
   "jpmorganchase:64193544587e": {
    "company": "JPMorganChase",
@@ -124746,6 +124849,33 @@
    "title": "Backend Engineer- Kubernetes Infrastructure (India)",
    "url": "https://www.linkedin.com/jobs/view/4404761286"
   },
+  "onemagnify:206cec5ffb60": {
+   "company": "OneMagnify",
+   "first_seen": "2026-11-08",
+   "location": "Greater Chennai Area",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4487103424"
+  },
+  "onemagnify:893d4cff67d2": {
+   "company": "OneMagnify",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-08",
+   "location": "TN, India",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://onemagnify.wd5.myworkdayjobs.com/en-US/OneMagnify_Careers/job/GBS-Chennai/Full-Stack-Developer_R2394"
+  },
   "onemagnify:b3e21a20d958": {
    "company": "Onemagnify",
    "first_seen": "2026-10-16",
@@ -128862,6 +128992,19 @@
    "tier": "senior",
    "title": "Senior Software Engineer – AgentOps",
    "url": "https://www.linkedin.com/jobs/view/4454752709"
+  },
+  "pearson:8c765e51aed1": {
+   "company": "Pearson",
+   "first_seen": "2026-11-08",
+   "location": "Bengaluru East, Karnataka, India",
+   "posted_at": "2026-11-07",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4452733776"
   },
   "pearson:94dda4336052": {
    "company": "Pearson",
@@ -140535,6 +140678,19 @@
    "tier": "senior",
    "title": "Senior Backend / Full-Stack Engineer — B2B SaaS Platform & Reliability",
    "url": "https://in.indeed.com/viewjob?jk=c000306b5715fd3a"
+  },
+  "s9:b3b13535ce10": {
+   "company": "S9",
+   "first_seen": "2026-11-08",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer (MERN Stack)",
+   "url": "https://www.linkedin.com/jobs/view/4486689902"
   },
   "saab:5c785470e47c": {
    "company": "Saab",
@@ -157988,6 +158144,19 @@
    "tier": "mid",
    "title": "Java Developer (Airline Domain)",
    "url": "https://www.linkedin.com/jobs/view/4486032216"
+  },
+  "techdome:08ff87f9cd8a": {
+   "company": "Techdome",
+   "first_seen": "2026-11-08",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-11-07",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior MERN Stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4487607396"
   },
   "techdome:577e8565ee07": {
    "company": "Techdome",
@@ -178441,6 +178610,19 @@
    "title": "Java AWS Full Stack Lead",
    "url": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/152570"
   },
+  "zensar-technologies:d7084e6cc57a": {
+   "company": "Zensar Technologies",
+   "first_seen": "2026-11-08",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-11-07",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior FICO Blaze Advisor Developer",
+   "url": "https://www.linkedin.com/jobs/view/4478485081"
+  },
   "zensar-technologies:d8e39dfdfaca": {
    "company": "Zensar Technologies",
    "first_seen": "2026-10-02",
@@ -179236,7 +179418,7 @@
  "sources": {
   "Accenture": {
    "best": 396,
-   "last": 387,
+   "last": 388,
    "last_ok": "2026-11-08"
   },
   "Adobe": {
@@ -179281,7 +179463,7 @@
   },
   "Barclays": {
    "best": 240,
-   "last": 230,
+   "last": 229,
    "last_ok": "2026-11-08"
   },
   "BlackRock": {
@@ -179306,7 +179488,7 @@
   },
   "Capital One": {
    "best": 264,
-   "last": 245,
+   "last": 240,
    "last_ok": "2026-11-08"
   },
   "Ciena": {
@@ -179321,7 +179503,7 @@
   },
   "Citi": {
    "best": 292,
-   "last": 275,
+   "last": 271,
    "last_ok": "2026-11-08"
   },
   "Cloudflare": {
@@ -179356,7 +179538,7 @@
   },
   "Elastic": {
    "best": 430,
-   "last": 425,
+   "last": 426,
    "last_ok": "2026-11-08"
   },
   "Expedia": {
@@ -179436,7 +179618,7 @@
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 53,
+   "last": 37,
    "last_ok": "2026-11-08"
   },
   "Intel": {
@@ -179451,7 +179633,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 354,
+   "last": 292,
    "last_ok": "2026-11-08"
   },
   "Lowe's": {
@@ -179496,7 +179678,7 @@
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 189,
+   "last": 194,
    "last_ok": "2026-11-08"
   },
   "Netskope": {
@@ -179506,7 +179688,7 @@
   },
   "New Relic": {
    "best": 59,
-   "last": 47,
+   "last": 46,
    "last_ok": "2026-11-08"
   },
   "NielsenIQ": {
@@ -179576,7 +179758,7 @@
   },
   "Samsara": {
    "best": 340,
-   "last": 315,
+   "last": 314,
    "last_ok": "2026-11-08"
   },
   "Sarvam AI": {
@@ -179601,7 +179783,7 @@
   },
   "State Street": {
    "best": 161,
-   "last": 140,
+   "last": 138,
    "last_ok": "2026-11-08"
   },
   "Stripe": {
@@ -179611,7 +179793,7 @@
   },
   "Target": {
    "best": 76,
-   "last": 70,
+   "last": 69,
    "last_ok": "2026-11-08"
   },
   "Thomson Reuters": {
@@ -179641,7 +179823,7 @@
   },
   "Wells Fargo": {
    "best": 123,
-   "last": 92,
+   "last": 81,
    "last_ok": "2026-11-08"
   },
   "Workday": {
@@ -179661,7 +179843,7 @@
   },
   "Zscaler": {
    "best": 380,
-   "last": 375,
+   "last": 376,
    "last_ok": "2026-11-08"
   },
   "eBay": {
@@ -179670,6 +179852,6 @@
    "last_ok": "2026-11-08"
   }
  },
- "updated": "2026-11-08T21:19:53Z",
+ "updated": "2026-11-08T22:27:55Z",
  "version": 1
 }
