@@ -49265,6 +49265,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026817-1"
   },
+  "cisco:1c26fbf93b3b": {
+   "company": "Cisco",
+   "first_seen": "2026-11-08",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-08",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2028523-1"
+  },
   "cisco:1d9d60e8ba85": {
    "company": "Cisco",
    "first_seen": "2026-10-12",
@@ -178640,7 +178652,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 262,
+   "last": 260,
    "last_ok": "2026-11-08"
   },
   "Citi": {
@@ -178685,7 +178697,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 114,
+   "last": 113,
    "last_ok": "2026-11-08"
   },
   "Experian": {
@@ -178805,7 +178817,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 375,
+   "last": 374,
    "last_ok": "2026-11-08"
   },
   "Morgan Stanley": {
@@ -178994,6 +179006,6 @@
    "last_ok": "2026-11-08"
   }
  },
- "updated": "2026-11-08T01:45:06Z",
+ "updated": "2026-11-08T07:50:49Z",
  "version": 1
 }
