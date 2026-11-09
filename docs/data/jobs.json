@@ -76226,6 +76226,19 @@
    "title": "Software Engineer (Full Stack)",
    "url": "https://www.linkedin.com/jobs/view/4488796289"
   },
+  "flexiple:f2df6ac66bf3": {
+   "company": "Flexiple",
+   "first_seen": "2026-11-09",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full-Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4488799776"
+  },
   "flipkart:7c256923981e": {
    "company": "Flipkart",
    "first_seen": "2026-10-25",
@@ -81790,6 +81803,19 @@
    "tier": "mid",
    "title": "BACKEND DEVELOPER",
    "url": "https://www.linkedin.com/jobs/view/4487643934"
+  },
+  "greathr-solutions:7e6d6e1a0267": {
+   "company": "GreatHR Solutions",
+   "first_seen": "2026-11-09",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-08",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "SENIOR FULL STACK DEVELOPER",
+   "url": "https://www.linkedin.com/jobs/view/4487649795"
   },
   "greedygame-media:bf93023521af": {
    "company": "GreedyGame Media",
@@ -113199,6 +113225,20 @@
    "url": "https://www.naukri.com/job-listings-senior-software-engineer-medpace-clinical-research-india-navi-mumbai-0-to-1-years-070126026288",
    "workplace": "Work From Office"
   },
+  "medpace-clinical-research-india:ed616797fd4c": {
+   "company": "Medpace Clinical Research India",
+   "first_seen": "2026-11-09",
+   "location": "Navi Mumbai, India",
+   "posted_at": "2026-11-09",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Database Programmer",
+   "url": "https://www.naukri.com/job-listings-database-programmer-medpace-clinical-research-india-navi-mumbai-0-to-1-years-070126025432",
+   "workplace": "Work From Office"
+  },
   "medtronic:ccf8eb85cfa6": {
    "company": "Medtronic",
    "employment_type": "Full-time",
@@ -123548,6 +123588,19 @@
    "title": "Back End Developer",
    "url": "https://www.linkedin.com/jobs/view/4473622532"
   },
+  "nudge:865191416c62": {
+   "company": "Nudge",
+   "first_seen": "2026-11-09",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-09",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer II (SDE 2) - Backend",
+   "url": "https://www.linkedin.com/jobs/view/4487670394"
+  },
   "numentica:c7980c4be54a": {
    "company": "Numentica",
    "first_seen": "2026-10-24",
@@ -132534,6 +132587,19 @@
    "title": "Java Full Stack Developer",
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-platinus-technologies-private-limited-mumbai-7-to-12-years-301026926567",
    "workplace": "Work From Office"
+  },
+  "playlist:59389eee841c": {
+   "company": "Playlist",
+   "first_seen": "2026-11-09",
+   "location": "India",
+   "posted_at": "2026-11-07",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4486602955"
   },
   "plexohrsolutions:b1c7e8cd8514": {
    "company": "Plexohrsolutions",
@@ -167236,6 +167302,19 @@
    "url": "https://www.naukri.com/job-listings-senior-software-engineer-ups-express-private-limited-chennai-3-to-7-years-061026925986",
    "workplace": "Work From Office"
   },
+  "ups:06c41789e0d7": {
+   "company": "UPS",
+   "first_seen": "2026-11-09",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-11-08",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Intermediate Application Developer - Java, Full Stack",
+   "url": "https://www.linkedin.com/jobs/view/4460995249"
+  },
   "ups:0a3c5a2f2fda": {
    "company": "UPS",
    "employment_type": "Full-time",
@@ -179419,7 +179498,7 @@
   "Accenture": {
    "best": 396,
    "last": 388,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Adobe": {
    "best": 80,
@@ -179428,13 +179507,13 @@
   },
   "Agoda": {
    "best": 341,
-   "last": 341,
-   "last_ok": "2026-11-08"
+   "last": 340,
+   "last_ok": "2026-11-09"
   },
   "Airbnb": {
    "best": 213,
    "last": 205,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Amazon": {
    "best": 249,
@@ -179444,57 +179523,57 @@
   "Applied Materials": {
    "best": 134,
    "last": 126,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Athenahealth": {
    "best": 40,
    "last": 35,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Atlan": {
    "best": 7,
    "last": 6,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Autodesk": {
    "best": 37,
    "last": 1,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Barclays": {
    "best": 240,
    "last": 229,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "BlackRock": {
    "best": 166,
    "last": 146,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Boeing": {
    "best": 8,
    "last": 2,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Broadridge": {
    "best": 42,
    "last": 23,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "CRED": {
    "best": 14,
    "last": 14,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Capital One": {
    "best": 264,
    "last": 240,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Ciena": {
    "best": 13,
    "last": 12,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Cisco": {
    "best": 270,
@@ -179504,17 +179583,17 @@
   "Citi": {
    "best": 292,
    "last": 271,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Cloudflare": {
    "best": 470,
    "last": 464,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Coinbase": {
    "best": 285,
    "last": 283,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Databricks": {
    "best": 929,
@@ -179523,58 +179602,58 @@
   },
   "Datadog": {
    "best": 445,
-   "last": 401,
-   "last_ok": "2026-11-08"
+   "last": 402,
+   "last_ok": "2026-11-09"
   },
   "Deutsche Bank": {
    "best": 162,
    "last": 143,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Druva": {
    "best": 38,
    "last": 27,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Elastic": {
    "best": 430,
    "last": 426,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Expedia": {
    "best": 137,
-   "last": 112,
+   "last": 111,
    "last_ok": "2026-11-09"
   },
   "Experian": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Fidelity": {
    "best": 18,
    "last": 13,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Fivetran": {
    "best": 201,
    "last": 167,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Flexport": {
    "best": 212,
    "last": 190,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Freshworks": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "GitLab": {
    "best": 249,
    "last": 248,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Google": {
    "best": 105,
@@ -179584,42 +179663,42 @@
   "Groww": {
    "best": 11,
    "last": 9,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "HP": {
    "best": 99,
    "last": 99,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "HackerRank": {
    "best": 33,
    "last": 29,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Harvey": {
    "best": 386,
    "last": 373,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Hevo Data": {
    "best": 55,
    "last": 42,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "HighRadius": {
    "best": 80,
    "last": 68,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "InMobi": {
    "best": 82,
    "last": 79,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 37,
-   "last_ok": "2026-11-08"
+   "last": 35,
+   "last_ok": "2026-11-09"
   },
   "Intel": {
    "best": 198,
@@ -179629,37 +179708,37 @@
   "Komodo Health": {
    "best": 30,
    "last": 21,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 292,
-   "last_ok": "2026-11-08"
+   "last": 255,
+   "last_ok": "2026-11-09"
   },
   "Lowe's": {
    "best": 166,
    "last": 148,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Mastercard": {
    "best": 273,
    "last": 253,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Meesho": {
    "best": 63,
    "last": 53,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Mindtickle": {
    "best": 21,
    "last": 21,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Mixpanel": {
    "best": 66,
    "last": 44,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "MongoDB": {
    "best": 405,
@@ -179669,42 +179748,42 @@
   "Morgan Stanley": {
    "best": 102,
    "last": 82,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Motorola Solutions": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 194,
-   "last_ok": "2026-11-08"
+   "last": 124,
+   "last_ok": "2026-11-09"
   },
   "Netskope": {
    "best": 154,
    "last": 117,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "New Relic": {
    "best": 59,
    "last": 46,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "NielsenIQ": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Nike": {
    "best": 180,
    "last": 160,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Notion": {
    "best": 154,
    "last": 154,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Nvidia": {
    "best": 169,
@@ -179719,37 +179798,37 @@
   "PayPal": {
    "best": 170,
    "last": 157,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Paytm": {
    "best": 202,
    "last": 201,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "PubMatic": {
    "best": 86,
    "last": 74,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Red Hat": {
    "best": 9,
    "last": 6,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Roblox": {
    "best": 273,
    "last": 270,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Rubrik": {
    "best": 159,
    "last": 151,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Sabre": {
    "best": 45,
    "last": 35,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Salesforce": {
    "best": 113,
@@ -179758,33 +179837,33 @@
   },
   "Samsara": {
    "best": 340,
-   "last": 314,
-   "last_ok": "2026-11-08"
+   "last": 315,
+   "last_ok": "2026-11-09"
   },
   "Sarvam AI": {
    "best": 60,
    "last": 47,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "ServiceNow": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Sigmoid": {
    "best": 46,
    "last": 42,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Snowflake": {
    "best": 374,
    "last": 372,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "State Street": {
    "best": 161,
    "last": 138,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Stripe": {
    "best": 768,
@@ -179794,57 +179873,57 @@
   "Target": {
    "best": 76,
    "last": 69,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Thomson Reuters": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Toast": {
    "best": 345,
    "last": 333,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Twilio": {
    "best": 148,
    "last": 128,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Verizon": {
    "best": 150,
    "last": 139,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Waymo": {
    "best": 374,
-   "last": 369,
-   "last_ok": "2026-11-08"
+   "last": 368,
+   "last_ok": "2026-11-09"
   },
   "Wells Fargo": {
    "best": 123,
    "last": 81,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Workday": {
    "best": 29,
    "last": 24,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Yugabyte": {
    "best": 16,
    "last": 14,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Zeta": {
    "best": 31,
    "last": 28,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "Zscaler": {
    "best": 380,
    "last": 376,
-   "last_ok": "2026-11-08"
+   "last_ok": "2026-11-09"
   },
   "eBay": {
    "best": 101,
@@ -179852,6 +179931,6 @@
    "last_ok": "2026-11-09"
   }
  },
- "updated": "2026-11-09T01:09:13Z",
+ "updated": "2026-11-09T01:58:08Z",
  "version": 1
 }
