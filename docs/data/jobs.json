@@ -51008,6 +51008,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026386-1"
   },
+  "cisco:f3289917908f": {
+   "company": "Cisco",
+   "first_seen": "2026-11-09",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-09",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027972-1"
+  },
   "cisco:f57cb6d210e9": {
    "company": "Cisco",
    "first_seen": "2026-10-27",
@@ -51068,6 +51080,18 @@
    "tier": "mid",
    "title": "Software Engineer- Java |8 to 14yrs| Bangalore",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer--Java--8-to-14yrs--Bangalore_2026382"
+  },
+  "cisco:f9649cf9f94b": {
+   "company": "Cisco",
+   "first_seen": "2026-11-09",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-09",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2029535-1"
   },
   "cisco:f981b3c54b59": {
    "company": "Cisco",
@@ -179517,7 +179541,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 226,
+   "last": 227,
    "last_ok": "2026-11-09"
   },
   "Applied Materials": {
@@ -179577,7 +179601,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 262,
+   "last": 260,
    "last_ok": "2026-11-09"
   },
   "Citi": {
@@ -179597,7 +179621,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 922,
+   "last": 921,
    "last_ok": "2026-11-09"
   },
   "Datadog": {
@@ -179622,7 +179646,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 111,
+   "last": 108,
    "last_ok": "2026-11-09"
   },
   "Experian": {
@@ -179792,7 +179816,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 375,
+   "last": 376,
    "last_ok": "2026-11-09"
   },
   "PayPal": {
@@ -179832,7 +179856,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 84,
+   "last": 85,
    "last_ok": "2026-11-09"
   },
   "Samsara": {
@@ -179927,10 +179951,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 92,
+   "last": 93,
    "last_ok": "2026-11-09"
   }
  },
- "updated": "2026-11-09T01:58:08Z",
+ "updated": "2026-11-09T08:34:11Z",
  "version": 1
 }
