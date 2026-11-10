@@ -184812,7 +184812,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 914,
+   "last": 916,
    "last_ok": "2026-11-10"
   },
   "Datadog": {
@@ -184917,7 +184917,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 196,
+   "last": 198,
    "last_ok": "2026-11-10"
   },
   "Komodo Health": {
@@ -184957,7 +184957,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 374,
+   "last": 375,
    "last_ok": "2026-11-10"
   },
   "Morgan Stanley": {
@@ -185146,6 +185146,6 @@
    "last_ok": "2026-11-10"
   }
  },
- "updated": "2026-11-10T21:01:05Z",
+ "updated": "2026-11-10T21:23:58Z",
  "version": 1
 }
