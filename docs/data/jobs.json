@@ -28683,6 +28683,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10565511/software-development-engineer-prime-video-live-events-sports-data-platform",
    "yoe": 2
   },
+  "amazon:03071e70c786": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Development Engineer, FAI-Asset Creation Tech ",
+   "url": "https://www.amazon.jobs/en/jobs/10602293/sr-software-development-engineer-fai-asset-creation-tech",
+   "yoe": 5
+  },
   "amazon:04066bb5f0da": {
    "company": "Amazon",
    "first_seen": "2026-10-02",
@@ -29867,6 +29882,21 @@
    "title": "Software Development Engineer II, Int'l TechnologyEURegionalfund",
    "url": "https://www.amazon.jobs/en/jobs/10570043/software-development-engineer-ii-int-l-technologyeuregionalfund",
    "yoe": 2
+  },
+  "amazon:7a6243a870eb": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Development Engineer, FAI-Asset Creation Tech",
+   "url": "https://www.amazon.jobs/en/jobs/10602292/sr-software-development-engineer-fai-asset-creation-tech",
+   "yoe": 5
   },
   "amazon:7d21c7c68e36": {
    "company": "Amazon",
@@ -83886,6 +83916,17 @@
    "tier": "senior",
    "title": "Senior Software Engineer, Core",
    "url": "https://www.google.com/about/careers/applications/jobs/results/121538506244661958-senior-software-engineer-core"
+  },
+  "google:0f9fc671c327": {
+   "company": "Google",
+   "first_seen": "2026-11-11",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "platform",
+   "source": "google careers",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer III, Datacenter Networking, Google Cloud",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/139822508172812998-software-engineer-iii-datacenter-networking-google-cloud"
   },
   "google:1788d485a3ca": {
    "company": "Google",
@@ -186315,7 +186356,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 227,
+   "last": 226,
    "last_ok": "2026-11-11"
   },
   "Applied Materials": {
@@ -186375,7 +186416,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 256,
+   "last": 258,
    "last_ok": "2026-11-11"
   },
   "Citi": {
@@ -186395,7 +186436,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 918,
+   "last": 914,
    "last_ok": "2026-11-11"
   },
   "Datadog": {
@@ -186420,7 +186461,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 113,
+   "last": 110,
    "last_ok": "2026-11-11"
   },
   "Experian": {
@@ -186455,7 +186496,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 102,
+   "last": 104,
    "last_ok": "2026-11-11"
   },
   "Groww": {
@@ -186499,8 +186540,8 @@
    "last_ok": "2026-11-11"
   },
   "Intel": {
-   "best": 198,
-   "last": 196,
+   "best": 202,
+   "last": 202,
    "last_ok": "2026-11-11"
   },
   "Komodo Health": {
@@ -186590,7 +186631,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 381,
+   "last": 378,
    "last_ok": "2026-11-11"
   },
   "PayPal": {
@@ -186630,7 +186671,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 92,
+   "last": 96,
    "last_ok": "2026-11-11"
   },
   "Samsara": {
@@ -186664,8 +186705,8 @@
    "last_ok": "2026-11-11"
   },
   "Stripe": {
-   "best": 779,
-   "last": 779,
+   "best": 782,
+   "last": 782,
    "last_ok": "2026-11-11"
   },
   "Target": {
@@ -186725,10 +186766,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 91,
+   "last": 90,
    "last_ok": "2026-11-11"
   }
  },
- "updated": "2026-11-11T09:47:54Z",
+ "updated": "2026-11-11T17:23:43Z",
  "version": 1
 }
