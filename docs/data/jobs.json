@@ -51210,6 +51210,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2023800-1"
   },
+  "cisco:40c2c6ee13f8": {
+   "company": "Cisco",
+   "first_seen": "2026-11-11",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Security Software Engineering Technical Leader--Cisco Intersight",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Security-Software-Engineering-Technical-Leader--Cisco-Intersight_2028196-1"
+  },
   "cisco:46ef4818e41c": {
    "company": "Cisco",
    "first_seen": "2026-11-05",
@@ -51374,6 +51386,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2028681-1"
+  },
+  "cisco:58a6decfd088": {
+   "company": "Cisco",
+   "first_seen": "2026-11-11",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - Intersight Software and Product Security",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Intersight-Software-and-Product-Security_2027719-1"
   },
   "cisco:5e72991f6ed5": {
    "company": "Cisco",
@@ -128205,6 +128229,18 @@
    "title": "Senior Software Engineer",
    "url": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085"
   },
+  "okta:ab402c933742": {
+   "company": "Okta",
+   "first_seen": "2026-11-11",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-11",
+   "role": "fullstack",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Full Stack Developer",
+   "url": "https://www.okta.com/company/careers/opportunity/8358353?gh_jid=8358353"
+  },
   "okta:c2fc17d3ab0f": {
    "company": "Okta",
    "first_seen": "2026-10-02",
@@ -185046,7 +185082,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 260,
+   "last": 256,
    "last_ok": "2026-11-11"
   },
   "Citi": {
@@ -185066,7 +185102,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 920,
+   "last": 919,
    "last_ok": "2026-11-11"
   },
   "Datadog": {
@@ -185091,7 +185127,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 112,
+   "last": 113,
    "last_ok": "2026-11-11"
   },
   "Experian": {
@@ -185171,7 +185207,7 @@
   },
   "Intel": {
    "best": 198,
-   "last": 198,
+   "last": 195,
    "last_ok": "2026-11-11"
   },
   "Komodo Health": {
@@ -185211,7 +185247,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 377,
+   "last": 376,
    "last_ok": "2026-11-11"
   },
   "Morgan Stanley": {
@@ -185301,7 +185337,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 86,
+   "last": 91,
    "last_ok": "2026-11-11"
   },
   "Samsara": {
@@ -185400,6 +185436,6 @@
    "last_ok": "2026-11-11"
   }
  },
- "updated": "2026-11-11T02:10:27Z",
+ "updated": "2026-11-11T08:12:29Z",
  "version": 1
 }
