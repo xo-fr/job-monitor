@@ -900,6 +900,19 @@
    "title": "Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4486218618"
   },
+  "aatmunn:4b2885ffccc3": {
+   "company": "Aatmunn",
+   "first_seen": "2026-11-11",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-11",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - Java in Bangalore, Bangalore (Hybrid)",
+   "url": "https://www.linkedin.com/jobs/view/4487860422"
+  },
   "ab-inbev-gcc-india:8a24b4bbd648": {
    "company": "AB InBev GCC India",
    "first_seen": "2026-10-22",
@@ -3410,6 +3423,18 @@
    "tier": "mid",
    "title": "Data Platform Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kolkata/Data-Platform-Engineer_ATCI-5323174-S1942468-1"
+  },
+  "accenture:1337b6d2ccf4": {
+   "company": "Accenture",
+   "first_seen": "2026-11-11",
+   "location": "Pune",
+   "posted_at": "2026-11-10",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5228201-S2000240-1"
   },
   "accenture:1350f2122a71": {
    "company": "Accenture",
@@ -32781,6 +32806,20 @@
    "title": "Software Engineer - Distributed Systems",
    "url": "https://www.linkedin.com/jobs/view/4485733593"
   },
+  "apple:fb774ee4c0e4": {
+   "company": "Apple",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "TS, India",
+   "posted_at": "2026-11-11",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Data Platform Engineer - Ads",
+   "url": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200694255-1052-en-US&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200694255-1052%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D6db79a23-dd24-11f1-b846-3f645cb78099%26rx_job%3D200694255-1052-en-US%26rx_medium%3Dcpc%26rx_product%3Dprogrammatic-ppc%252Ccore%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20261111T000409Z%26rx_vp%3Dcpc"
+  },
   "apple:ff74a034e4ba": {
    "company": "Apple",
    "employment_type": "Full-time",
@@ -42123,6 +42162,19 @@
    "tier": "mid",
    "title": "Java backend developer",
    "url": "https://www.linkedin.com/jobs/view/4475541332"
+  },
+  "bnp-paribas:0f70d5201b4e": {
+   "company": "BNP Paribas",
+   "first_seen": "2026-11-11",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-11-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Technical Lead - Collateral IT - Global Markets",
+   "url": "https://www.linkedin.com/jobs/view/4487842390"
   },
   "bnp-paribas:1baba9636934": {
    "company": "BNP Paribas",
@@ -54318,6 +54370,20 @@
    "title": "Java Developer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-Developer_261000753"
   },
+  "citi:862c811ad2d5": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "MH, India",
+   "posted_at": "2026-11-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Java Application Senior Developer",
+   "url": "https://jobs.citi.com/job/pune/java-application-senior-developer/287/103116665584"
+  },
   "citi:8708fef69d8d": {
    "company": "Citi",
    "first_seen": "2026-11-05",
@@ -54719,6 +54785,20 @@
    "tier": "lead",
    "title": "Lead Full Stack Developer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Lead-Full-Stack-Developer_26960412"
+  },
+  "citi:a92c0fb60048": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "MH, India",
+   "posted_at": "2026-11-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Java Senior Application Developer",
+   "url": "https://jobs.citi.com/job/pune/java-senior-application-developer/287/103109849712"
   },
   "citi:a9aceccb0771": {
    "company": "Citi",
@@ -56504,6 +56584,19 @@
    "tier": "mid",
    "title": "Full Stack Developer - CCTV Developer",
    "url": "https://in.indeed.com/viewjob?jk=8c7e8d290b58c09f"
+  },
+  "clickhouse:2279a0f495b1": {
+   "company": "ClickHouse",
+   "first_seen": "2026-11-11",
+   "location": "India",
+   "posted_at": "2026-11-10",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Postgres",
+   "url": "https://www.linkedin.com/jobs/view/4489643569"
   },
   "clickhouse:b2d21c4d1f2f": {
    "company": "ClickHouse",
@@ -58675,6 +58768,20 @@
    "title": "FileNet - Developer or Senior Developer",
    "url": "https://www.naukri.com/job-listings-filenet-developer-or-senior-developer-cognizant-mumbai-5-to-8-years-091026031931",
    "workplace": "Work From Office"
+  },
+  "cognizant:2dc4f8fcf2e3": {
+   "company": "Cognizant",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "TN, India",
+   "posted_at": "2026-11-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Fullstack Developer with AWS & React",
+   "url": "https://careers.cognizant.com/global-en/jobs/00070659271/java-fullstack-developer-with-aws-react/"
   },
   "cognizant:2e5bcb1022f4": {
    "company": "Cognizant",
@@ -64532,6 +64639,19 @@
    "title": "T&T | Customer | S&S | Senior Consultant | Java | Pune",
    "url": "https://southasiacareers.deloitte.com/job/Pune-T&T-Customer-S&S-Senior-Consultant-Java-Pune/61102144/",
    "workplace": "Remote"
+  },
+  "deloitte:065b6ee5709b": {
+   "company": "Deloitte",
+   "first_seen": "2026-11-11",
+   "location": "GJ, India",
+   "posted_at": "2026-11-10",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Consultant | API Developer | Pan India | Engineering | Platform Development & Integration",
+   "url": "https://southasiacareers.deloitte.com/job/Ahmedabad-Senior-Consultant-API-Developer-Pan-India-Engineering-Platform-Development-&-Integration/61413644/"
   },
   "deloitte:071b70581f10": {
    "company": "Deloitte",
@@ -90081,6 +90201,19 @@
    "title": "Java Developer/Senior Consultant Specialist",
    "url": "https://www.linkedin.com/jobs/view/4483559842"
   },
+  "htc-global-services:2f02ee85476f": {
+   "company": "HTC Global Services",
+   "first_seen": "2026-11-11",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-11-11",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full stack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4489675142"
+  },
   "htc-global-services:4021fa9a3cad": {
    "company": "HTC Global Services",
    "first_seen": "2026-10-12",
@@ -101982,6 +102115,19 @@
    "url": "https://www.invaccs.com/career",
    "workplace": "Work From Office"
   },
+  "invenio:10c21054d4ca": {
+   "company": "Invenio",
+   "first_seen": "2026-11-11",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-11-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Associate Consultant Java",
+   "url": "https://www.linkedin.com/jobs/view/4487478365"
+  },
   "inventam-tech-solution-pvt-ltd:a0c0463978b1": {
    "company": "Inventam Tech Solution PVT. LTD",
    "first_seen": "2026-10-17",
@@ -104930,6 +105076,19 @@
    "tier": "senior",
    "title": "Software Engineer III - Java Backend",
    "url": "https://www.linkedin.com/jobs/view/4477466570"
+  },
+  "jpmorganchase:323f3b320abb": {
+   "company": "JPMorganChase",
+   "first_seen": "2026-11-11",
+   "location": "Mumbai, Maharashtra, India",
+   "posted_at": "2026-11-10",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer III - Full Stack Developer -Java, Springboot, AWS , React /typescript",
+   "url": "https://www.linkedin.com/jobs/view/4489601801"
   },
   "jpmorganchase:347ad169f7e0": {
    "company": "JPMorganChase",
@@ -109303,6 +109462,20 @@
    "tier": "mid",
    "title": "Software development engineer 2 ( backend)",
    "url": "https://www.linkedin.com/jobs/view/4461648436"
+  },
+  "lennox-international:899e0789d92c": {
+   "company": "Lennox International",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "TN, India",
+   "posted_at": "2026-11-11",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Cloud Solutions Developer Lead",
+   "url": "https://indiacareers-lennox.icims.com/jobs/55653/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f"
   },
   "lenskart-com:baabf752329a": {
    "company": "Lenskart.com",
@@ -117855,6 +118028,19 @@
    "tier": "senior",
    "title": "Senior Java & Node.js Developer (6+ Years)",
    "url": "https://www.linkedin.com/jobs/view/4472397544"
+  },
+  "mindfire-solutions:8a147b58d7cc": {
+   "company": "Mindfire Solutions",
+   "first_seen": "2026-11-11",
+   "location": "Greater Kolkata Area",
+   "posted_at": "2026-11-11",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Mindfire Solutions - Senior Java Full Stack Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4489666693"
   },
   "mindforgesolution:361a9d3f8d03": {
    "comp": "₹24L - ₹30L / yr",
@@ -137360,6 +137546,20 @@
    "url": "https://www.naukri.com/job-listings-lead-software-engineer-principal-global-services-pvt-ltd-pune-4-to-7-years-151026032621",
    "workplace": "Work From Office"
   },
+  "principal-global-services:8fa040ca8937": {
+   "company": "Principal Global Services",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "TS, India",
+   "posted_at": "2026-11-11",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Program Consultant - Software Engineering",
+   "url": "https://careers.principal.com/in/jobs/53855/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f"
+  },
   "principal-global-services:d20dc0818b32": {
    "company": "Principal Global Services",
    "employment_type": "Full-time",
@@ -145346,6 +145546,19 @@
    "title": "Artificial Intelligence Developer",
    "url": "https://www.naukri.com/job-listings-artificial-intelligence-developer-sag-infotech-jaipur-2-to-7-years-161026013492",
    "workplace": "Work From Office"
+  },
+  "sagaux:26c425c30474": {
+   "company": "sagaUX",
+   "first_seen": "2026-11-11",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-11-10",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer - 8 Openings",
+   "url": "https://www.linkedin.com/jobs/view/4488621470"
   },
   "sage:13f7aa802f53": {
    "company": "Sage",
@@ -163372,6 +163585,19 @@
    "url": "https://www.naukri.com/job-listings-consultant-software-engineer-techno-comp-tci-hyderabad-6-to-11-years-301026027435",
    "workplace": "Work From Office"
   },
+  "technogen-india-pvt-ltd:ba70560dd488": {
+   "company": "Technogen India Pvt. Ltd.",
+   "first_seen": "2026-11-11",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-11-11",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4489661963"
+  },
   "technogen:ff0745b0f0d7": {
    "comp": "₹15L - ₹20L / yr",
    "company": "Technogen",
@@ -170572,6 +170798,21 @@
    "url": "https://www.naukri.com/job-listings-senior-full-stack-developer-trinity-consulting-services-bengaluru-5-to-9-years-161026026078",
    "workplace": "Work From Office"
   },
+  "trinity-solutions:bb3635514eb6": {
+   "comp": "₹3.84L - ₹7L / yr",
+   "company": "Trinity Solutions",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-11",
+   "location": "KA, India",
+   "posted_at": "2026-11-10",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full-Stack Web & Software Developer (CRM & Web Management)",
+   "url": "https://in.indeed.com/viewjob?jk=60c3069ec56ba4f6"
+  },
   "trintech:6dc56ae9061b": {
    "company": "Trintech",
    "first_seen": "2026-10-15",
@@ -173246,6 +173487,19 @@
    "tier": "lead",
    "title": "Lead I - Software Engineering_Java spark",
    "url": "https://www.linkedin.com/jobs/view/4434518522"
+  },
+  "ust:9809a9f5b360": {
+   "company": "UST",
+   "first_seen": "2026-11-11",
+   "location": "MH, India",
+   "posted_at": "2026-11-10",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Developer III - Software Engineering",
+   "url": "https://usource.ripplehire.com/candidate/?token=ZH9nH6IaxMfKRieM4kzH&lang=en&source=INDEED&ref=INDEED#detail/job/67854"
   },
   "ust:9a271ae8d872": {
    "company": "UST",
@@ -184713,7 +184967,7 @@
   "Accenture": {
    "best": 396,
    "last": 388,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Adobe": {
    "best": 80,
@@ -184722,13 +184976,13 @@
   },
   "Agoda": {
    "best": 360,
-   "last": 357,
-   "last_ok": "2026-11-10"
+   "last": 358,
+   "last_ok": "2026-11-11"
   },
   "Airbnb": {
    "best": 213,
-   "last": 202,
-   "last_ok": "2026-11-10"
+   "last": 201,
+   "last_ok": "2026-11-11"
   },
   "Amazon": {
    "best": 249,
@@ -184738,57 +184992,57 @@
   "Applied Materials": {
    "best": 134,
    "last": 124,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Athenahealth": {
    "best": 40,
    "last": 34,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Atlan": {
    "best": 7,
    "last": 7,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Autodesk": {
    "best": 37,
    "last": 1,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Barclays": {
    "best": 240,
-   "last": 236,
-   "last_ok": "2026-11-10"
+   "last": 235,
+   "last_ok": "2026-11-11"
   },
   "BlackRock": {
    "best": 166,
-   "last": 146,
-   "last_ok": "2026-11-10"
+   "last": 147,
+   "last_ok": "2026-11-11"
   },
   "Boeing": {
    "best": 8,
    "last": 4,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Broadridge": {
    "best": 42,
    "last": 24,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "CRED": {
    "best": 14,
    "last": 14,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Capital One": {
    "best": 264,
-   "last": 248,
-   "last_ok": "2026-11-10"
+   "last": 250,
+   "last_ok": "2026-11-11"
   },
   "Ciena": {
    "best": 13,
    "last": 12,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Cisco": {
    "best": 270,
@@ -184798,17 +185052,17 @@
   "Citi": {
    "best": 292,
    "last": 273,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Cloudflare": {
-   "best": 470,
-   "last": 469,
-   "last_ok": "2026-11-10"
+   "best": 473,
+   "last": 473,
+   "last_ok": "2026-11-11"
   },
   "Coinbase": {
-   "best": 285,
-   "last": 285,
-   "last_ok": "2026-11-10"
+   "best": 286,
+   "last": 286,
+   "last_ok": "2026-11-11"
   },
   "Databricks": {
    "best": 929,
@@ -184817,23 +185071,23 @@
   },
   "Datadog": {
    "best": 445,
-   "last": 395,
-   "last_ok": "2026-11-10"
+   "last": 394,
+   "last_ok": "2026-11-11"
   },
   "Deutsche Bank": {
    "best": 162,
    "last": 148,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Druva": {
    "best": 38,
    "last": 27,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Elastic": {
    "best": 430,
-   "last": 428,
-   "last_ok": "2026-11-10"
+   "last": 423,
+   "last_ok": "2026-11-11"
   },
   "Expedia": {
    "best": 137,
@@ -184843,32 +185097,32 @@
   "Experian": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Fidelity": {
    "best": 18,
    "last": 14,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Fivetran": {
    "best": 201,
-   "last": 176,
-   "last_ok": "2026-11-10"
+   "last": 178,
+   "last_ok": "2026-11-11"
   },
   "Flexport": {
    "best": 212,
-   "last": 188,
-   "last_ok": "2026-11-10"
+   "last": 191,
+   "last_ok": "2026-11-11"
   },
   "Freshworks": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "GitLab": {
    "best": 254,
    "last": 252,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Google": {
    "best": 105,
@@ -184878,82 +185132,82 @@
   "Groww": {
    "best": 11,
    "last": 9,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "HP": {
    "best": 99,
    "last": 95,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "HackerRank": {
    "best": 33,
    "last": 29,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Harvey": {
    "best": 386,
-   "last": 374,
-   "last_ok": "2026-11-10"
+   "last": 373,
+   "last_ok": "2026-11-11"
   },
   "Hevo Data": {
    "best": 55,
    "last": 41,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "HighRadius": {
    "best": 80,
    "last": 71,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "InMobi": {
    "best": 82,
-   "last": 79,
-   "last_ok": "2026-11-10"
+   "last": 78,
+   "last_ok": "2026-11-11"
   },
   "Indeed India (JobSpy)": {
    "best": 283,
-   "last": 182,
-   "last_ok": "2026-11-10"
+   "last": 198,
+   "last_ok": "2026-11-11"
   },
   "Intel": {
    "best": 198,
-   "last": 197,
+   "last": 198,
    "last_ok": "2026-11-11"
   },
   "Komodo Health": {
    "best": 30,
-   "last": 18,
-   "last_ok": "2026-11-10"
+   "last": 17,
+   "last_ok": "2026-11-11"
   },
   "LinkedIn (JobSpy)": {
    "best": 509,
-   "last": 203,
-   "last_ok": "2026-11-10"
+   "last": 257,
+   "last_ok": "2026-11-11"
   },
   "Lowe's": {
    "best": 166,
    "last": 147,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Mastercard": {
    "best": 273,
    "last": 257,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Meesho": {
    "best": 63,
    "last": 50,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Mindtickle": {
    "best": 21,
    "last": 20,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Mixpanel": {
    "best": 66,
    "last": 41,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "MongoDB": {
    "best": 405,
@@ -184963,46 +185217,46 @@
   "Morgan Stanley": {
    "best": 102,
    "last": 80,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Motorola Solutions": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Naukri (JobSpy)": {
    "best": 453,
-   "last": 258,
-   "last_ok": "2026-11-10"
+   "last": 203,
+   "last_ok": "2026-11-11"
   },
   "Netskope": {
    "best": 154,
-   "last": 116,
-   "last_ok": "2026-11-10"
+   "last": 118,
+   "last_ok": "2026-11-11"
   },
   "New Relic": {
    "best": 59,
    "last": 42,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "NielsenIQ": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Nike": {
    "best": 180,
-   "last": 162,
-   "last_ok": "2026-11-10"
+   "last": 164,
+   "last_ok": "2026-11-11"
   },
   "Notion": {
-   "best": 155,
-   "last": 155,
-   "last_ok": "2026-11-10"
+   "best": 156,
+   "last": 156,
+   "last_ok": "2026-11-11"
   },
   "Nvidia": {
    "best": 169,
-   "last": 168,
+   "last": 167,
    "last_ok": "2026-11-11"
   },
   "Okta": {
@@ -185012,38 +185266,38 @@
   },
   "PayPal": {
    "best": 170,
-   "last": 158,
-   "last_ok": "2026-11-10"
+   "last": 155,
+   "last_ok": "2026-11-11"
   },
   "Paytm": {
    "best": 202,
    "last": 201,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "PubMatic": {
    "best": 86,
    "last": 77,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Red Hat": {
    "best": 9,
    "last": 6,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Roblox": {
-   "best": 276,
-   "last": 276,
-   "last_ok": "2026-11-10"
+   "best": 277,
+   "last": 277,
+   "last_ok": "2026-11-11"
   },
   "Rubrik": {
    "best": 159,
-   "last": 149,
-   "last_ok": "2026-11-10"
+   "last": 150,
+   "last_ok": "2026-11-11"
   },
   "Sabre": {
    "best": 45,
    "last": 34,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Salesforce": {
    "best": 113,
@@ -185052,33 +185306,33 @@
   },
   "Samsara": {
    "best": 340,
-   "last": 314,
-   "last_ok": "2026-11-10"
+   "last": 316,
+   "last_ok": "2026-11-11"
   },
   "Sarvam AI": {
    "best": 60,
    "last": 47,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "ServiceNow": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Sigmoid": {
    "best": 46,
    "last": 43,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Snowflake": {
    "best": 374,
-   "last": 373,
-   "last_ok": "2026-11-10"
+   "last": 374,
+   "last_ok": "2026-11-11"
   },
   "State Street": {
    "best": 161,
    "last": 134,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Stripe": {
    "best": 779,
@@ -185088,57 +185342,57 @@
   "Target": {
    "best": 76,
    "last": 67,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Thomson Reuters": {
    "best": 8,
    "last": 7,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Toast": {
    "best": 345,
-   "last": 330,
-   "last_ok": "2026-11-10"
+   "last": 336,
+   "last_ok": "2026-11-11"
   },
   "Twilio": {
    "best": 148,
-   "last": 126,
-   "last_ok": "2026-11-10"
+   "last": 127,
+   "last_ok": "2026-11-11"
   },
   "Verizon": {
    "best": 150,
    "last": 135,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Waymo": {
    "best": 380,
    "last": 380,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Wells Fargo": {
    "best": 123,
    "last": 65,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Workday": {
    "best": 29,
    "last": 22,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Yugabyte": {
    "best": 16,
    "last": 14,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Zeta": {
    "best": 31,
    "last": 28,
-   "last_ok": "2026-11-10"
+   "last_ok": "2026-11-11"
   },
   "Zscaler": {
    "best": 380,
-   "last": 377,
-   "last_ok": "2026-11-10"
+   "last": 380,
+   "last_ok": "2026-11-11"
   },
   "eBay": {
    "best": 101,
@@ -185146,6 +185400,6 @@
    "last_ok": "2026-11-11"
   }
  },
- "updated": "2026-11-11T01:25:07Z",
+ "updated": "2026-11-11T02:10:27Z",
  "version": 1
 }
