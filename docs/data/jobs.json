@@ -52266,6 +52266,18 @@
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2027416-1"
   },
+  "cisco:1db6d11ac3ba": {
+   "company": "Cisco",
+   "first_seen": "2026-11-12",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-12",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer Infrastructure Platform - strong Go/Python/Java, Kubernetes Controllers, Operators, CRDs, Kafka, PostgreSQL, and distributed systems 8 to 10 years",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Senior-Software-Engineer-Infrastructure-Platform---strong-Go-Python-Java--Kubernetes-Controllers--Operators--CRDs--Kafka--PostgreSQL--and-distributed-systems_2030293"
+  },
   "cisco:1f7ce009b494": {
    "company": "Cisco",
    "first_seen": "2026-10-09",
@@ -150752,6 +150764,18 @@
    "title": "Software Engineering SMTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Software-Engineering-SMTS_JR365628-1"
   },
+  "salesforce:ed563534dcf7": {
+   "company": "Salesforce",
+   "first_seen": "2026-11-12",
+   "location": "India - Hyderabad",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering MTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR368159"
+  },
   "salesforce:ef056beca06d": {
    "company": "Salesforce",
    "first_seen": "2026-10-08",
@@ -191143,7 +191167,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 36,
+   "last": 35,
    "last_ok": "2026-11-12"
   },
   "Agoda": {
@@ -191218,7 +191242,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 261,
+   "last": 262,
    "last_ok": "2026-11-12"
   },
   "Citi": {
@@ -191238,7 +191262,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 912,
+   "last": 908,
    "last_ok": "2026-11-12"
   },
   "Datadog": {
@@ -191298,7 +191322,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 103,
+   "last": 105,
    "last_ok": "2026-11-12"
   },
   "Groww": {
@@ -191343,7 +191367,7 @@
   },
   "Intel": {
    "best": 202,
-   "last": 192,
+   "last": 190,
    "last_ok": "2026-11-12"
   },
   "Komodo Health": {
@@ -191383,7 +191407,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 379,
+   "last": 381,
    "last_ok": "2026-11-12"
   },
   "Morgan Stanley": {
@@ -191433,7 +191457,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 374,
+   "last": 369,
    "last_ok": "2026-11-12"
   },
   "PayPal": {
@@ -191473,7 +191497,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 90,
+   "last": 95,
    "last_ok": "2026-11-12"
   },
   "Samsara": {
@@ -191508,7 +191532,7 @@
   },
   "Stripe": {
    "best": 787,
-   "last": 787,
+   "last": 782,
    "last_ok": "2026-11-12"
   },
   "Target": {
@@ -191572,6 +191596,6 @@
    "last_ok": "2026-11-12"
   }
  },
- "updated": "2026-11-12T10:11:18Z",
+ "updated": "2026-11-12T17:42:50Z",
  "version": 1
 }
