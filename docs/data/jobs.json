@@ -103261,6 +103261,18 @@
    "title": "Software Enabling and Optimization Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Software-Enabling-and-Optimization-Engineer_JR0287256"
   },
+  "intel:978e7830cc3a": {
+   "company": "Intel",
+   "first_seen": "2026-11-12",
+   "location": "India, Bangalore",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "System Debug Software Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/System-Debug-Software-Engineer_JR0289184"
+  },
   "intel:a9127678651e": {
    "company": "Intel",
    "first_seen": "2026-10-02",
@@ -130227,6 +130239,18 @@
    "title": "Senior Software Engineer - NVEX",
    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Software-Engineer---NVEX_JR2025965"
   },
+  "nvidia:5d86a7212602": {
+   "company": "Nvidia",
+   "first_seen": "2026-11-12",
+   "location": "India, Pune",
+   "posted_at": "2026-11-12",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Infrastructure",
+   "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Pune/Senior-Software-Engineer---Infrastructure_JR2029287-1"
+  },
   "nvidia:858ac56af9ac": {
    "company": "Nvidia",
    "first_seen": "2026-10-02",
@@ -149295,6 +149319,18 @@
    "tier": "mid",
    "title": "Software Engineering MTS",
    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR356688"
+  },
+  "salesforce:8d106f80106b": {
+   "company": "Salesforce",
+   "first_seen": "2026-11-12",
+   "location": "2 Locations",
+   "posted_at": "2026-11-12",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering MTS",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS_JR363864"
   },
   "salesforce:8e14bc7ce2fd": {
    "company": "Salesforce",
@@ -189456,7 +189492,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 35,
+   "last": 36,
    "last_ok": "2026-11-12"
   },
   "Agoda": {
@@ -189471,7 +189507,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 224,
+   "last": 223,
    "last_ok": "2026-11-12"
   },
   "Applied Materials": {
@@ -189551,7 +189587,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 913,
+   "last": 912,
    "last_ok": "2026-11-12"
   },
   "Datadog": {
@@ -189576,7 +189612,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 106,
+   "last": 105,
    "last_ok": "2026-11-12"
   },
   "Experian": {
@@ -189611,7 +189647,7 @@
   },
   "Google": {
    "best": 105,
-   "last": 104,
+   "last": 103,
    "last_ok": "2026-11-12"
   },
   "Groww": {
@@ -189656,7 +189692,7 @@
   },
   "Intel": {
    "best": 202,
-   "last": 198,
+   "last": 196,
    "last_ok": "2026-11-12"
   },
   "Komodo Health": {
@@ -189696,7 +189732,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 377,
+   "last": 379,
    "last_ok": "2026-11-12"
   },
   "Morgan Stanley": {
@@ -189741,12 +189777,12 @@
   },
   "Nvidia": {
    "best": 169,
-   "last": 166,
+   "last": 167,
    "last_ok": "2026-11-12"
   },
   "Okta": {
    "best": 400,
-   "last": 375,
+   "last": 373,
    "last_ok": "2026-11-12"
   },
   "PayPal": {
@@ -189786,7 +189822,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 92,
+   "last": 90,
    "last_ok": "2026-11-12"
   },
   "Samsara": {
@@ -189820,8 +189856,8 @@
    "last_ok": "2026-11-12"
   },
   "Stripe": {
-   "best": 785,
-   "last": 785,
+   "best": 787,
+   "last": 787,
    "last_ok": "2026-11-12"
   },
   "Target": {
@@ -189881,10 +189917,10 @@
   },
   "eBay": {
    "best": 101,
-   "last": 90,
+   "last": 91,
    "last_ok": "2026-11-12"
   }
  },
- "updated": "2026-11-12T00:59:23Z",
+ "updated": "2026-11-12T08:45:55Z",
  "version": 1
 }
