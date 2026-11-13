@@ -29785,16 +29785,18 @@
   },
   "amazon:06a614c611d0": {
    "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
    "first_seen": "2026-10-05",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-05",
    "role": "software",
-   "soft_dedupe": true,
-   "source": "jobspy-linkedin",
+   "source": "amazon.jobs",
    "status": "new",
    "tier": "mid",
    "title": "Software Development Engineer II, Amazon Now (Tez)",
-   "url": "https://www.linkedin.com/jobs/view/4467073955"
+   "url": "https://www.amazon.jobs/en/jobs/10603987/software-development-engineer-ii-amazon-now-tez",
+   "yoe": 2
   },
   "amazon:07dcf1d4d300": {
    "company": "Amazon",
@@ -30560,6 +30562,21 @@
    "tier": "mid",
    "title": "Software Dev Engineer 2, AFT Inventory",
    "url": "https://www.linkedin.com/jobs/view/4475838526"
+  },
+  "amazon:5c11eb686a72": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-13",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-13",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, IN Amazon Business",
+   "url": "https://www.amazon.jobs/en/jobs/10603992/software-development-engineer-in-amazon-business",
+   "yoe": 2
   },
   "amazon:5ddb527cbf7e": {
    "company": "Amazon",
@@ -194882,7 +194899,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 227,
+   "last": 228,
    "last_ok": "2026-11-13"
   },
   "Applied Materials": {
@@ -194942,7 +194959,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 256,
+   "last": 258,
    "last_ok": "2026-11-13"
   },
   "Citi": {
@@ -194987,7 +195004,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 103,
+   "last": 102,
    "last_ok": "2026-11-13"
   },
   "Experian": {
@@ -195296,6 +195313,6 @@
    "last_ok": "2026-11-13"
   }
  },
- "updated": "2026-11-13T07:12:21Z",
+ "updated": "2026-11-13T08:38:16Z",
  "version": 1
 }
