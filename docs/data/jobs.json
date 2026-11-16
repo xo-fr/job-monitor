@@ -199667,7 +199667,7 @@
   "Adobe": {
    "best": 80,
    "last": 34,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Agoda": {
    "best": 360,
@@ -199682,7 +199682,7 @@
   "Amazon": {
    "best": 249,
    "last": 231,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Applied Materials": {
    "best": 134,
@@ -199741,8 +199741,8 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 261,
-   "last_ok": "2026-11-15"
+   "last": 260,
+   "last_ok": "2026-11-16"
   },
   "Citi": {
    "best": 292,
@@ -199762,7 +199762,7 @@
   "Databricks": {
    "best": 929,
    "last": 895,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Datadog": {
    "best": 445,
@@ -199822,7 +199822,7 @@
   "Google": {
    "best": 105,
    "last": 105,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Groww": {
    "best": 11,
@@ -199867,7 +199867,7 @@
   "Intel": {
    "best": 202,
    "last": 193,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Komodo Health": {
    "best": 30,
@@ -199906,8 +199906,8 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 392,
-   "last_ok": "2026-11-15"
+   "last": 391,
+   "last_ok": "2026-11-16"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -199952,12 +199952,12 @@
   "Nvidia": {
    "best": 169,
    "last": 166,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Okta": {
    "best": 400,
    "last": 360,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "PayPal": {
    "best": 170,
@@ -200032,7 +200032,7 @@
   "Stripe": {
    "best": 787,
    "last": 785,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   },
   "Target": {
    "best": 76,
@@ -200092,9 +200092,9 @@
   "eBay": {
    "best": 103,
    "last": 100,
-   "last_ok": "2026-11-15"
+   "last_ok": "2026-11-16"
   }
  },
- "updated": "2026-11-15T23:29:30Z",
+ "updated": "2026-11-16T03:00:13Z",
  "version": 1
 }
