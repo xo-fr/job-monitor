@@ -208007,7 +208007,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 37,
+   "last": 0,
    "last_ok": "2026-11-17"
   },
   "Agoda": {
@@ -208023,7 +208023,7 @@
   "Amazon": {
    "best": 249,
    "last": 227,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "Applied Materials": {
    "best": 134,
@@ -208102,8 +208102,8 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 902,
-   "last_ok": "2026-11-17"
+   "last": 897,
+   "last_ok": "2026-11-18"
   },
   "Datadog": {
    "best": 445,
@@ -208127,8 +208127,8 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 0,
-   "last_ok": "2026-11-17"
+   "last": 10,
+   "last_ok": "2026-11-18"
   },
   "Experian": {
    "best": 100,
@@ -208163,7 +208163,7 @@
   "Google": {
    "best": 105,
    "last": 103,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "Groww": {
    "best": 11,
@@ -208248,7 +208248,7 @@
   "MongoDB": {
    "best": 405,
    "last": 394,
-   "last_ok": "2026-11-17"
+   "last_ok": "2026-11-18"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -208297,8 +208297,8 @@
   },
   "Okta": {
    "best": 400,
-   "last": 359,
-   "last_ok": "2026-11-17"
+   "last": 358,
+   "last_ok": "2026-11-18"
   },
   "PayPal": {
    "best": 170,
@@ -208372,8 +208372,8 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 791,
-   "last_ok": "2026-11-17"
+   "last": 789,
+   "last_ok": "2026-11-18"
   },
   "Target": {
    "best": 76,
@@ -208436,6 +208436,6 @@
    "last_ok": "2026-11-16"
   }
  },
- "updated": "2026-11-17T23:05:57Z",
+ "updated": "2026-11-18T04:40:03Z",
  "version": 1
 }
