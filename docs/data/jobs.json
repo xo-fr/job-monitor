@@ -164597,6 +164597,18 @@
    "title": "Software Engineering MTS (Backend - Distributed Systems)",
    "url": "https://www.linkedin.com/jobs/view/4491298675"
   },
+  "salesforce:3d3eceb05055": {
+   "company": "Salesforce",
+   "first_seen": "2026-11-18",
+   "location": "India - Bangalore",
+   "posted_at": "2026-11-18",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "PMTS, Software Engineering",
+   "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Principal-Member-of-Technical-Staff--PMTS----Core-Metadata-Platform--Informatica-CDGC-_JR339999"
+  },
   "salesforce:3d51ea4143b5": {
    "company": "Salesforce",
    "first_seen": "2026-10-21",
@@ -209216,7 +209228,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 225,
+   "last": 228,
    "last_ok": "2026-11-18"
   },
   "Applied Materials": {
@@ -209296,7 +209308,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 897,
+   "last": 896,
    "last_ok": "2026-11-18"
   },
   "Datadog": {
@@ -209441,7 +209453,7 @@
   },
   "MongoDB": {
    "best": 405,
-   "last": 392,
+   "last": 396,
    "last_ok": "2026-11-18"
   },
   "Morgan Stanley": {
@@ -209491,7 +209503,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 359,
+   "last": 358,
    "last_ok": "2026-11-18"
   },
   "PayPal": {
@@ -209531,8 +209543,8 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 0,
-   "last_ok": "2026-11-17"
+   "last": 41,
+   "last_ok": "2026-11-18"
   },
   "Samsara": {
    "best": 340,
@@ -209630,6 +209642,6 @@
    "last_ok": "2026-11-16"
   }
  },
- "updated": "2026-11-18T07:57:19Z",
+ "updated": "2026-11-18T14:28:40Z",
  "version": 1
 }
