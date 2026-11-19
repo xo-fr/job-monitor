@@ -85186,6 +85186,18 @@
    "title": "Software Development Engineer III",
    "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-III_R-109951"
   },
+  "expedia:f118af5471fd": {
+   "company": "Expedia",
+   "first_seen": "2026-11-19",
+   "location": "India - Bangalore",
+   "posted_at": "2026-11-19",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Bangalore/Software-Development-Engineer-II_R-111143"
+  },
   "expedia:f4aa4ff68635": {
    "company": "Expedia",
    "first_seen": "2026-10-16",
@@ -213766,7 +213778,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 235,
+   "last": 236,
    "last_ok": "2026-11-19"
   },
   "Applied Materials": {
@@ -213846,7 +213858,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 901,
+   "last": 900,
    "last_ok": "2026-11-19"
   },
   "Datadog": {
@@ -213871,8 +213883,8 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 0,
-   "last_ok": "2026-11-18"
+   "last": 102,
+   "last_ok": "2026-11-19"
   },
   "Experian": {
    "best": 100,
@@ -213951,8 +213963,8 @@
   },
   "Intel": {
    "best": 202,
-   "last": 0,
-   "last_ok": "2026-11-17"
+   "last": 128,
+   "last_ok": "2026-11-19"
   },
   "Komodo Health": {
    "best": 30,
@@ -213990,8 +214002,8 @@
    "last_ok": "2026-11-19"
   },
   "MongoDB": {
-   "best": 410,
-   "last": 410,
+   "best": 415,
+   "last": 415,
    "last_ok": "2026-11-19"
   },
   "Morgan Stanley": {
@@ -214041,7 +214053,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 366,
+   "last": 365,
    "last_ok": "2026-11-19"
   },
   "PayPal": {
@@ -214116,7 +214128,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 770,
+   "last": 769,
    "last_ok": "2026-11-19"
   },
   "Target": {
@@ -214180,6 +214192,6 @@
    "last_ok": "2026-11-16"
   }
  },
- "updated": "2026-11-19T20:59:08Z",
+ "updated": "2026-11-19T22:44:58Z",
  "version": 1
 }
