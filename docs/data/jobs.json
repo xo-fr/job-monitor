@@ -78923,6 +78923,18 @@
    "title": "Sr MTS Software Engineer, Data Platforms",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Sr-MTS-Software-Engineer--Data-Platforms_R0075926"
   },
+  "ebay:89b715798495": {
+   "company": "eBay",
+   "first_seen": "2026-11-20",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-17",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "MTS 2, Software Engineer",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/MTS-2--Software-Engineer_R0073026"
+  },
   "ebay:9837def43698": {
    "company": "eBay",
    "first_seen": "2026-10-13",
@@ -216313,8 +216325,8 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 0,
-   "last_ok": "2026-11-19"
+   "last": 11,
+   "last_ok": "2026-11-20"
   },
   "Experian": {
    "best": 100,
@@ -216618,10 +216630,10 @@
   },
   "eBay": {
    "best": 103,
-   "last": 0,
-   "last_ok": "2026-11-16"
+   "last": 25,
+   "last_ok": "2026-11-20"
   }
  },
- "updated": "2026-11-20T21:58:58Z",
+ "updated": "2026-11-20T22:19:36Z",
  "version": 1
 }
