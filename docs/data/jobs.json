@@ -58484,6 +58484,18 @@
    "title": "Senior Software Engineer – Java Full Stack, ReactJS & Networking from 8+ Years (Open)",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Senior-Software-Engineer---Java-Full-Stack--ReactJS---Networking-from-8--Years--Open-_2029295"
   },
+  "cisco:880479c9045d": {
+   "company": "Cisco",
+   "first_seen": "2026-11-22",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-21",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering Technical Leader",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader_2031192-1"
+  },
   "cisco:8862994e1649": {
    "company": "Cisco",
    "first_seen": "2026-10-09",
@@ -58677,6 +58689,18 @@
    "tier": "mid",
    "title": "IT Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/IT-Software-Engineer_2026343-1"
+  },
+  "cisco:a4b5e1cae81c": {
+   "company": "Cisco",
+   "first_seen": "2026-11-22",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-21",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering Technical Leader",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineering-Technical-Leader_2030463-1"
   },
   "cisco:a4f8ed547c84": {
    "company": "Cisco",
@@ -58997,6 +59021,18 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2026383"
+  },
+  "cisco:d0bce8df9715": {
+   "company": "Cisco",
+   "first_seen": "2026-11-22",
+   "location": "Bangalore, India",
+   "posted_at": "2026-11-21",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer | Java/Golang/Python | 2 to 4 years | Bangalore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer---Java-Golang-Python---2-to-4-years---Bangalore_2031712"
   },
   "cisco:d14a0b009676": {
    "company": "Cisco",
@@ -218049,8 +218085,8 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 0,
-   "last_ok": "2026-11-16"
+   "last": 100,
+   "last_ok": "2026-11-22"
   },
   "Citi": {
    "best": 292,
@@ -218069,7 +218105,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 895,
+   "last": 894,
    "last_ok": "2026-11-22"
   },
   "Datadog": {
@@ -218094,7 +218130,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 39,
+   "last": 0,
    "last_ok": "2026-11-22"
   },
   "Experian": {
@@ -218264,7 +218300,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 374,
+   "last": 373,
    "last_ok": "2026-11-22"
   },
   "PayPal": {
@@ -218403,6 +218439,6 @@
    "last_ok": "2026-11-22"
   }
  },
- "updated": "2026-11-22T10:15:48Z",
+ "updated": "2026-11-22T17:19:41Z",
  "version": 1
 }
