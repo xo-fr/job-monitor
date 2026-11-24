@@ -32443,6 +32443,21 @@
    "title": "Software Dev Engineer II , Finance Tech",
    "url": "https://www.linkedin.com/jobs/view/4458274258"
   },
+  "amazon:6a8848b93491": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-24",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II, ICON",
+   "url": "https://www.amazon.jobs/en/jobs/10611676/software-development-engineer-ii-icon",
+   "yoe": 2
+  },
   "amazon:6bc15a5ad822": {
    "company": "Amazon",
    "first_seen": "2026-10-08",
@@ -33230,6 +33245,21 @@
    "title": "Software Development Engineer, WW Returns and Recommerce",
    "url": "https://www.amazon.jobs/en/jobs/10584599/software-development-engineer-ww-returns-and-recommerce",
    "yoe": 2
+  },
+  "amazon:bdb1f01ba8b7": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-24",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-11-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer, Recipient Experience",
+   "url": "https://www.amazon.jobs/en/jobs/10612404/senior-software-development-engineer-recipient-experience",
+   "yoe": 5
   },
   "amazon:bde9933b8286": {
    "company": "Amazon",
@@ -98637,6 +98667,17 @@
    "title": "Software Engineer, Business Insights Platform",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118479391092024006-software-engineer-business-insights-platform"
   },
+  "google:b7666fcb2396": {
+   "company": "Google",
+   "first_seen": "2026-11-24",
+   "location": "Bengaluru, Karnataka, India",
+   "role": "software",
+   "source": "google careers",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer, Spanner Data Protection, Infra Spanner",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/77458101271175878-software-engineer-spanner-data-protection-infra-spanner"
+  },
   "google:b814fedc97fe": {
    "company": "Google",
    "first_seen": "2026-10-05",
@@ -153543,6 +153584,18 @@
    "tier": "senior",
    "title": "Senior Fullstack Engineer",
    "url": "https://www.okta.com/company/careers/rd/senior-fullstack-engineer-java-heavy-8239244/"
+  },
+  "okta:89d8fc65e665": {
+   "company": "Okta",
+   "first_seen": "2026-11-24",
+   "location": "Bengaluru",
+   "posted_at": "2026-11-24",
+   "role": "java",
+   "source": "greenhouse",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer (Java & System design)",
+   "url": "https://www.okta.com/company/careers/opportunity/8411579?gh_jid=8411579"
   },
   "okta:8a4e364a9255": {
    "company": "Okta",
@@ -222857,7 +222910,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 238,
+   "last": 236,
    "last_ok": "2026-11-24"
   },
   "Applied Materials": {
@@ -222937,7 +222990,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 884,
+   "last": 889,
    "last_ok": "2026-11-24"
   },
   "Datadog": {
@@ -223082,7 +223135,7 @@
   },
   "MongoDB": {
    "best": 421,
-   "last": 421,
+   "last": 419,
    "last_ok": "2026-11-24"
   },
   "Morgan Stanley": {
@@ -223132,7 +223185,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 369,
+   "last": 372,
    "last_ok": "2026-11-24"
   },
   "PayPal": {
@@ -223207,7 +223260,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 771,
+   "last": 769,
    "last_ok": "2026-11-24"
   },
   "Target": {
@@ -223271,6 +223324,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-24T05:01:20Z",
+ "updated": "2026-11-24T14:11:23Z",
  "version": 1
 }
