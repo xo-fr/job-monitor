@@ -227161,7 +227161,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 238,
+   "last": 241,
    "last_ok": "2026-11-25"
   },
   "Applied Materials": {
@@ -227241,7 +227241,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 876,
+   "last": 874,
    "last_ok": "2026-11-25"
   },
   "Datadog": {
@@ -227266,7 +227266,7 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 11,
+   "last": 0,
    "last_ok": "2026-11-25"
   },
   "Experian": {
@@ -227386,7 +227386,7 @@
   },
   "MongoDB": {
    "best": 421,
-   "last": 420,
+   "last": 421,
    "last_ok": "2026-11-25"
   },
   "Morgan Stanley": {
@@ -227436,7 +227436,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 369,
+   "last": 368,
    "last_ok": "2026-11-25"
   },
   "PayPal": {
@@ -227511,7 +227511,7 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 771,
+   "last": 772,
    "last_ok": "2026-11-25"
   },
   "Target": {
@@ -227575,6 +227575,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-25T14:53:16Z",
+ "updated": "2026-11-25T20:36:55Z",
  "version": 1
 }
