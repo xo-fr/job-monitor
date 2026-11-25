@@ -34036,6 +34036,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10530717/software-dev-engineer-ii-paragon-workbench",
    "yoe": 2
   },
+  "amazon:f120355fca99": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Hyderabad, Telangana, IND",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer",
+   "url": "https://www.amazon.jobs/en/jobs/10613775/software-development-engineer",
+   "yoe": 3
+  },
   "amazon:f62164b631d3": {
    "company": "Amazon",
    "department": "Software Development",
@@ -88679,6 +88694,18 @@
    "title": "Software Development Engineer III (Back-End)",
    "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-III--Back-End-_R-107163-1"
   },
+  "expedia:30e7eb662512": {
+   "company": "Expedia",
+   "first_seen": "2026-11-25",
+   "location": "India - Gurgaon",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Development Engineer III",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-III_R-111132"
+  },
   "expedia:330c04455451": {
    "company": "Expedia",
    "first_seen": "2026-10-02",
@@ -89024,6 +89051,18 @@
    "tier": "senior",
    "title": "Senior Software Development Engineer",
    "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Bangalore/Senior-Software-Development-Engineer_R-110243"
+  },
+  "expedia:f4d5a29ace6c": {
+   "company": "Expedia",
+   "first_seen": "2026-11-25",
+   "location": "India - Gurgaon",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II",
+   "url": "https://expedia.wd108.myworkdayjobs.com/en-US/search/job/India---Gurgaon/Software-Development-Engineer-II_R-111101"
   },
   "expedia:f79ca3e2551d": {
    "company": "Expedia",
@@ -225064,7 +225103,7 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 241,
+   "last": 238,
    "last_ok": "2026-11-25"
   },
   "Applied Materials": {
@@ -225144,7 +225183,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 889,
+   "last": 888,
    "last_ok": "2026-11-25"
   },
   "Datadog": {
@@ -225169,8 +225208,8 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 0,
-   "last_ok": "2026-11-22"
+   "last": 39,
+   "last_ok": "2026-11-25"
   },
   "Experian": {
    "best": 100,
@@ -225289,7 +225328,7 @@
   },
   "MongoDB": {
    "best": 421,
-   "last": 418,
+   "last": 419,
    "last_ok": "2026-11-25"
   },
   "Morgan Stanley": {
@@ -225339,7 +225378,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 373,
+   "last": 371,
    "last_ok": "2026-11-25"
   },
   "PayPal": {
@@ -225478,6 +225517,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-25T02:47:17Z",
+ "updated": "2026-11-25T10:18:43Z",
  "version": 1
 }
