@@ -33405,6 +33405,21 @@
    "url": "https://www.amazon.jobs/en/jobs/10599171/software-dev-engineer-ii-finance-technology",
    "yoe": 3
   },
+  "amazon:c4cc0419b567": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-25",
+   "location": "Bengaluru, Karnataka, IND",
+   "posted_at": "2026-11-24",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer II",
+   "url": "https://www.amazon.jobs/en/jobs/10613545/software-development-engineer-ii",
+   "yoe": 2
+  },
   "amazon:c6f4b3f43d08": {
    "company": "Amazon",
    "department": "Software Development",
@@ -120410,6 +120425,18 @@
    "tier": "mid",
    "title": "Software Application Development Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Software-Application-Development-Engineer_JR0287750"
+  },
+  "intel:b3636641f3ee": {
+   "company": "Intel",
+   "first_seen": "2026-11-25",
+   "location": "India, Bangalore",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Application Development Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Software-Application-Development-Engineer_JR0289555"
   },
   "intel:c6364b4a2b21": {
    "company": "Intel",
@@ -224628,8 +224655,8 @@
   },
   "Amazon": {
    "best": 249,
-   "last": 236,
-   "last_ok": "2026-11-24"
+   "last": 238,
+   "last_ok": "2026-11-25"
   },
   "Applied Materials": {
    "best": 134,
@@ -224688,7 +224715,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 100,
+   "last": 0,
    "last_ok": "2026-11-24"
   },
   "Citi": {
@@ -224708,8 +224735,8 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 887,
-   "last_ok": "2026-11-24"
+   "last": 890,
+   "last_ok": "2026-11-25"
   },
   "Datadog": {
    "best": 445,
@@ -224769,7 +224796,7 @@
   "Google": {
    "best": 105,
    "last": 101,
-   "last_ok": "2026-11-24"
+   "last_ok": "2026-11-25"
   },
   "Groww": {
    "best": 11,
@@ -224813,8 +224840,8 @@
   },
   "Intel": {
    "best": 202,
-   "last": 0,
-   "last_ok": "2026-11-22"
+   "last": 34,
+   "last_ok": "2026-11-25"
   },
   "Komodo Health": {
    "best": 30,
@@ -224854,7 +224881,7 @@
   "MongoDB": {
    "best": 421,
    "last": 418,
-   "last_ok": "2026-11-24"
+   "last_ok": "2026-11-25"
   },
   "Morgan Stanley": {
    "best": 102,
@@ -224903,8 +224930,8 @@
   },
   "Okta": {
    "best": 400,
-   "last": 372,
-   "last_ok": "2026-11-24"
+   "last": 373,
+   "last_ok": "2026-11-25"
   },
   "PayPal": {
    "best": 170,
@@ -224978,8 +225005,8 @@
   },
   "Stripe": {
    "best": 795,
-   "last": 772,
-   "last_ok": "2026-11-24"
+   "last": 770,
+   "last_ok": "2026-11-25"
   },
   "Target": {
    "best": 76,
@@ -225042,6 +225069,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-24T18:10:02Z",
+ "updated": "2026-11-25T00:02:40Z",
  "version": 1
 }
