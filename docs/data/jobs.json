@@ -25715,6 +25715,18 @@
    "title": "Software Development Engineer 2",
    "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Bangalore/Information-Systems-Engineer-4_R169535"
   },
+  "adobe:0854191f2c27": {
+   "company": "Adobe",
+   "first_seen": "2026-11-26",
+   "location": "Noida",
+   "posted_at": "2026-11-24",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Computer Scientist- I (Java)",
+   "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/Noida/Computer-Scientist--I--Java-_R173771"
+  },
   "adobe:08c2de9b08f4": {
    "company": "Adobe",
    "first_seen": "2026-10-02",
@@ -228102,7 +228114,7 @@
   },
   "Adobe": {
    "best": 80,
-   "last": 3,
+   "last": 52,
    "last_ok": "2026-11-26"
   },
   "Agoda": {
@@ -228177,7 +228189,7 @@
   },
   "Cisco": {
    "best": 270,
-   "last": 100,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Citi": {
@@ -228342,7 +228354,7 @@
   },
   "MongoDB": {
    "best": 423,
-   "last": 423,
+   "last": 422,
    "last_ok": "2026-11-26"
   },
   "Morgan Stanley": {
@@ -228392,7 +228404,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 366,
+   "last": 363,
    "last_ok": "2026-11-26"
   },
   "PayPal": {
@@ -228432,7 +228444,7 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 38,
+   "last": 0,
    "last_ok": "2026-11-26"
   },
   "Samsara": {
@@ -228531,6 +228543,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-26T00:39:49Z",
+ "updated": "2026-11-26T03:44:23Z",
  "version": 1
 }
