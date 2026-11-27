@@ -231902,7 +231902,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 883,
+   "last": 879,
    "last_ok": "2026-11-27"
   },
   "Datadog": {
@@ -232007,7 +232007,7 @@
   },
   "Intel": {
    "best": 202,
-   "last": 35,
+   "last": 0,
    "last_ok": "2026-11-27"
   },
   "Komodo Health": {
@@ -232047,7 +232047,7 @@
   },
   "MongoDB": {
    "best": 423,
-   "last": 421,
+   "last": 423,
    "last_ok": "2026-11-27"
   },
   "Morgan Stanley": {
@@ -232097,7 +232097,7 @@
   },
   "Okta": {
    "best": 400,
-   "last": 361,
+   "last": 362,
    "last_ok": "2026-11-27"
   },
   "PayPal": {
@@ -232236,6 +232236,6 @@
    "last_ok": "2026-11-23"
   }
  },
- "updated": "2026-11-27T04:32:13Z",
+ "updated": "2026-11-27T10:02:00Z",
  "version": 1
 }
