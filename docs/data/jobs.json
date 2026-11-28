@@ -84093,6 +84093,30 @@
    "title": "MTS-2 Security Operations Engineer",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/MTS-2-Security-Operations-Engineer_R0076231"
   },
+  "ebay:1b6c871048e5": {
+   "company": "eBay",
+   "first_seen": "2026-11-28",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-27",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "MTS 2 - Cloud Traffic Security",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Senior-Technical-Lead---Traffic-Security_R0076606"
+  },
+  "ebay:29f68be80e8e": {
+   "company": "eBay",
+   "first_seen": "2026-11-28",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-25",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior MTS Software Engineer - Shipping",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/MTS-2--iOS-Software-Engineer_R0073146"
+  },
   "ebay:2c5d6ff08992": {
    "company": "eBay",
    "employment_type": "Full-time",
@@ -84155,6 +84179,18 @@
    "title": "MTS 2, Software Engineer - FullStack",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/MTS-2--Software-Engineer---FullStack_R0076497"
   },
+  "ebay:3754e024fa00": {
+   "company": "eBay",
+   "first_seen": "2026-11-28",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-26",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Data Scheduling Infra Developer",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Senior-Data-Scheduling-Infra-Developer_R0076435"
+  },
   "ebay:45cc6349856e": {
    "company": "eBay",
    "first_seen": "2026-11-23",
@@ -84179,6 +84215,18 @@
    "title": "Software Engineer 3 – Platform Security",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Software-Engineer-3---Platform-Security_R0075892"
   },
+  "ebay:49c801957c96": {
+   "company": "eBay",
+   "first_seen": "2026-11-28",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-27",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "MTS 1 - Cloud Traffic",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Traffic-Tech-Lead_R0069578"
+  },
   "ebay:4d7f9f418127": {
    "company": "eBay",
    "first_seen": "2026-10-02",
@@ -84190,6 +84238,18 @@
    "tier": "mid",
    "title": "Agentic Analytics Products Developer",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Agentic-Analytics-Products-Developer_R0076062"
+  },
+  "ebay:61fd196d0657": {
+   "company": "eBay",
+   "first_seen": "2026-11-28",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-27",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "MTS 1 - Cloud Traffic Security",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Sr-Traffic-Security-Engineer_R0072746"
   },
   "ebay:62c993318e08": {
    "company": "eBay",
@@ -84274,6 +84334,18 @@
    "tier": "senior",
    "title": "Sr MTS Software Engineer, Data Platforms",
    "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Sr-MTS-Software-Engineer--Data-Platforms_R0075926"
+  },
+  "ebay:891fd8bac5ad": {
+   "company": "eBay",
+   "first_seen": "2026-11-28",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-11-27",
+   "role": "platform",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "MTS 2 – Cloud Traffic",
+   "url": "https://ebay.wd5.myworkdayjobs.com/en-US/apply/job/Bengaluru-India/Senior-Technical-Lead---Traffic_R0076607"
   },
   "ebay:89b715798495": {
    "company": "eBay",
@@ -234727,7 +234799,7 @@
   },
   "Databricks": {
    "best": 929,
-   "last": 889,
+   "last": 888,
    "last_ok": "2026-11-28"
   },
   "Datadog": {
@@ -234752,8 +234824,8 @@
   },
   "Expedia": {
    "best": 137,
-   "last": 0,
-   "last_ok": "2026-11-27"
+   "last": 102,
+   "last_ok": "2026-11-28"
   },
   "Experian": {
    "best": 100,
@@ -235056,11 +235128,11 @@
    "last_ok": "2026-11-28"
   },
   "eBay": {
-   "best": 106,
-   "last": 0,
-   "last_ok": "2026-11-23"
+   "best": 108,
+   "last": 108,
+   "last_ok": "2026-11-28"
   }
  },
- "updated": "2026-11-28T08:21:37Z",
+ "updated": "2026-11-28T12:14:53Z",
  "version": 1
 }
